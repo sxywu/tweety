@@ -29,6 +29,7 @@ var App = React.createClass({
     return {
       image: [],
       tweets: {},
+      hoveredTweet: null,
     };
   },
 
@@ -75,9 +76,30 @@ var App = React.createClass({
     });
   },
 
+  mousemoveCanvas(color) {
+    var tweet = this.state.colToTweet[color];
+    var currentTweet = this.state.hoveredTweet;
+
+    // we only want to re-render if hovered tweet is different from current tweet
+    if (tweet && (!currentTweet || tweet.id !== currentTweet.id)) {
+      // first clean up currentTweet (now previous tweet)
+      if (currentTweet) {
+        currentTweet.hovered = false;
+      }
+      tweet.hovered = true;
+
+      this.setState({hoveredTweet: tweet});
+    } else if (!tweet && currentTweet) {
+      // if there's no new hovered tweet but there is a previous one, clean it up
+      currentTweet.hovered = false;
+      this.setState({hoveredTweet: null});
+    }
+  },
+
   render() {
     return (
-      <CanvasComponent image={this.state.image} tweets={this.state.tweets} />
+      <CanvasComponent image={this.state.image} tweets={this.state.tweets}
+        onMouseMove={this.mousemoveCanvas} />
     );
   }
 });

@@ -60,12 +60,13 @@ function drawCanvas() {
     if (tweet) {
       var x = (i % imageSize) * scaleFactor + scaleFactor / 2;
       var y = Math.floor(i / imageSize) * scaleFactor + scaleFactor / 2;
+      var radius = tweet.hovered ? scaleFactor : (scaleFactor * tweet.opacity);
 
       // first fill the visible canvas
       ctx.fillStyle = 'rgba(' + tweetColors[tweet.type].join(',') +
         ',' + tweet.opacity + ')';
       ctx.beginPath();
-      ctx.arc(x, y, scaleFactor * tweet.opacity, 0, 2 * Math.PI, true);
+      ctx.arc(x, y, radius, 0, 2 * Math.PI, true);
       ctx.fill();
       if (tweet.hovered) {
         // if it's hovered, give it a stroke
@@ -100,11 +101,20 @@ var Canvas = React.createClass({
     drawCanvas();
   },
 
+  mouseMove(e) {
+    var col = hiddenCtx.getImageData(e.nativeEvent.offsetX, e.nativeEvent.offsetY, 1, 1).data;
+    var color = 'rgb(' + col[0] + "," + col[1] + ","+ col[2] + ")";
+
+    this.props.onMouseMove(color);
+  },
+
   render() {
     return (
       <div>
-        <canvas ref='canvas' width={size} height={size} />
-        <canvas ref='hiddenCanvas' width={size} height={size} />
+        <canvas ref='canvas' width={size} height={size}
+          onMouseMove={this.mouseMove} />
+        <canvas ref='hiddenCanvas' width={size} height={size}
+          style={{display: 'none'}} />
       </div>
     );
   }
