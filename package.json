@@ -1,0 +1,26 @@
+{
+  "name": "tweety",
+  "main": "scripts/main.js",
+  "dependencies": {
+    "react": "^0.12.0",
+    "d3": "*",
+    "lodash": "*",
+  },
+  "devDependencies": {
+    "browserify": "^6.2.0",
+    "envify": "^3.0.0",
+    "reactify": "^0.15.2",
+    "uglify-js": "~2.4.15",
+    "watchify": "^2.1.1"
+  },
+  "scripts": {
+    "start": "watchify -o scripts/bundle.js -v -d .",
+    "build": "NODE_ENV=production browserify . | uglifyjs -cm > scripts/bundle.min.js"
+  },
+  "browserify": {
+    "transform": [
+      ["reactify", {"es6": true}],
+      "envify"
+    ]
+  }
+}
