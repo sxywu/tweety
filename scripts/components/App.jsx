@@ -4,6 +4,7 @@ var _ = require('lodash');
 var d3 = require('d3/d3');
 
 var CanvasComponent = require('./Canvas.jsx');
+var TweetSummaryComponent = require('./TweetSummary.jsx');
 
 // taken directly from nbremer's occupationcanvas code
 //Generates the next color in the sequence, going from 0,0,0 to 255,255,255.
@@ -28,8 +29,9 @@ var App = React.createClass({
   getInitialState() {
     return {
       image: [],
-      tweets: {},
+      tweets: [],
       hoveredTweet: null,
+      sort: 'date',
     };
   },
 
@@ -96,10 +98,38 @@ var App = React.createClass({
     }
   },
 
+  clickSummary(type, value) {
+    var newState = {};
+    newState[type] = value;
+
+    if (type === 'sort') {
+      newState.tweets = _.sortBy(this.state.tweets, (tweet) => {
+        if (value === 'favorites') {
+          return -tweet.stats.favorites;
+        } else if (value === 'type') {
+          if (tweet.type === 'tweet') {
+            return 1;
+          } else if (tweet.type === 'retweet') {
+            return 2;
+          } else if (tweet.type === 'reply') {
+            return 3;
+          }
+        } else {
+          return -tweet[value];
+        }
+      });
+    }
+
+    this.setState(newState);
+  },
+
   render() {
     return (
-      <CanvasComponent image={this.state.image} tweets={this.state.tweets}
-        onMouseMove={this.mousemoveCanvas} />
+      <div>
+        <CanvasComponent image={this.state.image} tweets={this.state.tweets}
+          onMouseMove={this.mousemoveCanvas} />
+        <TweetSummaryComponent onClick={this.clickSummary} />
+      </div>
     );
   }
 });

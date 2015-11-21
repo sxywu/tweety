@@ -6,7 +6,6 @@ var d3 = require('d3/d3');
 var ctx, hiddenCtx;
 var size, imageSize, scaleFactor;
 var image = [];
-var tweetMap = {};
 
 // some defaults
 var threshold = 158;
@@ -17,16 +16,15 @@ var tweetColors = {
   'tweet': [0,136,204] // blue
 };
 
-function calculatePixels(nextProps) {
+function calculatePixels(props) {
   // if image is already filled, we must have calculated it already
   if (image.length) return;
 
   // turn it grayscale first
-  _.each(nextProps.image, function(pixel) {
+  _.each(props.image, function(pixel) {
     image.push(Math.max(pixel[0], pixel[1], pixel[2]));
   });
   // Atkinson dithering
-  var tweetIndex = 0;
   _.each(image, function(oldPixel, i) {
     var newPixel = oldPixel > threshold ? 255 : 0;
     var error = (oldPixel - newPixel) >> 3;
@@ -38,26 +36,24 @@ function calculatePixels(nextProps) {
     image[i + imageSize] += error;
     image[i + imageSize + 1] += error;
     image[i + imageSize + 2] += error;
-    
-    if (!newPixel) {
-      // if the pixel is black, then keep track of
-      // its corresponding tweet
-      tweetMap[i] = nextProps.tweets[tweetIndex];
-      tweetIndex += 1;
-    }
   });
   image = image.slice(0, imageSize * imageSize);
 }
 
-function drawCanvas() {
+function drawCanvas(props) {
   //first clear canvas
   ctx.fillStyle = "#fff";
   ctx.rect(0, 0, size, size);
   ctx.fill();
 
+  var tweetIndex = 0;
   _.each(image, function(pixel, i) {
-    var tweet = tweetMap[i];
-    if (tweet) {
+    if (!pixel) {
+      // if pixel is filled
+      var tweet = props.tweets[tweetIndex];
+      if (!tweet) return;
+      tweetIndex += 1;
+
       var x = (i % imageSize) * scaleFactor + scaleFactor / 2;
       var y = Math.floor(i / imageSize) * scaleFactor + scaleFactor / 2;
       var radius = tweet.hovered ? scaleFactor : (scaleFactor * tweet.opacity);
@@ -98,7 +94,7 @@ var Canvas = React.createClass({
 
   componentDidUpdate() {
     calculatePixels(this.props);
-    drawCanvas();
+    drawCanvas(this.props);
   },
 
   mouseMove(e) {
