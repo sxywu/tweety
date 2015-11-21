@@ -6,3 +6,7 @@ body {
   float: left;
   padding: 10px;
 }
+
+.tweetSummary {
+  width: 500px;
+}

@@ -136,7 +136,8 @@ var App = React.createClass({
       <div>
         <CanvasComponent image={this.state.image} tweets={this.state.tweets}
           updatePositions={this.state.updatePositions} onMouseMove={this.mousemoveCanvas} />
-        <TweetSummaryComponent onClick={this.clickSummary} />
+        <TweetSummaryComponent sort={this.state.sort} hoveredTweet={this.state.hoveredTweet}
+          onClick={this.clickSummary} />
       </div>
     );
   }
