@@ -32,6 +32,7 @@ var App = React.createClass({
       tweets: [],
       hoveredTweet: null,
       sort: 'date',
+      updatePositions: true,
     };
   },
 
@@ -79,6 +80,9 @@ var App = React.createClass({
   },
 
   mousemoveCanvas(color) {
+    var newState = {
+      updatePositions: false
+    };
     var tweet = this.state.colToTweet[color];
     var currentTweet = this.state.hoveredTweet;
 
@@ -89,20 +93,24 @@ var App = React.createClass({
         currentTweet.hovered = false;
       }
       tweet.hovered = true;
-
-      this.setState({hoveredTweet: tweet});
+      newState.hoveredTweet = tweet;
     } else if (!tweet && currentTweet) {
       // if there's no new hovered tweet but there is a previous one, clean it up
       currentTweet.hovered = false;
-      this.setState({hoveredTweet: null});
+      newState.hoveredTweet = null;
     }
+
+    this.setState(newState);
   },
 
   clickSummary(type, value) {
-    var newState = {};
+    var newState = {
+      updatePositions: false
+    };
     newState[type] = value;
 
     if (type === 'sort') {
+      newState.updatePositions = true;
       newState.tweets = _.sortBy(this.state.tweets, (tweet) => {
         if (value === 'favorites') {
           return -tweet.stats.favorites;
@@ -127,7 +135,7 @@ var App = React.createClass({
     return (
       <div>
         <CanvasComponent image={this.state.image} tweets={this.state.tweets}
-          onMouseMove={this.mousemoveCanvas} />
+          updatePositions={this.state.updatePositions} onMouseMove={this.mousemoveCanvas} />
         <TweetSummaryComponent onClick={this.clickSummary} />
       </div>
     );
