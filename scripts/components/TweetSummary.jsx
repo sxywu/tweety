@@ -16,14 +16,16 @@ var TweetSummary = React.createClass({
       boxShadow: '0 0 5px #ccc',
       borderRadius: 3,
       cursor: 'pointer',
-      color: '#666',
     };
+    var sorts = _.map(['date', 'type', 'favorites'], (value) => {
+      buttonStyles.border = (value === this.props.sort) ? '2px solid #666' : 'none';
+      return (<span style={buttonStyles} onClick={this.onClick} value={value}>{value}</span>);
+    });
     return (
-      <div>
-        Sort by: 
-        <span style={buttonStyles} onClick={this.onClick} value='date'>date</span>
-        <span style={buttonStyles} onClick={this.onClick} value='type'>type</span>
-        <span style={buttonStyles} onClick={this.onClick} value='favorites'>favorites</span>
+      <div className='tweetSummary'>
+        <div>
+          Sort by: {sorts}
+        </div>
       </div>
     );
   }
