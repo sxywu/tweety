@@ -1,0 +1,8 @@
+body {
+  font-family: 'Droid Serif', 'serif';
+}
+
+.canvas, .tweetSummary {
+  float: left;
+  padding: 10px;
+}
