@@ -68,9 +68,9 @@ var TweetSummary = React.createClass({
       .pluck('user_mentions').flatten()
       .pluck('name').flatten()
       .countBy().pairs()
-      .sortBy((hashtag) => -hashtag[1])
+      .sortBy((mention) => -mention[1])
       .slice(0, 5)
-      .map((hashtag) => {
+      .map((mention) => {
         var buttonStyle = {
           padding: '2.5px 10px',
           height: '14px',
@@ -80,7 +80,7 @@ var TweetSummary = React.createClass({
           color: '#fff',
           fontWeight: 600,
         };
-        return (<div><span style={buttonStyle}>{hashtag[1]}</span> #{hashtag[0]}</div>)
+        return (<div><span style={buttonStyle}>{mention[1]}</span> @{mention[0]}</div>)
       }).value();
 
     var hoveredTweet = this.props.hoveredTweet;
