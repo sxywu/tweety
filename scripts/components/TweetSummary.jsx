@@ -35,17 +35,19 @@ var TweetSummary = React.createClass({
     });
     var types = _.chain(this.props.tweets)
       .countBy((tweet) => tweet.type)
-      .map((count, type) => {
+      .pairs()
+      .sortBy((type) => -type[1])
+      .map((type) => {
         var buttonStyle = {
           padding: '2.5px 10px',
           height: '14px',
           borderRadius: 14,
           cursor: 'pointer',
-          backgroundColor: 'rgb(' + tweetColors[type].join(',') + ')',
+          backgroundColor: 'rgb(' + tweetColors[type[0]].join(',') + ')',
           color: '#fff',
           fontWeight: 600,
         };
-        return (<div><span style={buttonStyle}>{count}</span> {type}</div>)
+        return (<div><span style={buttonStyle}>{type[1]}</span> {type[0]}</div>)
       }).value();
     var hashtags = _.chain(this.props.tweets)
       .pluck('hashtags').flatten()
