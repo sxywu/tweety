@@ -103,7 +103,11 @@ var TweetSummary = React.createClass({
           color: '#fff',
           fontWeight: 600,
         };
-        return (<div><span style={buttonStyle}>{mention[1]}</span> @{mention[0]}</div>)
+        return (
+          <div onMouseOver={this.onMouseOver.bind(this, 'mention', mention[0])}
+            onMouseLeave={this.onMouseLeave.bind(this, 'mention')}>
+            <span style={buttonStyle}>{mention[1]}</span> @{mention[0]}
+          </div>);
       }).value();
 
     var hoveredTweet = this.props.hoveredTweet;

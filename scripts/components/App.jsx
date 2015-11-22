@@ -137,6 +137,9 @@ var App = React.createClass({
         tweet.grayed = value && tweet.type !== value;
       } else if (type === 'hashtag') {
         tweet.grayed = value && !_.contains(tweet.hashtags, value);
+      } else if (type === 'mention') {
+        tweet.grayed = value && !_.chain(tweet.user_mentions)
+          .pluck('name').contains(value).value();
       }
     });
 
