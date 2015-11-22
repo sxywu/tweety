@@ -1,7 +1,6 @@
 var React = require('react/addons');
 var cx = React.addons.classSet;
 var _ = require('lodash');
-var d3 = require('d3/d3');
 
 var CanvasComponent = require('./Canvas.jsx');
 var TweetSummaryComponent = require('./TweetSummary.jsx');

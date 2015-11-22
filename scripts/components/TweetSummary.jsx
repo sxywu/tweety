@@ -1,7 +1,6 @@
 var React = require('react/addons');
 var cx = React.addons.classSet;
 var _ = require('lodash');
-var d3 = require('d3/d3');
 
 var tweetColors = {
   'reply': [248,148,6], // orange
