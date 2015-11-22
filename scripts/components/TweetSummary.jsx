@@ -10,8 +10,16 @@ var tweetColors = {
 };
 var dateFormat = d3.time.format("%Y-%m-%d");
 var TweetSummary = React.createClass({
-  onClick(e) {
-    this.props.onClick('sort', e.target.getAttribute('value'));
+  onClick(value) {
+    this.props.onClick('sort', value);
+  },
+
+  onMouseOver(type, value) {
+    this.props.onHover(type, value);
+  },
+
+  onMouseLeave(type) {
+    this.props.onHover(type, null);
   },
 
   render() {
@@ -31,7 +39,11 @@ var TweetSummary = React.createClass({
         cursor: 'pointer',
         border: (value === this.props.sort) ? '2px solid #666' : 'none',
       };
-      return (<span style={buttonStyle} onClick={this.onClick} value={value}>{value}</span>);
+      return (
+        <span style={buttonStyle} onClick={this.onClick.bind(this, value)}>
+          {value}
+        </span>
+      );
     });
     var types = _.chain(this.props.tweets)
       .countBy((tweet) => tweet.type)
@@ -47,7 +59,12 @@ var TweetSummary = React.createClass({
           color: '#fff',
           fontWeight: 600,
         };
-        return (<div><span style={buttonStyle}>{type[1]}</span> {type[0]}</div>)
+        return (
+          <div onMouseOver={this.onMouseOver.bind(this, 'type', type[0])}
+            onMouseLeave={this.onMouseLeave.bind(this, 'type')}>
+            <span style={buttonStyle}>{type[1]}</span> {type[0]}
+          </div>
+        );
       }).value();
     var hashtags = _.chain(this.props.tweets)
       .pluck('hashtags').flatten()
@@ -64,7 +81,11 @@ var TweetSummary = React.createClass({
           color: '#fff',
           fontWeight: 600,
         };
-        return (<div><span style={buttonStyle}>{hashtag[1]}</span> #{hashtag[0]}</div>)
+        return (
+          <div onMouseOver={this.onMouseOver.bind(this, 'hashtag', hashtag[0])}
+            onMouseLeave={this.onMouseLeave.bind(this, 'type')}>
+            <span style={buttonStyle}>{hashtag[1]}</span> #{hashtag[0]}
+          </div>);
       }).value();
     var mentions = _.chain(this.props.tweets)
       .pluck('user_mentions').flatten()

@@ -55,8 +55,12 @@ function drawCanvas(tweets, elapsed) {
     var radius = scaleFactor * tweet.opacity;
 
     // first fill the visible canvas
-    ctx.fillStyle = 'rgba(' + tweetColors[tweet.type].join(',') +
-      ',' + tweet.opacity + ')';
+    if (tweet.grayed) {
+      ctx.fillStyle = '#efefef';
+    } else {
+      ctx.fillStyle = 'rgba(' + tweetColors[tweet.type].join(',') +
+        ',' + tweet.opacity + ')';
+    }
     ctx.beginPath();
     ctx.arc(x, y, radius, 0, 2 * Math.PI, true);
     ctx.fill();

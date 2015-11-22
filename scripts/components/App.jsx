@@ -131,13 +131,23 @@ var App = React.createClass({
     this.setState(newState);
   },
 
+  hoverSummary(type, value) {
+    var tweets = _.each(this.state.tweets, (tweet) => {
+      if (type === 'type') {
+        tweet.grayed = value ? tweet.type !== value : false;
+      }
+    });
+
+    this.setState({tweets, updatePositions: false});
+  },
+
   render() {
     return (
       <div>
         <CanvasComponent image={this.state.image} tweets={this.state.tweets}
           updatePositions={this.state.updatePositions} onMouseMove={this.mousemoveCanvas} />
         <TweetSummaryComponent sort={this.state.sort} hoveredTweet={this.state.hoveredTweet}
-          tweets={this.state.tweets} onClick={this.clickSummary} />
+          tweets={this.state.tweets} onClick={this.clickSummary} onHover={this.hoverSummary} />
       </div>
     );
   }
