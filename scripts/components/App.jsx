@@ -134,7 +134,9 @@ var App = React.createClass({
   hoverSummary(type, value) {
     var tweets = _.each(this.state.tweets, (tweet) => {
       if (type === 'type') {
-        tweet.grayed = value ? tweet.type !== value : false;
+        tweet.grayed = value && tweet.type !== value;
+      } else if (type === 'hashtag') {
+        tweet.grayed = value && !_.contains(tweet.hashtags, value);
       }
     });
 

@@ -83,7 +83,7 @@ var TweetSummary = React.createClass({
         };
         return (
           <div onMouseOver={this.onMouseOver.bind(this, 'hashtag', hashtag[0])}
-            onMouseLeave={this.onMouseLeave.bind(this, 'type')}>
+            onMouseLeave={this.onMouseLeave.bind(this, 'hashtag')}>
             <span style={buttonStyle}>{hashtag[1]}</span> #{hashtag[0]}
           </div>);
       }).value();
