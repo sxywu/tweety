@@ -43,10 +43,15 @@ function drawCanvas(tweets, elapsed) {
   ctx.fillStyle = "#fff";
   ctx.rect(0, 0, size, size);
   ctx.fill();
+  hiddenCtx.fillStyle = "#fff";
+  hiddenCtx.rect(0, 0, size, size);
+  hiddenCtx.fill();
 
   _.each(tweets, function(tweet, i) {
-    var x = elapsed ? tweet.interpolateX(elapsed / duration) : tweet.x;
-    var y = elapsed ? tweet.interpolateY(elapsed / duration) : tweet.y;
+    var t = elapsed / duration;
+    t = (t > 1 ? 1 : t);
+    var x = elapsed ? tweet.interpolateX(t) : tweet.x;
+    var y = elapsed ? tweet.interpolateY(t) : tweet.y;
     var radius = scaleFactor * tweet.opacity;
 
     // first fill the visible canvas
@@ -120,7 +125,7 @@ var Canvas = React.createClass({
       // animate the pixels to their new position
       d3.timer((elapsed) => {
         drawCanvas(this.state.tweets, elapsed);
-        return elapsed > duration;
+        return elapsed >= duration;
       });
     } else {
       drawCanvas(this.state.tweets);
@@ -140,7 +145,7 @@ var Canvas = React.createClass({
         <canvas ref='canvas' width={size} height={size}
           onMouseMove={this.mouseMove} />
         <canvas ref='hiddenCanvas' width={size} height={size}
-          style={{display: 'none'}} />
+          style={{display: 'display'}} />
       </div>
     );
   }
