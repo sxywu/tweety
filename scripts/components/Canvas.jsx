@@ -47,7 +47,7 @@ function drawCanvas(tweets, elapsed) {
   _.each(tweets, function(tweet, i) {
     var x = elapsed ? tweet.interpolateX(elapsed / duration) : tweet.x;
     var y = elapsed ? tweet.interpolateY(elapsed / duration) : tweet.y;
-    var radius = tweet.hovered ? scaleFactor : (scaleFactor * tweet.opacity);
+    var radius = scaleFactor * tweet.opacity;
 
     // first fill the visible canvas
     ctx.fillStyle = 'rgba(' + tweetColors[tweet.type].join(',') +
