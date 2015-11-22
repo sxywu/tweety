@@ -131,7 +131,10 @@ var App = React.createClass({
   },
 
   hoverSummary(type, value) {
-    var tweets = _.each(this.state.tweets, (tweet) => {
+    var newState = {
+      updatePositions: false,
+    };
+    newState.tweets = _.each(this.state.tweets, (tweet) => {
       if (type === 'type') {
         tweet.grayed = value && tweet.type !== value;
       } else if (type === 'hashtag') {
@@ -140,9 +143,15 @@ var App = React.createClass({
         tweet.grayed = value && !_.chain(tweet.user_mentions)
           .pluck('name').contains(value).value();
       }
+      // and if the tweet is grayed out, don't highlight it
+      if (this.state.hoveredTweet && tweet.grayed &&
+          tweet.id === this.state.hoveredTweet.id) {
+        tweet.hovered = false;
+        newState.hoveredTweet = null;
+      }
     });
 
-    this.setState({tweets, updatePositions: false});
+    this.setState(newState);
   },
 
   render() {
