@@ -55,7 +55,7 @@ function getTweets() {
         }
       });
       console.log(_.size(tweets));
-      fs.writeFile('tweets.json', JSON.stringify(tweets), 'utf8');
+      fs.writeFile('data/tweets.json', JSON.stringify(tweets), 'utf8');
       if (!_.isEmpty(rawTweets)) {
         // if tweets came back, there may be more, so go ask for more
         params.max_id = maxId;
