@@ -145,7 +145,7 @@ var Canvas = React.createClass({
         <canvas ref='canvas' width={size} height={size}
           onMouseMove={this.mouseMove} />
         <canvas ref='hiddenCanvas' width={size} height={size}
-          style={{display: 'display'}} />
+          style={{display: 'none'}} />
       </div>
     );
   }
