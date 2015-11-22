@@ -1,7 +1,6 @@
 var React = require('react/addons');
 var cx = React.addons.classSet;
 var _ = require('lodash');
-var d3 = require('d3/d3');
 
 var ctx, hiddenCtx;
 var size, imageSize, scaleFactor;
@@ -16,6 +15,9 @@ var tweetColors = {
   'retweet': [81,163,81], // green
   'tweet': [0,136,204] // blue
 };
+var fisheye = d3.fisheye.circular()
+  .radius(60)
+  .distortion(2);
 
 function calculatePixels(props) {
   // turn it grayscale first
@@ -50,9 +52,10 @@ function drawCanvas(tweets, elapsed) {
   _.each(tweets, function(tweet, i) {
     var t = elapsed / duration;
     t = (t > 1 ? 1 : t);
-    var x = elapsed ? tweet.interpolateX(t) : tweet.x;
-    var y = elapsed ? tweet.interpolateY(t) : tweet.y;
-    var radius = scaleFactor * tweet.opacity;
+    var fe = fisheye(tweet);
+    var x = elapsed ? tweet.interpolateX(t) : fe.x;
+    var y = elapsed ? tweet.interpolateY(t) : fe.y;
+    var radius = scaleFactor * tweet.opacity * Math.min(2, fe.z);
 
     // first fill the visible canvas
     if (tweet.grayed) {
@@ -73,8 +76,8 @@ function drawCanvas(tweets, elapsed) {
     // then the hidden canvas
     hiddenCtx.fillStyle = tweet.uniqColor;
     hiddenCtx.beginPath();
-    hiddenCtx.fillRect(x - scaleFactor / 2, y - scaleFactor / 2,
-      scaleFactor, scaleFactor);
+    hiddenCtx.arc(x, y, Math.max(radius, scaleFactor), 0, 2 * Math.PI, true);
+    hiddenCtx.fill();
   });
 }
 
@@ -136,7 +139,12 @@ var Canvas = React.createClass({
   },
 
   mouseMove(e) {
-    var col = hiddenCtx.getImageData(e.nativeEvent.offsetX, e.nativeEvent.offsetY, 1, 1).data;
+    var offsetX = e.nativeEvent.offsetX;
+    var offsetY = e.nativeEvent.offsetY;
+    // fisheye focus
+    fisheye.focus([offsetX, offsetY]);
+
+    var col = hiddenCtx.getImageData(offsetX, offsetY, 1, 1).data;
     var color = 'rgb(' + col[0] + "," + col[1] + ","+ col[2] + ")";
 
     this.props.onMouseMove(color);
