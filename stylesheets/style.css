@@ -1,5 +1,6 @@
 body {
   font-family: 'Droid Serif', 'serif';
+  font-size: .9em;
 }
 
 .canvas, .tweetSummary {
@@ -9,4 +10,5 @@ body {
 
 .tweetSummary {
   width: 500px;
+  padding: 25px;
 }

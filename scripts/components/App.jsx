@@ -58,7 +58,7 @@ var App = React.createClass({
           .sortBy(function(tweet) {
             tweet.date = new Date(tweet.created_at);
             tweet.opacity = opacityScale(tweet.stats.favorites + 1);
-            if (tweet.retweet || tweet.quote) {
+            if (tweet.retweet) {
               tweet.type = 'retweet';
             } else if (tweet.in_reply_to) {
               tweet.type = 'reply';
@@ -179,8 +179,9 @@ var App = React.createClass({
       <div>
         <CanvasComponent image={this.state.image} tweets={this.state.tweets}
           updatePositions={this.state.updatePositions} onMouseMove={this.mousemoveCanvas} />
-        <TweetSummaryComponent sort={this.state.sort} hoveredTweet={this.state.hoveredTweet}
-          tweets={this.state.tweets} onClick={this.clickSummary} onHover={this.hoverSummary} />
+        <TweetSummaryComponent sort={this.state.sort} click={this.state.click}
+          tweets={this.state.tweets} hoveredTweet={this.state.hoveredTweet}
+          onClick={this.clickSummary} onHover={this.hoverSummary} />
       </div>
     );
   }
