@@ -9,8 +9,8 @@ var tweetColors = {
 };
 var dateFormat = d3.time.format("%Y-%m-%d");
 var TweetSummary = React.createClass({
-  onClick(value) {
-    this.props.onClick('sort', value);
+  onClick(type, value) {
+    this.props.onClick(type, value);
   },
 
   onMouseOver(type, value) {
@@ -39,7 +39,7 @@ var TweetSummary = React.createClass({
         border: (value === this.props.sort) ? '2px solid #666' : 'none',
       };
       return (
-        <span style={buttonStyle} onClick={this.onClick.bind(this, value)}>
+        <span style={buttonStyle} onClick={this.onClick.bind(this, 'sort', value)}>
           {value}
         </span>
       );
@@ -82,7 +82,8 @@ var TweetSummary = React.createClass({
         };
         return (
           <div onMouseOver={this.onMouseOver.bind(this, 'hashtag', hashtag[0])}
-            onMouseLeave={this.onMouseLeave.bind(this, 'hashtag')}>
+            onMouseLeave={this.onMouseLeave.bind(this, 'hashtag')}
+            onClick={this.onClick.bind(this, 'hashtag', hashtag[0])}>
             <span style={buttonStyle}>{hashtag[1]}</span> #{hashtag[0]}
           </div>);
       }).value();

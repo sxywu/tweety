@@ -31,6 +31,7 @@ var App = React.createClass({
       tweets: [],
       hoveredTweet: null,
       sort: 'date',
+      click: null,
       updatePositions: true,
     };
   },
@@ -106,9 +107,9 @@ var App = React.createClass({
     var newState = {
       updatePositions: false
     };
-    newState[type] = value;
 
     if (type === 'sort') {
+      newState[type] = value;
       newState.updatePositions = true;
       newState.tweets = _.sortBy(this.state.tweets, (tweet) => {
         if (value === 'favorites') {
@@ -125,16 +126,26 @@ var App = React.createClass({
           return -tweet[value];
         }
       });
+    } else {
+      // then it must been a click
+      newState.click = {type, value};
+      newState.tweets = this.calculateHighlight(type, value, newState.click);
     }
 
     this.setState(newState);
   },
 
-  hoverSummary(type, value) {
+  hoverSummary(type, value, clicked) {
     var newState = {
       updatePositions: false,
     };
-    newState.tweets = _.each(this.state.tweets, (tweet) => {
+    newState.tweets = this.calculateHighlight(type, value, this.state.click);
+
+    this.setState(newState);
+  },
+
+  calculateHighlight(type, value, clicked) {
+    return _.each(this.state.tweets, (tweet) => {
       if (type === 'type') {
         tweet.grayed = value && tweet.type !== value;
       } else if (type === 'hashtag') {
@@ -143,15 +154,22 @@ var App = React.createClass({
         tweet.grayed = value && !_.chain(tweet.user_mentions)
           .pluck('name').contains(value).value();
       }
-      // and if the tweet is grayed out, don't highlight it
-      if (this.state.hoveredTweet && tweet.grayed &&
-          tweet.id === this.state.hoveredTweet.id) {
-        tweet.hovered = false;
-        newState.hoveredTweet = null;
+      if (clicked) {
+        if (clicked.type === 'type') {
+          tweet.clicked = tweet.type === clicked.value;
+        } else if (clicked.type === 'hashtag') {
+          tweet.clicked = _.contains(tweet.hashtags, clicked.value);
+        } else if (clicked.type === 'mention') {
+          tweet.clicked = _.chain(tweet.user_mentions)
+            .pluck('name').contains(clicked.value).value();
+        }
+        // only if unhovered, should tweet.grayed be reliant on tweet.clicked
+        if (!value) {
+          tweet.grayed = !tweet.clicked;
+        }
       }
+      
     });
-
-    this.setState(newState);
   },
 
   render() {
