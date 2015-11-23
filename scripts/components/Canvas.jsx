@@ -150,11 +150,16 @@ var Canvas = React.createClass({
     this.props.onMouseMove(color);
   },
 
+  mouseLeave() {
+    fisheye.focus([size * 2, size * 2]);
+    this.props.onMouseMove(null);
+  },
+
   render() {
     return (
       <div className='canvas'>
         <canvas ref='canvas' width={size} height={size}
-          onMouseMove={this.mouseMove} />
+          onMouseMove={this.mouseMove} onMouseLeave={this.mouseLeave} />
         <canvas ref='hiddenCanvas' width={size} height={size}
           style={{display: 'none'}} />
       </div>
