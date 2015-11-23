@@ -87,13 +87,15 @@ var App = React.createClass({
     var currentTweet = this.state.hoveredTweet;
 
     // we only want to re-render if hovered tweet is different from current tweet
-    if (tweet && (!currentTweet || tweet.id !== currentTweet.id)) {
+    if (tweet && !tweet.grayed &&
+      (!currentTweet || tweet.id !== currentTweet.id)) {
       // first clean up currentTweet (now previous tweet)
       if (currentTweet) {
         currentTweet.hovered = false;
       }
       tweet.hovered = true;
       newState.hoveredTweet = tweet;
+
     } else if (!tweet && currentTweet) {
       // if there's no new hovered tweet but there is a previous one, clean it up
       currentTweet.hovered = false;
