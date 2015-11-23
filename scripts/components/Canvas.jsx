@@ -61,7 +61,7 @@ function drawCanvas(tweets, elapsed) {
     if (tweet.clicked || !tweet.grayed) {
       ctx.fillStyle = 'rgba(' + tweetColors[tweet.type].join(',') + ',.65)';
     } else {
-      ctx.fillStyle = '#efefef';
+      ctx.fillStyle = 'rgba(200, 200, 200, .5)';
     }
     ctx.beginPath();
     ctx.arc(x, y, radius, 0, 2 * Math.PI, true);
