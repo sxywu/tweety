@@ -105,6 +105,19 @@ var App = React.createClass({
     this.setState(newState);
   },
 
+  clickCanvas() {
+    if (!this.state.hoveredTweet) return;
+
+    var tweet = this.state.hoveredTweet;
+    var url;
+    if (tweet.type === 'retweet') {
+      url = 'http://twitter.com/' + tweet.retweet.name + '/status/' + tweet.retweet.id;
+    } else {
+      url = 'http://twitter.com/' + tweet.name + '/status/' + tweet.id;
+    }
+    window.open(url, '_new');
+  },
+
   clickSummary(type, value) {
     var newState = {
       updatePositions: false
@@ -178,7 +191,8 @@ var App = React.createClass({
     return (
       <div>
         <CanvasComponent image={this.state.image} tweets={this.state.tweets}
-          updatePositions={this.state.updatePositions} onMouseMove={this.mousemoveCanvas} />
+          updatePositions={this.state.updatePositions}
+          onMouseMove={this.mousemoveCanvas} onClick={this.clickCanvas} />
         <TweetSummaryComponent sort={this.state.sort} click={this.state.click}
           tweets={this.state.tweets} hoveredTweet={this.state.hoveredTweet}
           onClick={this.clickSummary} onHover={this.hoverSummary} />
