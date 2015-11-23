@@ -114,7 +114,7 @@ var TweetSummary = React.createClass({
     hoveredTweet = hoveredTweet && (
       <div style={tweetStyle}>
         <strong>tweet #{hoveredTweet.index}: {dateFormat(hoveredTweet.date)}</strong>
-        <div>{hoveredTweet.text}</div>
+        <div dangerouslySetInnerHTML={{__html: hoveredTweet.text}} />
         <div>{hoveredTweet.stats.favorites} favorites, {hoveredTweet.stats.retweets} retweets</div>
       </div>
     );
