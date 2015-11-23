@@ -60,7 +60,8 @@ var TweetSummary = React.createClass({
         };
         return (
           <div onMouseOver={this.onMouseOver.bind(this, 'type', type[0])}
-            onMouseLeave={this.onMouseLeave.bind(this, 'type')}>
+            onMouseLeave={this.onMouseLeave.bind(this, 'type')}
+            onClick={this.onClick.bind(this, 'type', type[0])}>
             <span style={buttonStyle}>{type[1]}</span> {type[0]}
           </div>
         );
@@ -105,7 +106,8 @@ var TweetSummary = React.createClass({
         };
         return (
           <div onMouseOver={this.onMouseOver.bind(this, 'mention', mention[0])}
-            onMouseLeave={this.onMouseLeave.bind(this, 'mention')}>
+            onMouseLeave={this.onMouseLeave.bind(this, 'mention')}
+            onClick={this.onClick.bind(this, 'mention', mention[0])}>
             <span style={buttonStyle}>{mention[1]}</span> @{mention[0]}
           </div>);
       }).value();
