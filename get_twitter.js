@@ -17,10 +17,10 @@ function getTweets() {
   client.get('statuses/user_timeline', params, function(error, rawTweets, response){
     if (!error) {
       _.each(rawTweets, function(tweet) {
-        maxId = tweet.id;
-        tweets[tweet.id] = {
+        maxId = tweet.id_str;
+        tweets[tweet.id_str] = {
           created_at: tweet.created_at,
-          id: tweet.id,
+          id: tweet.id_str,
           text: tweet.text,
           user_id: tweet.user.id,
           name: tweet.user.screen_name,
@@ -35,22 +35,23 @@ function getTweets() {
         };
         // reply
         if (tweet.in_reply_to_status_id) {
-          tweets[tweet.id].in_reply_to = {
-            id: tweet.in_reply_to_status_id,
-            user_id: tweet.in_reply_to_user_id,
+          tweets[tweet.id_str].in_reply_to = {
+            id: tweet.in_reply_to_status_id_str,
+            user_id: tweet.in_reply_to_user_id_str,
             name: tweet.in_reply_to_screen_name
           };
         }
         // retweet
         if (tweet.retweeted_status) {
-          tweets[tweet.id].retweet = {
-            id: tweet.retweeted_status.id
+          tweets[tweet.id_str].retweet = {
+            id: tweet.retweeted_status.id_str,
+            name: tweet.retweeted_status.user.screen_name
           };
         }
         // quote
         if (tweet.quoted_status) {
-          tweets[tweet.id].quote = {
-            id: tweet.quoted_status.id
+          tweets[tweet.id_str].quote = {
+            id: tweet.quoted_status.id_str
           };
         }
       });

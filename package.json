@@ -2,6 +2,7 @@
   "name": "tweety",
   "main": "scripts/main.js",
   "dependencies": {
+    "twitter": "*",
     "react": "^0.12.0",
     "lodash": "*"
   },
