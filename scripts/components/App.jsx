@@ -5,6 +5,7 @@ var _ = require('lodash');
 var CanvasComponent = require('./Canvas.jsx');
 var TweetSummaryComponent = require('./TweetSummary.jsx');
 var TweetComponent = require('./Tweet.jsx');
+var DownScaleCanvas = require('./DownScaleCanvas.jsx');
 
 // taken directly from nbremer's occupationcanvas code
 //Generates the next color in the sequence, going from 0,0,0 to 255,255,255.
@@ -39,7 +40,18 @@ var App = React.createClass({
 
   componentWillMount() {
     // load the data
-    d3.json('data/twitter_profile3.json', (image) => {
+    var canvas = document.getElementById('getImageData');
+    var ctx = canvas.getContext('2d');
+    var img = new Image();
+    img.src = 'images/twitter_profile.jpeg';
+
+    img.onload = () => {
+      canvas.width = img.width;
+      canvas.height = img.height;
+      ctx.drawImage(img, 0, 0);
+      var scale = 50 / img.width;
+      var image = DownScaleCanvas.getJSON(canvas, scale);
+
       d3.json('data/tweets.json', (tweets) => {
         // process the tweets
         var minOpacity = _.min(tweets, function(tweet) {
@@ -76,8 +88,8 @@ var App = React.createClass({
           }).value();
 
         this.setState({image, tweets, colToTweet});
-      });
-    });
+      });      
+    }
   },
 
   mousemoveCanvas(color) {

@@ -8,7 +8,7 @@ var image = [];
 var duration = 1000;
 
 // some defaults
-var threshold = 158;
+var threshold = 122.5;
 var padding = 20;
 var tweetColors = {
   'reply': [248,148,6], // orange
@@ -49,7 +49,14 @@ function drawCanvas(tweets, elapsed) {
   hiddenCtx.rect(0, 0, size, size);
   hiddenCtx.fill();
 
-  _.each(tweets, function(tweet, i) {
+  _.some(tweets, function(tweet, i) {
+    if (!tweet.x && !tweet.y) {
+      // if tweet doesn't have positions
+      // it must mean there were more tweets than pixels
+      // so stop drawing
+      return true;
+    }
+
     var t = elapsed / duration;
     t = (t > 1 ? 1 : t);
     var fe = fisheye(tweet);
