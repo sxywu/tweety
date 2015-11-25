@@ -115,19 +115,6 @@ var TweetSummary = React.createClass({
         return this.renderHoverClick('mention', mention[0], mention[1], '#666');
       }).value();
 
-    var hoveredTweet = this.props.hoveredTweet;
-    var tweetStyle = {
-      padding: '2.5px 10px',
-      width: '100%',
-      borderRadius: 3
-    }
-    hoveredTweet = hoveredTweet && (
-      <div style={tweetStyle}>
-        <strong>tweet #{hoveredTweet.index}: {dateFormat(hoveredTweet.date)}</strong>
-        <div dangerouslySetInnerHTML={{__html: hoveredTweet.text}} />
-        <div>{hoveredTweet.stats.favorites} favorites, {hoveredTweet.stats.retweets} retweets</div>
-      </div>
-    );
     return (
       <div className='tweetSummary'>
         <div style={sectionStyle}>
@@ -148,10 +135,6 @@ var TweetSummary = React.createClass({
             <strong>Mentions</strong>
             {mentions}
           </ol>
-        </div>
-        <div style={sectionStyle}>
-          <div style={headerStyle}>Tweets</div>
-          {hoveredTweet}
         </div>
       </div>
     );

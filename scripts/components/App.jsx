@@ -4,6 +4,7 @@ var _ = require('lodash');
 
 var CanvasComponent = require('./Canvas.jsx');
 var TweetSummaryComponent = require('./TweetSummary.jsx');
+var TweetComponent = require('./Tweet.jsx');
 
 // taken directly from nbremer's occupationcanvas code
 //Generates the next color in the sequence, going from 0,0,0 to 255,255,255.
@@ -196,6 +197,7 @@ var App = React.createClass({
         <TweetSummaryComponent sort={this.state.sort} click={this.state.click}
           tweets={this.state.tweets} hoveredTweet={this.state.hoveredTweet}
           onClick={this.clickSummary} onHover={this.hoverSummary} />
+        <TweetComponent hoveredTweet={this.state.hoveredTweet} />
       </div>
     );
   }
