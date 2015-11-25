@@ -181,7 +181,7 @@ var App = React.createClass({
       });
     } else {
       // then it must been a click
-      newState.click = {type, value};
+      newState.click = value && {type, value};
       newState.tweets = this.calculateHighlight(type, value, newState.click);
     }
 

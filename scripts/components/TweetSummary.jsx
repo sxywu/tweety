@@ -9,7 +9,11 @@ var tweetColors = {
 };
 var dateFormat = d3.time.format("%Y-%m-%d");
 var TweetSummary = React.createClass({
-  onClick(type, value) {
+  onClick(type, value, clicked) {
+    if (type !== 'sort' && clicked) {
+      // if it was already clicked, then unclick
+      value = null;
+    }
     this.props.onClick(type, value);
   },
 
@@ -22,15 +26,14 @@ var TweetSummary = React.createClass({
   },
 
   renderHoverClick(type, value, count, color) {
+    var clicked = this.props.click && value === this.props.click.value;
     var buttonStyle = {
       padding: '4px 7.5px',
       margin: '5px 5px 5px 0',
       borderRadius: 3,
       cursor: 'pointer',
-      backgroundColor: (this.props.click && value === this.props.click.value) ?
-        color : '#fff',
-      color: (this.props.click && value === this.props.click.value) ?
-        '#fff' : color,
+      backgroundColor: clicked ? color : '#fff',
+      color: clicked ? '#fff' : color,
       border: '1px solid ' + color,
       display: 'inline-block',
     };
@@ -41,7 +44,7 @@ var TweetSummary = React.createClass({
         <span style={buttonStyle}
         onMouseOver={this.onMouseOver.bind(this, type, value)}
         onMouseLeave={this.onMouseLeave.bind(this, type)}
-        onClick={this.onClick.bind(this, type, value)}>
+        onClick={this.onClick.bind(this, type, value, clicked)}>
           {preValue + value}
         </span>{count}
       </li>
