@@ -50,7 +50,30 @@ var App = React.createClass({
       canvas.height = img.height;
       ctx.drawImage(img, 0, 0);
       var scale = 50 / img.width;
-      var image = DownScaleCanvas.getJSON(canvas, scale);
+      var rawImage = DownScaleCanvas.getJSON(canvas, scale);
+      var image = []; // the dithered image
+      var threshold = 122.5;
+      var imageSize = Math.sqrt(rawImage.length);
+
+      // after we get image json
+      // turn it grayscale first
+      _.each(rawImage, function(pixel) {
+        image.push(Math.max(pixel[0], pixel[1], pixel[2]));
+      });
+      // then Atkinson dithering
+      _.each(image, function(oldPixel, i) {
+        var newPixel = oldPixel > threshold ? 255 : 0;
+        var error = (oldPixel - newPixel) >> 3;
+        
+        image[i] = newPixel;
+        image[i + 1] += error;
+        image[i + 1] += error;
+        image[i + imageSize - 1] += error;
+        image[i + imageSize] += error;
+        image[i + imageSize + 1] += error;
+        image[i + imageSize + 2] += error;
+      });
+      image = image.slice(0, imageSize * imageSize);
 
       d3.json('data/tweets.json', (tweets) => {
         // process the tweets
@@ -85,7 +108,9 @@ var App = React.createClass({
           }).sortBy(function(tweet, i) {
             tweet.index = i;
             return -tweet.date;
-          }).value();
+          }) // only work with the as many tweets as pixels
+          .slice(0, _.filter(image, (pixel) => !pixel).length)
+          .value();
 
         this.setState({image, tweets, colToTweet});
       });      

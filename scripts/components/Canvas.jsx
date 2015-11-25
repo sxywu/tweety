@@ -4,11 +4,9 @@ var _ = require('lodash');
 
 var ctx, hiddenCtx;
 var size, imageSize, scaleFactor;
-var image = [];
 var duration = 1000;
 
 // some defaults
-var threshold = 122.5;
 var padding = 20;
 var tweetColors = {
   'reply': [248,148,6], // orange
@@ -17,28 +15,8 @@ var tweetColors = {
 };
 var fisheye = d3.fisheye.circular()
   .radius(60)
-  .distortion(2);
-
-function calculatePixels(props) {
-  // turn it grayscale first
-  _.each(props.image, function(pixel) {
-    image.push(Math.max(pixel[0], pixel[1], pixel[2]));
-  });
-  // Atkinson dithering
-  _.each(image, function(oldPixel, i) {
-    var newPixel = oldPixel > threshold ? 255 : 0;
-    var error = (oldPixel - newPixel) >> 3;
-    
-    image[i] = newPixel;
-    image[i + 1] += error;
-    image[i + 1] += error;
-    image[i + imageSize - 1] += error;
-    image[i + imageSize] += error;
-    image[i + imageSize + 1] += error;
-    image[i + imageSize + 2] += error;
-  });
-  image = image.slice(0, imageSize * imageSize);
-}
+  .distortion(2)
+  .focus([10000, 10000]);
 
 function drawCanvas(tweets, elapsed) {
   //first clear canvas
@@ -50,13 +28,6 @@ function drawCanvas(tweets, elapsed) {
   hiddenCtx.fill();
 
   _.some(tweets, function(tweet, i) {
-    if (!tweet.x && !tweet.y) {
-      // if tweet doesn't have positions
-      // it must mean there were more tweets than pixels
-      // so stop drawing
-      return true;
-    }
-
     var t = elapsed / duration;
     t = (t > 1 ? 1 : t);
     var fe = fisheye(tweet);
@@ -108,11 +79,9 @@ var Canvas = React.createClass({
     size = imageSize * scaleFactor + 2 * padding;
 
     if (nextProps.updatePositions) {
-      calculatePixels(nextProps);
-
       // calculate tweet positions and interpolaters
       var tweetIndex = 0;
-      _.each(image, function(pixel, i) {
+      _.each(nextProps.image, function(pixel, i) {
         if (!pixel) {
           // if pixel is filled, then assign a tweet to it
           var tweet = nextProps.tweets[tweetIndex];
