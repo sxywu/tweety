@@ -43,7 +43,7 @@ var App = React.createClass({
     var canvas = document.getElementById('getImageData');
     var ctx = canvas.getContext('2d');
     var img = new Image();
-    img.src = 'images/twitter_profile.jpeg';
+    img.src = 'images/shirleyxywu.jpeg';
 
     img.onload = () => {
       canvas.width = img.width;
@@ -75,7 +75,8 @@ var App = React.createClass({
       });
       image = image.slice(0, imageSize * imageSize);
 
-      d3.json('data/tweets.json', (tweets) => {
+      d3.json('data/shirleyxywu.json', (user) => {
+        var tweets = user.tweets;
         // process the tweets
         var minOpacity = _.min(tweets, function(tweet) {
           return tweet.stats.favorites;

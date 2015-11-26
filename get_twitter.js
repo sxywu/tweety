@@ -1,5 +1,6 @@
 var Twitter = require('twitter');
 var fs = require('fs');
+var request = require('request');
 var _ = require('lodash');
 var credentials = require('./credentials.js');
 
@@ -9,10 +10,12 @@ var client = new Twitter({
   access_token_key: credentials.access_token_key,
   access_token_secret: credentials.access_token_secret
 });
- 
+
+var userParams = {q: 'shirleyxywu', count: 1};
 var params = {screen_name: 'shirleyxywu', count: 200};
 var maxId;
-var tweets = {};
+var userObj = {};
+var tweets = userObj.tweets = {};
 function getTweets() {
   client.get('statuses/user_timeline', params, function(error, rawTweets, response){
     if (!error) {
@@ -55,9 +58,9 @@ function getTweets() {
           };
         }
       });
-      console.log(_.size(tweets));
-      fs.writeFile('data/tweets.json', JSON.stringify(tweets), 'utf8');
-      if (!_.isEmpty(rawTweets)) {
+      console.log(_.size(tweets), userObj.numTweets);
+      fs.writeFile('data/' + userObj.screen_name + '.json', JSON.stringify(userObj), 'utf8');
+      if (_.size(tweets) < userObj.numTweets) {
         // if tweets came back, there may be more, so go ask for more
         params.max_id = maxId;
         getTweets();
@@ -68,4 +71,24 @@ function getTweets() {
   });
 }
 
-getTweets();
+client.get('users/search', userParams, function(error, rawUsers, response) {
+  var user = rawUsers[0];
+  userObj.id = user.id_str;
+  userObj.screen_name = user.screen_name;
+  userObj.name = user.name;
+  userObj.numTweets = user.statuses_count;
+
+  // download image, code from http://stackoverflow.com/questions/12740659/downloading-images-with-node-js
+  var uri = user.profile_image_url.replace('_normal', '');
+  var filename = 'images/' + userObj.screen_name + '.' + _.last(uri.split('.'));
+  request.head(uri, function(err, res, body){
+    console.log('content-type:', res.headers['content-type']);
+    console.log('content-length:', res.headers['content-length']);
+
+    request(uri).pipe(fs.createWriteStream(filename)).on('close', function() {
+      console.log('done downloading');
+
+      getTweets();
+    });
+  });
+});
