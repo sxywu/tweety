@@ -11,7 +11,7 @@ var client = new Twitter({
   access_token_secret: credentials.access_token_secret
 });
 
-var name = 'mbostock';
+var name = 'enjalot';
 var userParams = {q: name, count: 1};
 var params = {screen_name: name, count: 200};
 var maxId;
@@ -61,7 +61,7 @@ function getTweets() {
         }
       });
 
-      console.log(_.size(tweets), userObj.numTweets);
+      console.log(_.size(tweets), prevTweetsNum);
       fs.writeFile('data/' + userObj.screen_name + '.json', JSON.stringify(userObj), 'utf8');
       if (_.size(tweets) !== prevTweetsNum) {
         // if tweets came back, there may be more, so go ask for more
