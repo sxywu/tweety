@@ -11,7 +11,7 @@ var client = new Twitter({
   access_token_secret: credentials.access_token_secret
 });
 
-var name = 'vlandham';
+var name = 'vicapow';
 var userParams = {q: name, count: 1};
 var params = {screen_name: name, count: 200};
 var maxId;
