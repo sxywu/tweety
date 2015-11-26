@@ -94,6 +94,12 @@ var App = React.createClass({
           .sortBy(function(tweet) {
             tweet.date = new Date(tweet.created_at);
             tweet.opacity = opacityScale(tweet.stats.favorites + 1);
+            // make hashtags and user_mentions lower case so that they unique correctly
+            tweet.hashtags = _.map(tweet.hashtags, (hashtag) => hashtag.toLowerCase());
+            _.each(tweet.user_mentions, (mention) => {
+              mention.name = mention.name.toLowerCase();
+            });
+            // then calculate tweet type
             if (tweet.retweet) {
               tweet.type = 'retweet';
             } else if (tweet.in_reply_to) {
