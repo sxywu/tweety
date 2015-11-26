@@ -40,10 +40,11 @@ var App = React.createClass({
 
   componentWillMount() {
     // load the data
+    var name = 'mbostock';
     var canvas = document.getElementById('getImageData');
     var ctx = canvas.getContext('2d');
     var img = new Image();
-    img.src = 'images/shirleyxywu.jpeg';
+    img.src = 'images/' + name + '.jpeg';
 
     img.onload = () => {
       canvas.width = img.width;
@@ -75,7 +76,7 @@ var App = React.createClass({
       });
       image = image.slice(0, imageSize * imageSize);
 
-      d3.json('data/shirleyxywu.json', (user) => {
+      d3.json('data/' + name + '.json', (user) => {
         var tweets = user.tweets;
         // process the tweets
         var minOpacity = _.min(tweets, function(tweet) {

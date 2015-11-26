@@ -11,11 +11,13 @@ var client = new Twitter({
   access_token_secret: credentials.access_token_secret
 });
 
-var userParams = {q: 'shirleyxywu', count: 1};
-var params = {screen_name: 'shirleyxywu', count: 200};
+var name = 'mbostock';
+var userParams = {q: name, count: 1};
+var params = {screen_name: name, count: 200};
 var maxId;
 var userObj = {};
 var tweets = userObj.tweets = {};
+var prevTweetsNum = 0;
 function getTweets() {
   client.get('statuses/user_timeline', params, function(error, rawTweets, response){
     if (!error) {
@@ -58,10 +60,12 @@ function getTweets() {
           };
         }
       });
+
       console.log(_.size(tweets), userObj.numTweets);
       fs.writeFile('data/' + userObj.screen_name + '.json', JSON.stringify(userObj), 'utf8');
-      if (_.size(tweets) < userObj.numTweets) {
+      if (_.size(tweets) !== prevTweetsNum) {
         // if tweets came back, there may be more, so go ask for more
+        prevTweetsNum = _.size(tweets);
         params.max_id = maxId;
         getTweets();
       }
