@@ -40,17 +40,17 @@ var App = React.createClass({
 
   componentWillMount() {
     // load the data
-    var name = 'enjalot';
+    var name = 'Elijah_Meeks';
     var canvas = document.getElementById('getImageData');
     var ctx = canvas.getContext('2d');
     var img = new Image();
-    img.src = 'images/' + name + '.jpg';
+    img.src = 'images/' + name + '.jpeg';
 
     img.onload = () => {
       canvas.width = img.width;
       canvas.height = img.height;
       ctx.drawImage(img, 0, 0);
-      var scale = 100 / img.width;
+      var scale = 80 / img.width;
       var rawImage = DownScaleCanvas.getJSON(canvas, scale);
       var image = []; // the dithered image
       var threshold = 122.5;
