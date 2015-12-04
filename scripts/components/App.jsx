@@ -40,11 +40,11 @@ var App = React.createClass({
 
   componentWillMount() {
     // load the data
-    var name = 'vicapow';
+    var name = 'arnicas';
     var canvas = document.getElementById('getImageData');
     var ctx = canvas.getContext('2d');
     var img = new Image();
-    img.src = 'images/' + name + '.jpeg';
+    img.src = 'images/' + name + '.jpg';
 
     img.onload = () => {
       canvas.width = img.width;
