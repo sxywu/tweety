@@ -29,6 +29,7 @@ var App = React.createClass({
 
   getInitialState() {
     return {
+      imageWidth: 50,
       image: [],
       tweets: [],
       hoveredTweet: null,
@@ -50,8 +51,8 @@ var App = React.createClass({
       canvas.width = img.width;
       canvas.height = img.height;
       ctx.drawImage(img, 0, 0);
-      var imageSize = 80;
-      var scale = imageSize / img.width;
+      var imageWidth = 70;
+      var scale = imageWidth / img.width;
       var rawImage = DownScaleCanvas.getJSON(canvas, scale);
       var image = []; // the dithered image
       var threshold = 122.5;
@@ -69,12 +70,12 @@ var App = React.createClass({
         image[i] = newPixel;
         image[i + 1] += error;
         image[i + 1] += error;
-        image[i + imageSize - 1] += error;
-        image[i + imageSize] += error;
-        image[i + imageSize + 1] += error;
-        image[i + imageSize + 2] += error;
+        image[i + imageWidth - 1] += error;
+        image[i + imageWidth] += error;
+        image[i + imageWidth + 1] += error;
+        image[i + imageWidth + 2] += error;
       });
-      image = image.slice(0, imageSize * imageSize);
+      image = image.slice(0, rawImage.length);
 
       d3.json('data/' + name + '.json', (user) => {
         var tweets = user.tweets;
@@ -120,7 +121,7 @@ var App = React.createClass({
           .slice(0, _.filter(image, (pixel) => !pixel).length)
           .value();
 
-        this.setState({image, tweets, colToTweet});
+        this.setState({imageWidth, image, tweets, colToTweet});
       });      
     }
   },
@@ -236,7 +237,8 @@ var App = React.createClass({
   render() {
     return (
       <div>
-        <CanvasComponent image={this.state.image} tweets={this.state.tweets}
+        <CanvasComponent imageWidth={this.state.imageWidth}
+          image={this.state.image} tweets={this.state.tweets}
           updatePositions={this.state.updatePositions}
           onMouseMove={this.mousemoveCanvas} onClick={this.clickCanvas} />
         <TweetSummaryComponent sort={this.state.sort} click={this.state.click}

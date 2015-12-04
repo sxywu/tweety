@@ -3,7 +3,7 @@ var cx = React.addons.classSet;
 var _ = require('lodash');
 
 var ctx, hiddenCtx;
-var size, imageSize, scaleFactor;
+var size, scaleFactor;
 var duration = 1000;
 
 // some defaults
@@ -74,9 +74,8 @@ var Canvas = React.createClass({
   },
 
   componentWillReceiveProps(nextProps) {
-    imageSize = Math.sqrt(nextProps.image.length);
-    scaleFactor = Math.floor(500 / imageSize);
-    size = imageSize * scaleFactor + 2 * padding;
+    scaleFactor = Math.floor(500 / nextProps.imageWidth);
+    size = nextProps.imageWidth * scaleFactor + 2 * padding;
 
     if (nextProps.updatePositions) {
       // calculate tweet positions and interpolaters
@@ -90,8 +89,8 @@ var Canvas = React.createClass({
 
           tweet.px = tweet.x;
           tweet.py = tweet.y;
-          tweet.x =  (i % imageSize) * scaleFactor + scaleFactor / 2 + padding;
-          tweet.y =  Math.floor(i / imageSize) * scaleFactor + scaleFactor / 2 + padding;
+          tweet.x =  (i % nextProps.imageWidth) * scaleFactor + scaleFactor / 2 + padding;
+          tweet.y =  Math.floor(i / nextProps.imageWidth) * scaleFactor + scaleFactor / 2 + padding;
           
           tweet.interpolateX = d3.interpolateNumber(tweet.px || tweet.x, tweet.x);
           tweet.interpolateY = d3.interpolateNumber(tweet.py || tweet.y, tweet.y);
