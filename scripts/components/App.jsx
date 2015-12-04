@@ -41,7 +41,7 @@ var App = React.createClass({
 
   componentWillMount() {
     // load the data
-    var name = 'arnicas';
+    var name = 'ireneros';
     var canvas = document.getElementById('getImageData');
     var ctx = canvas.getContext('2d');
     var img = new Image();
@@ -51,7 +51,7 @@ var App = React.createClass({
       canvas.width = img.width;
       canvas.height = img.height;
       ctx.drawImage(img, 0, 0);
-      var imageWidth = 70;
+      var imageWidth = 75;
       var scale = imageWidth / img.width;
       var rawImage = DownScaleCanvas.getJSON(canvas, scale);
       var image = []; // the dithered image
