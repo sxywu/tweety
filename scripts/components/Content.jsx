@@ -121,7 +121,7 @@ var Content = React.createClass({
           .slice(0, _.filter(image, (pixel) => !pixel).length)
           .value();
 
-        this.setState({imageWidth, image, tweets, colToTweet});
+        this.setState({imageWidth, image, tweets, colToTweet, updatePositions: true});
       });      
     }
   },

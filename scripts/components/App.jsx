@@ -18,11 +18,15 @@ var App = React.createClass({
     });
   },
 
+  clickImage(user) {
+    this.setState({selectedUser: user});
+  },
+
   render() {
     var users = _.map(this.state.users, (user) => {
       var image = 'images/' + user.image;
       return (
-        <span>
+        <span onClick={this.clickImage.bind(this, user)}>
           <img src={image} width="100" />
           <div>{user.name}</div>
         </span>
@@ -31,7 +35,7 @@ var App = React.createClass({
     var content = this.state.selectedUser &&
       (<ContentComponent user={this.state.selectedUser} />);
 
-    console.log(users, this.state.users)
+    console.log(this.state.selectedUser)
     return (
       <div>
         {users}
