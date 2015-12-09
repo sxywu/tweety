@@ -19,10 +19,6 @@
   "image": "ireneros.jpg",
   "imageWidth": 75
 }, {
-  "name": "mbostock",
-  "image": "mbostock.jpeg",
-  "imageWidth": 60
-}, {
   "name": "vicapow",
   "image": "vicapow.jpeg",
   "imageWidth": 80
@@ -30,4 +26,8 @@
   "name": "vlandham",
   "image": "vlandham.jpeg",
   "imageWidth": 100
+}, {
+  "name": "twitter",
+  "image": "twitter.png",
+  "imageWidth": 200
 }]

@@ -13,7 +13,7 @@ var App = React.createClass({
   },
 
   componentWillMount() {
-    d3.json('data/users.json', (users) => {
+    d3.json('data/users.json', (err, users) => {
       var selectedUser = users[0];
       this.setState({users, selectedUser});
     });
@@ -24,11 +24,6 @@ var App = React.createClass({
   },
 
   render() {
-    var twitter = {
-      name: 'twitter',
-      image: 'twitter.png',
-      imageWidth: 200,
-    };
     var users = _.map(this.state.users, (user) => {
       var image = 'images/' + user.image;
       var style = {
@@ -42,6 +37,7 @@ var App = React.createClass({
         <img src={image} style={style} onClick={this.clickImage.bind(this, user)}/>
       );
     });
+    var twitter = _.find(this.state.users, (user) => user.name === 'twitter');
     var twitterContent = (<ContentComponent user={twitter} showSummary={false} />);
     var content = (<ContentComponent user={this.state.selectedUser} showSummary={true} />);
 
