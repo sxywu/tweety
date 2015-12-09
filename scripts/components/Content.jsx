@@ -55,13 +55,14 @@ var Content = React.createClass({
       var scale = imageWidth / img.width;
       var rawImage = DownScaleCanvas.getJSON(canvas, scale);
       var image = []; // the dithered image
-      var threshold = 122.5;
 
       // after we get image json
       // turn it grayscale first
       _.each(rawImage, function(pixel) {
         image.push(Math.max(pixel[0], pixel[1], pixel[2]));
       });
+      // set the threshold to the average of all pixel values
+      var threshold = _.reduce(image, (memo, pixel) => memo + pixel, 0) / image.length;
       // then Atkinson dithering
       _.each(image, function(oldPixel, i) {
         var newPixel = oldPixel > threshold ? 255 : 0;
@@ -235,15 +236,18 @@ var Content = React.createClass({
   },
 
   render() {
+    var tweetSummary = this.props.showSummary &&
+      (<TweetSummaryComponent sort={this.state.sort} click={this.state.click}
+        tweets={this.state.tweets} hoveredTweet={this.state.hoveredTweet}
+        onClick={this.clickSummary} onHover={this.hoverSummary} />);
+
     return (
       <div>
         <CanvasComponent imageWidth={this.state.imageWidth}
           image={this.state.image} tweets={this.state.tweets}
           updatePositions={this.state.updatePositions}
           onMouseMove={this.mousemoveCanvas} onClick={this.clickCanvas} />
-        <TweetSummaryComponent sort={this.state.sort} click={this.state.click}
-          tweets={this.state.tweets} hoveredTweet={this.state.hoveredTweet}
-          onClick={this.clickSummary} onHover={this.hoverSummary} />
+        {tweetSummary}
         <TweetComponent hoveredTweet={this.state.hoveredTweet} />
       </div>
     );

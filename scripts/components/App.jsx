@@ -8,13 +8,14 @@ var App = React.createClass({
   getInitialState() {
     return {
       users: [],
-      selectedUser: null,
+      selectedUser: {},
     };
   },
 
   componentWillMount() {
     d3.json('data/users.json', (users) => {
-      this.setState({users});
+      var selectedUser = users[0];
+      this.setState({users, selectedUser});
     });
   },
 
@@ -23,21 +24,30 @@ var App = React.createClass({
   },
 
   render() {
+    var twitter = {
+      name: 'twitter',
+      image: 'twitter.png',
+      imageWidth: 200,
+    };
     var users = _.map(this.state.users, (user) => {
       var image = 'images/' + user.image;
+      var style = {
+        height: 100,
+        borderRadius: 50,
+        margin: 5,
+        boxShadow: this.state.selectedUser.name === user.name ? '0 0 10px yellow' : 'none',
+        cursor: 'pointer'
+      };
       return (
-        <span onClick={this.clickImage.bind(this, user)}>
-          <img src={image} width="100" />
-          <div>{user.name}</div>
-        </span>
+        <img src={image} style={style} onClick={this.clickImage.bind(this, user)}/>
       );
     });
-    var content = this.state.selectedUser &&
-      (<ContentComponent user={this.state.selectedUser} />);
+    var twitterContent = (<ContentComponent user={twitter} showSummary={false} />);
+    var content = (<ContentComponent user={this.state.selectedUser} showSummary={true} />);
 
-    console.log(this.state.selectedUser)
     return (
       <div>
+        {twitterContent}
         {users}
         {content}
       </div>
