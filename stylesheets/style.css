@@ -1,14 +1,57 @@
 body {
   font-family: 'Droid Serif', 'serif';
   font-size: .9em;
+  color: #666;
+}
+
+.main {
+  width: 1080px;
+  margin: auto;
+}
+
+.landing {
+  text-align: center;
+  height: 800px;
+}
+
+.choose {
+  padding: 20px 20px 60px 20px;
 }
 
 .canvas, .tweetSummary {
-  float: left;
-  padding: 10px;
+  display: inline-block;
 }
 
 .tweetSummary {
   width: 500px;
-  padding: 25px;
+  padding: 20px;
+  vertical-align: top;
+}
+
+.header {
+  border: 2px solid #666;
+  margin: 5px 0;
+  padding: 4px 10px;
+  font-family: Helvetica;
+  font-weight: 600;
+  font-size: 1.25em;
+}
+
+.userHeader {
+  border-top: 2px solid #666;
+  margin: 0px 20px;
+  padding: 20px 10px;
+  font-family: Helvetica;
+  font-weight: 600;
+  font-size: 1.5em;
+}
+
+.userHeader .subtitle {
+  font-size: .75em;
+  font-weight: 200;
+  margin-top: 5px;
+}
+
+a {
+  color: #666;
 }

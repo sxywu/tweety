@@ -31,6 +31,7 @@ var Content = React.createClass({
     return {
       imageWidth: 50,
       image: [],
+      user: {},
       tweets: [],
       hoveredTweet: null,
       sort: 'date',
@@ -78,8 +79,13 @@ var Content = React.createClass({
       });
       image = image.slice(0, rawImage.length);
 
-      d3.json('data/' + name + '.json', (user) => {
-        var tweets = user.tweets;
+      d3.json('data/' + name + '.json', (rawUser) => {
+        var user = {
+          name: rawUser.name,
+          screenName: rawUser.screen_name,
+          numTweets: rawUser.numTweets,
+        };
+        var tweets = rawUser.tweets;
         // process the tweets
         var minOpacity = _.min(tweets, function(tweet) {
           return tweet.stats.favorites;
@@ -122,7 +128,9 @@ var Content = React.createClass({
           .slice(0, _.filter(image, (pixel) => !pixel).length)
           .value();
 
-        this.setState({imageWidth, image, tweets, colToTweet, updatePositions: true});
+        this.setState({
+          imageWidth, image, user, tweets, colToTweet, updatePositions: true
+        });
       });      
     }
   },
@@ -236,13 +244,24 @@ var Content = React.createClass({
   },
 
   render() {
+    var numFormat = d3.format(',');
+    var userHeader = this.props.showSummary &&
+      (<div className='userHeader'>
+        <a href={'http://www.twitter.com/' + this.state.user.screenName} target='_new'>
+          {this.state.user.name && this.state.user.name.toUpperCase()} ({this.state.user.screenName})
+        </a>
+        <div className='subtitle'>
+          displaying {numFormat(this.state.tweets.length)} of {numFormat(this.state.user.numTweets)} tweets
+        </div>
+      </div>);
     var tweetSummary = this.props.showSummary &&
       (<TweetSummaryComponent sort={this.state.sort} click={this.state.click}
         tweets={this.state.tweets} hoveredTweet={this.state.hoveredTweet}
         onClick={this.clickSummary} onHover={this.hoverSummary} />);
 
     return (
-      <div>
+      <div className='content'>
+        {userHeader}
         <CanvasComponent imageWidth={this.state.imageWidth}
           image={this.state.image} tweets={this.state.tweets}
           updatePositions={this.state.updatePositions}

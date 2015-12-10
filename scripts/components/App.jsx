@@ -28,9 +28,7 @@ var App = React.createClass({
       var image = 'images/' + user.image;
       var style = {
         height: 100,
-        borderRadius: 50,
-        margin: 5,
-        boxShadow: this.state.selectedUser.name === user.name ? '0 0 10px yellow' : 'none',
+        opacity: this.state.selectedUser.name === user.name ? 1 : .25,
         cursor: 'pointer'
       };
       return (
@@ -42,9 +40,18 @@ var App = React.createClass({
     var content = (<ContentComponent user={this.state.selectedUser} showSummary={true} />);
 
     return (
-      <div>
-        {twitterContent}
-        {users}
+      <div className='main'>
+        <div className='landing'>
+          {twitterContent}
+          <div>
+            <h1>tweety</h1>
+            <h3>a portrait of tweets</h3>
+          </div>
+        </div>
+        <div className='choose'>
+          <div className='header'>1. CHOOSE</div>
+          {users}
+        </div>
         {content}
       </div>
     );

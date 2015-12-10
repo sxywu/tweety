@@ -56,15 +56,6 @@ var TweetSummary = React.createClass({
       paddingBottom: '20px',
       color: '#666'
     };
-    var headerStyle = {
-      border: '2px solid #666',
-      margin: '5px 0',
-      padding: '4px 10px',
-      color: '#666',
-      fontFamily: 'Helvetica',
-      fontWeight: 600,
-      fontSize: '1.25em',
-    };
     var subsectionStyle = {
       width: '40%',
       display: 'inline-block',
@@ -121,11 +112,11 @@ var TweetSummary = React.createClass({
     return (
       <div className='tweetSummary'>
         <div style={sectionStyle}>
-          <div style={headerStyle}>SORT</div>
+          <div className='header'>2. SORT</div>
           {sorts}
         </div>
         <div style={sectionStyle}>
-          <div style={headerStyle}>HOVER &amp; CLICK</div>
+          <div className='header'>3. HOVER &amp; CLICK</div>
           <ol>
             <strong>Types</strong>
             {types}
