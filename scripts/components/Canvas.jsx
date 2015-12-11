@@ -25,7 +25,8 @@ var Canvas = React.createClass({
   },
 
   componentDidMount() {
-    this.ctx = this.refs.canvas.getDOMNode().getContext('2d');
+    this.canvas = this.refs.canvas.getDOMNode();
+    this.ctx = this.canvas.getContext('2d');
     this.hiddenCtx = this.refs.hiddenCanvas.getDOMNode().getContext('2d');
   },
 
@@ -36,6 +37,8 @@ var Canvas = React.createClass({
     if (nextProps.updatePositions) {
       // calculate tweet positions and interpolaters
       var tweetIndex = 0;
+      var parentX = this.canvas.offsetLeft;
+      var parentY = this.canvas.offsetTop;
       _.each(nextProps.image, (pixel, i) => {
         if (!pixel) {
           // if pixel is filled, then assign a tweet to it
@@ -47,7 +50,9 @@ var Canvas = React.createClass({
           tweet.py = tweet.y;
           tweet.x =  (i % nextProps.imageWidth) * this.scaleFactor + this.scaleFactor / 2 + padding;
           tweet.y =  Math.floor(i / nextProps.imageWidth) * this.scaleFactor + this.scaleFactor / 2 + padding;
-          
+          tweet.clientX = tweet.x + parentX;
+          tweet.clientY = tweet.y + parentY;
+
           tweet.interpolateX = d3.interpolateNumber(tweet.px || tweet.x, tweet.x);
           tweet.interpolateY = d3.interpolateNumber(tweet.py || tweet.y, tweet.y);
         }
