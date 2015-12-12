@@ -129,7 +129,10 @@ var Content = React.createClass({
           .value();
 
         this.setState({
-          imageWidth, image, user, tweets, colToTweet, updatePositions: true
+          imageWidth, image, user, tweets, colToTweet, updatePositions: true,
+          hoveredTweet: null,
+          sort: 'date',
+          click: null,
         });
       });      
     }
