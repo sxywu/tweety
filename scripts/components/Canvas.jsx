@@ -89,7 +89,7 @@ var Canvas = React.createClass({
       var fe = fisheye(tweet);
       var x = elapsed ? tweet.interpolateX(t) : fe.x;
       var y = elapsed ? tweet.interpolateY(t) : fe.y;
-      var radius = this.scaleFactor * tweet.opacity * Math.min(2, fe.z);
+      var radius = (this.scaleFactor * 2 / 3) * tweet.opacity * Math.min(2, fe.z);
 
       // first fill the visible canvas
       if (tweet.clicked || !tweet.grayed) {
