@@ -46,7 +46,7 @@ var Content = React.createClass({
     var canvas = document.getElementById('getImageData');
     var ctx = canvas.getContext('2d');
     var img = new Image();
-    img.src = 'images/' + nextProps.user.image;
+    img.src = nextProps.user.image;
 
     img.onload = () => {
       canvas.width = img.width;
