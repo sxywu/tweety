@@ -1,3 +1,4 @@
 
 credentials.js
 node_modules/*
+scripts/bundle.js
