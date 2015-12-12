@@ -41,6 +41,11 @@ var Content = React.createClass({
   },
 
   componentWillReceiveProps(nextProps) {
+    if (nextProps.user.name === this.state.user.screenName) {
+      // if we've already calculated the image, don't calculate again
+      return;
+    }
+
     // load the data
     var name = nextProps.user.name;
     var canvas = document.getElementById('getImageData');
@@ -100,6 +105,7 @@ var Content = React.createClass({
           .range([.25, 1]);
         var colToTweet = {};
 
+        var numTweetsNotShown = user.numTweets - _.size(tweets);
         tweets = _.chain(tweets)
           .sortBy(function(tweet) {
             tweet.date = new Date(tweet.created_at);
@@ -122,7 +128,7 @@ var Content = React.createClass({
             colToTweet[tweet.uniqColor] = tweet;
             return tweet.date;
           }).sortBy(function(tweet, i) {
-            tweet.index = (user.numTweets - _.size(tweets)) + i + 1;
+            tweet.index = numTweetsNotShown + i + 1;
             return -tweet.date;
           }) // only work with the as many tweets as pixels
           .slice(0, _.filter(image, (pixel) => !pixel).length)
