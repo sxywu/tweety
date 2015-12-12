@@ -122,7 +122,7 @@ var Content = React.createClass({
             colToTweet[tweet.uniqColor] = tweet;
             return tweet.date;
           }).sortBy(function(tweet, i) {
-            tweet.index = i;
+            tweet.index = (user.numTweets - _.size(tweets)) + i + 1;
             return -tweet.date;
           }) // only work with the as many tweets as pixels
           .slice(0, _.filter(image, (pixel) => !pixel).length)
