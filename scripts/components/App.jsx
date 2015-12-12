@@ -25,7 +25,7 @@ var App = React.createClass({
 
   render() {
     var users = _.map(this.state.users, (user) => {
-      var image = 'images/' + user.image;
+      var image = user.image;
       var style = {
         height: 100,
         opacity: this.state.selectedUser.name === user.name ? 1 : .25,
