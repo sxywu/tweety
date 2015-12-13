@@ -55,95 +55,141 @@
   "image": "images/eugeneteo.png",
   "imageWidth": 80
 }, {
+  "name": "kosamari",
+  "imageWidth": 100,
+  "image": "images/kosamari.jpg"
+}, {
+  "name": "thousand_skies",
+  "imageWidth": 80,
+  "image": "images/thousand_skies.jpg"
+}, {
   "name": "sailorhg",
   "image": "images/sailorhg.png",
   "imageWidth": 100
-}, {
-  "name": "fwong",
-  "image": "images/fwong.jpg",
-  "imageWidth": 80
-}, {
-  "name": "rocketjumptweet",
-  "image": "images/rocketjumptweet.png",
-  "imageWidth": 80
-}, {
-  "name": "markiplier",
-  "image": "images/markiplier.png",
-  "imageWidth": 90
-}, {
-  "name": "philipwang",
-  "image": "images/philipwang.jpeg",
-  "imageWidth": 80
-}, {
-  "name": "thewesleychan",
-  "image": "images/thewesleychan.jpg",
-  "imageWidth": 80
-}, {
-  "name": "tedfu",
-  "image": "images/tedfu.jpeg",
-  "imageWidth": 80
-}, {
-  "name": "alexgoot",
-  "image": "images/alexgoot.jpeg",
-  "imageWidth": 70
-}, {
-  "name": "KurtHSchneider",
-  "image": "images/KurtHSchneider.jpeg",
-  "imageWidth": 80
-}, {
-  "name": "eatyourkimchi",
-  "image": "images/eatyourkimchi.jpg",
-  "imageWidth": 100
-}, {
-  "name": "AnnaAkana",
-  "image": "images/AnnaAkana.jpg",
-  "imageWidth": 75
-}, {
-  "name": "fluffyguy",
-  "image": "images/fluffyguy.jpg",
-  "imageWidth": 80
-}, {
-  "name": "taylorswift13",
-  "image": "images/taylorswift13.jpeg",
-  "imageWidth": 80
-}, {
-  "name": "EmWatson",
-  "image": "images/EmWatson.jpg",
-  "imageWidth": 50
-}, {
-  "name": "AnnaKendrick47",
-  "image": "images/AnnaKendrick47.jpeg",
-  "imageWidth": 70
-}, {
-  "name": "PTXofficial",
-  "image": "images/PTXofficial.png",
-  "imageWidth": 100
-}, {
-  "name": "psy_oppa",
-  "image": "images/psy_oppa.jpg",
-  "imageWidth": 80
-}, {
-  "name": "danielhenney",
-  "image": "images/danielhenney.jpg",
-  "imageWidth": 60
-}, {
-  "name": "jimmyfallon",
-  "image": "images/jimmyfallon.jpg",
-  "imageWidth": 100
-}, {
-  "name": "ConanOBrien",
-  "image": "images/ConanOBrien.jpg",
-  "imageWidth": 70
-}, {
-  "name": "big_ben_clock",
-  "image": "images/big_ben_clock.png",
-  "imageWidth": 100
-}, {
-  "name": "DisneyPixar",
-  "image": "images/DisneyPixar.jpg",
-  "imageWidth": 80
-}, {
-  "name": "twitter",
-  "image": "images/twitter.png",
-  "imageWidth": 200
-}]
+}, 
+   {  
+      "name":"inspired12",
+      "imageWidth":80,
+      "image":"images/inspired12.jpg"
+   },
+   {  
+      "name":"PatrickMakes",
+      "imageWidth":70,
+      "image":"images/PatrickMakes.jpeg"
+   },
+   {  
+      "name":"fwong",
+      "imageWidth":80,
+      "image":"images/fwong.jpg"
+   },
+   {  
+      "name":"rocketjumptweet",
+      "imageWidth":80,
+      "image":"images/rocketjumptweet.png"
+   },
+   {  
+      "name":"markiplier",
+      "imageWidth":90,
+      "image":"images/markiplier.png"
+   },
+   {  
+      "name":"wongfupro",
+      "imageWidth":100,
+      "image":"images/wongfupro.png"
+   },
+   {  
+      "name":"philipwang",
+      "imageWidth":80,
+      "image":"images/philipwang.jpeg"
+   },
+   {  
+      "name":"thewesleychan",
+      "imageWidth":80,
+      "image":"images/thewesleychan.jpg"
+   },
+   {  
+      "name":"tedfu",
+      "imageWidth":80,
+      "image":"images/tedfu.jpeg"
+   },
+   {  
+      "name":"alexgoot",
+      "imageWidth":70,
+      "image":"images/alexgoot.jpeg"
+   },
+   {  
+      "name":"KurtHSchneider",
+      "imageWidth":80,
+      "image":"images/KurtHSchneider.jpeg"
+   },
+   {  
+      "name":"eatyourkimchi",
+      "imageWidth":100,
+      "image":"images/eatyourkimchi.jpg"
+   },
+   {  
+      "name":"AnnaAkana",
+      "imageWidth":75,
+      "image":"images/AnnaAkana.jpg"
+   },
+   {  
+      "name":"fluffyguy",
+      "imageWidth":80,
+      "image":"images/fluffyguy.jpg"
+   },
+   {  
+      "name":"taylorswift13",
+      "imageWidth":80,
+      "image":"images/taylorswift13.jpeg"
+   },
+   {  
+      "name":"EmWatson",
+      "imageWidth":50,
+      "image":"images/EmWatson.jpg"
+   },
+   {  
+      "name":"AnnaKendrick47",
+      "imageWidth":70,
+      "image":"images/AnnaKendrick47.jpeg"
+   },
+   {  
+      "name":"PTXofficial",
+      "imageWidth":100,
+      "image":"images/PTXofficial.png"
+   },
+   {  
+      "name":"psy_oppa",
+      "imageWidth":80,
+      "image":"images/psy_oppa.jpg"
+   },
+   {  
+      "name":"danielhenney",
+      "imageWidth":60,
+      "image":"images/danielhenney.jpg"
+   },
+   {  
+      "name":"jimmyfallon",
+      "imageWidth":100,
+      "image":"images/jimmyfallon.jpg"
+   },
+   {  
+      "name":"ConanOBrien",
+      "imageWidth":70,
+      "image":"images/ConanOBrien.jpg"
+   },
+   {  
+      "name":"big_ben_clock",
+      "imageWidth":100,
+      "image":"images/big_ben_clock.png"
+   },
+   {  
+      "name":"DisneyPixar",
+      "imageWidth":80,
+      "image":"images/DisneyPixar.jpg"
+   },
+   {  
+      "name":"twitter",
+      "imageWidth":200,
+      "image":"images/twitter.png"
+   }
+]
