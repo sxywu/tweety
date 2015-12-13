@@ -97,7 +97,7 @@ function getUser(userFile) {
     userObj.screen_name = user.screen_name;
     userObj.name = user.name;
     userObj.numTweets = user.statuses_count;
-    userObj.numFollowers = user.followers_count;
+    userFile.numFollowers = userObj.numFollowers = user.followers_count;
 
     // download image, code from http://stackoverflow.com/questions/12740659/downloading-images-with-node-js
     var uri = user.profile_image_url.replace('_normal', '');

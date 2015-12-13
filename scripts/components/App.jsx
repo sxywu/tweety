@@ -24,17 +24,19 @@ var App = React.createClass({
   },
 
   render() {
-    var users = _.map(this.state.users, (user) => {
-      var image = user.image;
-      var style = {
-        height: 100,
-        opacity: this.state.selectedUser.name === user.name ? 1 : .25,
-        cursor: 'pointer'
-      };
-      return (
-        <img src={image} style={style} onClick={this.clickImage.bind(this, user)}/>
-      );
-    });
+    var users = _.chain(this.state.users)
+      .sortBy((user) => -user.numFollowers)
+      .map((user) => {
+        var image = user.image;
+        var style = {
+          height: 100,
+          opacity: this.state.selectedUser.name === user.name ? 1 : .25,
+          cursor: 'pointer'
+        };
+        return (
+          <img src={image} style={style} onClick={this.clickImage.bind(this, user)}/>
+        )
+      }).value();
     var twitter = _.find(this.state.users, (user) => user.name === 'twitter');
     var twitterContent = (<ContentComponent user={twitter} showSummary={false} />);
     var content = (<ContentComponent user={this.state.selectedUser} showSummary={true} />);
