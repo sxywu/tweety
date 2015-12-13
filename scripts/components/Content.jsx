@@ -98,7 +98,7 @@ var Content = React.createClass({
       });
       image = image.slice(0, rawImage.length);
 
-      d3.json('data/' + name + '.json', (rawUser) => {
+      d3.json('data/' + name + '-min.json', (rawUser) => {
         var user = {
           name: rawUser.name,
           screenName: rawUser.screen_name,
@@ -119,14 +119,23 @@ var Content = React.createClass({
           .range([.25, 1]);
         var colToTweet = {};
 
+        var ids = Object.keys(tweets);
+        ids.forEach(function(id) {
+          tweets[id].id = id;
+          tweets[id].user_id = rawUser.id
+        })
+
         var numTweetsNotShown = user.numTweets - _.size(tweets);
         tweets = _.chain(tweets)
           .sortBy(function(tweet) {
-            tweet.date = new Date(tweet.created_at);
+            //tweet.date = new Date(tweet.created_at);
+            tweet.date = new Date(tweet.c);
             tweet.opacity = opacityScale(tweet.stats.favorites + 1);
             // make hashtags and user_mentions lower case so that they unique correctly
-            tweet.hashtags = _.map(tweet.hashtags, (hashtag) => hashtag.toLowerCase());
-            _.each(tweet.user_mentions, (mention) => {
+            //tweet.hashtags = _.map(tweet.hashtags, (hashtag) => hashtag.toLowerCase());
+            tweet.h = _.map(tweet.h || [], (hashtag) => hashtag.toLowerCase());
+            //_.each(tweet.user_mentions, (mention) => {
+            _.each(tweet.um || [], (mention) => {
               mention.name = mention.name.toLowerCase();
             });
             // then calculate tweet type
@@ -248,18 +257,22 @@ var Content = React.createClass({
       if (type === 'type') {
         tweet.grayed = value && tweet.type !== value;
       } else if (type === 'hashtag') {
-        tweet.grayed = value && !_.contains(tweet.hashtags, value);
+        //tweet.grayed = value && !_.contains(tweet.hashtags, value);
+        tweet.grayed = value && !_.contains(tweet.h || [], value);
       } else if (type === 'mention') {
-        tweet.grayed = value && !_.chain(tweet.user_mentions)
+        //tweet.grayed = value && !_.chain(tweet.user_mentions)
+        tweet.grayed = value && !_.chain(tweet.um || [])
           .pluck('name').contains(value).value();
       }
       if (clicked) {
         if (clicked.type === 'type') {
           tweet.clicked = tweet.type === clicked.value;
         } else if (clicked.type === 'hashtag') {
-          tweet.clicked = _.contains(tweet.hashtags, clicked.value);
+          //tweet.clicked = _.contains(tweet.hashtags, clicked.value);
+          tweet.clicked = _.contains(tweet.h || [], clicked.value);
         } else if (clicked.type === 'mention') {
-          tweet.clicked = _.chain(tweet.user_mentions)
+          //tweet.clicked = _.chain(tweet.user_mentions)
+          tweet.clicked = _.chain(tweet.um || [])
             .pluck('name').contains(clicked.value).value();
         }
         // only if unhovered, should tweet.grayed be reliant on tweet.clicked
