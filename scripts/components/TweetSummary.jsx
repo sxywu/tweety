@@ -92,7 +92,8 @@ var TweetSummary = React.createClass({
         return this.renderHoverClick('type', type[0], type[1], color);
       }).value();
     var hashtags = _.chain(this.props.tweets)
-      .pluck('hashtags').flatten()
+      //.pluck('hashtags').flatten()
+      .pluck('h').flatten()
       .countBy().pairs()
       .sortBy((hashtag) => -hashtag[1])
       .slice(0, 5)
@@ -100,13 +101,15 @@ var TweetSummary = React.createClass({
         return this.renderHoverClick('hashtag', hashtag[0], hashtag[1], '#666');
       }).value();
     var lowerCaseName = this.props.name && this.props.name.toLowerCase();
+
     var mentions = _.chain(this.props.tweets)
-      .pluck('user_mentions').flatten()
+      //.pluck('user_mentions').flatten()
+      .pluck('um').flatten()
       .pluck('name').flatten()
       .countBy().pairs()
       .filter((mention) => mention[0] !== lowerCaseName)
       .sortBy((mention) => -mention[1])
-      .slice(0, 5)
+      .slice(1, 6) // we skip the first mention which is undefined (i.e. no mentions in a tweet)
       .map((mention) => {
         return this.renderHoverClick('mention', mention[0], mention[1], '#666');
       }).value();
