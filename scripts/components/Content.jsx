@@ -312,8 +312,8 @@ var Content = React.createClass({
             onMouseMove={this.mousemoveCanvas} onClick={this.clickCanvas} />
           {loadingIndicator}
           {tweetSummary}
+          <TweetComponent hoveredTweet={this.state.hoveredTweet} />
         </div>
-        <TweetComponent hoveredTweet={this.state.hoveredTweet} />
       </div>
     );
   }

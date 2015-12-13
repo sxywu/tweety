@@ -13,8 +13,8 @@ var Tweet = React.createClass({
   render() {
     var hoveredTweet = this.props.hoveredTweet;
     if (hoveredTweet) {
-      var top = hoveredTweet.clientY + 20;
-      var left = hoveredTweet.clientX + 20;
+      var top = hoveredTweet.y + 20;
+      var left = hoveredTweet.x + 20;
       var tweetStyle = {
         padding: '10px',
         width: '400px',
