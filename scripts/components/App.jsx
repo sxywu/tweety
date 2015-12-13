@@ -53,6 +53,9 @@ var App = React.createClass({
           {users}
         </div>
         {content}
+        <div className='about'>
+        
+        </div>
       </div>
     );
   }
