@@ -8,6 +8,7 @@ var tweetColors = {
   'tweet': [0,136,204], // blue
   'favorite': [189,54,47] // red
 };
+var numFormat = d3.format(',');
 var dateFormat = d3.time.format("%Y-%m-%d");
 var Tweet = React.createClass({
   render() {
@@ -43,8 +44,8 @@ var Tweet = React.createClass({
           </div>
           <p dangerouslySetInnerHTML={{__html: hoveredTweet.text}} />
           <span style={dateStyle}>
-            <strong>{hoveredTweet.stats.favorites}</strong> favorites,
-            <strong> {hoveredTweet.stats.retweets}</strong> retweets
+            <strong>{numFormat(hoveredTweet.stats.favorites)}</strong> favorites,
+            <strong> {numFormat(hoveredTweet.stats.retweets)}</strong> retweets
           </span>
         </div>
       );

@@ -99,10 +99,12 @@ var TweetSummary = React.createClass({
       .map((hashtag) => {
         return this.renderHoverClick('hashtag', hashtag[0], hashtag[1], '#666');
       }).value();
+    var lowerCaseName = this.props.name && this.props.name.toLowerCase();
     var mentions = _.chain(this.props.tweets)
       .pluck('user_mentions').flatten()
       .pluck('name').flatten()
       .countBy().pairs()
+      .filter((mention) => mention[0] !== lowerCaseName)
       .sortBy((mention) => -mention[1])
       .slice(0, 5)
       .map((mention) => {

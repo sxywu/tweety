@@ -46,6 +46,7 @@ var App = React.createClass({
           <div>
             <h1>tweety</h1>
             <h3>a portrait of tweets</h3>
+            <h1>&darr;</h1>
           </div>
         </div>
         <div className='choose'>
@@ -54,7 +55,7 @@ var App = React.createClass({
         </div>
         {content}
         <div className='about'>
-        
+
         </div>
       </div>
     );

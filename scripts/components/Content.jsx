@@ -276,15 +276,15 @@ var Content = React.createClass({
     var userHeader = this.props.showSummary &&
       (<div className='userHeader'>
         <a href={'http://www.twitter.com/' + this.state.user.screenName} target='_new'>
-          {this.state.user.name && this.state.user.name.toUpperCase()} ({this.state.user.screenName})
-        </a>
+          {this.state.user.name && this.state.user.name.toUpperCase()}
+        </a> ({this.state.user.screenName})
         <div className='subtitle'>
           displaying {numFormat(this.state.tweets.length)} of {numFormat(this.state.user.numTweets)} tweets
         </div>
       </div>);
     var tweetSummary = this.props.showSummary &&
       (<TweetSummaryComponent sort={this.state.sort} click={this.state.click}
-        tweets={this.state.tweets} hoveredTweet={this.state.hoveredTweet}
+        name={this.state.user.screenName} tweets={this.state.tweets} hoveredTweet={this.state.hoveredTweet}
         onClick={this.clickSummary} onHover={this.hoverSummary} />);
     var loadingStyle = {
       position: 'absolute',
