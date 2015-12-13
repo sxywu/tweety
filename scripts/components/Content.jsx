@@ -40,10 +40,24 @@ var Content = React.createClass({
     };
   },
 
+  componentDidMount() {
+    this.loadingIndicator = this.refs.loading && this.refs.loading.getDOMNode();
+    if (this.loadingIndicator) {
+      // React gods please don't be mad at me.
+      // I realize this isn't the best way to do things.
+      this.loadingIndicator.style.display = 'none';  
+    }
+  },
+
   componentWillReceiveProps(nextProps) {
     if (nextProps.user.name === this.state.user.screenName) {
       // if we've already calculated the image, don't calculate again
       return;
+    }
+
+    // i'm sorry.  this feels wrong.  but it's too much work to do it the right way now.
+    if (this.loadingIndicator) {
+      this.loadingIndicator.style.display = 'block';  
     }
 
     // load the data
@@ -133,6 +147,11 @@ var Content = React.createClass({
           }) // only work with the as many tweets as pixels
           .slice(0, _.filter(image, (pixel) => !pixel).length)
           .value();
+
+        // again.  i'm sorry React gods.  i hope this doesn't make bugs.
+        if (this.loadingIndicator) {
+          this.loadingIndicator.style.display = 'none';  
+        }
 
         this.setState({
           imageWidth, image, user, tweets, colToTweet, updatePositions: true,
@@ -267,15 +286,33 @@ var Content = React.createClass({
       (<TweetSummaryComponent sort={this.state.sort} click={this.state.click}
         tweets={this.state.tweets} hoveredTweet={this.state.hoveredTweet}
         onClick={this.clickSummary} onHover={this.hoverSummary} />);
+    var loadingStyle = {
+      position: 'absolute',
+      top: 0,
+      width: '540px',
+      height: '540px',
+      textAlign: 'center',
+      verticalAlign: 'middle',
+      backgroundColor: 'rgba(255,255,255,.75)'
+    };
+    var loadingIndicator = this.props.showSummary && (
+      <div ref='loading' style={loadingStyle}>
+        <img src='images/tuzki4.gif' style={{marginTop: '200px'}}/>
+        <p>crunching that delicious data 💕</p>
+      </div>
+    );
 
     return (
       <div className='content'>
         {userHeader}
-        <CanvasComponent imageWidth={this.state.imageWidth}
-          image={this.state.image} tweets={this.state.tweets}
-          updatePositions={this.state.updatePositions}
-          onMouseMove={this.mousemoveCanvas} onClick={this.clickCanvas} />
-        {tweetSummary}
+        <div style={{position: 'relative'}}>
+          <CanvasComponent imageWidth={this.state.imageWidth}
+            image={this.state.image} tweets={this.state.tweets}
+            updatePositions={this.state.updatePositions}
+            onMouseMove={this.mousemoveCanvas} onClick={this.clickCanvas} />
+          {loadingIndicator}
+          {tweetSummary}
+        </div>
         <TweetComponent hoveredTweet={this.state.hoveredTweet} />
       </div>
     );
