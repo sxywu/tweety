@@ -14,7 +14,7 @@ var App = React.createClass({
 
   componentWillMount() {
     d3.json('data/users.json', (err, users) => {
-      var selectedUser = users[0];
+      var selectedUser = users[_.random(1, users.length - 1)];
       this.setState({users, selectedUser});
     });
   },
