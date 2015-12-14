@@ -96,7 +96,7 @@ One fateful November evening, <a href='http://twitter.com/shirleyxywu' target='_
           <p>
 Currently, #tweetyviz is a curated collection of celebrities and developers whose twitter profiles have met the following criteria:
 <ol>
-  <li>at least 1500 tweets to render meaningfully, 3000+ tweets to render optimally</li>
+  <li>profile has at least 1500 tweets to render meaningfully, 3000+ tweets to render optimally</li>
   <li>profile image has sufficient contrast, and (optimally) a gradient of colors</li>
 </ol>
 As such, the data are currently being manually pulled.
