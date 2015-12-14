@@ -54,7 +54,7 @@ var App = React.createClass({
         };
         return (
           <img src={image} style={style} onClick={this.clickImage.bind(this, user)}/>
-        )
+        );
       }).value();
     var twitter = _.find(this.state.users, (user) => user.name === 'twitter');
     var twitterContent = (<ContentComponent user={twitter} showSummary={false} />);
@@ -80,7 +80,38 @@ var App = React.createClass({
           {content}
         </div>
         <div className='about'>
-
+          <img src='images/shirleyxywu.jpeg' style={{width: 150, borderRadius: 150}} />
+          <h2>about tweety</h2>
+          <p>
+          "I tawt I taw a puddy tat!"
+          </p>
+          <p>
+One fateful November evening, <a href='http://twitter.com/shirleyxywu' target='_new'>@shirleyxywu</a> made the trek up to SF for her first ever <a href='https://wafflejs.com/' target='_new'>wafflejs</a>.
+  There, she was ridiculously inspired by <a href='https://twitter.com/kosamari' target='_new'>@kosamari</a>'s talk on canvas and image processing.
+  On the drive home, she couldn't stop thinking about it: <a href='https://twitter.com/shirleyxywu/status/662181207560450048' target='_new'>what if we mapped pixels in an image to social media activity</a>?
+  A few days later, <a href='https://twitter.com/search?q=%23tweetyviz' target='_new'>#tweetyviz</a> was born.
+          </p>
+          <br />
+          <h3>criteria</h3>
+          <p>
+Currently, #tweetyviz is a curated collection of celebrities and developers whose twitter profiles have met the following criteria:
+<ol>
+  <li>at least 1500 tweets to render meaningfully, 3000+ tweets to render optimally</li>
+  <li>profile image has sufficient contrast, and (optimally) a gradient of colors</li>
+</ol>
+As such, the data are currently being manually pulled.
+<h4>Let me know (tweet @shirleyxywu or #tweetyviz) if you want to see your or your favorite celebrity's #tweetyviz, or alternatively, if you want to see #tweetyviz automated so you can do it yourself 😎</h4>
+          </p>
+          <br />
+          <h3>thank you</h3>
+          <p>
+Finally, this obsession would not have been as smooth without the unfailing and at times begrudging (distracting) support from my other half,
+ and the amazing friends I have made in the <a href='https://twitter.com/search?q=%23d3js' target='new'>#d3js</a> community.  They include, but definitely aren't
+ limited to: <a href='http://twitter.com/enjalot' target='_new'>@enjalot</a>, <a href='http://twitter.com/jsundram' target='_new'>@jsundram</a>
+ , <a href='http://twitter.com/Elijah_Meeks' target='_new'>@Elijah_Meeks</a>, <a href='http://twitter.com/zanstrong' target='_new'>@zanstrong</a>
+ , <a href='http://twitter.com/vlandham' target='_new'>@vlandham</a>, <a href='http://twitter.com/syntagmatic' target='_new'>@syntagmatic</a>.
+  Thank you so much for being an amazing influence in my life. 
+          </p>
         </div>
       </div>
     );
