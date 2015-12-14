@@ -62,3 +62,11 @@ body {
 a {
   color: #666;
 }
+
+
+@media (max-device-width: 480px), (max-device-width: 568px), (max-device-width: 667px), (max-device-width: 736px), (device-width: 320px) 
+  and (device-height: 640px) {
+  .main {
+    width: 540px;
+  }
+}
