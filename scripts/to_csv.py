@@ -2,6 +2,7 @@ import csv
 from datetime import datetime
 import glob
 import json
+import string
 
 
 """
@@ -39,10 +40,17 @@ def parse_time(t):
 
 def flatten(tweet_id, tweet):
     """Takes a tweet_id, tweet pair and returns a row suitable for insertion to a CSV."""
+    type_value = ''
+    if 'retweet' in tweet:
+        type_value = 'rt:%s' % tweet['retweet']['id']
+    elif 'in_reply_to' in tweet:
+        type_value = 'r:%s' % tweet['in_reply_to']['user_id']
+
     return [
         tweet_id,
         parse_time(tweet['c']),
-        json.dumps(tweet.get('h', [])),
+        json.dumps(map(string.lower, tweet.get('h', []))),
+        type_value,
         tweet['stats']['favorites'],
         tweet['stats']['retweets'],
         tweet['text'].encode('utf-8'),
@@ -66,7 +74,7 @@ def process(filename, metadata):
     with open(outfile, 'w') as f:
         w = csv.writer(f)
 
-        w.writerow('tweet_id, time, hashtags, faves, retweets, text, mentions'.split(', '))
+        w.writerow('tweet_id, time, hashtags, type, faves, retweets, text, mentions'.split(', '))
         for (k, v) in data['tweets'].iteritems():
             row, mentions = flatten(k, v)
             w.writerow(row)

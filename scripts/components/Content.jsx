@@ -16,7 +16,7 @@ function genColor(){
   // via http://stackoverflow.com/a/15804183
   if(nextCol < 16777215){
     ret.push(nextCol & 0xff); // R
-    ret.push((nextCol & 0xff00) >> 8); // G 
+    ret.push((nextCol & 0xff00) >> 8); // G
     ret.push((nextCol & 0xff0000) >> 16); // B
 
     nextCol += 100; // This is exagerated for this example and would ordinarily be 1.
@@ -32,6 +32,7 @@ var Content = React.createClass({
       imageWidth: 50,
       image: [],
       user: {},
+      global_metadata: {}, // TODO: maybe not the best way to accomplish this, but only want to load once.
       tweets: [],
       hoveredTweet: null,
       sort: 'date',
@@ -45,7 +46,7 @@ var Content = React.createClass({
     if (this.loadingIndicator) {
       // React gods please don't be mad at me.
       // I realize this isn't the best way to do things.
-      this.loadingIndicator.style.display = 'none';  
+      this.loadingIndicator.style.display = 'none';
     }
   },
 
@@ -57,7 +58,7 @@ var Content = React.createClass({
 
     // i'm sorry.  this feels wrong.  but it's too much work to do it the right way now.
     if (this.loadingIndicator) {
-      this.loadingIndicator.style.display = 'block';  
+      this.loadingIndicator.style.display = 'block';
     }
 
     // load the data
@@ -87,7 +88,7 @@ var Content = React.createClass({
       _.each(image, function(oldPixel, i) {
         var newPixel = oldPixel > threshold ? 255 : 0;
         var error = (oldPixel - newPixel) >> 3;
-        
+
         image[i] = newPixel;
         image[i + 1] += error;
         image[i + 1] += error;
@@ -98,17 +99,46 @@ var Content = React.createClass({
       });
       image = image.slice(0, rawImage.length);
 
-      d3.json('data/' + name + '-min.json', (rawUser) => {
+      var getName = (s) => {
+        var metadata = nextProps.global_metadata[s];
+        return metadata ? metadata.name : '';
+      }
+      d3.csv("data/" + name + ".csv")
+      .row((r) => {
+        return {
+          id: r.tweet_id,
+          date: new Date(+r.time * 1000),
+          // Hashtags are already lowercased; did this in to_csv.py.
+          h: JSON.parse(r.hashtags),
+          stats: {favorites: +r.faves, retweets: +r.retweets},
+          text: r.text,
+          type: r.type.startsWith('rt:') ? 'retweet' : r.type.startsWith('r:') ? 'reply' : 'tweet',
+          // Saved space by not sending the name; twitter just needs the id for the link to work. (hence "unnecessary").
+          retweet: r.type.startsWith('rt:') ? {id: r.type.slice(3), name: 'unnecessary'} : null,
+          // Saved space by not sending the id of the tweet replied to; it wasn't used.
+          in_reply_to: r.type.startsWith('r:') ? {'id': -1, name: getName(r.type.slice(2)), user_id: r.type.slice(2)}: null,
+
+          um: JSON.parse(r.mentions).map((m) => {return {name: getName(m).toLowerCase(), user_id: m}}),
+          name: name,
+          user_id: nextProps.user.id
+        }
+      })
+      .get((error, tweets) => {
+        if (error){
+          console.log("ERROR!", error);
+        }
+
         var user = {
-          name: rawUser.name,
-          screenName: rawUser.screen_name,
-          numTweets: rawUser.numTweets,
+          name: nextProps.user.fullname,
+          screenName: nextProps.user.name,
+          numTweets: nextProps.user.numTweets
         };
-        var tweets = rawUser.tweets;
-        // process the tweets
+
+        // process the tweets!
         var minOpacity = _.min(tweets, function(tweet) {
           return tweet.stats.favorites;
         });
+
         minOpacity = minOpacity.stats.favorites + 1;
         var maxOpacity = _.max(tweets, function(tweet) {
           return tweet.stats.favorites;
@@ -117,36 +147,14 @@ var Content = React.createClass({
         var opacityScale = d3.scale.log()
           .domain([minOpacity, maxOpacity])
           .range([.25, 1]);
+
         var colToTweet = {};
-
-        var ids = Object.keys(tweets);
-        ids.forEach(function(id) {
-          tweets[id].id = id;
-          tweets[id].user_id = rawUser.id
-        })
-
         var numTweetsNotShown = user.numTweets - _.size(tweets);
         tweets = _.chain(tweets)
           .sortBy(function(tweet) {
-            //tweet.date = new Date(tweet.created_at);
-            tweet.date = new Date(tweet.c);
             tweet.opacity = opacityScale(tweet.stats.favorites + 1);
-            // make hashtags and user_mentions lower case so that they unique correctly
-            //tweet.hashtags = _.map(tweet.hashtags, (hashtag) => hashtag.toLowerCase());
-            tweet.h = _.map(tweet.h || [], (hashtag) => hashtag.toLowerCase());
-            //_.each(tweet.user_mentions, (mention) => {
-            _.each(tweet.um || [], (mention) => {
-              mention.name = mention.name.toLowerCase();
-            });
-            // then calculate tweet type
-            if (tweet.retweet) {
-              tweet.type = 'retweet';
-            } else if (tweet.in_reply_to) {
-              tweet.type = 'reply';
-            } else {
-              tweet.type = 'tweet';
-            }
-            // and then remember the tweet by its unique color
+
+            // remember the tweet by its unique color
             tweet.uniqColor = genColor();
             colToTweet[tweet.uniqColor] = tweet;
             return tweet.date;
@@ -159,7 +167,7 @@ var Content = React.createClass({
 
         // again.  i'm sorry React gods.  i hope this doesn't make bugs.
         if (this.loadingIndicator) {
-          this.loadingIndicator.style.display = 'none';  
+          this.loadingIndicator.style.display = 'none';
         }
 
         this.setState({
@@ -168,7 +176,8 @@ var Content = React.createClass({
           sort: 'date',
           click: null,
         });
-      });      
+      });
+
     }
   },
 
@@ -280,7 +289,7 @@ var Content = React.createClass({
           tweet.grayed = !tweet.clicked;
         }
       }
-      
+
     });
   },
 
