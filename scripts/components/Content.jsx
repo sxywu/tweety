@@ -286,9 +286,9 @@ var Content = React.createClass({
 
   render() {
     var numFormat = d3.format(',');
-    var userHeader = this.props.showSummary &&
+    var userHeader = this.props.showSummary && this.state.user.name &&
       (<div className='userHeader'>
-        {this.state.user.name && this.state.user.name.toUpperCase()} <a href={'http://www.twitter.com/' + this.state.user.screenName} target='_new'>
+        {this.state.user.name.toUpperCase()} <a href={'http://www.twitter.com/' + this.state.user.screenName} target='_new'>
           ({this.state.user.screenName})
         </a>
         <div className='subtitle'>

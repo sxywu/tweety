@@ -53,7 +53,10 @@ body {
 }
 
 .about {
-  height: 600px;
+  border-top: 2px solid #666;
+  margin-top: 80px;
+  padding: 120px 20px;
+  line-height: 1.5em;
 }
 
 a {
