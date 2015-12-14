@@ -20,7 +20,26 @@ var App = React.createClass({
   },
 
   clickImage(user) {
+    var newTop = this.refs.content.getDOMNode().offsetTop - 40;
+    window.scrollTo(0, newTop);
     this.setState({selectedUser: user});
+  },
+
+  scrollToChoose() {
+    var newTop = this.refs.choose.getDOMNode().offsetTop - 20;
+    this.scrollWindow(newTop);
+  },
+
+  scrollWindow(newTop) {
+    var currentTop = window.scrollY;
+    var duration = 250;
+    d3.timer((elapsed) => {
+      var t = elapsed / duration;
+      t = (t > 1 ? 1 : t);
+      var top = (newTop - currentTop) * t + currentTop;
+      window.scrollTo(0, top);
+      return elapsed >= duration;
+    });
   },
 
   render() {
@@ -39,7 +58,9 @@ var App = React.createClass({
       }).value();
     var twitter = _.find(this.state.users, (user) => user.name === 'twitter');
     var twitterContent = (<ContentComponent user={twitter} showSummary={false} />);
-    var content = (<ContentComponent user={this.state.selectedUser} showSummary={true} />);
+    var content = (<ContentComponent user={this.state.selectedUser}
+      showSummary={true} scrollToChoose={this.scrollToChoose} />);
+    var arrowStyle = {cursor: 'pointer'};
 
     return (
       <div className='main'>
@@ -48,14 +69,16 @@ var App = React.createClass({
           <div>
             <h1>tweety</h1>
             <h3>a portrait of tweets</h3>
-            <h1>&darr;</h1>
+            <h1 style={arrowStyle} onClick={this.scrollToChoose}>&darr;</h1>
           </div>
         </div>
-        <div className='choose'>
+        <div className='choose' ref='choose'>
           <div className='header'>1. CHOOSE</div>
           {users}
         </div>
-        {content}
+        <div ref='content'>
+          {content}
+        </div>
         <div className='about'>
 
         </div>

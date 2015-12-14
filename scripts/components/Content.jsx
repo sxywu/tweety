@@ -314,10 +314,23 @@ var Content = React.createClass({
         <p>crunching that delicious data 💕</p>
       </div>
     );
+    var arrowStyle = {
+      cursor: 'pointer',
+      position: 'absolute',
+      top: 0,
+      right: 0,
+      margin: '20px 30px'
+    };
+    var arrow = this.props.showSummary && (
+      <h1 style={arrowStyle} onClick={this.props.scrollToChoose}>&uarr;</h1>
+    );
 
     return (
       <div className='content'>
-        {userHeader}
+        <div style={{position: 'relative'}}>
+          {userHeader}
+          {arrow}
+        </div>
         <div style={{position: 'relative'}}>
           <CanvasComponent imageWidth={this.state.imageWidth}
             image={this.state.image} tweets={this.state.tweets}
