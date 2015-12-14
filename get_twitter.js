@@ -27,8 +27,8 @@ function getTweets() {
           created_at: tweet.created_at,
           id: tweet.id_str,
           text: tweet.text,
-          user_id: tweet.user.id,
-          name: tweet.user.screen_name,
+          user_id: tweet.user && tweet.user.id,
+          name: tweet.user && tweet.user.screen_name,
           stats: {
             favorites: tweet.favorite_count,
             retweets: tweet.retweet_count
@@ -80,8 +80,8 @@ function getTweets() {
   });
 }
 
-function getUser(screenName) {
-  name = screenName;
+function getUser(userFile) {
+  name = userFile.name;
   userParams = {q: name, count: 1};
   params = {screen_name: name, count: 200};
   maxId = null;
@@ -97,14 +97,15 @@ function getUser(screenName) {
     userObj.screen_name = user.screen_name;
     userObj.name = user.name;
     userObj.numTweets = user.statuses_count;
+    userFile.numFollowers = userObj.numFollowers = user.followers_count;
 
     // download image, code from http://stackoverflow.com/questions/12740659/downloading-images-with-node-js
     var uri = user.profile_image_url.replace('_normal', '');
-    userObj.filename = 'images/' + userObj.screen_name + '.' + _.last(uri.split('.'));
+    userFile.filename = 'images/' + userObj.screen_name + '.' + _.last(uri.split('.'));
     request.head(uri, function(err, res, body){
 
-      request(uri).pipe(fs.createWriteStream(userObj.filename)).on('close', function() {
-        console.log(userObj.filename, 'done downloading');
+      request(uri).pipe(fs.createWriteStream(userFile.filename)).on('close', function() {
+        console.log(userFile.filename, 'done downloading');
 
         getTweets();
       });
@@ -120,9 +121,17 @@ function fetchAllUsers() {
       fetchAllUsers();
     } else if (users[i]) {
       console.log('usuer', users[i].name)
-      getUser(users[i].name);
+      getUser(users[i]);
       i += 1;
       fetchAllUsers();
+    } else {
+      // if we're done fetching data
+      // and there are no more users, then save the users file
+      // with all the new images data
+      _.each(users, function(user) {
+        console.log(user.image);
+      });
+      fs.writeFile('data/users.json', JSON.stringify(users), 'utf8');
     }
   }, 2000);
 }

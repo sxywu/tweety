@@ -40,10 +40,24 @@ var Content = React.createClass({
     };
   },
 
+  componentDidMount() {
+    this.loadingIndicator = this.refs.loading && this.refs.loading.getDOMNode();
+    if (this.loadingIndicator) {
+      // React gods please don't be mad at me.
+      // I realize this isn't the best way to do things.
+      this.loadingIndicator.style.display = 'none';  
+    }
+  },
+
   componentWillReceiveProps(nextProps) {
     if (nextProps.user.name === this.state.user.screenName) {
       // if we've already calculated the image, don't calculate again
       return;
+    }
+
+    // i'm sorry.  this feels wrong.  but it's too much work to do it the right way now.
+    if (this.loadingIndicator) {
+      this.loadingIndicator.style.display = 'block';  
     }
 
     // load the data
@@ -84,7 +98,7 @@ var Content = React.createClass({
       });
       image = image.slice(0, rawImage.length);
 
-      d3.json('data/' + name + '.json', (rawUser) => {
+      d3.json('data/' + name + '-min.json', (rawUser) => {
         var user = {
           name: rawUser.name,
           screenName: rawUser.screen_name,
@@ -105,14 +119,23 @@ var Content = React.createClass({
           .range([.25, 1]);
         var colToTweet = {};
 
+        var ids = Object.keys(tweets);
+        ids.forEach(function(id) {
+          tweets[id].id = id;
+          tweets[id].user_id = rawUser.id
+        })
+
         var numTweetsNotShown = user.numTweets - _.size(tweets);
         tweets = _.chain(tweets)
           .sortBy(function(tweet) {
-            tweet.date = new Date(tweet.created_at);
+            //tweet.date = new Date(tweet.created_at);
+            tweet.date = new Date(tweet.c);
             tweet.opacity = opacityScale(tweet.stats.favorites + 1);
             // make hashtags and user_mentions lower case so that they unique correctly
-            tweet.hashtags = _.map(tweet.hashtags, (hashtag) => hashtag.toLowerCase());
-            _.each(tweet.user_mentions, (mention) => {
+            //tweet.hashtags = _.map(tweet.hashtags, (hashtag) => hashtag.toLowerCase());
+            tweet.h = _.map(tweet.h || [], (hashtag) => hashtag.toLowerCase());
+            //_.each(tweet.user_mentions, (mention) => {
+            _.each(tweet.um || [], (mention) => {
               mention.name = mention.name.toLowerCase();
             });
             // then calculate tweet type
@@ -133,6 +156,11 @@ var Content = React.createClass({
           }) // only work with the as many tweets as pixels
           .slice(0, _.filter(image, (pixel) => !pixel).length)
           .value();
+
+        // again.  i'm sorry React gods.  i hope this doesn't make bugs.
+        if (this.loadingIndicator) {
+          this.loadingIndicator.style.display = 'none';  
+        }
 
         this.setState({
           imageWidth, image, user, tweets, colToTweet, updatePositions: true,
@@ -229,18 +257,22 @@ var Content = React.createClass({
       if (type === 'type') {
         tweet.grayed = value && tweet.type !== value;
       } else if (type === 'hashtag') {
-        tweet.grayed = value && !_.contains(tweet.hashtags, value);
+        //tweet.grayed = value && !_.contains(tweet.hashtags, value);
+        tweet.grayed = value && !_.contains(tweet.h || [], value);
       } else if (type === 'mention') {
-        tweet.grayed = value && !_.chain(tweet.user_mentions)
+        //tweet.grayed = value && !_.chain(tweet.user_mentions)
+        tweet.grayed = value && !_.chain(tweet.um || [])
           .pluck('name').contains(value).value();
       }
       if (clicked) {
         if (clicked.type === 'type') {
           tweet.clicked = tweet.type === clicked.value;
         } else if (clicked.type === 'hashtag') {
-          tweet.clicked = _.contains(tweet.hashtags, clicked.value);
+          //tweet.clicked = _.contains(tweet.hashtags, clicked.value);
+          tweet.clicked = _.contains(tweet.h || [], clicked.value);
         } else if (clicked.type === 'mention') {
-          tweet.clicked = _.chain(tweet.user_mentions)
+          //tweet.clicked = _.chain(tweet.user_mentions)
+          tweet.clicked = _.chain(tweet.um || [])
             .pluck('name').contains(clicked.value).value();
         }
         // only if unhovered, should tweet.grayed be reliant on tweet.clicked
@@ -254,10 +286,10 @@ var Content = React.createClass({
 
   render() {
     var numFormat = d3.format(',');
-    var userHeader = this.props.showSummary &&
+    var userHeader = this.props.showSummary && this.state.user.name &&
       (<div className='userHeader'>
-        <a href={'http://www.twitter.com/' + this.state.user.screenName} target='_new'>
-          {this.state.user.name && this.state.user.name.toUpperCase()} ({this.state.user.screenName})
+        {this.state.user.name.toUpperCase()} <a href={'http://www.twitter.com/' + this.state.user.screenName} target='_new'>
+          ({this.state.user.screenName})
         </a>
         <div className='subtitle'>
           displaying {numFormat(this.state.tweets.length)} of {numFormat(this.state.user.numTweets)} tweets
@@ -265,18 +297,49 @@ var Content = React.createClass({
       </div>);
     var tweetSummary = this.props.showSummary &&
       (<TweetSummaryComponent sort={this.state.sort} click={this.state.click}
-        tweets={this.state.tweets} hoveredTweet={this.state.hoveredTweet}
+        name={this.state.user.screenName} tweets={this.state.tweets} hoveredTweet={this.state.hoveredTweet}
         onClick={this.clickSummary} onHover={this.hoverSummary} />);
+    var loadingStyle = {
+      position: 'absolute',
+      top: 0,
+      width: '540px',
+      height: '540px',
+      textAlign: 'center',
+      verticalAlign: 'middle',
+      backgroundColor: 'rgba(255,255,255,.75)'
+    };
+    var loadingIndicator = this.props.showSummary && (
+      <div ref='loading' style={loadingStyle}>
+        <img src='images/tuzki4.gif' style={{marginTop: '200px'}}/>
+        <p>crunching that delicious data 💕</p>
+      </div>
+    );
+    var arrowStyle = {
+      cursor: 'pointer',
+      position: 'absolute',
+      top: 0,
+      right: 0,
+      margin: '20px 30px'
+    };
+    var arrow = this.props.showSummary && (
+      <h1 style={arrowStyle} onClick={this.props.scrollToChoose}>&uarr;</h1>
+    );
 
     return (
       <div className='content'>
-        {userHeader}
-        <CanvasComponent imageWidth={this.state.imageWidth}
-          image={this.state.image} tweets={this.state.tweets}
-          updatePositions={this.state.updatePositions}
-          onMouseMove={this.mousemoveCanvas} onClick={this.clickCanvas} />
-        {tweetSummary}
-        <TweetComponent hoveredTweet={this.state.hoveredTweet} />
+        <div style={{position: 'relative'}}>
+          {userHeader}
+          {arrow}
+        </div>
+        <div style={{position: 'relative'}}>
+          <CanvasComponent imageWidth={this.state.imageWidth}
+            image={this.state.image} tweets={this.state.tweets}
+            updatePositions={this.state.updatePositions}
+            onMouseMove={this.mousemoveCanvas} onClick={this.clickCanvas} />
+          {loadingIndicator}
+          {tweetSummary}
+          <TweetComponent hoveredTweet={this.state.hoveredTweet} />
+        </div>
       </div>
     );
   }

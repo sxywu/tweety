@@ -28,6 +28,12 @@ var Canvas = React.createClass({
     this.canvas = this.refs.canvas.getDOMNode();
     this.ctx = this.canvas.getContext('2d');
     this.hiddenCtx = this.refs.hiddenCanvas.getDOMNode().getContext('2d');
+
+    d3.select(this.canvas)
+      .on('mousemove', this.mouseMove)
+      .on('mouseleave', this.mouseLeave)
+      .on('touchmove', this.mouseMove)
+      .on('touchend', this.mouseLeave);
   },
 
   componentWillReceiveProps(nextProps) {
@@ -37,8 +43,6 @@ var Canvas = React.createClass({
     if (nextProps.updatePositions) {
       // calculate tweet positions and interpolaters
       var tweetIndex = 0;
-      var parentX = this.canvas.offsetLeft;
-      var parentY = this.canvas.offsetTop;
       _.each(nextProps.image, (pixel, i) => {
         if (!pixel) {
           // if pixel is filled, then assign a tweet to it
@@ -50,8 +54,6 @@ var Canvas = React.createClass({
           tweet.py = tweet.y;
           tweet.x =  (i % nextProps.imageWidth) * this.scaleFactor + this.scaleFactor / 2 + padding;
           tweet.y =  Math.floor(i / nextProps.imageWidth) * this.scaleFactor + this.scaleFactor / 2 + padding;
-          tweet.clientX = tweet.x + parentX;
-          tweet.clientY = tweet.y + parentY;
 
           tweet.interpolateX = d3.interpolateNumber(tweet.px || tweet.x, tweet.x);
           tweet.interpolateY = d3.interpolateNumber(tweet.py || tweet.y, tweet.y);
@@ -115,9 +117,9 @@ var Canvas = React.createClass({
     });
   },
 
-  mouseMove(e) {
-    var offsetX = e.nativeEvent.offsetX;
-    var offsetY = e.nativeEvent.offsetY;
+  mouseMove() {
+    d3.event.preventDefault();
+    var [offsetX, offsetY] = d3.mouse(this.canvas) || d3.touches(this.canvas);
     // fisheye focus
     fisheye.focus([offsetX, offsetY]);
 
@@ -139,8 +141,7 @@ var Canvas = React.createClass({
   render() {
     return (
       <div className='canvas'>
-        <canvas ref='canvas' width={this.size} height={this.size}
-          onClick={this.onClick} onMouseMove={this.mouseMove} onMouseLeave={this.mouseLeave} />
+        <canvas ref='canvas' width={this.size} height={this.size} onClick={this.onClick} />
         <canvas ref='hiddenCanvas' width={this.size} height={this.size}
           style={{display: 'none'}} />
       </div>
