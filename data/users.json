@@ -115,12 +115,6 @@
       "numFollowers": 1559571
    },
    {  
-      "name":"wongfupro",
-      "imageWidth":100,
-      "image":"images/wongfupro.png",
-      "numFollowers": 213162
-   },
-   {  
       "name":"philipwang",
       "imageWidth":80,
       "image":"images/philipwang.jpeg",
@@ -167,18 +161,6 @@
       "imageWidth":80,
       "image":"images/fluffyguy.jpg",
       "numFollowers": 853284
-   },
-   {  
-      "name":"taylorswift13",
-      "imageWidth":80,
-      "image":"images/taylorswift13.jpeg",
-      "numFollowers": 67370946
-   },
-   {  
-      "name":"EmWatson",
-      "imageWidth":50,
-      "image":"images/EmWatson.jpg",
-      "numFollowers": 20137807
    },
    {  
       "name":"AnnaKendrick47",

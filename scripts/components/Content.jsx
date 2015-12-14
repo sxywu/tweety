@@ -295,11 +295,11 @@ var Content = React.createClass({
 
   render() {
     var numFormat = d3.format(',');
-    var userHeader = this.props.showSummary &&
+    var userHeader = this.props.showSummary && this.state.user.name &&
       (<div className='userHeader'>
-        <a href={'http://www.twitter.com/' + this.state.user.screenName} target='_new'>
-          {this.state.user.name && this.state.user.name.toUpperCase()}
-        </a> ({this.state.user.screenName})
+        {this.state.user.name.toUpperCase()} <a href={'http://www.twitter.com/' + this.state.user.screenName} target='_new'>
+          ({this.state.user.screenName})
+        </a>
         <div className='subtitle'>
           displaying {numFormat(this.state.tweets.length)} of {numFormat(this.state.user.numTweets)} tweets
         </div>
@@ -323,10 +323,23 @@ var Content = React.createClass({
         <p>crunching that delicious data 💕</p>
       </div>
     );
+    var arrowStyle = {
+      cursor: 'pointer',
+      position: 'absolute',
+      top: 0,
+      right: 0,
+      margin: '20px 30px'
+    };
+    var arrow = this.props.showSummary && (
+      <h1 style={arrowStyle} onClick={this.props.scrollToChoose}>&uarr;</h1>
+    );
 
     return (
       <div className='content'>
-        {userHeader}
+        <div style={{position: 'relative'}}>
+          {userHeader}
+          {arrow}
+        </div>
         <div style={{position: 'relative'}}>
           <CanvasComponent imageWidth={this.state.imageWidth}
             image={this.state.image} tweets={this.state.tweets}
