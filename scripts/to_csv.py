@@ -63,7 +63,7 @@ def process(filename, metadata):
     with open(filename) as f:
         data = json.load(f)
 
-    metadata[data['id']] = [
+    metadata[str(data['id'])] = [
         data['name'].encode('utf-8'),
         data.get('numFollowers', -1), # @georgialupi is missing numFollowers
         data['numTweets'],
@@ -89,9 +89,9 @@ def process(filename, metadata):
                 # for jsundram just in that conversation, with name and userid.
                 # We don't want to overwrite the full metadata for jsundram with a subset;
                 # that's what the check below accomplishes.
-                entry = metadata.get(m['user_id'], ['', -1, -1, m['name']])
+                entry = metadata.get(str(m['user_id']), ['', -1, -1, m['name']])
                 if entry[0] == '':
-                    metadata[m['user_id']] = entry
+                    metadata[str(m['user_id'])] = entry
 
 def main():
     datadir = '../data/'
