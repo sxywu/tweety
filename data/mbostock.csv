@@ -57,7 +57,7 @@ https://t.co/zIRRYw8IzU",[9295332]
 362277272092291074,1375208607,[],r:308711490,0,0,@dzajdband @maxogden https://t.co/hifRZnF6e5,"[3353955147, 3529967232]"
 338346871561003008,1369503155,[],r:278873782,0,0,@vtcraghead @jasondavies I don't think I'll ever get tired of that perspective. Beautiful.,"[278873782, 349963]"
 576057456389799937,1426177774,[],r:52899973,0,0,"@oh_sk There is no FeatureCollection in TopoJSON, only GeometryCollection: https://t.co/b61U9iYh26",[52899973]
-565989649685159936,1423777422,"[""D3js""]",rt:565989267277889536,0,29,RT @driven_by_data: You're all just jealous of my #D3js jetpack https://t.co/sK35zeGjnR,[177507079]
+565989649685159936,1423777422,"[""d3js""]",rt:565989267277889536,0,29,RT @driven_by_data: You're all just jealous of my #D3js jetpack https://t.co/sK35zeGjnR,[177507079]
 286979507854913536,1357256221,[],r:19671465,0,0,"@KevinQ @shancarter What happens in the newsroom doesn’t stay in the newsroom, apparently.","[19671465, 14875983]"
 480772411554803713,1403460049,[],r:2254561,0,0,"@fredbenenson @mgiraldo A random identifier per user (taxi, here) would be safer than a shared random salt.","[2254561, 13745182]"
 616255983015231488,1435761850,[],r:17242168,0,0,@alignedleft Thank you!,[17242168]
@@ -179,7 +179,7 @@ Mike",[783214]
 663893066370027524,1447119416,[],rt:663756706753609728,0,29,"RT @NadiehBremer: What if you use all colors from &gt; 3000 bl.ocks, cluster them and visualize the result: https://t.co/k0JKkognt5 https://t.…",[242069220]
 652547823808872448,1444414499,[],r:135195911,0,0,@CWMma @briantimoney lol,"[135195911, 17546328]"
 459342544640696320,1398350771,[],rt:459312263434739712,0,191,"RT @KevinQ: Take baseball data, then add dialect maps. Presenting ""Mets Fans Who Eat Hoagies"": http://t.co/B3cGYm0Ghr http://t.co/wcnBHZ3sBw",[19671465]
-431880499527569408,1391803309,"[""Sochi2014""]",rt:431798879559114752,0,5,RT @Grahaphics: The first of our new interactive series: What Gives Mark McMorris the Edge at Slopestyle?  http://t.co/dtkE5dWpDY #Sochi2014,[33318712]
+431880499527569408,1391803309,"[""sochi2014""]",rt:431798879559114752,0,5,RT @Grahaphics: The first of our new interactive series: What Gives Mark McMorris the Edge at Slopestyle?  http://t.co/dtkE5dWpDY #Sochi2014,[33318712]
 583058927929020416,1427847055,[],r:2790981,1,0,@migurski Is that a communion wafer,[2790981]
 314127635586375680,1363728839,[],r:3594,1,0,@ebryn http://t.co/o6em41vuww,[3594]
 525339223629393920,1414085605,[],rt:524963556639670272,0,56,"RT @jenniferdaniel: Amazing Map Displays 700 Red Dots, EXPLAINED IN ONE CHART http://t.co/B1i1VPHbBJ http://t.co/oxsekgrdjf",[11613712]
@@ -386,11 +386,11 @@ defaults write -g AppleScrollAnimationEnabled 1",[]
 420666920082632704,1389129784,[],r:29739700,0,0,"@rsimmon Image formats are often then simplest way to store gridded data. Can then reproject or recolor, e.g., http://t.co/MfYaM5X00I",[29739700]
 375643140515827713,1378395278,[],r:29739700,1,1,@rsimmon @vtcraghead For comparison (also yellowed a bit rather than strictly gray): http://t.co/aSsmdkCI1p,"[29739700, 278873782]"
 622100366327287808,1437155260,[],r:282130842,1,0,@mf_viz @maxgoldst Simply doing something random doesn’t guarantee an unbiased random shuffle.,"[282130842, 308630460]"
-347773033164972032,1371750527,"[""EuroVis""]",rt:347761484639633408,0,9,RT @jeffrey_heer: Congrats to Sharon &amp; Diana for great #EuroVis talks! Automatic coloring http://t.co/pJ5UfaRCDf &amp; interactive big data htt…,[247943631]
+347773033164972032,1371750527,"[""eurovis""]",rt:347761484639633408,0,9,RT @jeffrey_heer: Congrats to Sharon &amp; Diana for great #EuroVis talks! Automatic coloring http://t.co/pJ5UfaRCDf &amp; interactive big data htt…,[247943631]
 362363052655517696,1375229058,[],r:18377825,0,0,@diogomonica stop hacking the web with your mechanized browser robot warriors geez,[18377825]
 577870505060872192,1426610039,[],r:1458271,0,0,"@tmcw It’s part of it, certainly. There’s also enter.insert and enter.select, and other less common patterns.",[1458271]
 304774305324093440,1361498831,"[""d3js""]",,84,50,Beautiful intro to #d3js; @tmcw tackles the tricky bits and lights the footpath to understanding. http://t.co/dzKdfSGSuF,[1458271]
-573946399240253440,1425674459,"[""NICAR15""]",rt:573945225971896320,0,14,RT @kennelliott: here's that paper @rsimmon just mentioned about visual perception http://t.co/DAtXo8B8IY #NICAR15,"[142389870, 29739700]"
+573946399240253440,1425674459,"[""nicar15""]",rt:573945225971896320,0,14,RT @kennelliott: here's that paper @rsimmon just mentioned about visual perception http://t.co/DAtXo8B8IY #NICAR15,"[142389870, 29739700]"
 595312551883214848,1430768547,[],r:232285664,6,0,"@killpack Yes, yes. Many times API designers overlook the cost of abstraction in favor of “simplicity”.",[232285664]
 398479409985748993,1383839869,[],r:349963,1,0,@jasondavies I wonder how taxing it is to render the dashed strokes on the graticule.,[349963]
 406801056195428352,1385823904,[],r:19671465,0,0,"@KevinQ @arnicas Hmm, pretty sure I caught a few minutes of one game, but yeah, mostly Raiders-Cowboys and Packers-Lions.","[19671465, 6146692]"
@@ -540,7 +540,7 @@ https://t.co/jVTmBJ8oao","[367089411, 17728989, 492678204, 12377822]"
 289141383929921536,1357771652,[],r:12241752,1,0,@maxogden That's d3.scale.linear in a nutshell.,[3529967232]
 453339668369526784,1396919574,[],r:278873782,0,0,"@vtcraghead @morganherlocker You’re using select instead of selectAll, and you’re always only enter.append’ing.","[278873782, 253717088]"
 494971361241346049,1406845343,[],r:1458271,4,0,"@tmcw @migurski @vtcraghead The other core text is Bertin’s Semiology of Graphics. A bit abstruse, though. http://t.co/FrWIPvMZJG","[1458271, 2790981, 278873782]"
-336954414764007425,1369171167,"[""d3js"", ""topojson"", ""FOSSGIS2013""]",rt:336785785544114178,0,4,RT @herrstucki: For those who missed it: I’ll be running an workshop on #d3js and #topojson at #FOSSGIS2013 http://t.co/7bUwEmQ5uh,[18557627]
+336954414764007425,1369171167,"[""d3js"", ""topojson"", ""fossgis2013""]",rt:336785785544114178,0,4,RT @herrstucki: For those who missed it: I’ll be running an workshop on #d3js and #topojson at #FOSSGIS2013 http://t.co/7bUwEmQ5uh,[18557627]
 302478331549450240,1360951428,[],r:15857079,0,0,@wsvekla Probably a cache issue. What were you trying to access?,[]
 636930136269414400,1440690952,[],r:6146692,0,0,@arnicas They changed the page structure which broke it. I have a fix but I haven't had a chance to republish it to the store yet.,[6146692]
 358081207591895040,1374208187,[],r:22153317,0,0,@Olmogalvez Please open a GitHub issue or pull request if you want to suggest improvements. Thanks!,[22153317]
@@ -592,7 +592,7 @@ https://t.co/jVTmBJ8oao","[367089411, 17728989, 492678204, 12377822]"
 463896428104781827,1399436501,[],r:22366053,0,0,"@vsaarinen Thanks, glad you enjoyed it!",[22366053]
 373117249411751936,1377793059,[],,7,6,everyday i’m like brew update &amp;&amp; brew upgrade &amp;&amp; brew uninstall gdal `brew deps gdal` &amp;&amp; brew install gdal,[]
 398221734337183744,1383778434,[],r:1123719230,0,0,@d3noob Thanks!,[1123719230]
-444484451238543360,1394808326,"[""CycloneLusi""]",rt:444298140535881729,0,29,"RT @cambecc: NICE. RT @bobsyauncle: #CycloneLusi +  http://t.co/5Rf7tukBOP  + Van Gogh = ""Lusi Night"" http://t.co/7sS6EeoTC2","[963723824, 26083329]"
+444484451238543360,1394808326,"[""cyclonelusi""]",rt:444298140535881729,0,29,"RT @cambecc: NICE. RT @bobsyauncle: #CycloneLusi +  http://t.co/5Rf7tukBOP  + Van Gogh = ""Lusi Night"" http://t.co/7sS6EeoTC2","[963723824, 26083329]"
 660429663831879680,1446293676,[],rt:660114622322642945,0,31,RT @mikeloukides: New Radar post: do one thing and do it well. About the demise of the Unix tools philosophy in the web world. https://t.co…,[12984202]
 595321512422313984,1430770683,[],r:137712607,1,0,@visualisingdata @nytgraphics Thank you! 👍,"[137712607, 86640232]"
 559096528384843776,1422133974,[],r:278873782,0,0,@vtcraghead The command-line tool supports simplification and there are also examples of dynamic simplification in the client.,[278873782]
@@ -662,7 +662,7 @@ https://t.co/jVTmBJ8oao","[367089411, 17728989, 492678204, 12377822]"
 401828415113674753,1384638334,[],r:7810112,0,0,"@Mephux The noteworthy aspect of this leak is that it was 150 million password (and hints), and they weren’t hashed.",[7810112]
 660258798620139520,1446252939,[],r:417418987,2,1,@benheubl Previously HTTPS sites could not use the official hosted copy because https://t.co/v6CBqsRKol was HTTP-only; now they can.,[417418987]
 301178143513915392,1360641439,"[""d3js""]",rt:301104190401421312,0,56,"RT @alignedleft: All chapters of new #d3js book now online for free previews, including Geomapping and Exporting: http://t.co/55cgwonX",[17242168]
-432569724132524032,1391967633,"[""Sochi""]",rt:432556027284697088,0,123,"RT @nytgraphics: The Men’s Downhill, Side by Side #Sochi http://t.co/cqPLl5irFb http://t.co/hOr2a1zkoD",[86640232]
+432569724132524032,1391967633,"[""sochi""]",rt:432556027284697088,0,123,"RT @nytgraphics: The Men’s Downhill, Side by Side #Sochi http://t.co/cqPLl5irFb http://t.co/hOr2a1zkoD",[86640232]
 469329489910964224,1400731844,"[""bad80a""]",r:633166200,2,0,@aliciaparlap #bad80a 4 lyfe,[633166200]
 312037699026579456,1363230559,[],r:18022416,0,0,"@sebmarkbage Yeah, I saw that. Why does it matter? It doesn't need to be a subset of JavaScript.",[18022416]
 403910701862772737,1385134790,[],rt:403907565383196672,0,41,RT @mccandelish: GIF Dance Party. http://t.co/gZXcG6qSRT So completely awesome.,[14277135]
@@ -810,7 +810,7 @@ https://t.co/XxEX8m2x27 http:…","[1201186872, 43593]"
 304780226083319808,1361500243,[],r:769288051,1,0,@grayj_ @tmcw The data-join concept is new and thus “hard” as in not self-evident. Examples alone aren’t enough for deep understanding.,"[769288051, 1458271]"
 543456385904545792,1418405073,[],r:10051,0,0,"@nelson I typically create a release branch (e.g., “3.5.2”), then merge the pull requests on the command line, before merging to master.",[10051]
 524589404656918528,1413906835,[],r:2291447479,0,0,@bennygordon89 Probably easier to design multiples for specific purposes rather than trying to put everything in one.,[2291447479]
-666300583817576449,1447693413,"[""D3js""]",rt:665185100171075584,0,21,RT @driven_by_data: Thanks to @upphiminn for implementing force directed edbe bundling for #D3js https://t.co/fjDQ5Igz7c worked well: https…,"[177507079, 369458129]"
+666300583817576449,1447693413,"[""d3js""]",rt:665185100171075584,0,21,RT @driven_by_data: Thanks to @upphiminn for implementing force directed edbe bundling for #D3js https://t.co/fjDQ5Igz7c worked well: https…,"[177507079, 369458129]"
 454273532554248192,1397142224,[],r:1366811,0,1,"@moritz_stefaner You can make zooming less swoopy by increasing the width of the viewport, as in the most recent https://t.co/eYJlciFrUk",[1366811]
 433665304669872128,1392228840,[],r:21425450,0,0,@gabrieldance @eyeseast Inferior by Fitt's law — small targets are harder (and therefore slower) to click than any of the other methods.,"[21425450, 3315611]"
 373479790260387840,1377879495,[],r:1454501,0,0,@iandees @bflood That’s based on the old (buggy) implementation which I am in the process of rewriting. https://t.co/yXHAHyp3wI,"[1454501, 14980919]"
@@ -917,7 +917,7 @@ http://t.co/DJqQFCZCc1","[92168769, 861705925]"
 288881055564435456,1357709585,[],r:61135090,1,0,"@joshbloch Welcome, my son, to the machine?",[61135090]
 301794056281923586,1360788284,"[""d3js""]",rt:301708480149082112,0,4,RT @tmcw: results of the first #d3js cookoff - @enjalot http://t.co/G1vnjiAd + @tmcw http://t.co/syhy1Jgh goal http://t.co/M02s3u77,"[1458271, 16030323, 1458271]"
 370618950180417536,1377197418,[],r:29739700,2,0,"@rsimmon Oh man, you haven’t seen this yet? http://t.co/dAMFBdnHni",[29739700]
-327513918299848706,1366920377,"[""NFLDraft""]",rt:327510644549095425,0,17,RT @KevinQ: Our new interactive lets play around with the history of the #NFLDraft – it's more random than you might think: http://t.co/SDI…,[19671465]
+327513918299848706,1366920377,"[""nfldraft""]",rt:327510644549095425,0,17,RT @KevinQ: Our new interactive lets play around with the history of the #NFLDraft – it's more random than you might think: http://t.co/SDI…,[19671465]
 369208815406694400,1376861215,[],r:278873782,1,0,"@vtcraghead @tmcw @github Oh, haha, I didn’t notice the missing "".""; doesn’t seem super trustworthy. GitHub Pages is the way to go IMO.","[278873782, 1458271, 13334762]"
 370394762915770369,1377143967,[],r:14227842,0,0,@knowtheory Was that sound of frustration directed at the user interface or the code?,[14227842]
 434009215430975488,1392310835,"[""d3js""]",rt:433999188804648961,0,92,RT @vicapow: visualizing conditional probability http://t.co/YgftnOBnsg using #d3js and @angularjs,"[19411223, 202230373]"
@@ -964,7 +964,7 @@ http…",[90786626]
 657661420960677888,1445633676,[],r:9973082,0,0,"@kangax Also the convenience of coercing keys (and values in sets) to strings, if that’s desired.",[9973082]
 572809701835976704,1425403449,[],r:315325705,3,0,@JackSchaedler It’s lovely!,[315325705]
 532363270779183104,1415760269,[],r:6981492,6,1,"@ftrain Wait, what?",[6981492]
-353338726379827200,1373077491,"[""D3js"", ""Portland""]",rt:353288466064343040,0,42,"RT @MapBox: Awesome map by @Caged using #D3js &amp; MapBox shows buildings in #Portland, OR by age: http://t.co/CON71qPY6J","[55236002, 779169]"
+353338726379827200,1373077491,"[""d3js"", ""portland""]",rt:353288466064343040,0,42,"RT @MapBox: Awesome map by @Caged using #D3js &amp; MapBox shows buildings in #Portland, OR by age: http://t.co/CON71qPY6J","[55236002, 779169]"
 293394565879173120,1358785690,[],r:31245606,0,0,"@seliopou Hey Spiros, nice tutorial. :)",[31245606]
 554816879030583299,1421113626,[],r:47225624,0,0,@cyarie I have to do some learning first :),[47225624]
 649670180990115840,1443728416,[],rt:649666791980015616,0,233,RT @nikhan: visual programming https://t.co/d3IMZhL2CA,[12585362]
@@ -977,7 +977,7 @@ http…",[90786626]
 388140322468810752,1381374838,[],r:16405975,0,0,@wagenet I think it’s a bug in your code fixable with selection.interrupt… but if you can isolate further I can help investigate.,[16405975]
 624234262804475905,1437664020,[],r:233232425,0,0,@bizweekgraphics Ahead of his time.,[233232425]
 610550117674778625,1434401466,[],r:610158753,0,0,"@TypeFX How would that makes more sense? Why would d3-color care about interpolating objects, arrays, etc.?",[610158753]
-574715498706829312,1425857827,"[""NICAR15""]",rt:574240717633155072,0,54,"RT @driven_by_data: For those of you who missed my lightning talk at #NICAR15, here's the transcript of the talk: http://t.co/EjICqnD7O3",[177507079]
+574715498706829312,1425857827,"[""nicar15""]",rt:574240717633155072,0,54,"RT @driven_by_data: For those of you who missed my lightning talk at #NICAR15, here's the transcript of the talk: http://t.co/EjICqnD7O3",[177507079]
 324906997269028866,1366298839,[],rt:324731952487882752,0,6,"RT @teampopong: 팀포퐁에서 국내 지리 데이터를 TopoJSON 형태로 변환해서 시도(http://t.co/HBhFOlIOLh), 시군구(http://t.co/gArOMXK8At) 지도를... http://t.co/Qh0RzmBhpl",[383145891]
 489837076154966016,1405621234,[],r:11613712,2,0,@jenniferdaniel Welcome to the information economy!,[11613712]
 461367110036246528,1398833465,[],r:580031141,3,0,"@jradavenport Yea, Cubehelix is more flexible than it first appears! I approximately recreated Niccoli’s rainbow: http://t.co/db4QG0jAX5",[580031141]
@@ -1088,7 +1088,7 @@ http://t.co/heqoB2uRVl http://t.co/1yPMkS9Vxn","[555102816, 271251672, 120623927
 473185241020907520,1401651127,[],r:109090495,0,0,@allafarce @cwmma @tmcw Sounds like release 1.6.6: https://t.co/j4KKWH3DGm,"[109090495, 135195911, 1458271]"
 668208369472147456,1448148264,[],r:3176751,0,0,@shashashasha Yeah @alanmclean geez,"[3176751, 8543242]"
 535252730722652160,1416449170,[],r:15351161,0,0,@namecheap Strange. Both 8.8.8.8 and 8.8.4.4 fail for me. https://t.co/fVGZpvREXA,[15351161]
-396323015257899008,1383325744,"[""NSAFiles""]",rt:396321961346736129,0,11,"RT @ewenmacaskill: Guardian interactive: how the #NSAFiles debate has encompassed world leaders, whistleblowers and tech giants http://t.co…",[21331369]
+396323015257899008,1383325744,"[""nsafiles""]",rt:396321961346736129,0,11,"RT @ewenmacaskill: Guardian interactive: how the #NSAFiles debate has encompassed world leaders, whistleblowers and tech giants http://t.co…",[21331369]
 505386094645366784,1409328409,[],r:452521774,4,0,@_cingraham am i doing this rite? http://t.co/FElwBZjRwX,[452521774]
 316402820528091136,1364271285,[],r:1586501,0,0,"@nickbilton Oh no, you lost your camera?!",[1586501]
 438723640473837568,1393434841,[],r:44195788,0,0,@scheidegger But feel free to fork. :) Also you could use the local time zone as an approximation if geolocation isn’t allowed.,[44195788]
@@ -1096,7 +1096,7 @@ http://t.co/heqoB2uRVl http://t.co/1yPMkS9Vxn","[555102816, 271251672, 120623927
 319285444145725441,1364958556,[],r:8419342,0,0,"@natevw @philip_roberts Yeah, the declarative feel comes from the removal of control flow (mainly branching and for loops).","[8419342, 15810455]"
 350708476705640449,1372450391,[],r:22489017,0,0,"@rafaelhenkin Rainbow color scales are almost always a bad idea, but if this is what you want, use d3.interpolateString instead.",[2871432406]
 444223217235165184,1394746042,[],r:54417528,2,1,@fabriciotav It’s based on ColorBrewer. Here’s what I use for Sublime: https://t.co/2z8504882f,[54417528]
-403237322050637824,1384974244,"[""D3js"", ""FourierSeries""]",rt:402558244818010113,0,32,RT @DashingD3js: #D3js #FourierSeries &gt;&gt; Fourier series visualisation with d3.js. http://t.co/LsHgnuTwFu by @jinr0h,"[95266520, 14368133]"
+403237322050637824,1384974244,"[""d3js"", ""fourierseries""]",rt:402558244818010113,0,32,RT @DashingD3js: #D3js #FourierSeries &gt;&gt; Fourier series visualisation with d3.js. http://t.co/LsHgnuTwFu by @jinr0h,"[95266520, 14368133]"
 434559590605152257,1392442054,[],r:19671465,3,0,@kevinq @kleinmatic http://t.co/sS53S0EWwS,"[19671465, 6183492]"
 509015733611675649,1410193782,[],r:16112517,0,0,@eagereyes @hadleywickham Automatically choosing a mirror by IP would be nice. As would a headless R (unless absolutely necessary).,"[16112517, 69133574]"
 526791380879015936,1414431827,[],r:316574829,0,0,@cmanning88 @trevaustin @felixsalmon @clickhole The funny thing is that would be useful for dot-density maps.,"[316574829, 58551392, 16399949, 2377815434]"
@@ -1160,7 +1160,7 @@ http://t.co/heqoB2uRVl http://t.co/1yPMkS9Vxn","[555102816, 271251672, 120623927
 278933165823913984,1355337823,[],,11,1,I am giddy with excitement about using streams for transforming geometry. This will be cool. https://t.co/buItckll,[]
 480030384768303104,1403283136,[],r:452521774,1,0,@_cingraham @eschow A variation of parallel sets. I like it! Details on each drone are great.,"[452521774, 30667108]"
 407304273370705920,1385943880,[],r:718473,1,0,@amitp Lovely!,[718473]
-432407261340647424,1391928899,"[""Visualized""]",rt:432165104310681600,0,76,RT @13pt: My talk at #Visualized: The Weight of Rain http://t.co/pDTA0tcrXv,[347276428]
+432407261340647424,1391928899,"[""visualized""]",rt:432165104310681600,0,76,RT @13pt: My talk at #Visualized: The Weight of Rain http://t.co/pDTA0tcrXv,[347276428]
 539835127124492289,1417541698,[],r:161463017,0,0,@yonester It’s functions all the way down.,[161463017]
 294863890825760768,1359136004,[],rt:294821270359535616,0,16,"RT @blprnt: If you haven't yet lost an hour to staring at these animated voronoi diagrams from @quasimondo , you should: http://t.co/Ihk ...","[17013577, 5633002]"
 446493751498637312,1395287380,"[""d3js""]",,49,16,Smooth zoom transitions onto geographic feature bounding boxes: http://t.co/Jah0NbHIBE #d3js,[]
@@ -1210,7 +1210,7 @@ http://t.co/cxsdpT3pxP",[]
 661622086167760896,1446577972,[],rt:661599635102920704,0,10,"RT @shancarter: Starting later this month, I'll be mapping neural networks @google","[14875983, 20536157]"
 298628199884140545,1360033485,"[""d3js""]",rt:298594385107509248,0,20,RT @dwtkns: Evening project: map tiles with extent-indicating SVG 'globe' in #d3js http://t.co/kEm9dLiS,[352644923]
 410184120866992129,1386630489,[],r:332498455,0,0,@s3ni0r_ http://t.co/kZmYfm15Jv ?,[]
-287629232245456896,1357411127,"[""D3"", ""js"", ""mapping""]",rt:287347967428526085,0,31,RT @cartoDB: New blog post on how CartoDB makes #D3 maps a breeze. Check it out http://t.co/EW9WbMOH #js #mapping,[241079136]
+287629232245456896,1357411127,"[""d3"", ""js"", ""mapping""]",rt:287347967428526085,0,31,RT @cartoDB: New blog post on how CartoDB makes #D3 maps a breeze. Check it out http://t.co/EW9WbMOH #js #mapping,[241079136]
 463163116377755648,1399261666,[],r:1387915232,0,0,@elijah_meeks Yes. Read the code to find out more. ;),[1387915232]
 464812061655302146,1399654805,[],r:16693852,2,0,@jfire Here it is: http://t.co/rLxvrdOiCR,[16693852]
 388088703287308288,1381362531,[],r:16405975,0,0,"@wagenet Sure, you could test this: https://t.co/Rvhwd1n2iP Need to fix unit tests, also.",[16405975]
@@ -1238,7 +1238,7 @@ http://t.co/cxsdpT3pxP",[]
 474254431035224065,1401906042,[],r:29739700,2,1,@rsimmon @scheidegger By any chance did you see my tutorial on this topic? http://t.co/Z55fQ4XZHh,"[29739700, 44195788]"
 329089480428515329,1367296020,[],r:19671465,1,0,@KevinQ What can I say! I was feeling generous.,[19671465]
 315193814761492480,1363983036,[],r:17289230,0,0,@aphelionz Are you trying to load it cross-domain? It loads fine in that demo,[17289230]
-297419674029801473,1359745350,"[""YOLO""]",r:68430492,0,0,@lmellgren #YOLO,[68430492]
+297419674029801473,1359745350,"[""yolo""]",r:68430492,0,0,@lmellgren #YOLO,[68430492]
 446839676406468608,1395369855,[],r:43593,3,1,@mbostock Though I am looking forward to Array.prototype.find in ES6.,[43593]
 666761870301245443,1447803392,[],r:7639702,8,0,@vlandham @maartenzam @TimBrock_DtD @JanWillemTulp Have you tried ES6 modules (but no other ES6 features) plus Rollup? I recommend it.,"[7639702, 17242884, 1278141793, 21084111]"
 664121144224575488,1447173794,"[""d3js""]",,95,60,D3 3.5.8 is out! Includes a ton of bug fixes. https://t.co/vF9LRIWR1M #d3js,[]
@@ -1246,7 +1246,7 @@ http://t.co/cxsdpT3pxP",[]
 451046198300774401,1396372768,[],,27,17,Paint your own choropleth! Here’s the 2012 presidential election: http://t.co/Rg7Enqom93 http://t.co/xb0SV0PG5B,[]
 615628793022001152,1435612316,[],r:17728989,1,0,@mflux True.,[17728989]
 665049282290933760,1447395079,[],rt:664963137389490176,0,6,"RT @planet4589: Although some have described WT1190F as an unidentified flying object, you will observe that,like sheep, it does not so muc…",[19355829]
-519937361535574016,1412797701,"[""FOSS4G""]",rt:514245106405109760,0,6,RT @BojanSavric: Projections on the Web are terrible and you should be ashamed of yourself #FOSS4G http://t.co/cZbxmeyLqL,[2296962452]
+519937361535574016,1412797701,"[""foss4g""]",rt:514245106405109760,0,6,RT @BojanSavric: Projections on the Web are terrible and you should be ashamed of yourself #FOSS4G http://t.co/cZbxmeyLqL,[2296962452]
 565643756960239619,1423694955,[],r:14516139,0,0,@lcddave Thank you!,[14516139]
 525341981556219904,1414086263,[],r:161539552,0,0,@datapointed Sounds like something you should keep to yourself ;),[161539552]
 469498004404453377,1400772021,[],rt:469478514660753408,0,29,RT @archietse: QUICK go to http://t.co/4haMQ0jB07 now to see ghost of @mbostock controlling sliders on buy-rent calculator. http://t.co/XmQ…,"[28128198, 43593]"
@@ -1418,7 +1418,7 @@ http://t.co/P8mtsCgPzb",[8038312]
 282150647053287424,1356104931,"[""topojson"", ""d3"", ""guatemala"", ""adminboundaries""]",rt:282135978834006018,0,1,RT @VV4LT3R: things falling into place #topojson #d3 #guatemala #adminboundaries /// http://t.co/spWnkVUJ,[2594700560]
 662697061901430784,1446834266,[],r:278873782,2,0,@vtcraghead Anything hosted on https://t.co/v6CBqsRKol is available via HTTPS. TopoJSON and D3 are still separate libraries.,[278873782]
 340481556403585026,1370012103,[],r:382904665,1,0,"@RobbyWauters Figured it out. Your date.js is redefining Date.now() to return a Date object, not the current time.",[382904665]
-535482627155709953,1416503981,"[""EarthRightNow""]",rt:535103855428517888,0,185,"RT @NASAGoddard: Your emissions are my emissions...A Year In The Life Of Earth's CO2: http://t.co/3GTEgIEpzK #EarthRightNow
+535482627155709953,1416503981,"[""earthrightnow""]",rt:535103855428517888,0,185,"RT @NASAGoddard: Your emissions are my emissions...A Year In The Life Of Earth's CO2: http://t.co/3GTEgIEpzK #EarthRightNow
 https://t.co/2H…",[20060293]
 340265538196475904,1369960600,[],r:181272163,0,0,@lauramholson @palafo Pie charts and donut charts… all we need next are bacon charts.,"[181272163, 2020351]"
 663382403944050688,1446997664,[],,19,3,"I am… INSIDE… the advertisement. My God, it’s full of brands! https://t.co/GBLcmZHplq",[]
@@ -1441,7 +1441,7 @@ https://t.co/2H…",[20060293]
 416985752069607424,1388252125,[],r:346943756,0,0,"@arrayjam Many features start as examples or plugins, so try that first? Also @jasondavies is working on geo (spherical) polygon clipping.","[346943756, 349963]"
 563742041167781888,1423241551,[],r:123323498,1,0,@jashkenas /sadtrombone,[123323498]
 502846009811013632,1408722805,[],,17,3,"“If I do not hear from you before the end of this month, I will assume this means that permission is not necessary…” Uh, no. Just no.",[]
-383997235949617152,1380387050,"[""d3js"", ""ONA13""]",,48,51,Yay! #d3js is a finalist for an #ONA13 award in technical innovation! http://t.co/j0lAL53OTc /cc @jasondavies,[349963]
+383997235949617152,1380387050,"[""d3js"", ""ona13""]",,48,51,Yay! #d3js is a finalist for an #ONA13 award in technical innovation! http://t.co/j0lAL53OTc /cc @jasondavies,[349963]
 363011282082861056,1375383608,[],r:3007491,0,0,"@todrobbins If I figure out a way to do ""branded"" embedding, I might support it in the future.",[3007491]
 303173824000704512,1361117246,[],r:600342615,0,0,"@jrdnsto I'm mainly focused on D3 &amp; TopoJSON at the moment, but I've heard there is interest at Square to keep developing.",[]
 350831988468486144,1372479838,[],,10,1,"Ha, someone posted a photo I took of our corgi and it made the Reddit front page. http://t.co/W95c4SfRE2",[]
@@ -1467,7 +1467,7 @@ http://t.co/C7svfaZ8pO",[92168769]
 469506037394210816,1400773936,[],r:17242168,3,1,@alignedleft @archietse @shancarter Thanks. We should start a visualization commune somewhere cheaper… ;),"[17242168, 28128198, 14875983]"
 344133736125829121,1370882851,[],r:681473,0,0,@harrisj If that's how it made you feel then I'm the moron. It was supposed to inspire!,[681473]
 307964809800990720,1362259507,"[""srtm"", ""d3js""]",rt:307954979199676416,0,47,RT @dwtkns: I made a thing to make downloading elevation data easier http://t.co/FcBvqtgDbQ #srtm #d3js,[352644923]
-509758593949003776,1410370894,"[""ArrowOfTheWeek""]",rt:508983958626119680,0,7,RT @stephcd: One of these arrows is the Arrow of the Week for the Week of September 8th 2014 #ArrowOfTheWeek http://t.co/UTxulIqoPV,[14573958]
+509758593949003776,1410370894,"[""arrowoftheweek""]",rt:508983958626119680,0,7,RT @stephcd: One of these arrows is the Arrow of the Week for the Week of September 8th 2014 #ArrowOfTheWeek http://t.co/UTxulIqoPV,[14573958]
 301062763617337344,1360613930,[],r:11454222,0,0,@jlivni @kelsoscorner Neither are simplified. It’s the quantization and delta-encoding that provide most of the savings.,"[11454222, 107911169]"
 355446689496178688,1373580069,[],r:40350100,1,1,"@japaine Cool! Have you seen @shancarter’s Distillery, too? http://t.co/EPCv6iVxGJ","[40350100, 14875983]"
 302471666443894784,1360949839,[],,2,3,"Playing catchup, http://t.co/LZs09jGS now includes the username in the URL. e.g.: http://t.co/B0VvGcKY Also, it loads faster!",[]
@@ -1594,7 +1594,7 @@ New hat. http://t.co/pXnSOwCbBr”",[1977579223]
 316594907588489216,1364317082,[],,39,80,"D3 3.1 is out! New graticule and view clipping, polyfill for mouseenter &amp; mouseleave, custom builds and more! https://t.co/wmBBtEvVTo",[]
 457236729297379328,1397848705,[],,63,25,"Neural Networks, Manifolds, and Topology by @ch402 http://t.co/IRBF3QoKu1",[153196789]
 343473265852940288,1370725382,[],,4,2,"@d3visualization Not quite, that’s already out: https://t.co/NTXP4k5xsV",[1006945298]
-331996069644877824,1367989005,"[""hex"", ""cartogram"", ""linkedview"", ""D3"", ""map"", ""gis""]",rt:331517862801981440,0,20,RT @rastrau: How to create a #hex-#cartogram #linkedview in #D3 – blogpost (1/2) is out: http://t.co/6JJNSI4KzV #map #gis http://t.co/LikH1…,[385013701]
+331996069644877824,1367989005,"[""hex"", ""cartogram"", ""linkedview"", ""d3"", ""map"", ""gis""]",rt:331517862801981440,0,20,RT @rastrau: How to create a #hex-#cartogram #linkedview in #D3 – blogpost (1/2) is out: http://t.co/6JJNSI4KzV #map #gis http://t.co/LikH1…,[385013701]
 614165461874315264,1435263431,[],r:43593,0,0,"@rachelbinx Correction: not exactly. k is used for &gt;= 1,000 and m is used for &lt; 1 (after rounding). So you’d need to tweak a bit.",[12377822]
 595252949527302144,1430754337,[],r:43593,100,12,"Don’t have the answer yet, but it’s what I want to focus on. So, here I go. Adventure!",[]
 299959593289801728,1360350914,[],r:177507079,0,0,@driven_by_data @pushthings4ward Lovely!,"[177507079, 139815560]"
@@ -1675,7 +1675,7 @@ New hat. http://t.co/pXnSOwCbBr”",[1977579223]
 381115589169008640,1379700011,[],r:19671465,0,0,@KevinQ /sarcasm,[19671465]
 464066786095157248,1399477118,[],r:1454501,1,0,@iandees How do I find the 1- and 3-year estimates? Typing “population” into the search box only lists 5-year. http://t.co/Bk86nEzI9x,[1454501]
 420669041016340480,1389130289,[],r:29739700,0,0,"@rsimmon In the JSON heatmap example, the canvas is natively 87x61 and rescaled (with smoothing) by the browser up to 960x500.",[29739700]
-532546271068684288,1415803899,"[""CometLanding""]",rt:532467797323169792,0,29,RT @13pt: NYT panoramas of Rosetta mission images http://t.co/BVbludUoII #CometLanding http://t.co/Ksl97TpZzr,[347276428]
+532546271068684288,1415803899,"[""cometlanding""]",rt:532467797323169792,0,29,RT @13pt: NYT panoramas of Rosetta mission images http://t.co/BVbludUoII #CometLanding http://t.co/Ksl97TpZzr,[347276428]
 339517397654462464,1369782230,[],r:15342974,0,0,@neilhawkins See also: http://t.co/P2CEaVCDKy,[15342974]
 300399683254247424,1360455840,[],rt:300348300509454336,0,2,RT @jasondavies: Modified stereographic projections: http://t.co/RSdINMOI http://t.co/WgXjFobU,[349963]
 616723765007773696,1435873378,"[""d3js""]",,95,48,"Geometry day in #d3js land! \o/
@@ -1685,13 +1685,13 @@ https://t.co/NZHOrG0it4",[]
 494583606233563136,1406752895,[],r:46979964,0,0,@wmelt Not sure what you mean. Like d3.csv.parse or d3.csv.parseRows? https://t.co/0TOxqWTpPc,[46979964]
 398513591575248896,1383848018,[],r:46486816,0,0,"@ramnath_vaidya Cheers, thank you.",[46486816]
 400715719853502464,1384373047,[],r:1048911,0,1,@jcburns Fixed that typo.,[1048911]
-286530084414836736,1357149070,"[""Eyeo2013"", ""HappyNewYear""]",rt:286518292175282176,0,22,RT @eyeofestival: Exceptionally pleased to reveal the starting lineup of #Eyeo2013 ! http://t.co/QKYGCDCe  #HappyNewYear,[225138752]
+286530084414836736,1357149070,"[""eyeo2013"", ""happynewyear""]",rt:286518292175282176,0,22,RT @eyeofestival: Exceptionally pleased to reveal the starting lineup of #Eyeo2013 ! http://t.co/QKYGCDCe  #HappyNewYear,[225138752]
 512014386320637952,1410908717,[],r:229411082,0,0,"@http404error I generally use “D3”, unless there’s a need to be more specific.",[229411082]
 334097999896653825,1368490145,[],rt:334095660255178752,0,2,RT @shancarter: Finally added the blamo button http://t.co/x2N6MReZZL,[14875983]
 277980114329939968,1355110598,[],r:207617346,0,0,"@songbogong You'll want to checkout the 3.0 branch and then LOCALE=ja_JP make clean all, or similar. https://t.co/HLyIsaLn",[207617346]
 608770232035995648,1433977108,[],r:45626199,2,0,"@NickSRandall “When it’s ready.” Various modules will be ready soon (even now), but still quite a bit of work for the whole thing.",[45626199]
 540207300971991040,1417630431,[],r:18325271,0,0,@yelperalp @eagereyes These problems are not exclusive. :) I reduced the gain a bit.,"[18325271, 16112517]"
-609177740571488256,1434074265,"[""d3js"", ""Pi"", ""dataviz""]",rt:605772209253027840,0,29,"RT @BriceDev: Approximation of Pi using the Monte-Carlo method #d3js #Pi #dataviz 
+609177740571488256,1434074265,"[""d3js"", ""pi"", ""dataviz""]",rt:605772209253027840,0,29,"RT @BriceDev: Approximation of Pi using the Monte-Carlo method #d3js #Pi #dataviz 
 http://t.co/hEpuAOptp6 http://t.co/zDwUCDd0mt",[2546005819]
 413357016158306304,1387386967,[],r:29255412,1,0,@tjholowaychuk @500px for real /cc http://t.co/O0o1I6FpAh http://t.co/4864NhXRmG,"[29255412, 20431922]"
 418602483447889920,1388637583,[],,47,24,Walk-through of how the Daft Punk “One More Time” sample was created. http://t.co/Dx03eJIcqz,[]
@@ -1790,7 +1790,7 @@ http://t.co/mU8PS5iJeH http…",[1387915232]
 396355493519568896,1383333488,[],,0,0,@stop The inline rt/fav buttons on iOS really interrupt the flow of reading the timeline. Bring back the swipe-only UI!,[949521]
 644552141411999744,1442508180,[],r:14109167,11,0,"@flowingdata console.log(""Hello, world!"");",[14109167]
 444220641445945344,1394745428,[],r:54417528,0,0,@fabriciotav What color theme? Black text on a white background? Or the colors for syntax highlighting?,[54417528]
-294477057725968385,1359043776,"[""UI""]",rt:294453389864083456,0,72,"RT @EdwardTufte: Most inFOGraphics subtract from world's knowledge,because they are mainly about themselves not content,and are contempt ...",[152862026]
+294477057725968385,1359043776,"[""ui""]",rt:294453389864083456,0,72,"RT @EdwardTufte: Most inFOGraphics subtract from world's knowledge,because they are mainly about themselves not content,and are contempt ...",[152862026]
 411514864272539649,1386947763,[],r:36686019,1,0,"@benjaminmgross The author there is the book author, Malcolm Maclean, rather than the library author. But I appreciate the gesture. :)",[36686019]
 500435162220744706,1408148014,[],r:43593,0,0,@thematicmapping Related https://t.co/QOPU7pfruS /cc @jasondavies,"[14890633, 349963]"
 381092154967220224,1379694424,[],,13,5,"So, like, what’s the difference between quantization and simplification in TopoJSON? http://t.co/9qgBefljZp",[]
@@ -1866,7 +1866,7 @@ http://t.co/rd1l2hs8Gk",[1387915232]
 337593282349649920,1369323485,[],r:118419784,0,0,@FoD5 Can you add a link here? https://t.co/ekpUO6XkOj,[118419784]
 560833912063426560,1422548199,[],r:71309593,0,0,@mrphilroth That’s a long way to go for a (relatively) short talk! I doubt anything I say would be sufficiently interesting.,[71309593]
 337589992056582144,1369322700,[],,0,0,@FoD5 Thank you! I'll add a link from the tutorial to your translation.,[118419784]
-663756038408028160,1447086746,"[""D3js"", ""Rectangles""]",rt:663748700053880832,0,3,RT @DashingD3js: #D3js #Rectangles &gt;&gt; Rectangle Intersection Problem (h/t @Elijah_Meeks) https://t.co/yTHp6yuyGc,"[95266520, 1387915232]"
+663756038408028160,1447086746,"[""d3js"", ""rectangles""]",rt:663748700053880832,0,3,RT @DashingD3js: #D3js #Rectangles &gt;&gt; Rectangle Intersection Problem (h/t @Elijah_Meeks) https://t.co/yTHp6yuyGc,"[95266520, 1387915232]"
 471163243285995520,1401169045,[],r:385727911,0,0,@bitfhacker Hello and thank you!,[385727911]
 344978859944456193,1371084344,[],r:14399630,0,0,@howardbutler @nelson I’m for it.,"[14399630, 10051]"
 355088076810358786,1373494569,[],r:16405975,0,0,"@wagenet Ah, that. Care to file a feature request? Maybe we can do that for 3.3.",[16405975]
@@ -1878,7 +1878,7 @@ http://t.co/rd1l2hs8Gk",[1387915232]
 291584233145782273,1358354073,[],r:84586886,0,0,"@fgcartographix According to my JavaScript console, your uk.json is 404 not found.",[84586886]
 448147628673339392,1395681695,"[""d3js"", ""topojson""]",,33,17,Graph topology of U.S. counties. http://t.co/70AkkQHglr #d3js #topojson http://t.co/lsvoU6ZsyP,[]
 370929823587127296,1377271536,[],r:18557627,0,0,@herrstucki I noticed it seemed inspired from http://t.co/8vN6BH5ydE :) A threshold scale would be strictly safer though,[18557627]
-391733550048763904,1382231531,"[""OJA2013""]",rt:391732692968292352,0,38,RT @ONA: Winner: Gannett Foundation Award for Technical Innovation: @nytimes for D3.js http://t.co/bOmoyR53cT #OJA2013,"[13745872, 807095]"
+391733550048763904,1382231531,"[""oja2013""]",rt:391732692968292352,0,38,RT @ONA: Winner: Gannett Foundation Award for Technical Innovation: @nytimes for D3.js http://t.co/bOmoyR53cT #OJA2013,"[13745872, 807095]"
 591796933242433536,1429930358,[],r:212164231,0,0,"@nicocaiine Probably something related to zero vertical length of gradient, but hard to tell from video.",[212164231]
 398495646874755074,1383843740,[],rt:398494223290220544,0,57,RT @Totalbiscuit: Some people like Cheerios which is something I will never fully understand,[16747981]
 439070647914737664,1393517574,[],,2,4,And new TopoJSON (1.4.7) release fixes a winding order bug with Bora Bora-type polygons. https://t.co/Q2Q2iqNZUr,[]
@@ -2029,7 +2029,7 @@ do DOOO do dooo",[11613712]
 459053944124497920,1398281963,[],rt:458798768545353728,0,934,RT @ftrain: One commonality between writing and coding is that everything you do is in a nightmarish state of total failure until the momen…,[6981492]
 333605292933783554,1368372674,[],,59,30,"OK, http://t.co/sam2PofuRk is pretty awesome. And open-source https://t.co/iXYfC9qsvu and simple URLs. How it should be.",[]
 314069273645555714,1363714924,[],r:14063149,0,0,"@miksago Yep, just treat the computed x and y of the treemap differently when rendering as rects (or divs, or whatever).",[14063149]
-544581949008797696,1418673429,"[""dataviz"", ""D3js""]",rt:544161508159410176,0,24,RT @NadiehBremer: How to explain a Chord Diagram to somebody who's never seen one: with Animation and Storytelling #dataviz #D3js http://t.…,[242069220]
+544581949008797696,1418673429,"[""dataviz"", ""d3js""]",rt:544161508159410176,0,24,RT @NadiehBremer: How to explain a Chord Diagram to somebody who's never seen one: with Animation and Storytelling #dataviz #D3js http://t.…,[242069220]
 322087094870740992,1365626522,[],rt:322082848435736576,0,21,"RT @jasondavies: Crossfilter v1.2.0 is out! Supports removing dimensions and groups, and filtering by arbitrary functions: https://t.co/ ...",[349963]
 336204224285270017,1368992308,[],,12,5,I’m a fan of pull requests full of images. https://t.co/6vW0nnqjyg,[]
 413821942542520320,1387497814,[],r:108622777,0,0,@scottberinato It’s a more robust method of interaction for line charts. Compare to http://t.co/X1RiCrDLLK,[108622777]
@@ -2122,7 +2122,7 @@ do DOOO do dooo",[11613712]
 595258919313780736,1430755760,[],r:15741451,0,0,@chriswilsondc Sorry.,[15741451]
 665316925749092354,1447458890,[],,9,0,OH: a brand-consumer journey has been started.,[]
 403293521060569089,1384987642,[],r:88892707,1,0,"@philogb Yeah, it looks nice, but I worry whether redefining core language features in special contexts impedes legibility.",[88892707]
-646730951121199104,1443027649,"[""PopeInDC""]",rt:646700567268605953,0,125,RT @PostGraphics: Francis will ride in a Jeep Wrangler at the parade. Other popemobiles from history: http://t.co/H1QyZ1KLvn #PopeInDC http…,[87968068]
+646730951121199104,1443027649,"[""popeindc""]",rt:646700567268605953,0,125,RT @PostGraphics: Francis will ride in a Jeep Wrangler at the parade. Other popemobiles from history: http://t.co/H1QyZ1KLvn #PopeInDC http…,[87968068]
 615614209997475840,1435608839,[],,42,18,A calculator for humanity’s peculiar conventions of time. https://t.co/qZq0MHprGB,[]
 300662818108239873,1360518576,[],r:21287004,0,0,"@TheRealJimShady Example syntax for which, topojson or shapefile? https://t.co/WHz77PIT https://t.co/DpFgqjJR",[21287004]
 487296905710686208,1405015610,[],r:8813502,1,0,@aschreiber I feel like even an obsolete open standard is still better than a proprietary one.,[8813502]
@@ -2189,7 +2189,7 @@ pretty good",[11613712]
 282175794577543168,1356110926,"[""d3js""]",,105,196,"D3 3.0 has landed! Amazing new d3.geo by @jasondavies, better transitions, xhr, and more! https://t.co/IoM4poaw #d3js",[349963]
 446073518124716032,1395187189,"[""designmadness"", ""d3js""]",,34,18,"Ha, the #designmadness bracket itself is built with #d3js! http://t.co/lg564gOgeG",[]
 535097849482977280,1416412243,[],rt:535023502135263234,0,5,"RT @tony_yli: made a sky path calculator, by modding a recent d3 viz by @mbostock. Work in progress, but it's been pretty useful! http://t.…","[1210195742, 43593]"
-499612140609605632,1407951791,"[""ActOnClimate""]",rt:499602352639184896,0,766,RT @BarackObama: Climate change will make the intensifying droughts across the West even more extreme and dangerous: http://t.co/riqmGcfePI…,[813286]
+499612140609605632,1407951791,"[""actonclimate""]",rt:499602352639184896,0,766,RT @BarackObama: Climate change will make the intensifying droughts across the West even more extreme and dangerous: http://t.co/riqmGcfePI…,[813286]
 332952882062168064,1368217127,[],r:276747115,0,0,@Utebuntu See the basic charts section of the gallery: https://t.co/6N7NyyJJMZ,[276747115]
 375687325084172288,1378405812,[],r:1458271,1,2,"@tmcw creating ≫ consuming, creation ≠ selection",[1458271]
 638377559609114624,1441036045,[],r:25805235,0,0,@robinberjon My point is that cable television (the setup box) is obsolete. The internet will subsume all media eventually.,[25805235]
@@ -2265,7 +2265,7 @@ https://t.co/pZZaUuWndv",[]
 355134075947847680,1373505536,[],r:112214211,1,0,@caseypt @fathominfo That is awesome. Thank you for sharing this!,"[112214211, 157074463]"
 604339652506472449,1432920775,[],,113,94,"Why I’m excited about ES6 modules: a custom build of D3 4.0 in 3,610 gzipped bytes. (93% smaller!) http://t.co/HlrkZg9MHb",[]
 617150693254676480,1435975166,[],r:17242168,3,0,"@alignedleft I found the bug. It’s in d3.interpolate, not d3.interpolateRgb or d3.color. And already fixed in 4.0 modules.",[17242168]
-332217598420856835,1368041822,"[""D3"", ""cartogram"", ""gis"", ""ddj""]",rt:332193814238343169,0,12,RT @rastrau: How to create a #D3-based #cartogram linked view: Part 2 of my blog series is out http://t.co/7WNVt8Y1uU #gis #ddj http://t.co…,[385013701]
+332217598420856835,1368041822,"[""d3"", ""cartogram"", ""gis"", ""ddj""]",rt:332193814238343169,0,12,RT @rastrau: How to create a #D3-based #cartogram linked view: Part 2 of my blog series is out http://t.co/7WNVt8Y1uU #gis #ddj http://t.co…,[385013701]
 385101566400671744,1380650342,[],r:9984322,0,0,@pixelbeat https://t.co/jkvJUm4536,[9984322]
 318591237043130368,1364793044,[],r:14858088,1,0,"@baugher Yeah. But when you edit the text to extract a small part, it loses the quoting. Discovered command-shift-9 brings it back.",[14858088]
 601612529467412480,1432270579,[],r:18637556,0,0,"@tbranyen It wasn’t last time I looked, but maybe I missed something? Feel free to send a pull request.",[18637556]
@@ -2275,7 +2275,7 @@ https://t.co/pZZaUuWndv",[]
 294189382762651649,1358975189,[],r:90447665,0,0,@nextstopsun Please accept my answer (the checkmark) if I answered your question. :),[90447665]
 304621219980906496,1361462333,[],r:6146692,1,1,"@arnicas Other way around. Used force layout, then wrote an editor to tweak it by hand.",[6146692]
 446741360478277632,1395346415,[],r:29739700,1,1,@rsimmon @johnnelsonidv @dianamaps This is one of the reasons TopoJSON prefers explicit quantization.,"[29739700, 3955861096, 41640225]"
-596013623752941568,1430935695,"[""infovis"", ""UMD""]",rt:596001958995034112,0,18,RT @benbendc: Sharpening analytic focus to cope with big data volume and variety- Visualization View IEEE CG&amp;A http://t.co/IRbIBbnKga #info…,"[17268874, 2375775877]"
+596013623752941568,1430935695,"[""infovis"", ""umd""]",rt:596001958995034112,0,18,RT @benbendc: Sharpening analytic focus to cope with big data volume and variety- Visualization View IEEE CG&amp;A http://t.co/IRbIBbnKga #info…,"[17268874, 2375775877]"
 625907035142516736,1438062840,[],r:6146692,0,0,@arnicas “Nomorobo is not available on traditional analog landlines” 😟,[6146692]
 618865841690558464,1436384089,[],,32,14,Tinkering with geometry is apparently my hobby now. http://t.co/9iBYfdCXxT,[]
 368155636401709057,1376610118,"[""d3js""]",,27,21,Dynamic topology-preserving shape simplification with topojson.presimplify and geometry streams! http://t.co/9HENwYSbrd #d3js,[]
@@ -2373,7 +2373,7 @@ https://t.co/pZZaUuWndv",[]
 403595274624696321,1385059586,[],r:19671465,0,0,@KevinQ Where “it” is the SVG specification. :p So like basically it was the same conversation.,[19671465]
 308999462855012352,1362506187,[],rt:308887030673313792,0,11,"RT @jcukier: Inspired from our (+@alignedleft) strata talk, here's a detailed tutorial on d3 selections: http://t.co/zrgpqgI3d0","[14624309, 17242168]"
 469504497828765696,1400773569,[],r:18345150,0,0,@larsenpedersen Thanks!,[18345150]
-289167809571860480,1357777952,"[""Strataconf"", ""d3js""]",rt:289149709669498881,0,11,RT @strataconf: Master D3 essentials &amp; learn its capabilities at #Strataconf #d3js tutorial http://t.co/OpcfqQU8 by @alignedleft of  ...,"[167169119, 17242168, 57185317]"
+289167809571860480,1357777952,"[""strataconf"", ""d3js""]",rt:289149709669498881,0,11,RT @strataconf: Master D3 essentials &amp; learn its capabilities at #Strataconf #d3js tutorial http://t.co/OpcfqQU8 by @alignedleft of  ...,"[167169119, 17242168, 57185317]"
 278379435370094592,1355205804,[],r:61790128,0,0,@superSGP If by “seamless” you mean seamless walls of this crystal prison… ;),[61790128]
 354376475220262913,1373324910,[],r:19287300,1,0,@willedmondson Cheers and good work!,[19287300]
 625735206171836416,1438021873,[],r:19671465,0,0,@KevinQ Will you accept squabbling pigeons?,[19671465]
@@ -2441,7 +2441,7 @@ https://t.co/pZZaUuWndv",[]
 535233252693655553,1416444526,[],r:15351161,0,0,@namecheap How can I tell where the bad caching is occurring? My TTL is only 1800.,[15351161]
 282184766239932416,1356113065,[],r:278873782,0,0,"@vtcraghead @jasondavies I haven't worked on vector tiles since Polymaps, but both Apple &amp; Google appear to use vector tiles now.","[278873782, 349963]"
 333990880950235136,1368464605,[],r:135195911,0,0,@CWMma Nice!,[135195911]
-620367311967404032,1436742067,"[""PlutoFlyby""]",rt:620354218931691520,0,261,RT @bjorn_jons: Pluto 09:36-13:36 Jul 14. Closest approach 11:50. Charon not included. Now have up to date NH trajectory. #PlutoFlyby http:…,[2852470678]
+620367311967404032,1436742067,"[""plutoflyby""]",rt:620354218931691520,0,261,RT @bjorn_jons: Pluto 09:36-13:36 Jul 14. Closest approach 11:50. Charon not included. Now have up to date NH trajectory. #PlutoFlyby http:…,[2852470678]
 532585830485749760,1415813331,[],,43,38,Where is the Sun in the sky? http://t.co/mW444r4wCu http://t.co/cDsQm5GImy,[]
 357189507344375809,1373995589,[],r:14442542,0,0,"@robhawkes @stu_lester TopoJSON is typically still smaller, even if you don’t have shared topology (due to fixed delta encoding).","[14442542, 15814244]"
 327818406529216513,1366992973,[],r:18557627,0,0,"@herrstucki The {dx,dy} parameters are similar to the nodeSize parameter being added in D3 3.2: https://t.co/dpChl7fyWl",[18557627]
@@ -2487,7 +2487,7 @@ https://t.co/pZZaUuWndv",[]
 634136824575868928,1440024975,[],r:564613508,0,0,@Colt_Seevers See my GitHub profile.,[564613508]
 407682467068260352,1386034049,[],rt:407679984019308544,0,21,"RT @NYT4thDownBot: Hi all! I'm analyzing tonight's @ESPNMondayNight game from my coat closet, but here's my analysis of the year so far: ht…","[1977579223, 70202449]"
 314053535719387136,1363711172,[],,0,0,@chriswilsondc Interactive filtering of links on the senate social network is fun! Lovely.,[15741451]
-301435199185629185,1360702726,"[""SOTU""]",rt:301369960209473536,0,22,RT @GuardianUS: INTERACTIVE: George W. Bush's #SOTU addresses were delivered at a higher reading level than Barack Obama's http://t.co/e ...,[16042794]
+301435199185629185,1360702726,"[""sotu""]",rt:301369960209473536,0,22,RT @GuardianUS: INTERACTIVE: George W. Bush's #SOTU addresses were delivered at a higher reading level than Barack Obama's http://t.co/e ...,[16042794]
 390186845059162112,1381862767,[],r:14388749,0,1,@rburhum Or tadpoles? http://t.co/bHqeq4PeGV,[14388749]
 289070556215652352,1357754765,[],r:225138752,0,0,@eyeofestival @blprnt @pitchinc Not sure if facet witch or face twitch…,"[225138752, 17013577, 743982534]"
 642063093300760576,1441914745,[],,27,15,I find it hard to unsee world maps that are missing Antarctica. http://t.co/KhtKvWTvUt,[]
@@ -2982,7 +2982,7 @@ https://t.co/ndrk3bEd3n https://t.co/BM4MAA6S7Y",[555102816]
 281114688727707649,1355857939,[],r:6146692,0,0,"@arnicas @hexagonbot @moebio Shhh, the bots are listening!","[6146692, 328000324, 367089411]"
 336322776132616192,1369020573,[],r:346943756,1,0,"@arrayjam @jasondavies http://t.co/7MZZk5PAVF Also, Flattening the Earth and Map Projections: A Working Manual by John P. Snyder.","[346943756, 349963]"
 341980816802455553,1370369555,[],,6,4,-webkit-transform-style: not-slow;,[]
-383201038188040192,1380197221,"[""Landsat"", ""gis"", ""cartography"", ""opendata"", ""geodata""]",rt:383185752919916544,0,16,RT @redgeographics: Excellent tutorial by Tom Patterson on using #Landsat 8 data: http://t.co/jMbWBf6EXZ #gis #cartography #opendata #geoda…,[109054515]
+383201038188040192,1380197221,"[""landsat"", ""gis"", ""cartography"", ""opendata"", ""geodata""]",rt:383185752919916544,0,16,RT @redgeographics: Excellent tutorial by Tom Patterson on using #Landsat 8 data: http://t.co/jMbWBf6EXZ #gis #cartography #opendata #geoda…,[109054515]
 451207483848003584,1396411221,[],r:1387915232,6,0,@elijah_meeks Here ya go: http://t.co/gOVYKR3LYb,[1387915232]
 535213413388255232,1416439796,[],r:2790981,0,0,"@migurski @cwmma Most of my other domains were already on V2, so just http://t.co/5VfZStj8E5 affected.","[2790981, 135195911]"
 301022139912445954,1360604245,[],r:107911169,0,0,@kelsosCorner Fixed precision delta-encoding of coordinates.,[107911169]
@@ -3211,7 +3211,7 @@ Open your browser up…",[123323498]
 400060281868812288,1384216778,[],r:391028769,0,0,"@MasterDeWitt In the first impl., `d` is a number, so attr(""width"", x) is the same as attr(""width"", function(d) { return x(d); }).",[391028769]
 455385794757156864,1397407408,[],,104,47,Computing a perspective projection from four points. http://t.co/UsPJnvqYwv http://t.co/6U7QsgIVnf,[]
 321680625281150976,1365529612,[],rt:321674138194440192,0,30,RT @somebitsLinks: Winning Snake: beautiful animated GIF http://t.co/JkNgbRW3i0,[358426597]
-595306281700720644,1430767052,"[""d3js"", ""HTML5"", ""datavis""]",rt:595304727027458049,0,37,RT @currankelleher: New Screencast: Introduction to D3 https://t.co/NQCE5UkNuG #d3js #HTML5 #datavis http://t.co/3OWq8uhN6v,[191897226]
+595306281700720644,1430767052,"[""d3js"", ""html5"", ""datavis""]",rt:595304727027458049,0,37,RT @currankelleher: New Screencast: Introduction to D3 https://t.co/NQCE5UkNuG #d3js #HTML5 #datavis http://t.co/3OWq8uhN6v,[191897226]
 454294011457449984,1397147107,[],r:1366811,4,0,"@moritz_stefaner Use transition.tween, and then do whatever you want, e.g. http://t.co/J1YixX0ozT",[1366811]
 399357273048231938,1384049168,[],r:14492810,0,0,@pessimism The next section to be published will make it a more complete example. But can't start there; too much to cover at once.,[14492810]
 389940193681092608,1381803961,[],r:278873782,0,0,@vtcraghead @sjwilliams @shancarter Thanks. :),"[278873782, 15369869, 14875983]"
@@ -3238,7 +3238,7 @@ http://t.co/ed7er5RxO5","[90786626, 17348525]"
 311856750334717952,1363187417,[],r:6146692,0,0,"@arnicas That's because they are very different examples. One zooms, the other changes datasets.",[6146692]
 400060376026742784,1384216801,[],r:391028769,0,0,"@MasterDeWitt In the second impl, `d` is an object with a value property, so you need attr(""width"", function(d) { return x(d.value); }).",[391028769]
 615629709355827200,1435612535,[],r:20048140,0,0,@thespite @mflux Example?,"[20048140, 17728989]"
-652870917278728192,1444491531,"[""SVG""]",rt:652220638162223104,0,31,"RT @AmeliasBrain: So you though stroking a path in #SVG was straightforward?  Not quite. Tavmjong Bah outlines the edge cases:
+652870917278728192,1444491531,"[""svg""]",rt:652220638162223104,0,31,"RT @AmeliasBrain: So you though stroking a path in #SVG was straightforward?  Not quite. Tavmjong Bah outlines the edge cases:
 http://t.co/…",[3122402048]
 529315151137107968,1415033540,[],r:278873782,1,0,"@vtcraghead Maybe, though there’s a chance the reader wants to scroll past the map without zooming.",[278873782]
 350045111654162434,1372292232,"[""d3js""]",,48,18,Got a lot goin’ on? Dispatch custom events to coordinate your views. http://t.co/kAtiYMf4Uz #d3js,[]
