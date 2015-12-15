@@ -5,11 +5,11 @@
 
 for f in ../images/*
 do
- echo "Processing $f into ${f%.*}.jpg"
- # Resize all the images to 100px via imagemagick and make them small jpgs.
- convert $f -resize 100x100 -quality 86 -strip ${f%.*}.jpg
+    if [ -f $f ] 
+    then
+         echo "Processing $f into ${f%.*}.jpg"
+         # Resize all the images via imagemagick and make them small jpgs.
+         convert $f -resize 200x200 -quality 80 -strip ${f%.*}.jpg
+    fi
 done
 
-# tuzki4 was an animated gif; have a bunch of frames extracted.
-mv ../images/tuzki4-0.jpg images/tuzki4.jpg
-rm ../images/tuzki4-*
