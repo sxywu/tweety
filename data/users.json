@@ -151,7 +151,7 @@
    },
    {
       "name":"alexgoot",
-      "imageWidth":70,
+      "imageWidth":65,
       "image":"images/alexgoot.jpeg",
       "numFollowers":246016
    },
@@ -198,12 +198,6 @@
       "numFollowers":4108162
    },
    {
-      "name":"danielhenney",
-      "imageWidth":60,
-      "image":"images/danielhenney.jpg",
-      "numFollowers":119250
-   },
-   {
       "name":"jimmyfallon",
       "imageWidth":100,
       "image":"images/jimmyfallon.jpg",
@@ -229,7 +223,7 @@
    },
    {
       "name":"twitter",
-      "imageWidth":200,
+      "imageWidth":190,
       "image":"images/twitter.png",
       "numFollowers":49039972
    },
@@ -295,7 +289,7 @@
    },
    {
       "name":"neiltyson",
-      "imageWidth":65,
+      "imageWidth":60,
       "numFollowers":4655018,
       "image":"images/neiltyson.jpg"
    },
@@ -304,12 +298,6 @@
       "imageWidth":40,
       "numFollowers":757,
       "image":"images/brian_booden.jpeg"
-   },
-   {
-      "name":"marissamayer",
-      "imageWidth":50,
-      "numFollowers":1143659,
-      "image":"images/marissamayer.jpg"
    },
    {
       "name":"MythBusters",
@@ -325,13 +313,13 @@
    },
    {
       "name":"JamieNoTweet",
-      "imageWidth":50,
+      "imageWidth":55,
       "numFollowers":491552,
       "image":"images/JamieNoTweet.jpeg"
    },
    {
       "name":"BillGates",
-      "imageWidth":60,
+      "imageWidth":85,
       "numFollowers":25999033,
       "image":"images/BillGates.jpeg"
    },
@@ -349,13 +337,13 @@
    },
    {
       "name":"BarackObama",
-      "imageWidth":80,
+      "imageWidth":70,
       "numFollowers":67080866,
       "image":"images/BarackObama.png"
    },
    {
       "name":"BrunoMars",
-      "imageWidth":90,
+      "imageWidth":100,
       "numFollowers":24051495,
       "image":"images/BrunoMars.jpeg"
    },
@@ -367,25 +355,25 @@
    },
    {
       "name":"nytimes",
-      "imageWidth":80,
+      "imageWidth":60,
       "numFollowers":22241848,
       "image":"images/nytimes.png"
    },
    {
       "name":"edsheeran",
-      "imageWidth":100,
+      "imageWidth":75,
       "numFollowers":16070465,
       "image":"images/edsheeran.jpg"
    },
    {
       "name":"NASA",
-      "imageWidth":150,
+      "imageWidth":120,
       "numFollowers":13687702,
       "image":"images/NASA.jpg"
    },
    {
       "name":"DalaiLama",
-      "imageWidth":90,
+      "imageWidth":65,
       "numFollowers":12214134,
       "image":"images/DalaiLama.jpeg"
    },
@@ -397,13 +385,13 @@
    },
    {
       "name":"TheOnion",
-      "imageWidth":150,
+      "imageWidth":120,
       "numFollowers":8627249,
       "image":"images/TheOnion.jpg"
    },
    {
       "name":"jk_rowling",
-      "imageWidth":60,
+      "imageWidth":80,
       "numFollowers":6115381,
       "image":"images/jk_rowling.jpeg"
    },
