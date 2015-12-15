@@ -486,7 +486,7 @@ An example using canvas toDataUrl which I did solely for the punny title.
 http://t.co/PmLCYcUaeX http://t.co/H4bp6fr8JU",[]
 451166196247695360,1396401378,[],,5,1,"Do you want to play with topologies and learn what winding order is, too? Here's the block for you.
 http://t.co/Kw59GtD0r5",[]
-667873066903433217,1448068322,[],r:1387915232,23,9,@Elijah_Meeks Also you can drag the nodes around if you want to be an idiot. https://t.co/DQ6zTH4jrV,[1387915232]
+667873066903433217,1448068322,[],r:1387915232,23,10,@Elijah_Meeks Also you can drag the nodes around if you want to be an idiot. https://t.co/DQ6zTH4jrV,[1387915232]
 454133168400920576,1397108759,[],rt:454120802443489280,0,1,"RT @jsundram: In my Voronoi States of America, compare states as if they were centered on capitals, or on their largest city: http://t.co/I…",[55677993]
 550024708062601216,1419971084,[],r:15937756,0,0,"@akarve No, did it do that?",[15937756]
 448932082564100096,1395868723,"[""dayofdh""]",rt:448929158094422016,0,1,RT @CindyaNguyen: RT @sfbay_dh: Signed up for #DayofDH? Let's make a bay area dh group? @Elijah_Meeks @jaheppler @horbinski @majining http:…,"[1325105192, 1472697308, 1387915232, 16240799, 793137019, 106650277]"
@@ -674,7 +674,7 @@ http://t.co/oGPlBIPjps",[43593]
 489417558882148352,1405521213,[],,4,3,iBM,[]
 431934868939739136,1391816272,[],r:14093339,0,0,"@mchris4duke @mwidner No, it's an old saying that emphasizes the creation of small pieces of code to do tedious little things.","[14093339, 22677647]"
 448515206503997441,1395769332,[],r:48428463,0,0,"@hhavrilesky Let's be realistic, only one of those paths has any chance of involving a saga.",[48428463]
-673900504481591296,1449505375,"[""d3js""]",,47,20,"GIF made automatically from a #d3js block. The future has arrived (via @veltman &amp; gif.js).
+673900504481591296,1449505375,"[""d3js""]",,49,20,"GIF made automatically from a #d3js block. The future has arrived (via @veltman &amp; gif.js).
 https://t.co/j8vTES8ZWl https://t.co/1L4zS4WsLg",[17673012]
 616766201293750272,1435883496,"[""d3js""]",,11,0,"I got sick of watching @mbostock goof off and made something useful with #d3js.
 http://t.co/YdXprvzdT7 http://t.co/4ILdGCPAw2",[43593]
@@ -694,6 +694,7 @@ http://t.co/YdXprvzdT7 http://t.co/4ILdGCPAw2",[43593]
 445966145925828608,1395161589,[],,3,0,"Registered for ""See, Think, Design, Produce"" workshop with @13pt @worrydream @mbostock @EdwardTufte (intimidating eh) http://t.co/LCjTJE6RwW","[347276428, 255617445, 43593, 152862026]"
 430872385575587840,1391562956,[],r:10034972,0,0,@tjowens @jaheppler That kind of remark is truly truly truly outrageous.,"[10034972, 16240799]"
 432268120086962178,1391895725,[],r:43593,0,0,@mbostock @RandomEtc But how do you refer to the entire infoviz thing that's the result of a layout (and distinct from layout+controls)?,"[43593, 13495]"
+394901129273700352,1382986740,[],,0,0,"Firefox was a really loyal browser to you back in the day, but now it has rabies, and you need to take it out back and shoot it.",[]
 423310481881714688,1389760058,"[""myhomework""]",,1,0,"d3.gen.doMyHomework(d3.select(""#myHomework"");
 d3.gen.takeOutTheTrash(d3.selectAll("".trash"")",[]
 451731505287421952,1396536158,[],rt:451730910271275009,0,9,"RT @13pt: See Think Design Produce: a 1-day course with me, @worrydream, @mbostock, @EdwardTufte. San Jose, May 6 http://t.co/2n51xslGVq","[347276428, 255617445, 43593, 152862026]"
@@ -907,6 +908,7 @@ http://t.co/u8kCHF6NjX http://t.co/1mlqWp2rlI",[]
 395284584209711104,1383078163,[],r:17461965,0,0,"@poezn @arnicas All I can tell from that chart is that Download Data is trending upward at a steady, linear rate since early October.","[17461965, 6146692]"
 391952711282741248,1382283783,[],r:255535432,0,0,"@goldstoneandrew Permalinks to specific states, too? Wow. Very well done.",[255535432]
 432653472740028416,1391987600,[],r:47475039,2,0,"@sarahkendzior @pankisseskafka The implication of there being ""ordinate amounts of time"" for goyim to think about fictional swastika tattoos","[47475039, 25732408]"
+676543089167622144,1450135416,[],r:16030323,1,0,@enjalot @tmcw Now connect them and draw shadows.,"[16030323, 1458271]"
 418583185325174784,1388632982,[],,0,0,"Restless trees driving people to madness, unintentionally, from @GaslampGames. http://t.co/CI1PBzrtAe",[127055996]
 450002962111148032,1396124041,"[""d3unconf""]",rt:449982883688501248,0,20,RT @ireneros: My keynote slides for d3.unconf are available  here https://t.co/wCi6sRNwaM /cc @enjalot #d3unconf,"[16789581, 16030323]"
 465717512466747392,1399870682,[],r:22677647,1,0,@mwidner Like watching the Broncos play the Cowboys--you can only root for injuries.,[22677647]
@@ -1425,7 +1427,7 @@ http://t.co/459VqmatPh
 http://t.co/BbXOSqqPTy
 http://t.co/xvFZyLtSOi",[]
 506563258698838016,1409609067,[],r:123323498,0,0,"@jashkenas I didn't do it, the interpolator did it. Maybe interpolators don't like meatballs?",[123323498]
-398508566954258432,1383846820,[],rt:397562392382799873,0,5528,RT @GeorgeTakei: Patrick Stewart is a Boss. http://t.co/gkpPjR3kWp,[237845487]
+398508566954258432,1383846820,[],rt:397562392382799873,0,5526,RT @GeorgeTakei: Patrick Stewart is a Boss. http://t.co/gkpPjR3kWp,[237845487]
 454305953664348161,1397149954,"[""txdhc""]",,0,0,At UH Hilton for #txdhc. Where's the nearest good eats?,[]
 463748203200786432,1399401162,[],,5,1,"If only someone, somewhere, had thought about publishing citable interactive scholarly works...",[]
 453551919844175872,1396970178,[],r:1067580330,1,0,"@kgeographer For your sanity, I hope it's the drinking.",[1067580330]
@@ -1565,7 +1567,7 @@ http://t.co/6a8aEeFDYR",[]
 623895229129580544,1437583188,"[""d3brokeandmadeart""]",,4,1,"If you can't make it to my network viz workshop at @forwardJS, this is what you're missing. #d3brokeandmadeart http://t.co/hkXhDj2UHy",[2396580356]
 451911829334134784,1396579150,[],,7,8,"""Toward Spatial Humanities"", which includes an article by @RuthMostern and me, is finally out:
 http://t.co/8S6RqwMkAu",[1319682974]
-644231628626104320,1442431764,[],rt:644211870446915584,0,3672,"RT @jsench: STEM: how to build a clock
+644231628626104320,1442431764,[],rt:644211870446915584,0,3670,"RT @jsench: STEM: how to build a clock
 HUMANITIES: how to build world in which students of color are not arrested for building clocks.",[103899997]
 397789591417012224,1383675403,[],r:48428463,1,0,"@hhavrilesky As any statistician will tell you, the real story is in the distribution.",[48428463]
 568937894540218370,1424480339,"[""chartshaming""]",,7,1,"Nothing quite says ""I despise Rhode Island"" quite like a choropleth map. #chartshaming. http://t.co/AQ9W8LVwCv",[]
@@ -1665,7 +1667,7 @@ http://t.co/7fDZJfbDT5",[6146692]
 460839545458532352,1398707684,[],,4,6,"We've started a meetup group for SF Bay Area folks interested in collaboration between academics, tech industry, &amp;c.
 http://t.co/YlAGKNOUFA",[]
 550000853319684096,1419965396,[],,3,0,Well that doesn't make any sense at all. http://t.co/fH1VuaCyou,[]
-457617325319933952,1397939447,"[""d3jsdontcare"", ""d3jsrenderswhatitwants"", ""d3brokeandmadeart"", ""supposedtobeahistogram""]",,0,0,#d3jsdontcare #d3jsrenderswhatitwants #d3brokeandmadeart #supposedtobeahistogram http://t.co/r7RdVfh1an,[]
+676299898048786432,1450077435,[],,0,1,"From the people who brought you Jar Jar, Midichlorians and Khan's Superblood comes another story about hidden messages in astromech droids.",[]
 472805219672141824,1401560523,"[""thatcampne""]",rt:472766710320492545,0,3,"RT @triplingual: Reminded once again, we need a matchmaking web application for DH projects. ""ISO UXer for historic mapping project. D/D fr…",[128196131]
 398508858282610688,1383846890,[],rt:398508726711095296,0,9,"RT @RuthMostern: Open-rank digital heritage/world heritage faculty position at UC Merced.  Great job, spread the word! http://t.co/v9aOyDcg…",[1319682974]
 463730644191686656,1399396975,"[""stdp""]",,3,3,"If you're designing for people like you, you're not communicating. @13pt #stdp",[347276428]
@@ -1783,7 +1785,7 @@ http://t.co/kZYj8o31Zg
 402990100402823168,1384915301,[],r:24075855,0,0,"@roopikarisam ""Maybe they're just tremendously stupid"".",[24075855]
 447926815160418304,1395629049,[],r:125621703,0,0,"@Rokanten Then I guess I didn't quite understand your question. If you add more detail, that will help.",[125621703]
 449555106065694721,1396017264,[],r:15762276,0,0,@scott_bot I can't either. Makes for strange dreams. Wasn't there a study on this that declared it uncommon but not unheard of.,[15762276]
-673885966877114368,1449501909,[],rt:673881253821718528,0,67,"RT @_deardata: We are so proud! Dear Data will be a BOOK, published by @particularbooks (@penguinUKbooks) in Autumn 2016! https://t.co/0GyH…","[2848359778, 1454829884, 14123751]"
+673885966877114368,1449501909,[],rt:673881253821718528,0,68,"RT @_deardata: We are so proud! Dear Data will be a BOOK, published by @particularbooks (@penguinUKbooks) in Autumn 2016! https://t.co/0GyH…","[2848359778, 1454829884, 14123751]"
 482196263379947520,1403799522,"[""eyeo2014""]",rt:482177194110627840,0,837,RT @mbostock: New post - Visualizing Algorithms - using vision to study processes &amp; systems. http://t.co/LOCtQZisIB #eyeo2014 http://t.co/M…,[43593]
 583100554844360705,1427856980,[],r:7639702,2,0,"@vlandham Yeah, that's Boston, alright.",[7639702]
 445967921047564289,1395162012,[],r:104894644,1,0,"@electricarchaeo Flare.json is hierarchical nested data, not network data. Only one parent, many children, not overlap.",[104894644]
@@ -2045,7 +2047,7 @@ http://t.co/Y5I8kMoxLM",[]
 468760956462714880,1400596295,[],r:25096930,0,0,"@hfairfield I love this transition, it makes everything more readable. Why no hover/click behavior on the circles? http://t.co/4KH9Kwnltp",[25096930]
 534725936696930304,1416323572,"[""d3js""]",,35,24,"Networks, maps, spreadsheets, dashboards. Ch. 6 - 9 examples of #D3js in Action now on blocks.
 http://t.co/wuMqak5yyC http://t.co/Bobjsdd8Cm",[]
-413227889992019968,1387356181,[],rt:399339918213652480,0,9179,RT @fortes: Debugging is like being the detective in a crime movie where you are also the murderer.,[614183]
+413227889992019968,1387356181,[],rt:399339918213652480,0,9177,RT @fortes: Debugging is like being the detective in a crime movie where you are also the murderer.,[614183]
 623981229117812738,1437603692,[],r:14221013,1,0,@nowviskie @ProfessMoravec One of the very best on the subject.,"[14221013, 369529173]"
 506117401100832769,1409502766,"[""d3brokeandmadeart""]",rt:495983628447657985,0,1,RT @superSGP: Sometimes it is the very motions intended to reveal that instead obscure. #d3brokeandmadeart http://t.co/VE2OHUg9M0,[61790128]
 453644344029757440,1396992214,"[""dayofdh""]",,0,0,Here's @kgeographer demoing the current state of the Catal Living Archive. #DayofDH http://t.co/l84L5zUTPZ,[1067580330]
@@ -2417,12 +2419,13 @@ http://t.co/D0sreMvE4D http://t.co/uDg2U1NU95",[2396580356]
 464876317171666944,1399670125,[],r:22677647,1,2,"@mwidner @ncecire I was presenting with @uheise on our work exploring species biodiversity databases as literature:
 https://t.co/sTfaNbSM5t","[22677647, 49542261, 96420064]"
 397784209856528384,1383674120,[],r:15762276,0,0,"@scott_bot And I hate ""visualization"" as a term. It makes me think of envisioning penguins during stressful times.",[15762276]
-661953226804084736,1446656922,[],rt:661952935602057216,0,1774,"RT @Snowden: I think that has to come from the President, but I appreciate the offer. https://t.co/ZOQkbARNFF",[2916305152]
+661953226804084736,1446656922,[],rt:661952935602057216,0,1776,"RT @Snowden: I think that has to come from the President, but I appreciate the offer. https://t.co/ZOQkbARNFF",[2916305152]
 387937936492072961,1381326586,[],r:24961156,0,0,"@ekansa Could be worse, could be @jaheppler and every time you engage in an act of public transportation you have to roll an encounter.","[24961156, 16240799]"
 388696553491140608,1381507454,[],r:19780363,0,0,@gdi2290 @vicapow Does this include overtime?,"[19780363, 19411223]"
 459761940684734464,1398450763,[],,0,0,News story about actual torture is dominated by comments about ironic torture.,[]
 443168013097779200,1394494462,[],,1,0,@d3unconf Will there be a public gallery of blocks before/during/after the conference?,[2318412205]
 667029645938704384,1447867235,[],r:15104107,0,0,"@zubakskees If you only have State-level data, your choices are limited. One or top-N pop cities or entire polygon area.",[15104107]
+457617325319933952,1397939447,"[""d3jsdontcare"", ""d3jsrenderswhatitwants"", ""d3brokeandmadeart"", ""supposedtobeahistogram""]",,0,0,#d3jsdontcare #d3jsrenderswhatitwants #d3brokeandmadeart #supposedtobeahistogram http://t.co/r7RdVfh1an,[]
 626432271407431681,1438188066,[],,8,7,"""We're paid more due to a labor shortage by dint of our shitty, unwelcoming culture.""  @_K_E_L_S_E_Y's @forwardJS on labor history for Tech.","[435236587, 2396580356]"
 634022520866279424,1439997723,[],r:13221912,0,0,"@andest01 @vtcraghead @pinakographos It's a very dumb function, so it draws multipolygons (indonesia, michigan) and others sloppily.","[13221912, 278873782, 243497005]"
 391969014894706688,1382287670,[],r:6146692,0,0,"@arnicas No, I haven't. Also very useful!",[6146692]
@@ -2439,7 +2442,7 @@ https://t.co/KaNwipK8mt","[461927352, 15762276]"
 468462395724009473,1400525113,"[""d3js""]",,1,0,"Based on its popularity and evilness, someone obviously needs to make a #d3js Venn diagram layout.",[]
 422479259370655745,1389561879,[],rt:422472537742663680,0,3,"RT @RuthMostern: The ""world's first map"" controversy at Catalhoyuk continues apace. Here's a new salvo. HT @ca_lux . http://t.co/h5hp4WRpHB","[1319682974, 1163976522]"
 439121780993949696,1393529765,[],rt:439121495009542145,0,1,RT @the_wrangler: American Aqueduct: The Great California Water Saga: http://t.co/rS7D5oSuZO @alexismadrigal @TheAtlantic,"[82976044, 11107172, 35773039]"
-424299898243018753,1389995953,[],rt:424297052181250048,0,1247,RT @Reuters: California’s governor declares severe drought emergency http://t.co/Kee3256iYD http://t.co/3f2VZDX6l1,[1652541]
+424299898243018753,1389995953,[],rt:424297052181250048,0,1246,RT @Reuters: California’s governor declares severe drought emergency http://t.co/Kee3256iYD http://t.co/3f2VZDX6l1,[1652541]
 672269410724278272,1449116492,"[""d3js""]",,97,55,"I made a #d3js plugin for drawing different kinds of network edges.
 https://t.co/MFhAG9H1Z3 https://t.co/rNTIAhuGG1",[]
 405454875799990272,1385502950,[],r:356445530,0,0,@fake_train I get the sense that anyone who was at Facebook pre-IPO feels like they've been there since the beginning.,[2285718536]
@@ -2600,7 +2603,7 @@ http://t.co/jK2hbfd2uh http://t.co/yUvqbVt7GJ",[349963]
 410463006317764608,1386696981,"[""topotime""]",,0,1,Temporal embeddedness of US States using #topotime. http://t.co/QjdemWe19B,[]
 496094245019996161,1407113059,[],,2,0,Just arrived at DCA for @HILT_MITH. Now to help people get @Gephi installed on OSX. Ugh...,[22749856]
 446675206279413762,1395330642,[],r:15395246,0,0,@paregorios That's a disturbing expression I'm not familiar with!,[15395246]
-421304208692740096,1389281725,[],rt:419027518142676992,0,4486,RT @TimvanAsch: Unknown artist pasted the Photoshop toolbar on several posters of H &amp; M in Germany. http://t.co/lFLVw6T7f7,[17443845]
+421304208692740096,1389281725,[],rt:419027518142676992,0,4485,RT @TimvanAsch: Unknown artist pasted the Photoshop toolbar on several posters of H &amp; M in Germany. http://t.co/lFLVw6T7f7,[17443845]
 501507496800813056,1408403679,[],r:349130227,0,0,@LNE123 @jaheppler @historying @NUlabTMN How many individual segments?,"[2562612860, 16240799, 18521423, 902498275]"
 408111067848376321,1386136235,[],,0,0,@sgillies I want to simplify a polyline to equidistant points and I have found no ready solution. Any suggestions?,[14620262]
 647561013793943552,1443225551,"[""d3js""]",,7,4,"Only 4 tickets left for my #d3js bootcamp with @zanstrong in November.
@@ -2780,8 +2783,7 @@ http://t.co/UogkfNEspy",[126370460]
 632038154069938176,1439524613,[],r:23795212,0,0,"@BenLesh Yeah, it's definitely not optimized, and d3.sketchy is pretty coarse. Maybe I'll do an optimized version.",[23795212]
 435164156631597057,1392586194,[],r:282130842,0,0,"@mf_viz Semantic zoom does, I was referring to graphical zoom.",[282130842]
 550027535757492224,1419971758,[],r:15937756,0,0,"@akarve I don't follow, could you sketch out what you mean?",[15937756]
-630553187557060612,1439170569,[],,22,9,"Amazing article by @giorgialupi on multi-layered storytelling--full of tips for pushing the boundaries of dataviz.
-https://t.co/9seUuHKv30",[38254620]
+657732645841801216,1445650657,"[""d3js""]",rt:657714710360420352,0,8,RT @enjalot: how cool is this #d3js fractal tree!? by @jessihamel https://t.co/aYIEpyf5f7 https://t.co/YhgVlwEBKg,"[16030323, 772968835]"
 453585759790829569,1396978247,[],rt:453583928914620416,0,4,RT @arnicas: Primo contract vis gig at Twitter HQ just posted https://t.co/IjpbPQvfkb,[6146692]
 464996342482214912,1399698741,[],rt:464995265494020096,0,47,RT @mbostock: Wilson’s algorithm uses loop-erased random walks to generate a uniform spanning tree. http://t.co/j6CEoMBDmx http://t.co/YVPK…,[43593]
 431853655101169664,1391796909,[],rt:431846896642977792,0,26,RT @sarahkendzior: Where is your college tuition going? To fund legions of administrators and non-academic employees  http://t.co/hrPcNlzIj…,"[47475039, 48075372]"
@@ -2992,10 +2994,11 @@ Gogol Search. Gogol Doodle. Gogol+. Gogol Mail. Gogol 13.",[]
 458642513717231617,1398183871,[],r:1621374198,0,0,"@Kathy_Weimer @tamulibraries Orthographic projection, really? Should have used Mollweide.","[1621374198, 21886855]"
 625837625463537665,1438046292,"[""d3js""]",,122,64,"Here's the presentation for my #d3js network visualization workshop.
 http://t.co/i0tKsC73uf http://t.co/Gl30rBnGR4",[]
-459891262657540097,1398481596,[],rt:411281851131523072,0,34883,"RT @skullmandible: most cutting thing you can say is ""who's this clown?"" because it implies they're a) a clown &amp; b) not even one of the bet…",[34780554]
+459891262657540097,1398481596,[],rt:411281851131523072,0,34901,"RT @skullmandible: most cutting thing you can say is ""who's this clown?"" because it implies they're a) a clown &amp; b) not even one of the bet…",[34780554]
 411205889190682624,1386874098,[],r:138813955,2,0,@eltonteb @sgillies @MapBox I was in a coma. Just woke up today. Things are so different now than they were in August.,"[138813955, 14620262, 55236002]"
 660399159854264321,1446286403,[],,10,1,"Other than saying 10 years of data viz is ""relatively new"" I agree with @DataRemixed entirely about his 3 tenets. https://t.co/ei0VWFYlTI",[359024514]
-657732645841801216,1445650657,"[""d3js""]",rt:657714710360420352,0,8,RT @enjalot: how cool is this #d3js fractal tree!? by @jessihamel https://t.co/aYIEpyf5f7 https://t.co/YhgVlwEBKg,"[16030323, 772968835]"
+630553187557060612,1439170569,[],,22,9,"Amazing article by @giorgialupi on multi-layered storytelling--full of tips for pushing the boundaries of dataviz.
+https://t.co/9seUuHKv30",[38254620]
 457588864069021696,1397932661,"[""topojson"", ""wikipedia"", ""d3js"", ""minimal""]",rt:457154977039781888,0,3,RT @Hugo_Lz: Core principles of #topojson syntax on #wikipedia ! https://t.co/HaIQIW9oo2 #d3js #minimal @mbostock @edouard_lopez http://t.c…,"[405121284, 43593, 15467912]"
 636722234858405888,1440641385,"[""d3js""]",,9,3,"Tickets are now available for my #d3js 2-day bootcamp on complex data visualization taught by @zanstrong and me.
 http://t.co/X3zq6V64Ty",[146365761]
@@ -3138,7 +3141,8 @@ http://t.co/No7DlKDnse http://t.co/A1hN3MNQMk",[]
 636354915216982016,1440553809,[],,4,1,Hell of smart. https://t.co/qajS86oqjT,[]
 601424912016744449,1432225847,"[""d3brokeandmadeart""]",rt:600917470111629312,0,1,RT @zanstrong: #d3brokeandmadeart http://t.co/xCjrQeHebn,[146365761]
 455823670695313408,1397511806,[],rt:455813746645286912,0,17,RT @mahirmyavuz: 957 districts of Turkey as a network. (source code &amp; inspiration from @Elijah_Meeks) http://t.co/rvDkqP7md7,"[3184863781, 1387915232]"
-394901129273700352,1382986740,[],,0,0,"Firefox was a really loyal browser to you back in the day, but now it has rabies, and you need to take it out back and shoot it.",[]
+676462844506865664,1450116284,"[""tweetyviz"", ""tweetportraits"", ""d3js""]",rt:676462216271433728,0,17,"RT @shirleyxywu: And #tweetyviz is up!  A curated collection of #tweetportraits, lmk who you wanna see: https://t.co/bEgjGMgoPq
+#d3js https…",[190857410]
 668924705680683008,1448319052,[],,5,1,"Almost all the colors in @KindredBritain are slightly different and no one ever noticed.
 https://t.co/0UB2R4HKTh https://t.co/8kMIkHG9Wp",[1280864936]
 549964650733768704,1419956765,"[""d3js""]",,16,8,An animated explanation of multimodal network projection by @scott_bot and myself from http://t.co/omesTWWBgO #d3js http://t.co/YHHesdGLTm,[15762276]
@@ -3616,7 +3620,7 @@ http://t.co/MeGpNe0R14 http://t.co/6dcb2vuIma",[812984]
 419284792908070912,1388800259,[],r:61113610,0,0,@kimmayo I won't tolerate this anti-goat bigotry any longer.,[3176068790]
 451371266767716352,1396450270,"[""d3unconf""]",r:15762276,1,1,@scott_bot I showed this off at #d3unconf as an example of digital humanities. It's better than many big DH projects.,[15762276]
 476864983205019648,1402528446,"[""hcds""]",rt:476846088448524288,0,3,RT @jessicamindnich: Visualization is not just about analysis.  It's about communication. @SeeingStructure @Visually  #hcds,"[33811564, 40144128, 273197054]"
-424349625324015616,1390007809,[],rt:424272437929205760,0,2988,"RT @wtrsld: This really should be the only thing you are referring to when you say, ""Big Data"". http://t.co/niCdZRYA4G",[14120760]
+424349625324015616,1390007809,[],rt:424272437929205760,0,2987,"RT @wtrsld: This really should be the only thing you are referring to when you say, ""Big Data"". http://t.co/niCdZRYA4G",[14120760]
 403985051227922432,1385152516,[],r:47475039,0,0,"@sarahkendzior @pankisseskafka As someone who knows not what lit jobs should look like, what's so particularly foul about this one?","[47475039, 25732408]"
 464097511594938368,1399484443,[],r:43593,1,0,@mbostock @yrochat @jasondavies That's the layout I use in the chapter and in my topic model viewer: https://t.co/LXHKqixPap,"[43593, 15516583, 349963]"
 468759601283080192,1400595972,[],rt:468756739756916737,0,64,RT @hfairfield: A story in charts: how to measure the success of the Affordable Care Act: http://t.co/34hzoemgqe,[25096930]

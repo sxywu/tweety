@@ -2,3 +2,5 @@
 credentials.js
 node_modules/*
 scripts/bundle.js
+data/*.json
+!data/users.json
