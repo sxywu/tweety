@@ -101,11 +101,11 @@ function getUser(userFile) {
 
     // download image, code from http://stackoverflow.com/questions/12740659/downloading-images-with-node-js
     var uri = user.profile_image_url.replace('_normal', '');
-    userFile.filename = 'images/' + userObj.screen_name + '.' + _.last(uri.split('.'));
+    userFile.image = 'images/' + userObj.screen_name + '.' + _.last(uri.split('.'));
     request.head(uri, function(err, res, body){
 
-      request(uri).pipe(fs.createWriteStream(userFile.filename)).on('close', function() {
-        console.log(userFile.filename, 'done downloading');
+      request(uri).pipe(fs.createWriteStream(userFile.image)).on('close', function() {
+        console.log(userFile.image, 'done downloading');
 
         getTweets();
       });
