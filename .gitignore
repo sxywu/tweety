@@ -4,3 +4,6 @@ node_modules/*
 scripts/bundle.js
 data/*.json
 !data/users.json
+images/*
+!images/*.jpg
+!images/resources/*
