@@ -8,13 +8,13 @@ tweet_id,time,hashtags,type,faves,retweets,text,mentions
 61060735341559808,1303392988,"[""mbta""]",rt:61050329818607616,0,14,RT @mbtaGM: Next Stop: Real-Time commuter rail data.   Coming to riders later this spring.  http://bit.ly/fQxKEc #mbta,[1875510546]
 335843272939429888,1368906250,[],,0,0,"With apologies to @Salavon, I'm turning videos into their average frame. Here's @noahkalina (http://t.co/HB2ZlmL95k) http://t.co/jA3k4ufYuD","[29558949, 19698410]"
 360953536470712320,1374893003,[],r:580031141,0,0,@jradavenport have you tried conda?,[580031141]
-74176712681852928,1306520081,"[""mapreduce"", ""Python"", ""Erlang""]",,0,0,"Playing with disco, a #mapreduce framework for #Python built on #Erlang: http://discoproject.org/",[]
+74176712681852928,1306520081,"[""mapreduce"", ""python"", ""erlang""]",,0,0,"Playing with disco, a #mapreduce framework for #Python built on #Erlang: http://discoproject.org/",[]
 505211175957590016,1409286705,[],r:19160166,0,0,@nigelbabu @hsjuju2 how do you find one? My skills are limited to kayak and hipmunk.,"[19160166, 1553700698]"
 16902284841,1277352264,[],,0,0,Where do people who leave Cambridge go? http://post.ly/kW5Z,[]
 308028449933643777,1362274680,[],r:6146692,0,0,@arnicas sounds like just what the dr (who?) ordered.,[6146692]
 252269308988772352,1348980664,[],r:1691591,0,0,@eelstretching will do. Meant to check in on your standing desk experiment. How's that going?,[1691591]
 237289587209302016,1345409220,[],r:6146692,0,0,@arnicas 5.30 @ Menton is earliest possible. http://t.co/HLjk86hj Let's do that?,[6146692]
-445282864083394560,1394998682,"[""CraftCocktails""]",,0,0,"After discovering the orgeat recipe in my last tweet, I'm pretty sure I'll never buy Orgeat again. #CraftCocktails",[]
+445282864083394560,1394998682,"[""craftcocktails""]",,0,0,"After discovering the orgeat recipe in my last tweet, I'm pretty sure I'll never buy Orgeat again. #CraftCocktails",[]
 349805390239776768,1372235078,[],,0,0,"Just learned the real orthography of my name: JĀSÖN. Now, I need to figure out how to pronounce it. Anyone have a unicode to IPA converter?",[]
 498846775558823936,1407769314,[],rt:498661936775835650,0,15,"RT @pixelbeat: Tweetable Mathematical Art.
 
@@ -48,7 +48,7 @@ http://t.co/o9KCj88s via @juliaxgulia","[322177274, 15377617]"
 269680794862227456,1353131886,[],r:249351969,0,0,"@datatelling wow, I think my first cocktail was a vodka martini. With oysters IIRC.",[249351969]
 655767537234284545,1445182139,[],,1,0,What if data visualization looked like this? (Untitled by Nasreen Mohamedi) http://t.co/tVuyyyFVxM,[]
 366839894259142657,1376296421,[],,0,0,@SciencePorn I think your tweets should include citations...,[572225652]
-233271251869773824,1344451175,"[""OMGFreeBenJerrys""]",r:17531205,0,0,Thanks to @BostonTweet for the #OMGFreeBenJerrys Ice Cream at the @WHERE/@PayPal office. Just the thing for a hot summer day.,"[17531205, 15236542, 30018058]"
+233271251869773824,1344451175,"[""omgfreebenjerrys""]",r:17531205,0,0,Thanks to @BostonTweet for the #OMGFreeBenJerrys Ice Cream at the @WHERE/@PayPal office. Just the thing for a hot summer day.,"[17531205, 15236542, 30018058]"
 459399968806412288,1398364462,"[""openvisconf""]",,2,0,Pattern.py looks like a great way to get data from the web and do some text analysis w v little code http://t.co/d7rquq2WMT  #openvisconf,[]
 203184777153626112,1337278000,[],r:6146692,0,0,@arnicas I would be very interested in 1).,[6146692]
 492768452026044416,1406320128,[],,1,0,My previous tweet shows how to load d3.js in Chrome's console. Handy for counting other people's DOM nodes :) -- via http://t.co/tT8tSMPmVe,[]
@@ -59,7 +59,7 @@ http://t.co/o9KCj88s via @juliaxgulia","[322177274, 15377617]"
 499909803531988992,1408022759,"[""haydnseek""]",,1,0,Mozart and Haydn hanging out behind Van Swieten. #haydnseek @ Maria-Theresien-Platz http://t.co/Bxxfg0ZIE0,[]
 560576019585720320,1422486712,[],rt:560523906290028544,0,42,"RT @RosenbergMerc: No wonder Bay Area is so car-crazy: solo drivers take 25.8 min to commute; transit riders take 45.7 min, per @MTCBATA ht…","[37557953, 133024508]"
 483287211107184640,1404059624,[],r:785027792,0,0,@HaydnSocGB @HaydnEnthusiast it was great to meet you in person!,"[785027792, 1672583822]"
-577304484809932800,1426475089,"[""DataCleaning""]",,1,0,"You may be working with messy location data if you have different cities named Brussels and Bruxselles, both in Belgium... #DataCleaning",[]
+577304484809932800,1426475089,"[""datacleaning""]",,1,0,"You may be working with messy location data if you have different cities named Brussels and Bruxselles, both in Belgium... #DataCleaning",[]
 192295034870169602,1334681683,[],,0,1,"gmail: temporary error 500, numeric code 93. Whatever it means, there's no email. And not temporary enough. Anyone else?",[]
 392734868485861377,1382470263,[],r:374669566,0,0,@Milr0c I'm by the coffee cart near the sign for halls ABC. Wanna lunch?,[374669566]
 307654649572376577,1362185559,[],,0,0,matplotlib is a pile of failey hurt. Why do I keep thinking it's a good idea?,[]
@@ -111,7 +111,7 @@ http://t.co/o9KCj88s via @juliaxgulia","[322177274, 15377617]"
 500624801086849024,1408193228,"[""haydnseek""]",,0,0,One of Haydn's better-known students #haydnseek @ Beethovenplatz http://t.co/Y7dsnBcUnT,[]
 358713663626035202,1374358976,[],,0,0,I'm super into @mokafolio's Weird Faces Study: http://t.co/LSvS8h9XLg Like Chernoff Faces taken to a really interesting place.,[64590803]
 320763007179304960,1365310835,[],,5,3,Interesting generative art by @urbanape with @nodebox and pythonista http://t.co/8FnV5GdDDu … cc @arnicas,"[2755525651, 87806701, 6146692]"
-166963480941953024,1328642170,"[""dbms"", ""GPU""]",,0,0,RT @ marin_dim: PostgreSQL + GPU = PGStrom http://t.co/eOuNkJV9 (via @gpuscience). Looks pretty hardcore. #dbms #GPU,[129845177]
+166963480941953024,1328642170,"[""dbms"", ""gpu""]",,0,0,RT @ marin_dim: PostgreSQL + GPU = PGStrom http://t.co/eOuNkJV9 (via @gpuscience). Looks pretty hardcore. #dbms #GPU,[129845177]
 351237966351433729,1372576631,[],r:18888820,0,0,@reiddraper @also heat wave in SF too! http://t.co/rxCjmujDpd,"[18888820, 9060212]"
 445301862586015744,1395003212,[],r:268464199,0,0,@vasantmarur you make your own almond milk? Awesome!,[268464199]
 483892847146319872,1404204019,[],r:1597938056,0,0,"@alisdairkitchen @HaydnSocGB @HaydnEnthusiast leaving today, unfortunately. Next trip?","[1597938056, 785027792, 1672583822]"
@@ -154,7 +154,7 @@ http://t.co/o9KCj88s via @juliaxgulia","[322177274, 15377617]"
 498080183401066496,1407586544,"[""haydnseek""]",,1,1,"Visiting Schloss Rohrau, where Haydn's parents worked for Count Harrach. #haydnseek http://t.co/uT8hXMJWmc",[]
 262064127583866880,1351315931,"[""spammiesttweetever""]",r:7648872,0,0,Hey @mshron: @markmadsen wanted you to know that this is an excellent pic to use for a PR photo: http://t.co/oh6sohnl #spammiesttweetever?,"[19476883, 7648872]"
 405549909354377216,1385525607,"[""cocktail""]",,3,0,Trinidad Sour #cocktail:  1 Angostura 1 Orgeat .75 lemon juice .5 Rye http://t.co/Tqt5SDkDOR http://t.co/eHfp6DhW7J,[]
-654828284367273986,1444958203,"[""BDS15""]",,4,4,"Looking forward to Day 2 of Big Data Spain #BDS15. Get there bright &amp; early, my keynote is at 9am! @BigDataSpain http://t.co/9Sw6CZ97Z1",[611485586]
+654828284367273986,1444958203,"[""bds15""]",,4,4,"Looking forward to Day 2 of Big Data Spain #BDS15. Get there bright &amp; early, my keynote is at 9am! @BigDataSpain http://t.co/9Sw6CZ97Z1",[611485586]
 217303503528398848,1340644167,[],r:320733987,0,0,@bobws nice work!,[320733987]
 328909183674109952,1367253034,[],r:17448055,0,0,"Totally impressed with @awoodruff using the abbreviation ""c'grams"" for cartograms.",[17448055]
 616458204046692353,1435810063,[],,14,4,"Nice post by @eklimcz on ""Designing Data-Driven Interfaces"" https://t.co/E7qqT7xxIm",[11806812]
@@ -184,7 +184,7 @@ https://t.co/…",[801593]
 434828098618408960,1392506072,[],r:20262516,0,0,@erinshellman crap. I was told that mavericks was the only solution to docking/undocking woes with Thunderbolt Display.,[20262516]
 462685534070923264,1399147802,[],r:29739700,0,0,@rsimmon @drdarsci that looks amazing. I'm gonna get some mint and make it happen! Thanks for the suggestion.,"[29739700, 1180128674]"
 462654720234897412,1399140455,[],r:60487876,0,0,"@fmailhot thanks, I'm glad you liked it!",[60487876]
-370780156429754368,1377235852,"[""Gawtham""]",rt:370770079257853953,0,4,"RT @awoodruff: Internet, if Southie Batman isn't a full-fledged meme by morning, you will have been a great disappointment. #Gawtham",[17448055]
+370780156429754368,1377235852,"[""gawtham""]",rt:370770079257853953,0,4,"RT @awoodruff: Internet, if Southie Batman isn't a full-fledged meme by morning, you will have been a great disappointment. #Gawtham",[17448055]
 200039962865958912,1336528218,[],,0,0,"(cont'd) For some reason the most common password was ""315475"". Anyone know why? I'm guessing not because of this: http://t.co/bDytYG5U",[]
 20983045771239424,1293837722,"[""cocktail""]",,0,0,"Last #cocktail post of 2010, ""3 Reasons to go to Drink"", is up. Happy New Year! http://bit.ly/hWWn33 cc @DrinkBoston",[46870301]
 226707579995291648,1342886273,[],,0,0,@thomasbonte we met at SF music hackday. I have questions about the opengoldberg edition. Can you share your email address?,[5334162]
@@ -203,7 +203,7 @@ swallows the blue. I swear this is true.",[]
 166697990810124288,1328578872,[],,0,0,"Nat Case's ""Numerical Topology"" of the US Interstate Highway System is a new way of looking at something familiar: http://t.co/OUCfKMGk",[]
 603245305958567936,1432659863,[],r:23040600,0,0,"@AraeliumGroup gotcha -- ""big file"" = recording. It's about 6 GB / hour (1680 x 1050 desktop + FaceTime HD Camera embedded in lower left)",[23040600]
 335846332059250690,1368906980,[],,0,1,"Here's what the median of 107 orgasms looks like (average frame from 107 videos, each averaged together) http://t.co/BvSSd6YA85",[]
-647146581372698624,1443126743,"[""RIPYogiBerra""]",rt:646749998290481156,0,85,"RT @jadler: My favorite Yogi Berra quote: ""In theory, there is no difference between theory and practice. In practice, there is."" #RIPYogiB…",[14354152]
+647146581372698624,1443126743,"[""ripyogiberra""]",rt:646749998290481156,0,85,"RT @jadler: My favorite Yogi Berra quote: ""In theory, there is no difference between theory and practice. In practice, there is."" #RIPYogiB…",[14354152]
 673312649162002432,1449365219,[],,0,0,@DeepForger https://t.co/l9XDkPiUyW,[3472594037]
 350421696324444160,1372382017,[],r:11595422,0,0,@DataJunkie waiting forever gives you the time you need to do the optimization ...,[11595422]
 629837004616933383,1438999818,[],r:9464552,0,0,@MacDiva actually I'll be in NYC next weekend...,[9464552]
@@ -215,14 +215,14 @@ swallows the blue. I swear this is true.",[]
 193041165552062464,1334859575,[],,0,0,"RT @DataPointed: ""Rainbow Queen"": nice breakdown of royal outfits by color: http://t.co/3wDhlwff",[161539552]
 356208146403962882,1373761614,[],r:57001957,0,0,@christopher @twitter I'm on the latest Chrome on OSX. Here's an example image: https://t.co/cttat6BONL,"[57001957, 783214]"
 408848520657895425,1386312058,[],,1,0,"Headlines from a mathematically literate world, by @benorlin. Brilliant. Love. Yes, Please. http://t.co/8lb965veaL",[123096209]
-539942049785466880,1417567190,"[""JanetWeiner""]",,0,0,#JanetWeiner talking about work we did with @neilkod for @hack_summit: Realtime Data at Facebook: https://t.co/1XMCygqz5d,"[801593, 2706783804]"
+539942049785466880,1417567190,"[""janetweiner""]",,0,0,#JanetWeiner talking about work we did with @neilkod for @hack_summit: Realtime Data at Facebook: https://t.co/1XMCygqz5d,"[801593, 2706783804]"
 670838872280961024,1448775425,[],,0,0,@lmeyerov @OpenVisConf what was your proposal? I bet you've got lots of good stuff to talk about!,"[15315247, 945943164]"
 334462986523648000,1368577164,[],,0,0,setting contact photos in gmail seems like it was designed by someone who wants you to never ever do it. it's actually gotten worse. wtf?,[]
 116946828477472768,1316717271,"[""dataviz"", ""strataconf""]",,0,0,"""The what is more important than the how"" -- @ireneros on #dataviz #strataconf",[16789581]
 346782777154342913,1371514431,[],,2,3,"Shakespeare.txt.jpg by @TomScott uses jpeg compression on Shakespeare's text, producing a play ""Romeo anb!Kulies"" http://t.co/41ZBSMMd8j",[7816392]
 539859728281927681,1417547563,[],r:249351969,4,0,"MT @datatelling Amazing work by @patriciogv: ""Contributing to open source 3D maps by taking and sharing photos"" https://t.co/Fqhn2BDzRj","[249351969, 29483320]"
 402902741980180480,1384894473,[],r:112214211,0,0,"@caseypt @alignedleft @jaeahjlee @vlandham datasciencetoolkit has been good to me, too.","[112214211, 17242168, 223995226, 7639702]"
-582421682138296320,1427695124,"[""Python""]",,10,5,"For hacking around in #Python and not wanting to deal with UnicodeDecodeErrors, unidecode is awesome: https://t.co/twpVe5n06C",[]
+582421682138296320,1427695124,"[""python""]",,10,5,"For hacking around in #Python and not wanting to deal with UnicodeDecodeErrors, unidecode is awesome: https://t.co/twpVe5n06C",[]
 285225185601261568,1356837958,[],r:13669872,0,0,@watchinginkdry where are you drinking?,[13669872]
 506631169434058752,1409625258,[],r:29739700,0,0,"@rsimmon if you can't wait that long, there's always smugglers cove?",[29739700]
 261529776349642752,1351188532,[],r:6146692,0,0,@arnicas I hope that's not the slide that gets the most applause ...,[6146692]
@@ -294,7 +294,7 @@ https://t.co/5hl0tb0uqo -- Great post by @shirleyxywu with accompanying sample a
 166354832888836096,1328497057,[],,0,0,"superbowl's over. When you're playing with data, your team never loses. Average bmi 31.5, Average age, 27. End ipython session.",[]
 383014154421796864,1380152665,[],r:14575287,0,0,@jrideout I asked on stack overflow with a bit more detail than would fit on twitter: http://t.co/bhDqct3GSe Got any ideas?,[14575287]
 409084701035335681,1386368367,[],,0,0,@BostonLogan Bring @CLEAR_me to your airport so I can speed through airport security!,"[16888241, 180494464]"
-536267735286964225,1416691166,"[""pydata"", ""FOMO""]",rt:536221698937217024,0,2,"RT @jrmontag: Having some @PyDataConf / #pydata #FOMO, like me? Check here for people sharing the goods: https://t.co/04Htk50kbl Toggle All…","[47436444, 3590540536]"
+536267735286964225,1416691166,"[""pydata"", ""fomo""]",rt:536221698937217024,0,2,"RT @jrmontag: Having some @PyDataConf / #pydata #FOMO, like me? Check here for people sharing the goods: https://t.co/04Htk50kbl Toggle All…","[47436444, 3590540536]"
 311181508742352896,1363026427,[],,4,1,Nice 17-minute talk by @wesmckinn on working with time series in python with pandas. Some really nice work! http://t.co/S96i3uRp3R,[115494880]
 292356521545826305,1358538201,[],,1,0,"Thanks everyone for heatmap help (http://t.co/uMOC2lZy) It's almost there, but having trouble with the x-axis labels:  http://t.co/xwVfHbxT",[]
 335565399238250496,1368840000,[],r:11595422,0,0,@DataJunkie nice photo!,[11595422]
@@ -355,7 +355,7 @@ https://t.co/5hl0tb0uqo -- Great post by @shirleyxywu with accompanying sample a
 15528578064,1275793024,[],,0,0,"@whoisstan, geo.js rocks. So easy to integrate. Thanks!",[753070368]
 191648397936168960,1334527513,[],,0,1,Hit-testing your convex polygons in processing.js just got a lot easier: http://t.co/u8vXMFEM,[]
 341993535630884864,1370372587,[],,0,0,"@JugglinMike I'm enjoying your post on Reusability with D3. FYI, the link to d3.layer is broken: https://t.co/7mlESJkwee",[320950358]
-552702154478063616,1420609436,"[""NYPDslowdown""]",,0,0,This #NYPDslowdown looks amazing. How do we get police everywhere to do it?,[]
+552702154478063616,1420609436,"[""nypdslowdown""]",,0,0,This #NYPDslowdown looks amazing. How do we get police everywhere to do it?,[]
 621880725948600320,1437102893,[],r:9464552,0,0,@MacDiva @CaneandTable @rsimmon we have an empty bunk; you shoulda come!,"[9464552, 1481258298, 29739700]"
 417059383491588096,1388269680,[],,0,0,@alcademics I want to replicate your awesome clear ice (http://t.co/PQChkz5KFC) Are these the containers you used? http://t.co/jK5z7fCOzd,[41251615]
 174645417982689280,1330473687,[],r:15248437,0,0,@enf hardcore! Is there a drawing lib you use in C?,[15248437]
@@ -364,7 +364,7 @@ https://t.co/5hl0tb0uqo -- Great post by @shirleyxywu with accompanying sample a
 112277796339978241,1315604087,[],,0,0,"How people use Trulia and when, an interactive graphic using d3.js: http://t.co/6DS896A (via @aaronkoblin)",[22197926]
 373533227438206977,1377892235,[],r:6146692,0,0,"@arnicas @krees What's the matter, Lynn, don't like Chartreuse? I should send you some cocktail recipes that might change your mind. ;)","[6146692, 8564482]"
 669215067527774208,1448388280,[],rt:669214602438184960,0,4,RT @vlandham: great suggestions on getting to responsive charts in d3 : https://t.co/nln4TKdIdI,[7639702]
-593455411300151296,1430325770,"[""DataViz15"", ""StartTheDayWithDataViz""]",rt:593451161216094210,0,3,RT @FirmAsh: Listening to @jsundram at Data Visualization Conference #DataViz15  #StartTheDayWithDataViz http://t.co/mokKvWiL1R,"[82400893, 55677993]"
+593455411300151296,1430325770,"[""dataviz15"", ""startthedaywithdataviz""]",rt:593451161216094210,0,3,RT @FirmAsh: Listening to @jsundram at Data Visualization Conference #DataViz15  #StartTheDayWithDataViz http://t.co/mokKvWiL1R,"[82400893, 55677993]"
 497307634890838016,1407402354,[],r:785027792,0,0,@HaydnSocGB I wish! And ... maybe? But first I'm going tomorrow. Timing is hard ...,[785027792]
 116629667364077569,1316641654,[],,0,0,@robhaskins looking at the fluxus exhibit at MOMA and thinking of you.  http://t.co/MEdOc5tN,[24891067]
 78518125074718721,1307555154,"[""mbta""]",,0,0,Mapnificent shows you all places within X minutes of you via public transportation in Boston. Well done! #mbta http://bit.ly/ivfWra,[]
@@ -441,8 +441,8 @@ https://t.co/5hl0tb0uqo -- Great post by @shirleyxywu with accompanying sample a
 366680644073431040,1376258452,[],r:6146692,0,0,@arnicas I can host 'em on s3 if you want ...,[6146692]
 473641560492355584,1401759922,[],,3,4,11 = a computer scientist's dozen?,[]
 631520898248343552,1439401289,[],,8,2,.@Elijah_Meeks iWantHue may be a good tool to recommend to steer peeps away from d3's ubiquitous categorical palettes http://t.co/mqQIOcA9YB,[1387915232]
-529904576850178048,1415174070,"[""MinimumViableProduct""]",,0,0,2 * 3 = 5. #MinimumViableProduct,[]
-159006789311016960,1326745147,"[""MBTA""]",,0,0,"Happy to see that the #MBTA + @hubway Developer Challenge has something in it for visualization folks, too: http://t.co/bvQ0oYMj",[285787156]
+529904576850178048,1415174070,"[""minimumviableproduct""]",,0,0,2 * 3 = 5. #MinimumViableProduct,[]
+159006789311016960,1326745147,"[""mbta""]",,0,0,"Happy to see that the #MBTA + @hubway Developer Challenge has something in it for visualization folks, too: http://t.co/bvQ0oYMj",[285787156]
 506529395708678144,1409600993,[],r:55677993,0,0,@arnicas @eagereyes @alignedleft and a similar strategy failed completely in Vienna which is largely cash-only.,"[6146692, 16112517, 17242168]"
 250730278560071680,1348613731,[],,1,0,Happy to see my streamgraph.js code used in the making of @nytgraphics' New Olympic Stars graphic: http://t.co/qIT40Ja1 (via @georgiamoon),"[86640232, 6488302]"
 260441872479178752,1350929156,[],,1,0,The Deluxe Bocadillo at @davesfreshpasta is a mandatory part of my farewell to Somerville. Epic and yummy. http://t.co/cbs95LEa,[30529506]
@@ -453,7 +453,7 @@ https://t.co/5hl0tb0uqo -- Great post by @shirleyxywu with accompanying sample a
 314079341548015616,1363717324,[],r:6146692,0,0,"@arnicas nope, don't know  @datajunkie but would love to meet him.","[6146692, 11595422]"
 135508380981796864,1321142690,[],r:6146692,0,0,"@arnicas yeah, ""drinking gamification"" .. wee should make something like @eagereyes's visweek bingo for @ml_class drinking.","[6146692, 16112517, 465524795]"
 608484401010339840,1433908960,[],,0,0,Is it bad to wish for time travel because you missed negroni week?,[]
-571763543495720961,1425154026,"[""python"", ""IPython""]",rt:571761330413162496,0,63,"RT @raymondh: #python news:  The new #IPython notebook version 3.0 has been released.
+571763543495720961,1425154026,"[""python"", ""ipython""]",rt:571761330413162496,0,63,"RT @raymondh: #python news:  The new #IPython notebook version 3.0 has been released.
 This is the last major release.  Go get it.
 http://t.…",[14159138]
 370244950039871488,1377108249,[],,0,1,@paulgb -- your map finally got updated: http://t.co/0TU3yaqfOZ :),[1661]
@@ -479,7 +479,7 @@ http://t.co/z0rz9LjZaE",[3955861096]
 417874354119004161,1388463984,[],,13,7,Pandas cookbook by @b0rk is kinda awesome: https://t.co/2ecIAfU3h4,[6603532]
 374669851605729280,1378163228,[],,4,2,Awesome to see that Processing.py version 202 by @pheinberg is out and ready to use! http://t.co/w2D2tgsYEV via @P5Lyon,"[70582671, 364272160]"
 498115180434579456,1407594888,[],r:27615696,0,0,@pipwillcox absolutely!,[27615696]
-585534279784001539,1428437225,"[""OpenVisConf""]",,7,4,"""I look at cubic-bezier in CSS … and what I see is number barf"" -- comedy gold from @vlh at #OpenVisConf",[5552492]
+585534279784001539,1428437225,"[""openvisconf""]",,7,4,"""I look at cubic-bezier in CSS … and what I see is number barf"" -- comedy gold from @vlh at #OpenVisConf",[5552492]
 439555933014724608,1393633275,[],r:15927359,0,0,"@eherot yeah, don't the chickens have to have signed up to be organ donors for that?",[15927359]
 642442141667561472,1442005117,"[""jokingnotjoking""]",r:55677993,2,1,"With the unavailability of @uber_eats, I predict surge pricing for lunch as @uber's next innovation. #jokingnotjoking http://t.co/gKbG7riL0a",[19103481]
 334924404389720064,1368687175,[],r:521935978,0,0,@hausdorff_space congrats!,[521935978]
@@ -487,7 +487,7 @@ http://t.co/z0rz9LjZaE",[3955861096]
 398647212017594368,1383879876,[],r:115494880,0,0,@wesmckinn so sorry.,[115494880]
 499560789758705664,1407939548,[],,2,1,Had to sign the guest registry with @HaydnEnthusiast; Haydn Enthusiasts have been signing in here since 1800! http://t.co/LFOogzTYlZ,[1672583822]
 307615150586871808,1362176141,[],,1,0,.@brandon_weiss @thejurgy: arrival.io is pretty sweet. Would like to see confidence / distribution info via bullet graphs.,"[72153, 145037975]"
-654008194998607872,1444762679,"[""HaydnSeek"", ""cocktailphotography""]",r:801593,0,0,@neilkod hopefully will remedy that during the next leg of the trip. There was too much #HaydnSeek to get much #cocktailphotography done ...,[801593]
+654008194998607872,1444762679,"[""haydnseek"", ""cocktailphotography""]",r:801593,0,0,@neilkod hopefully will remedy that during the next leg of the trip. There was too much #HaydnSeek to get much #cocktailphotography done ...,[801593]
 276355852682805249,1354723344,[],,0,0,I think Art Hack Day is probably going to be amazing: http://t.co/hYD008BB,[]
 162706919159644160,1327627327,[],,0,0,RT @tillnm: Cartophile Tumblr http://t.co/8Vkno579,[36853217]
 600822317925601280,1432082177,[],r:19411223,1,0,"@vicapow @neilkod @thehipmunk If you're talking _really_ flexible &amp; you know where you want to go, @KAYAK alerts can send you cheapest fares","[19411223, 801593, 178077812, 28535982]"
@@ -499,7 +499,7 @@ http://t.co/z0rz9LjZaE",[3955861096]
 402885314554769408,1384890318,[],r:223995226,0,0,@jaeahjlee this approach = finding the region of a shapefile a lat/lng falls into. Works great if you've got shapefiles...,[223995226]
 615341542014742528,1435543830,[],r:6146692,1,0,@arnicas @Pebble Do I correctly interpret Charles Rennie Mackintosh?,"[6146692, 515766653]"
 322013733016707072,1365609031,[],rt:321928911653060608,0,1,RT @nodebox: @jsundram   Thanks for the pull request – I've merged it into master. cc @arnicas,"[87806701, 55677993, 6146692]"
-675005368230019074,1449768795,"[""DataScience"", ""DataMining""]",rt:674810994787532800,0,18,"RT @KirkDBorne: Divining the ‘K’ in K-means Clustering: https://t.co/J0wvqBhx18 #DataScience #DataMining via @bigmlcom 
+675005368230019074,1449768795,"[""datascience"", ""datamining""]",rt:674810994787532800,0,18,"RT @KirkDBorne: Divining the ‘K’ in K-means Clustering: https://t.co/J0wvqBhx18 #DataScience #DataMining via @bigmlcom 
 ++&gt;See also: https:…","[534563976, 235821180]"
 298220510662238209,1359936285,[],r:28457822,0,0,@alvinschang @gabrielflorit I really like the way those waveforms are styled. Any idea how they did it?,"[2540443550, 96152942]"
 398169710967025664,1383766031,[],,7,3,"prestodb is an amazing way to query large amounts of data, very very fast. Open source and widely used at @facebook http://t.co/sZ9pL1LrP1",[2425151]
@@ -565,7 +565,7 @@ Humans are such assholes.",[368196789]
 185402736727166976,1333038431,[],,1,1,Watercolor Process: how @stamen built their beautiful watercolor map tiles: http://t.co/LmfnxBUG,[2067201]
 117256341403340800,1316791064,"[""strataconf""]",,0,0,21 tweeters attended both CA and NY #strataconf: (part II): @jakeporway @jsundram @marcelcary @markmadsen @maureenjennings @mrflip,"[22512172, 55677993, 21044434, 7648872, 15291322, 1554031]"
 542933587658412032,1418280429,[],rt:330449848501411841,0,1306,RT @Ctchandler247: Thou shalt not commit adulthood,[129605590]
-552351080487870464,1420525734,"[""Boston2024"", ""BringItToBoston""]",rt:548962251185876993,0,16,"RT @sethkroll: The t-shirt is free, but a #Boston2024 Olympics will cost over $10 billion. Don't #BringItToBoston @NoBosOlympics http://t.c…","[42570970, 2198072664]"
+552351080487870464,1420525734,"[""boston2024"", ""bringittoboston""]",rt:548962251185876993,0,16,"RT @sethkroll: The t-shirt is free, but a #Boston2024 Olympics will cost over $10 billion. Don't #BringItToBoston @NoBosOlympics http://t.c…","[42570970, 2198072664]"
 601198472667234306,1432171860,[],,8,4,Either @HillaryClinton is an asshole or this is how govmt works. Either way she lost my vote: http://t.co/hbwqnIsmnT http://t.co/fJX2ECV5Cw,[1339835893]
 15932209327,1276266652,[],,0,0,"Hey @Sonos, check out @plamere's awesome MeToo app, which scrobbles plays to multiple accounts: http://wp.me/prh3A-CE","[16727022, 1685811]"
 491327548643889152,1405976590,[],r:191897226,0,0,@currankelleher sounds super interesting; I'm sorry I'm going to miss the talk due to a conflict.,[191897226]
@@ -590,10 +590,10 @@ http://t.co/…","[1387915232, 55677993, 38939335, 252761153, 14084406]"
 18463309921,1279052082,[],,0,0,California Tok = California Gurls + Tik Tok. Made with echo nest remix: http://post.ly/n3C4,[]
 45499461543268353,1299682891,[],,0,0,"What Pi sounds like, via Matt Beecher http://post.ly/1ivsD",[]
 343053639033708544,1370625335,[],,1,0,I want to read Dr. Bronner's tenure packet.,[]
-159720001656455168,1326915190,"[""Tableau7""]",,0,0,Nice to see #Tableau7 has launched: http://t.co/dSiEVvVm -- but is anyone else sad to see no OSX support?,[]
+159720001656455168,1326915190,"[""tableau7""]",,0,0,Nice to see #Tableau7 has launched: http://t.co/dSiEVvVm -- but is anyone else sad to see no OSX support?,[]
 642078265880895488,1441918362,[],,1,0,"Dear Sonos, can you make the apple tv remote work with my @sonos setup? That would be awesome.",[16727022]
 494277121058291712,1406679823,[],,0,0,"Coerce an array-like thing to a ""real"" array in javascript: Array.prototype.slice.call(o) (via http://t.co/ZyCgS5tNP2).",[]
-36635453734133760,1297569547,"[""NYC"", ""musichackday""]",,0,0,Query for #NYC #musichackday participants: is the number of female attendees less than the number of non-MacBook laptops?,[]
+36635453734133760,1297569547,"[""nyc"", ""musichackday""]",,0,0,Query for #NYC #musichackday participants: is the number of female attendees less than the number of non-MacBook laptops?,[]
 327225382350757888,1366851585,[],r:6146692,0,0,"@arnicas there's a chance I'll be around, would be happy to meet up and share some alcohols.",[6146692]
 344526887944593410,1370976585,[],,2,0,"Another great quote from the @jsomers: ""Ruby on Rails does for web developers what a toilet-installing robot would do for plumbers.""",[6073472]
 515724013726076929,1411793161,[],r:1387915232,1,0,@Elijah_Meeks totally worth it!,[1387915232]
@@ -614,7 +614,7 @@ Me: 'The 21st …",[60428991]
 518267680478871553,1412399618,[],r:20935258,0,0,@fulgenteft what url? this one? http://t.co/rumdQu6BIy,[20935258]
 410908660781441024,1386803233,[],,2,2,.@VisGIF explains why crossfilter.js is amazing in a single gif: http://t.co/A3ZV0rKJK5,[1711049102]
 630174348477739008,1439080247,[],r:1387915232,1,0,@Elijah_Meeks this is genius.,[1387915232]
-462265564446986240,1399047673,"[""PyDataSV""]",,0,0,Abstract rendering in @BokehPlots is gonna be amazing. #PyDataSV,[521448718]
+462265564446986240,1399047673,"[""pydatasv""]",,0,0,Abstract rendering in @BokehPlots is gonna be amazing. #PyDataSV,[521448718]
 482646184914591745,1403906792,[],r:14833643,0,0,@oceankidbilly that would be incredible.,[14833643]
 539162620516134914,1417381360,[],,2,0,"The HP Sprout looks kind of amazing (scan! project! touch!), but the software looks like a shit show ... https://t.co/SjxahlaC5m.",[]
 464494390652579840,1399579067,[],r:29739700,0,0,@rsimmon tell me when's good and I'm there.,[29739700]
@@ -623,13 +623,13 @@ Me: 'The 21st …",[60428991]
 210728877532790785,1339076654,[],,0,0,@m4tt Saw your LinkedIn password leak article and my password was in the dump. Here's code so you can check too: https://t.co/L68b2Pyl,[12235562]
 522066478829682688,1413305322,[],,0,0,"""Classifying Shakespearean Drama with Sparse Feature Sets"" by @douglasduhaime is thought-provoking and awesome: http://t.co/3MFQ614aEr",[776421925]
 358708413645074432,1374357724,[],r:6146692,1,0,@arnicas @tmcw Is this it? http://t.co/o9qsiTJBke,"[6146692, 1458271]"
-402006431009751041,1384680776,"[""PyData""]",,4,3,"Beyond the dict: practical tips for data parsing &amp; exploration. Sheets, Pony.ORM &amp; PyTables look interesting #PyData https://t.co/UE4KlhSwsD",[]
+402006431009751041,1384680776,"[""pydata""]",,4,3,"Beyond the dict: practical tips for data parsing &amp; exploration. Sheets, Pony.ORM &amp; PyTables look interesting #PyData https://t.co/UE4KlhSwsD",[]
 379125736893722624,1379225594,[],,1,0,Advertising done right: @aaronkoblin for Absolut. An ad I actually want to watch until the end: http://t.co/QUc77zYVsB,[22197926]
 296673936312238080,1359567553,[],,0,0,What's in placebos? Interesting question with complicated answers: http://t.co/Bsda4HB8,[]
 117292750482833408,1316799745,"[""strataconf""]",,0,0,"Top tweeters at #strataconf with follower count, city, and directory link. What # are you? (I'm 82/161) http://t.co/FmqBAhaT",[]
 386967016814309376,1381095100,[],r:6146692,0,0,"@arnicas @moebio @nrchtct join the club, Lynn.","[6146692, 367089411, 52341962]"
 17039871418,1277495755,[],,0,0,"The best vuvuzela link I've seen. Highlight at 2:30, Ravel's Bolero. http://post.ly/klSf",[]
-15752405081,1276052145,"[""Cocktail""]",,0,0,#Cocktail testing with the talented @reiddraper and @also. The bourbon goldrush is strong in this one. Thanks @bostonshaker,"[18888820, 9060212, 34746100]"
+15752405081,1276052145,"[""cocktail""]",,0,0,#Cocktail testing with the talented @reiddraper and @also. The bourbon goldrush is strong in this one. Thanks @bostonshaker,"[18888820, 9060212, 34746100]"
 370247469885452288,1377108850,[],r:1661,0,0,"@paulgb we looked at gcmaps and the old R code, but neither of them quite worked for the current data.",[1661]
 325001225726746624,1366321305,[],,1,0,Postmature optimization.,[]
 12252530859835392,1291756205,[],,0,0,"Journalism in the Age of Data, by Geoff McGhee http://post.ly/1IupK",[]
@@ -702,7 +702,7 @@ Me: 'The 21st …",[60428991]
 447784644004413440,1395595153,[],,0,0,"""Indie music that all sounds like a little boy singing sad songs from the bottom of a well."" http://t.co/WjS2ZA98om via @kennelliott",[142389870]
 232608839122432000,1344293243,[],,1,0,Finding these bifurcation diagrams kinda beautiful http://t.co/cfuWpKwe,[]
 382211911489564673,1379961395,[],,0,0,"I've never achieved ""Inbox Zero"" but @mailstromapp thinks I am the Inbox Zeroer type. More data-derived email types:  http://t.co/f0PbYnbeIT",[283074801]
-498115420071923712,1407594945,"[""HaydnSeek""]",,1,0,The building that used to be Haydn's schoolhouse: Ungarstraße 3.  #HaydnSeek http://t.co/ctPQ3KTo76,[]
+498115420071923712,1407594945,"[""haydnseek""]",,1,0,The building that used to be Haydn's schoolhouse: Ungarstraße 3.  #HaydnSeek http://t.co/ctPQ3KTo76,[]
 615353953778139137,1435546789,[],r:8470842,1,0,@kosamari looks awesome!,[8470842]
 233323519520423936,1344463636,[],r:249351969,0,0,"@datatelling thanks. Somehow, when I added 	
 Visual Storytelling to my cart, Amazon told me it was on your wishlist. Crazy!",[249351969]
@@ -717,7 +717,7 @@ Visual Storytelling to my cart, Amazon told me it was on your wishlist. Crazy!",
 335844246831648769,1368906483,[],,1,0,"With apologies to @Salavon, I'm turning videos into their average frame. Here's @beckie0 (http://t.co/XCf6QZ4frs) http://t.co/uvqxfuZ6aq","[29558949, 18358971]"
 490276542304382976,1405726011,[],,4,1,Opentype.js + d3.js + lasers = a nice Friday afternoon! http://t.co/M49U9FaUGb,[]
 161580147886129152,1327358683,"[""cocktail"", ""tips""]",,0,0,"""never allow children to mix drinks: it is unseemly and they use too much vermouth"" -- billboard at @drinkboston #cocktail #tips",[46870301]
-314077393318973440,1363716860,"[""PyData""]",,3,1,"Python + Java pro tip from @teoliphant: Use Py4J, not Jython.  Wish I'd known about this earlier. #PyData",[32546966]
+314077393318973440,1363716860,"[""pydata""]",,3,1,"Python + Java pro tip from @teoliphant: Use Py4J, not Jython.  Wish I'd known about this earlier. #PyData",[32546966]
 164074451082805250,1327953372,[],,1,0,Mapping examples using the Unfolding library http://t.co/k7el3T8c via @mariuswatz,[9082002]
 15258167368,1275491830,[],,0,0,Planning to attend Where's The Bus 2.0: The Wait Is Over -- http://wheresthebus.eventbrite.com -- Looks like I got the last ticket.,[]
 306827586804256768,1361988371,[],r:6146692,0,0,@arnicas nodebox for charting? mind=blown. Do you have samples you can point me at?,[6146692]
@@ -740,7 +740,7 @@ Visual Storytelling to my cart, Amazon told me it was on your wishlist. Crazy!",
 356632112599805953,1373862696,[],,3,0,pingtime looks like both an amazing real-time visualization of table tennis and a good way to induce a seizure: http://t.co/wUbJESjTP5,[]
 248815450614538241,1348157200,"[""happy""]",,1,0,Had time for breakfast before delayed commuter rail thanks to @mbta real-time data and http://t.co/PffrZes3 by @neptuneweb. #happy,"[150334831, 48685730]"
 248866275642720259,1348169318,[],,0,0,"Leaders in Software and Art Conference looks pretty cool, but $500 is a lot for a day. Anyone going? http://t.co/2EemKIZQ",[]
-263076419557543936,1351557280,"[""PecanSandy""]",,0,1,"#PecanSandy cocktail (made only with random ingredients on hand): 2 cachaça, 1 creme de banana, 1 creme de cacao. Hurricane blues = cured.",[]
+263076419557543936,1351557280,"[""pecansandy""]",,0,1,"#PecanSandy cocktail (made only with random ingredients on hand): 2 cachaça, 1 creme de banana, 1 creme de cacao. Hurricane blues = cured.",[]
 621853639045308416,1437096435,"[""totc2015""]",,3,1,Proto-tiki cocktails at @CaneandTable for #totc2015 cc @rsimmon http://t.co/2McwdZgbDt,"[1481258298, 29739700]"
 613914685088239616,1435203641,[],,1,1,"Hamilton on the $10, Caitlyn Jenner on the $20?",[]
 91262636456546304,1310593682,"[""scipy2011""]",,0,1,"According to the Data Science Toolkit, http://bit.ly/qU0jst, 14% of #scipy2011 Conference Attendees are female: http://bit.ly/ol4LM1",[]
@@ -769,7 +769,7 @@ Visual Storytelling to my cart, Amazon told me it was on your wishlist. Crazy!",
 494945887102046209,1406839269,[],,1,0,"Drones and Martha Stewart? Nice job, @Mapbox! http://t.co/MNggafVWSD",[55236002]
 603953346400002049,1432828673,"[""flux"", ""d3""]",rt:603907367802163201,0,1,"RT @forwardJS: Our latest speaker @shirleyxywu will present @reactjs, #flux, #d3. Tickets: http://t.co/ezx3Ace2Qb http://t.co/ROENmM8fjz","[2396580356, 190857410, 1566463268]"
 459330811075235840,1398347973,"[""openvisconf""]",,4,5,"Let the religious wars begin! ""JavaScript is the one true language""--@mbostock #openvisconf",[43593]
-450765258810871808,1396305787,"[""LGBT""]",rt:450749832353705984,0,1241,RT @steveplrose: Here's why OkCupid do not want you to use their site in Firefox. #LGBT http://t.co/aqvbyV59kx,[47617445]
+450765258810871808,1396305787,"[""lgbt""]",rt:450749832353705984,0,1241,RT @steveplrose: Here's why OkCupid do not want you to use their site in Firefox. #LGBT http://t.co/aqvbyV59kx,[47617445]
 127061435829325824,1319128781,[],rt:126848682518781952,0,3,RT @verdammelt: Pumpkin Dalek: http://t.co/AuBz3zBT,[5557102]
 621131048391323648,1436924156,[],r:8470842,1,0,"@kosamari cool! I tried something like this a while ago, I'll have to dig the code up and compare.",[8470842]
 357221436819120128,1374003202,[],,0,0,Keep your regex-fu up to date with http://t.co/SekvYpZIYr,[]
@@ -778,7 +778,7 @@ Visual Storytelling to my cart, Amazon told me it was on your wishlist. Crazy!",
 224915739260366848,1342459065,[],rt:224647208706912258,0,20,"RT @alexiasinclair: If you are feeling sad, here is a shaved Llama to brighten your day. http://t.co/zYenUyhM",[20898351]
 456562340591173632,1397687919,[],,5,4,"Never thought I'd share anything from this guy, but ... http://t.co/rA9FjYjkSU",[]
 53834899194523648,1301670214,[],rt:53718211534925824,0,28,RT @stef: Rather good April fools from Linkedin :-) http://yfrog.com/h0b6tp,[853471]
-180471634824667138,1331862765,"[""DirkGently""]",,0,0,"Susan: ""This is bollocks"". Dirk Gently: ""I actually prefer the term 'Applied Quantum Mechanics'"" #DirkGently (episode 2)",[]
+180471634824667138,1331862765,"[""dirkgently""]",,0,0,"Susan: ""This is bollocks"". Dirk Gently: ""I actually prefer the term 'Applied Quantum Mechanics'"" #DirkGently (episode 2)",[]
 557271372267659264,1421698823,[],,2,0,Do SF people hold office hours where they camp out in a coffee shop or a bar and hack on some stuff and see if other people want to hang?,[]
 337048640092766208,1369193632,[],,1,1,"""What will save you is tacking into the love of the work, into the desire that brought you [to work] in the first place."" -- Ellen Ullman",[]
 203069143581335555,1337250431,[],,0,0,"Data Science uncovers ""Williams-Sonoma Republicans"" http://t.co/BwQfTue0 by @page88 (via @whitherwater)","[4282171, 462403970]"
@@ -795,7 +795,7 @@ Visual Storytelling to my cart, Amazon told me it was on your wishlist. Crazy!",
 292099508769280000,1358476924,[],r:17242168,0,0,@alignedleft :),[17242168]
 449586288371314688,1396024698,[],rt:449412704503996417,0,153,RT @joulee: A response to @dcurtis on the recent Facebook desktop redesign: https://t.co/anN7a2YZ4S,"[17611446, 9395832]"
 439650011974860800,1393655705,[],,1,0,"The new Wolfram Language looks powerful, but I'm disappointed in Stephen Wolfram for naming it after himself: http://t.co/HxqDYI1apA",[]
-515029303114092544,1411627529,"[""Haydn"", ""visualization""]",,2,0,"The opening of Haydn's quartet Opus 71 #1, as a punch card, by @wongavision. Sweet! https://t.co/fMvnfb8Naz #Haydn #visualization.",[323690835]
+515029303114092544,1411627529,"[""haydn"", ""visualization""]",,2,0,"The opening of Haydn's quartet Opus 71 #1, as a punch card, by @wongavision. Sweet! https://t.co/fMvnfb8Naz #Haydn #visualization.",[323690835]
 539297725125492736,1417413571,[],rt:537290791576936449,0,691,RT @jorendorff: yak trace - n. Explanation of the chain of unlikely obstacles that led from your actual goal to the ridiculous thing you're…,[6624662]
 524845179702747137,1413967816,[],,0,0,The Lannisters can finally get iPads.,[]
 367911159547957249,1376551830,[],,0,0,@reportlab Do you support setting pdf description (metadata)? Nobody replied to my issue here: https://t.co/BzuojLejuo,[111296345]
@@ -857,14 +857,14 @@ Visual Storytelling to my cart, Amazon told me it was on your wishlist. Crazy!",
 380206909178908672,1379483365,[],,0,0,@arnicas are you planning to go to inst-int (assuming you're fast enough to get a ticket before they sell out in nanoseconds)?,[6146692]
 307061964641808384,1362044251,"[""strataconf""]",,1,1,"500 people at #strataconf have twitter accounts. Sorted by follower count, I'm #152. @mok_oh is #2. Where are you? http://t.co/qzL7Q2lSur",[10029732]
 316461106782670848,1364285182,[],r:11595422,1,0,"@DataJunkie hmm, next step, write an introductory stats text? Maybe I should find one and redo all the figures w M&amp;Ms ...",[11595422]
-90199955129630720,1310340319,"[""SciPy""]",r:22264366,0,0,@marcelcaraciolo -- I'm looking forward to your talk about Crab at #SciPy on Wednesday http://t.co/OzNVvcY,[22264366]
+90199955129630720,1310340319,"[""scipy""]",r:22264366,0,0,@marcelcaraciolo -- I'm looking forward to your talk about Crab at #SciPy on Wednesday http://t.co/OzNVvcY,[22264366]
 299694658311839745,1360287749,[],r:14636038,0,0,@ptone I think @echonest made API changes and neither @tylerbw or I had time to fix it. I think the pjs code was the only interesting part.,"[14636038, 14759690, 114969615]"
 668227734653407233,1448152881,"[""d3unconf""]",,4,0,"And we are ending, fittingly, with an @enjalot roast. Thanks, Ian! #d3unconf",[16030323]
 315134648839704578,1363968929,[],r:768197780,0,0,"@jakevdp I haven't used it. Nice PR! One thing I'd like, but not sure how generally useful it is: haversine distance. Thoughts?",[768197780]
 506530857109049344,1409601341,[],r:29739700,0,0,@rsimmon welcome!,[29739700]
 613909305692033024,1435202359,[],r:8470842,2,0,@kosamari just get them a startup bro MadLibs and move on with your life?,[8470842]
 530616809666265088,1415343880,[],,1,0,PSA: @Dropbox's Carousel app is incredible for browsing your photos. Super impressive.,[14749606]
-482438913571971073,1403857374,"[""DHCBL""]",,1,2,Adam Farquhar talking about Off the Map Competition; turning historic maps into immersive 3d experiences: http://t.co/coP5AvF363 #DHCBL,[]
+482438913571971073,1403857374,"[""dhcbl""]",,1,2,Adam Farquhar talking about Off the Map Competition; turning historic maps into immersive 3d experiences: http://t.co/coP5AvF363 #DHCBL,[]
 418114668951920641,1388521279,[],r:1006945298,0,0,"@d3visualization @arnicas @jakevdp sweet, I'm down.","[1006945298, 6146692, 768197780]"
 382220254094434304,1379963384,[],r:580031141,0,0,"@jradavenport no, I've only used it for text (vim / terminal) stuff.",[580031141]
 353351013253660672,1373080421,[],,1,0,"ok, ok. also: ""roving cannibal lacrosse gangs"" = my new favorite n-gram.",[]
@@ -879,13 +879,13 @@ Visual Storytelling to my cart, Amazon told me it was on your wishlist. Crazy!",
 32676025137635328,1296625546,[],r:7652042,0,0,"@eedeebee Maybe there's a bug? I'll add you manually, but if you get a sec, can you send me a link to your strata profile page?",[7652042]
 226086549601779712,1342738208,[],,0,0,Nice GNU/Linux timeline + family tree: http://t.co/LfZkJQxp,[]
 162605406710022144,1327603124,"[""uievs"", ""ordcamp"", ""newsfoo""]",rt:162601449308692480,0,3,RT @noahi: My table of Properties and Best Uses of Visual Encodings http://t.co/EdwqLHe7 #uievs #ordcamp #newsfoo,[15399031]
-536334641582465024,1416707117,"[""FeministHackerBarbie""]",,1,0,Loving all of these #FeministHackerBarbie posts,[]
+536334641582465024,1416707117,"[""feministhackerbarbie""]",,1,0,Loving all of these #FeministHackerBarbie posts,[]
 615343260815376384,1435544240,"[""cocktail"", ""equalparts""]",,3,0,"11 + 2 / 12 + 1 (= 1) Math #cocktail #equalparts zucca and gr chartreuse, 2 ds grapefruit bitters http://t.co/G7XlR22s3H via @cocktailvirgin",[84579659]
 48023121999052802,1300284579,[],,0,0,@hmason on data science and search (via @rizzn) http://post.ly/1kxpy,"[765548, 51063]"
 325317704275865600,1366396759,[],rt:325317470653145089,0,4,RT @AlexParkerDC: This is what happened when I did the Dove Sketch challenge. http://t.co/m3xVeFQlQF,[275207082]
 247018048547074048,1347728666,[],rt:246986793604485122,0,33,RT @DesignObserver: An oldie but still fun: Is it a cheese or is it a font? http://t.co/F6bRWlOi,[17623957]
 623029905295478788,1437376879,"[""d3js""]",,8,5,I just backed Building Bl.ocks on @Kickstarter http://t.co/vW4hm36nPG -- so excited to see @enjalot pushing the #d3js ecosystem forward!,"[16186995, 16030323]"
-430831492973862912,1391553207,"[""FacebookIs10""]",,4,2,I made a video of Facebook's friendship growth for the 10th anniversary. View large if you can https://t.co/q5GE5WRObf #FacebookIs10,[]
+430831492973862912,1391553207,"[""facebookis10""]",,4,2,I made a video of Facebook's friendship growth for the 10th anniversary. View large if you can https://t.co/q5GE5WRObf #FacebookIs10,[]
 200041604722065408,1336528609,[],r:14591716,0,0,@RossDM good thought. There were 580 of them . . .,[14591716]
 475739618042982400,1402260138,[],,3,0,"Leonard Weisenberg's Tree of Life from @evogeneao rocks! https://t.co/ApISaPXSx6 (PDF) info: http://t.co/4IGAK155Eh via @vicapow, @WilHMoo","[528095623, 19411223, 617659229]"
 500296296646057984,1408114906,[],r:6146692,0,0,@arnicas @deanwampler not me! I'll just be jealous ;),"[6146692, 15232432]"
@@ -943,7 +943,7 @@ Visual Storytelling to my cart, Amazon told me it was on your wishlist. Crazy!",
 334841881001357312,1368667500,[],,4,2,"nice presentation on how to write awesomely fast javascript by @felixge, called ""Faster than C"":  https://t.co/5gU0a6BR1d",[9599342]
 459122210155036672,1398298239,[],,0,0,.@OpenVisConf is like twitter IRL,[945943164]
 464233940027314176,1399516971,"[""cocktail""]",r:6146692,0,0,@arnicas @VizualStatistix I guess this makes the most average #cocktail a gimlet with a cherry garnish? I suppose I'm ok with that.,"[6146692, 1711298640]"
-462245168096096256,1399042810,"[""pydataSV""]",,0,0,Early birds at #pydataSV http://t.co/x4hDG5OTUW,[]
+462245168096096256,1399042810,"[""pydatasv""]",,0,0,Early birds at #pydataSV http://t.co/x4hDG5OTUW,[]
 493476927739416576,1406489042,[],r:13002342,1,0,@jrecursive super cool! I'm really digging this.,[13002342]
 462351753434783744,1399068222,[],r:612777447,1,0,@CaliCoyote damn that's fierce!,[612777447]
 582836908352507904,1427794122,[],,1,0,Bar Chart gone wild @ Facebook HQ https://t.co/MjpBWRJPpa,[]
@@ -954,7 +954,7 @@ Visual Storytelling to my cart, Amazon told me it was on your wishlist. Crazy!",
 620489337960923136,1436771160,[],r:801593,0,0,@neilkod @tdhopper no! Will have to check it out.,"[801593, 89249164]"
 1841227922149376,1289273957,"[""cocktail""]",,0,0,Vesper #cocktail http://yfrog.com/0jirkrj,[]
 351079954101968900,1372538958,[],r:342845547,0,0,"@qethanm yeah, I still shudder when I think about the warnings you could get from using STL improperly ...",[342845547]
-471814381530259456,1401324289,"[""PythonConfessions""]",,2,1,Things that suck in python: logging. https://t.co/PtLTmBnvdp #PythonConfessions,[]
+471814381530259456,1401324289,"[""pythonconfessions""]",,2,1,Things that suck in python: logging. https://t.co/PtLTmBnvdp #PythonConfessions,[]
 15458918912,1275704628,[],rt:15450032117,0,34,"RT @irregulara: RT @timprebble BP is billed $69m for cleanup costs, which equates to roughly 460 pirated songs according to the Copyrigh ...","[1135581, 19042219]"
 565448484158181377,1423648398,[],r:190857410,1,0,@shirleyxywu data-induced seizures ahead!,[190857410]
 512708553153343489,1411074219,[],,0,0,TIL The Milky Way is in a supercluster called Laniakea. Here's a visualization explaining what we know from @nature: https://t.co/ksmdquWypV,[487833518]
@@ -1043,7 +1043,7 @@ https://t.co/M5ptnudR…","[6490642, 80634050]"
 497134667221696512,1407361115,[],r:785027792,0,2,@HaydnSocGB That's the John Hoppner Haydn portrait (1791). It's part of the Royal Collection: http://t.co/aiimqRoVM7,[785027792]
 53553817572225024,1301603199,[],,0,0,"hey @tableau, any plans for a mac OSX version of Tableau Desktop? Your software looks great, but I want to avoid vmware, etc.",[14792516]
 42963509620899841,1299078273,[],,0,0,Is Tufte really starting with a music visualizer?,[]
-617168936438640640,1435979515,"[""SFOPERA""]",rt:617081175853563904,0,11,RT @ldroadie: Opera at the ball park. The only thing better is if it was free. Oh! Wait! It is free!!! Marriage of Figaro. At at&amp;t in SF. #…,[563345098]
+617168936438640640,1435979515,"[""sfopera""]",rt:617081175853563904,0,11,RT @ldroadie: Opera at the ball park. The only thing better is if it was free. Oh! Wait! It is free!!! Marriage of Figaro. At at&amp;t in SF. #…,[563345098]
 130863192510447616,1320035191,[],rt:130857438701293569,0,14,RT @DBNess: Happy Halloween! This weekend I celebrated by dressing up a replica server to look like a master database.,[23584962]
 580989385778155520,1427353638,[],r:20106729,0,0,"@SonosSupport yeah, 1 had severe issues with skipped tracks. Is that a sonosnet issue or a spotify issue though?",[20106729]
 452343500504199168,1396682069,[],rt:452135953537069056,0,6,RT @largepizza23: Pretty interesting read: Via @nprnews: So You Think You're Smarter Than A CIA Agent  http://t.co/DkbcxFVija,"[189334077, 3386439610]"
@@ -1087,7 +1087,7 @@ https://t.co/M5ptnudR…","[6490642, 80634050]"
 500685290097233921,1408207650,[],,0,0,"Dinner at Eszterhazy Keller, the cellar of the Eszterhazy Palace. Haydn ate here, and was said to… http://t.co/extFeZxj4M",[]
 27152040043,1286899395,[],,0,2,Pretty psyched about my photo credit on CNN Money: http://bit.ly/9NJWL0 although The Echo Nest stuff is hilariously inaccurate.,[]
 21370696261177344,1293930145,[],r:24891067,0,0,@robhaskins excesses? 5 string quartets hardly seems excessive to me . . .,[24891067]
-462628938674483200,1399134308,"[""PyData""]",rt:462628558028808192,0,2,"RT @DataJunkie: Watching my manager @burcarpat keynote at #PyData! If you are interested in anything you see from us today, come find us!","[11595422, 14814851]"
+462628938674483200,1399134308,"[""pydata""]",rt:462628558028808192,0,2,"RT @DataJunkie: Watching my manager @burcarpat keynote at #PyData! If you are interested in anything you see from us today, come find us!","[11595422, 14814851]"
 254269945158967297,1349457653,[],,0,0,"dear @googlemaps, when logged into gmail, why can't I search for a contact by name (e.g. ""John Smith"") and get directions to the address?",[31311757]
 379083918432940033,1379215623,[],,0,1,@robertDouglass I enjoyed your OpenSourceMusic talk https://t.co/Fb4MuXVefU Can you discuss the cost of turning IMSLP pixels into notation?,[8531222]
 530565063795425280,1415331543,[],r:29739700,0,0,@rsimmon @MacDiva @betsymason @plainspace @vruba @enf I'm in -- the menu looks great! What did you try?,"[29739700, 9464552, 17382568, 17233595, 14917754, 15248437]"
@@ -1149,8 +1149,8 @@ https://t.co/5hl0taIT1O -- Great post by @shirleyxywu with accompanying sample a
 127440594518814720,1319219180,[],r:8520,0,0,"@kadavy it was a bit hard to find, but I have been doing it for at least a year, maybe 2. Did that link work for you?",[8520]
 585502297255452672,1428429600,[],r:529343048,0,0,"@ConductorBen I like Brenda's Soul Food. I'm in Boston this week, where the weather is surprisingly good (for Boston …)",[529343048]
 474444238357557248,1401951295,[],r:12377822,0,0,@rachelbinx fwiw I would guess that happens around .03-.04%...,[12377822]
-386271171332669440,1380929198,"[""ShutdownWisdom""]",,0,0,Who needs obamacare when breaking bad has already shown us how to pay for all the medical care we might ever need? #ShutdownWisdom,[]
-31481618799529984,1296340777,"[""SuperUser""]",,0,1,"No more stretching for Esc in MacVim. Thanks, #SuperUser:  http://bit.ly/eG6OKS",[]
+386271171332669440,1380929198,"[""shutdownwisdom""]",,0,0,Who needs obamacare when breaking bad has already shown us how to pay for all the medical care we might ever need? #ShutdownWisdom,[]
+31481618799529984,1296340777,"[""superuser""]",,0,1,"No more stretching for Esc in MacVim. Thanks, #SuperUser:  http://bit.ly/eG6OKS",[]
 498031549955444736,1407574949,"[""haydnseek""]",,0,0,"Haydn as a boy, by R Hahn #haydnseek http://t.co/A1jSHb3qCC",[]
 252073862861312000,1348934066,[],r:765548,0,0,@hmason excellent! :),[765548]
 351941372158287872,1372744336,[],,3,0,"For years I've sorted Python dicts via ""sorted(d.iteritems(), lambda (k,v):(v,k))"" but ""sorted(d, d.get)"" is shorter http://t.co/Wt0irWWkAW",[]
@@ -1176,7 +1176,7 @@ https://t.co/5hl0taIT1O -- Great post by @shirleyxywu with accompanying sample a
 468594330727231488,1400556569,[],r:181404555,0,0,@khetiwe24 thanks!,[181404555]
 429073123896336384,1391133979,[],,0,0,"Anyone else going to Antarctic JavaScript ""The first JavaScript conference on the Last Continent""? (@antarcticjs)",[396126368]
 476438774533324802,1402426830,[],r:1117754365,0,0,"@vladkluev oh god I hope so. Every team needs a language snob, right?",[1117754365]
-593461912161144832,1430327320,"[""DataViz15""]",,5,4,"Thanks for being a great audience, early in the day, #DataViz15! If my talk was interesting to you, hit me up. I'm hiring...",[]
+593461912161144832,1430327320,"[""dataviz15""]",,5,4,"Thanks for being a great audience, early in the day, #DataViz15! If my talk was interesting to you, hit me up. I'm hiring...",[]
 166875665973514240,1328621233,[],,0,0,"Visualizing movie profitability by @jcukier and @datatelling, in d3.js, for the @infobeautyaward contest. Beautiful. http://t.co/LwTgpCmh","[14624309, 249351969, 329714473]"
 131102186359881728,1320092171,[],r:249351969,0,0,@datatelling I hope today went well! (Please tell me you decided to go in costume),[249351969]
 468633611659272192,1400565934,[],r:181404555,2,1,@khetiwe24 Just wait until the next @sfbay_dh meetup where I talk about the resurrection of Haydn...,"[181404555, 1472697308]"
@@ -1201,7 +1201,7 @@ https://t.co/5hl0taIT1O -- Great post by @shirleyxywu with accompanying sample a
 222777851416551425,1341949353,[],,1,0,"Learning about Adaptive Replacement Cache (ARC), thanks to a pointer from @reiddraper http://t.co/FiDDEXlq",[18888820]
 317699646589906945,1364580472,[],,0,0,"Really proud to have contributed to the @facebook data science post: ""Showing Support for Marriage Equality on Facebook"" by 
 @eytan","[2425151, 6334772]"
-593193996916260864,1430263444,"[""DataViz15""]",,7,5,I'm talking about Facebook Data Viz tomorrow @ 9am. I'm hiring great front end developers to work with me: http://t.co/fZes8eow4P #DataViz15,[]
+593193996916260864,1430263444,"[""dataviz15""]",,7,5,I'm talking about Facebook Data Viz tomorrow @ 9am. I'm hiring great front end developers to work with me: http://t.co/fZes8eow4P #DataViz15,[]
 116857795684470784,1316696044,"[""python""]",rt:116793177171701761,0,22,"RT @ogrisel: scikit-learn 0.9 is out! Matrix Factorization, Manifold learning & much more. Full changelog and API changes: http://j.mp/b ...",[16067035]
 496414544604844032,1407189425,[],r:15429623,0,0,@aliimam Giving people bad UX and expecting them to pay to make it go away seems like a business model unworthy of a large company.,[15429623]
 226707881486082048,1342886345,[],r:398057518,0,0,"@MiraPod Thanks for your interest.  I did one with flocking here: http://t.co/HZu4QUC5, and am working on a new one now.",[398057518]
@@ -1235,15 +1235,15 @@ http://t.co/Rw3w6bQd6s",[]
 450088167157141504,1396144355,"[""d3unconf""]",,0,0,@seemantk nice meeting you at #d3unconf -- thanks for volunteering!,[137460666]
 130316782652239872,1319904916,[],,0,0,"With snow coming today, maybe it is finally time to remove the A/C from the window.",[]
 375706902883094528,1378410480,[],,0,0,This location table in @foursquare's NY office is pretty cool: http://t.co/xbE4A15BYJ,[14120151]
-652586405126885376,1444423698,"[""HaydnSeek""]",rt:652579652490403840,0,12,"RT @HaydnEnthusiast: Behind the scenes at #HaydnSeek, our project to play Haydn's 68 quartets this wknd at @BrandeisU. Free/open to public …","[1672583822, 19546529]"
+652586405126885376,1444423698,"[""haydnseek""]",rt:652579652490403840,0,12,"RT @HaydnEnthusiast: Behind the scenes at #HaydnSeek, our project to play Haydn's 68 quartets this wknd at @BrandeisU. Free/open to public …","[1672583822, 19546529]"
 528337443851091968,1414800437,[],r:22900580,0,0,@thorlakur @datamarket @QlikView congrats!!,"[22900580, 18871681, 3368975819]"
-461191160430473216,1398791515,"[""PyDataSV""]",,8,5,"I'm excited to be talking about ""A Full Stack Approach to Data Visualization"" at @PyDataConf this weekend #PyDataSV http://t.co/hKSc7eoR3B",[3590540536]
+461191160430473216,1398791515,"[""pydatasv""]",,8,5,"I'm excited to be talking about ""A Full Stack Approach to Data Visualization"" at @PyDataConf this weekend #PyDataSV http://t.co/hKSc7eoR3B",[3590540536]
 456749169156177920,1397732462,[],,0,0,Anyone using seaborn's tsplot with pandas dataframes? The docs aren't helping; I'd love to see some example code ...,[]
 471832507319848960,1401328610,[],r:801593,1,0,@neilkod haha.,[801593]
-471816833021276160,1401324873,"[""PythonConfessions""]",,0,0,Things that suck in Python: parsing command line arguments. https://t.co/jLn8WvYEw3 #PythonConfessions,[]
+471816833021276160,1401324873,"[""pythonconfessions""]",,0,0,Things that suck in Python: parsing command line arguments. https://t.co/jLn8WvYEw3 #PythonConfessions,[]
 401915989547171840,1384659213,[],r:55677993,0,0,@alignedleft updated the gist to be a bit clearer about the dependencies: https://t.co/KTtUyVGFOX,[17242168]
 393156607124578304,1382570814,"[""html5devconf""]",,4,1,"What would happen to my network if I dropped. . .everyone who tweeted ""Bro""? -- more wisdom from @Elijah_Meeks #html5devconf",[1387915232]
-608009245926129665,1433795675,"[""BusinessTalk""]",,10,7,"PSA: Every time you say stakeholder, this is what I picture. #BusinessTalk http://t.co/VsAfueKzOE",[]
+608009245926129665,1433795675,"[""businesstalk""]",,10,7,"PSA: Every time you say stakeholder, this is what I picture. #BusinessTalk http://t.co/VsAfueKzOE",[]
 565447108061593601,1423648070,[],r:190857410,1,0,@shirleyxywu it's starting!,[190857410]
 571193331939610626,1425018077,[],r:1792511,0,0,.@KristinHenry looks amazing! There's some really great projects there. I particularly like the self-drawing code: http://t.co/Ab2aE7KkKk,[1792511]
 667098218035937280,1447883583,[],r:14313383,0,0,@fonnesbeck other people's code is the worst.,[14313383]
@@ -1265,12 +1265,12 @@ http://goo.g ...",[2391]
 506530139031601152,1409601170,[],r:6146692,0,0,@arnicas @ansate @eagereyes @alignedleft I got a card with a chip in it for buying rail tickets. Other than that old skool was fine.,"[6146692, 9723702, 16112517, 17242168]"
 418113980775682048,1388521115,[],r:6146692,0,0,@arnicas @jakevdp I'm always happy to read some code and have been meaning to do something for mpld3 ...,"[6146692, 768197780]"
 320644038321647616,1365282470,[],r:34255829,1,0,@albertocairo @arnicas @alignedleft the Manhattan has a classic elegance that reminds me of your book: http://t.co/U62l8pGISA,"[34255829, 6146692, 17242168]"
-131101532518219776,1320092015,"[""VisWeek""]",,0,0,@currankelleher nice meeting you at #VisWeek. Look me up if you're in Boston. Or maybe I'll see you here: http://t.co/6Lhs1Csm,[191897226]
+131101532518219776,1320092015,"[""visweek""]",,0,0,@currankelleher nice meeting you at #VisWeek. Look me up if you're in Boston. Or maybe I'll see you here: http://t.co/6Lhs1Csm,[191897226]
 571904070190907392,1425187530,[],rt:571900085698629632,0,243,RT @philogb: How to steal an election http://t.co/fUY7B1v6wp,[88892707]
 604014935681564673,1432843357,[],rt:603940449976463360,0,92,RT @jeresig: Building an Art History Database Using Computer Vision http://t.co/TiDgktoXdl a new project with @fricklibrary funded by Kress…,"[752673, 273554146]"
 225900897455202304,1342693945,[],,0,0,Use your Screensaver as Live Wallpaper in OSX http://t.co/O2AXh0HL,[]
 60419696364756992,1303240152,[],r:17013577,0,0,"@blprnt @ben_fry Oh, I get it: Follow Fry-day. Good one.","[17013577, 46243602]"
-593455291993227264,1430325742,"[""DataViz15""]",rt:593454144498741248,0,1,RT @tommyunger: #DataViz15 @jsundram great presentation about data and visualization at Facebook. Got the creative and intellectual juices …,"[16436911, 55677993]"
+593455291993227264,1430325742,"[""dataviz15""]",rt:593454144498741248,0,1,RT @tommyunger: #DataViz15 @jsundram great presentation about data and visualization at Facebook. Got the creative and intellectual juices …,"[16436911, 55677993]"
 548419668600291328,1419588412,[],,1,0,This study asserts MS Word is more efficient than LaTeX for science. Based on a 30-min transcription task. WTF?http://t.co/UnpT30YPtR,[]
 160926736652050433,1327202898,[],r:18888820,0,0,"@reiddraper was going to tell you to have one for me, but you had better make it one of each ...",[18888820]
 468650969425670144,1400570072,[],rt:468649194173898752,0,2,"RT @sfbay_dh: Thanks so much to @aliciatweet, @jsundram, @gworthey, @effusivelynerdy, @wongavision, @Elijah_Meeks for their talks tonight!","[1472697308, 38939335, 55677993, 14084406, 132310937, 323690835, 1387915232]"
@@ -1278,7 +1278,7 @@ http://goo.g ...",[2391]
 457205286806102016,1397841209,[],,0,0,Intro to PourOver and Tamper (json compression library)  by @erikhinton and @koskib: http://t.co/BSjymQ25YC,"[149119936, 66896845]"
 324169150362689536,1366122922,[],r:300971971,0,0,"@kgryte I can put you in touch with the data science recruiter, who may know more. Email me your info at &lt;my twitter handle&gt; at gmail.",[300971971]
 166343317557223424,1328494313,"[""superbowl""]",,0,0,"Weights of #superbowl players, with Python and pylab.hist. Ok, I'm done. Unless BMI? http://t.co/Q40CZVNs",[]
-654939498686623744,1444984719,"[""BDS15"", ""BigDataSpain""]",,4,3,".@vambenepe talking about ""Stream Processing by default"". Amen! #BDS15 #BigDataSpain http://t.co/qjeiqHj00x",[18518601]
+654939498686623744,1444984719,"[""bds15"", ""bigdataspain""]",,4,3,".@vambenepe talking about ""Stream Processing by default"". Amen! #BDS15 #BigDataSpain http://t.co/qjeiqHj00x",[18518601]
 301081414189871104,1360618377,[],rt:301078828468563968,0,3,RT @edd: The alphabet has nine classes of topological equivalence http://t.co/MgmuYJGq [PDF],[12876]
 111838664165834752,1315499390,[],rt:111281911871176705,0,5,RT @mhelft: Data scientist: The hot new gig in tech http://t.co/yjxcviD via @FortuneMagazine,"[15756974, 25053299]"
 17378299449704448,1292978284,[],,0,0,Pretty excited to come home to a Cr-48 from Google. The packaging is awesome.,[]
@@ -1376,7 +1376,7 @@ Hand Maps, by @tdelger, can help: http://t.co/kgYixdKQCW. Brilliant.",[20654737]
 60423684627759104,1303241103,[],,0,0,"Tweet Topic Explorer is fast, made with processingjs, and mines topics from your tweets. http://bit.ly/h7MTTF by @JeffClark",[14207040]
 317706187476979712,1364582032,[],r:6146692,0,0,"@arnicas sounds like a fun trip. If I can track down (or create?) a California version, it may happen. Or maybe a trip to france?",[6146692]
 604245236924039169,1432898265,[],r:5633002,0,0,@quasimondo random seed? Does x vs y make a difference distance-wise?,[5633002]
-27484229440905217,1295387725,"[""iOS"", ""fail""]",,0,0,Interesting #iOS #fail: typing in the wrong iTunes password when updating 4 apps caused a crash and the apps getting uninstalled. sweet.,[]
+27484229440905217,1295387725,"[""ios"", ""fail""]",,0,0,Interesting #iOS #fail: typing in the wrong iTunes password when updating 4 apps caused a crash and the apps getting uninstalled. sweet.,[]
 147588477201035264,1324022809,[],r:249351969,0,0,@datatelling thanks for the pointer to @alignedleft; I like the boid spray on his home page.,"[249351969, 17242168]"
 337640859799535616,1369334828,[],,1,0,Naming terminal tabs with bash + iTerm2: http://t.co/y7Nk7nxasG,[]
 273228002148642817,1353977606,[],r:8564482,0,0,"@krees Doesn't mean you're not _in_ your prime! And it seems like the answer to life, the universe, and everything may be around the corner!",[8564482]
@@ -1440,7 +1440,7 @@ Extension: https://t.co/kPQPedTCJF",[2436389418]
 367921139357462528,1376554209,[],,0,0,"Psyched to play string quartets @vesselgallery today at 6:30pm with @HaydnEnthusiast at the ""Concerns for the Environment"" exhibit!","[43284245, 1672583822]"
 394005914107138048,1382773304,[],r:15574548,0,0,@riblah bummer. Maybe I can check out your copy at some point?,[15574548]
 90965317177704449,1310522796,[],rt:90904241752903680,0,4,"RT @ilovecharts: Optimist, pessimist or realist? http://tumblr.com/x163gtsi0s via @1annwyn",[116498184]
-462990658832048128,1399220549,"[""PyData"", ""MayThe4thBeWithYou""]",rt:462955306905894916,0,3,"RT @jdavidh97: today might be the nerdiest day of the year - #PyData conference, at the Facebook campus, on Star Wars Day #MayThe4thBeWithY…",[31066858]
+462990658832048128,1399220549,"[""pydata"", ""maythe4thbewithyou""]",rt:462955306905894916,0,3,"RT @jdavidh97: today might be the nerdiest day of the year - #PyData conference, at the Facebook campus, on Star Wars Day #MayThe4thBeWithY…",[31066858]
 654807730478149632,1444953303,"[""teachthecontroversy""]",r:801593,0,0,@neilkod well you did say cpp . . . #teachthecontroversy,[801593]
 459692610538700800,1398434233,"[""openvisconf""]",,2,1,.@jeresig's secret to making side projects rock: work on them every day! #openvisconf,[752673]
 327269680987398144,1366862146,[],,1,0,Getting let down by Good Will Hunting. Fourier Series != Graph Theory: http://t.co/5ZF1F3epdz (by Kelly Patton),[]
@@ -1460,7 +1460,7 @@ Extension: https://t.co/kPQPedTCJF",[2436389418]
 594301069989060609,1430527391,"[""datavis""]",rt:594301021536456704,0,5,RT @Milr0c: Biggest... Pie... Chart... Ever... #datavis http://t.co/awByylMCKG,[374669566]
 185309871875428352,1333016291,[],,0,0,Robots + Lion Cubs = Amazing photography: BeetleCam vs the Lions of the Masai Mara http://t.co/x4DE7heC (via @arnicas),[6146692]
 49854271004479488,1300721159,[],,0,0,"Adults With College Degrees in the United States, by County. An interactive map http://post.ly/1md2C",[]
-36849516422373376,1297620584,"[""NYC"", ""musichackday""]",,1,1,Crash at #NYC #musichackday http://instagr.am/p/BlH3N/,[]
+36849516422373376,1297620584,"[""nyc"", ""musichackday""]",,1,1,Crash at #NYC #musichackday http://instagr.am/p/BlH3N/,[]
 130356509338116096,1319914388,[],r:9060212,1,0,"@also hmm, like maybe a cuban sandwich made on a glazed donut? Dave's and Lindell's should totally collaborate.",[9060212]
 576262489530216448,1426226658,[],,1,2,Some nice tales of developer fails over at Accidentally Quadratic: http://t.co/SxrgD13gUl,[]
 620673413556908032,1436815048,"[""totc2015""]",,5,1,"In New Orleans for #totc2015, and off to a great start at @TikiToltecaNOLA http://t.co/rfP5vUX3gc",[2413378548]
@@ -1468,7 +1468,7 @@ Extension: https://t.co/kPQPedTCJF",[2436389418]
 376120962741051392,1378509200,[],,0,0,Watching @richhickey's Simple Made Easy (http://t.co/JsCkvRt2t1) and ... he reminds me of Tom Baker's Dr. Who. http://t.co/cx24qluwEd,[46130870]
 49524897482944512,1300642630,"[""bookmarklet""]",,1,1,"Nice work, @olegpodsechin! I'm using your #bookmarklet for adding the @fulltextrssfeed of any page to Google Reader: http://bit.ly/iiL0Lz","[11456642, 259112849]"
 475400417200054272,1402179266,[],,5,0,"Another nice thing about working at @facebook: taking a Haskell class from @bos31337, author of Real World Haskell http://t.co/kjGSUiSQ8L","[2425151, 6897142]"
-36456596770918400,1297526904,"[""NYC"", ""musichackday""]",,0,0,Finally at #NYC #musichackday no thanks to the 1 train.,[]
+36456596770918400,1297526904,"[""nyc"", ""musichackday""]",,0,0,Finally at #NYC #musichackday no thanks to the 1 train.,[]
 516684505181343745,1412022160,[],r:249475308,1,0,@SashaLaundy @reiddraper Apparently this has been making the rounds (via @neilkod): http://t.co/Hs86nDFHUV,"[249475308, 18888820, 801593]"
 636721018321551364,1440641095,[],,0,0,.@ProcessingOrg peeps -- how do you save frames to a movie in Processing 3.0b5? MovieMaker is gone and Movie is just for playback/capture?,[876624356]
 407401789151920128,1385967130,[],r:11595422,0,0,@DataJunkie I wouldn't.,[11595422]
@@ -1538,10 +1538,10 @@ http://t.co/UAZlfHMVfJ (HT: @siah)","[137793138, 5082531]"
 420753589733048320,1389150447,[],r:17242168,0,0,@alignedleft @jcukier Problem: someone throws a brick through your shuttle's window. Solution: Ferry service to avoid the angry mobs?,"[17242168, 14624309]"
 594326507809570818,1430533456,[],rt:594276730367561729,0,62,RT @cosbynator: Emojineering: I ran a NLP-based study on Instagram emoji usage (contained almost 40% of posts!). Check it 😍 http://t.co/C3z…,[21522682]
 191472464545587200,1334485567,[],,1,0,Looking forward to finding an excuse to use the Google Weather library for Processing -- perhaps in a screensaver? http://t.co/AyIa0SCj,[]
-462660106824347648,1399141739,"[""GoldenRatio"", ""pydata""]",r:14953016,0,0,@akuhn @dontusethiscode apparently the mile exists for a reason! #GoldenRatio #pydata,"[14953016, 1358475462]"
+462660106824347648,1399141739,"[""goldenratio"", ""pydata""]",r:14953016,0,0,@akuhn @dontusethiscode apparently the mile exists for a reason! #GoldenRatio #pydata,"[14953016, 1358475462]"
 621881569364410369,1437103094,[],r:9464552,2,0,"@MacDiva @CaneandTable @rsimmon save those tears, they are great homemade saline.","[9464552, 1481258298, 29739700]"
 203971563542949889,1337465585,[],,1,0,"A critique of  @nytgraphics ""The Facebook Offering: How It Compares"" http://t.co/4FZzcBCB",[86640232]
-502496109923549184,1408639383,"[""datascientist"", ""Datakindsf""]",,4,4,Are you a #datascientist in the SF Bay Area? Want to use your skills for good? Join #Datakindsf now! http://t.co/vdFnblncqu,[]
+502496109923549184,1408639383,"[""datascientist"", ""datakindsf""]",,4,4,Are you a #datascientist in the SF Bay Area? Want to use your skills for good? Join #Datakindsf now! http://t.co/vdFnblncqu,[]
 522890938725584896,1413501889,[],,1,1,"Really disappointed that the iPad mini didn't get more love from Apple, and that iPad Air got all the love. Another year of 802.11n?",[]
 84283289535389696,1308929676,[],,0,0,"@stamen, dotspotting.org looks great, love the ""toner"" cartographic style.",[2067201]
 671122890608234497,1448843140,[],,1,0,@homesweethome Do you have spice rack recommendations for the counter-space-constrained?,[1099960304]
@@ -1616,8 +1616,8 @@ http://t.co/JHW5rJQh2M",[19097512]
 326508642960547841,1366680701,[],r:6201512,0,0,"@giessel thanks, I'd love to take a look.",[6201512]
 596874153866731520,1431140862,[],r:29739700,0,0,@rsimmon @MacDiva party at chez simmon???,"[29739700, 9464552]"
 625010675824226304,1437849131,[],rt:625007377847185408,0,2,"RT @LotzJoe: l don't know the source, but this is so true! http://t.co/9gvVhFVel4",[1370210724]
-444247331857108992,1394751792,"[""ThoughtHeSaidSharting""]",,0,1,OH at work: sharding gets messy. #ThoughtHeSaidSharting,[]
-483602105790242816,1404134701,"[""Broadwood""]",rt:483601675304058880,0,2,RT @HaydnSocGB: @jsundram No shame! Here's a pic for the record #Broadwood http://t.co/LXeuOQYibY,"[785027792, 55677993]"
+444247331857108992,1394751792,"[""thoughthesaidsharting""]",,0,1,OH at work: sharding gets messy. #ThoughtHeSaidSharting,[]
+483602105790242816,1404134701,"[""broadwood""]",rt:483601675304058880,0,2,RT @HaydnSocGB: @jsundram No shame! Here's a pic for the record #Broadwood http://t.co/LXeuOQYibY,"[785027792, 55677993]"
 607219348265013248,1433607348,[],r:39915747,1,0,@chambermusicnw @OPB I have thousands of classical CDs and I still stream from @Spotify pretty heavily to hear new music and recordings.,"[39915747, 21512383, 17230018]"
 164887586479943683,1328147238,[],,0,0,"@Salavon's talk, ""Turning Data Into Art"" gives behind-the-scenes insights into his work process: http://t.co/Q0ruR09U via @generatorx","[29558949, 16186889]"
 551229298216943616,1420258280,[],,3,0,"Idea: 
@@ -1640,7 +1640,7 @@ http://t.co/JHW5rJQh2M",[19097512]
 279006291115012096,1355355258,[],,0,0,"How did I never know that there was such a thing as ""the ginger jitters"". Now I'm tempted to try and get them . . . http://t.co/czinXIvI",[]
 657686258131562496,1445639597,[],r:1792511,0,0,"@KristinHenry sadly no. It's the weird rendering problems and interactions between mpl, seaborn, and pandas.",[1792511]
 439884762002370561,1393711674,[],,0,0,Does anyone have crêpe pan recommendations? cc @homesweethome @girlieerin @reiddraper,"[1099960304, 2589707238, 18888820]"
-404161891313799168,1385194678,"[""ProjectBush""]",,1,1,"Whatever you think of @alisaconnan's #ProjectBush (@missscottfraser has a great analysis), heres the avg of 92 photos http://t.co/NkT2LrSEGw","[217432436, 139175465]"
+404161891313799168,1385194678,"[""projectbush""]",,1,1,"Whatever you think of @alisaconnan's #ProjectBush (@missscottfraser has a great analysis), heres the avg of 92 photos http://t.co/NkT2LrSEGw","[217432436, 139175465]"
 23119590871539713,1294347114,[],r:1691591,0,0,"@eelstretching no, although I did post a tweet containing this formula recently: log_10(|inbox|)| &lt; 3 . . .",[1691591]
 525485455882457088,1414120470,[],rt:525483756350500864,0,2,RT @timelyportfolio: SVG &amp; colors in OpenType fonts https://t.co/kbH89gtOJ7 via @mozhacks,"[245217900, 45496942]"
 547808447039676416,1419442686,[],r:229819918,1,0,@samueljohn_de @michaelwaskom the swipe is nice but a closing gesture would really help.,"[229819918, 527838270]"
@@ -1648,7 +1648,7 @@ http://t.co/JHW5rJQh2M",[19097512]
 352598646103097344,1372901042,[],,2,0,"my hobby: upvoting questions that were closed as ""not constructive"" on stackoverflow.",[]
 132493529317515264,1320423893,[],,0,0,The Median is not the Message: Anscombe's Quartet http://t.co/p9d44uOJ,[]
 428697123849109505,1391044333,[],r:184304280,0,0,"@markmarkoh cute! A bit jerky, but cool.",[184304280]
-542585522284003328,1418197443,"[""BerkeleyProtests""]",rt:542312432195350528,0,423,"RT @fightfortheftr: Warning: graphic.10 min of police assaulting young people at #BerkeleyProtests with batons, teargas, rubber bullets: ht…",[382376904]
+542585522284003328,1418197443,"[""berkeleyprotests""]",rt:542312432195350528,0,423,"RT @fightfortheftr: Warning: graphic.10 min of police assaulting young people at #BerkeleyProtests with batons, teargas, rubber bullets: ht…",[382376904]
 517849320977354752,1412299873,[],rt:517797186436739072,0,1,RT @KristinHenry: Audio Content Analysis | Machine Listening and Music Information Retrieval http://t.co/LIUnP5P2tr,[1792511]
 193103961065140224,1334874546,[],rt:193101820455956480,0,15,RT @Visually: When Yellow Isn't Really Yellow ... Your computer screen isn't showing its true colors. http://t.co/p6dAFj6F,[273197054]
 160138482793201664,1327014964,[],,0,0,@wiederkehr I enjoyed your list of 11 Conferences to attend in 2011. Do you have 12 for 2012 yet? http://t.co/4tZl3zxj,[17863]
@@ -1700,17 +1700,17 @@ http://t.co/JHW5rJQh2M",[19097512]
 620454674596913152,1436762896,[],r:801593,0,0,@neilkod @tdhopper didn't know you were a king fan. have you read the gunslinger books?,"[801593, 89249164]"
 522992800061992960,1413526174,[],r:816653,2,0,@TechCrunch @KristinHenry @kimmaicutler I guess this is what it takes to get Americans excited about soccer?,"[816653, 1792511, 14367669]"
 293886073900244992,1358902874,[],,1,0,Nice post by @sontek on optimizing your vim setup for python development. http://t.co/2xQGv2gI,[6166742]
-48217894961680385,1300331016,"[""StPatricksDay""]",,0,0,Bagpiper at Spirits. I'm pretty sure indoor piping is a human rights violation. #StPatricksDay http://t.co/9Y4s9sN,[]
+48217894961680385,1300331016,"[""stpatricksday""]",,0,0,Bagpiper at Spirits. I'm pretty sure indoor piping is a human rights violation. #StPatricksDay http://t.co/9Y4s9sN,[]
 626238312102035457,1438141823,[],r:6146692,1,0,@arnicas those are always good decisions.,[6146692]
 117304478549549056,1316802543,[],,0,0,Is GMail down? http://t.co/Yrpc5sgv,[]
 496862609023315968,1407296251,[],,5,2,"Haydn, a documentary study, by HC Robbins Landon. With pictures! http://t.co/C2DShYWkQD",[]
-662376408069574658,1446757816,"[""Python""]",rt:662042774854721536,0,15,RT @fullstackpython: Vim &amp; #Python - a match made in heaven. A sweet tutorial by the folks from @realpython https://t.co/OtFBN1mdJj,"[2996502625, 745911914]"
+662376408069574658,1446757816,"[""python""]",rt:662042774854721536,0,15,RT @fullstackpython: Vim &amp; #Python - a match made in heaven. A sweet tutorial by the folks from @realpython https://t.co/OtFBN1mdJj,"[2996502625, 745911914]"
 60402540780593152,1303236062,[],,0,0,Toys for Boys vs. Toys for Girls: Word Clouds from Toys R Us (via @ChartPornOrg) http://post.ly/1v74v,[113556344]
 353350416496463872,1373080278,[],,1,0,"Ragnarok by @JohnHodgman on @netlix; Much to love, esp. a sly Watership Down joke. But pluralizing Dr. Who as Doctors Who is grammar genius.","[17604669, 47412432]"
 434081112394981376,1392327976,[],rt:434079955312340992,0,7,RT @floydophone: Looking to fill the last spot on the @instagram web team. If you're interested: pete at instagram dot com,"[14521411, 180505807]"
 471798026437410816,1401320389,[],r:6146692,0,0,@arnicas weird. Don't remember looking. Now I'm curious and have to resist. Wish I could join the party in NYC this weekend!,[6146692]
 500638187023503360,1408196419,[],,0,0,"Haydn's residence after leaving Eisenstadt. Here he said his final farewell to Mozart in 1790, before… http://t.co/hK7lV7RS5O",[]
-482439337314099200,1403857475,"[""DHCBL""]",,2,3,The @britishlibrary has released 1 million images to flickr with a creative commons license: https://t.co/VtWQOX7rH6 #DHCBL,[21744554]
+482439337314099200,1403857475,"[""dhcbl""]",,2,3,The @britishlibrary has released 1 million images to flickr with a creative commons license: https://t.co/VtWQOX7rH6 #DHCBL,[21744554]
 327516694044102656,1366921039,[],r:84939836,0,0,@taliesinb sounds like fun to me :),[84939836]
 16180275859,1276554240,[],,0,0,RE: http://bit.ly/duMi1K @LisPardi -- I played 31 string quartets for my 31st birthday (took a whole weekend!),[62219107]
 522896113834405888,1413503123,[],r:14313383,0,0,@fonnesbeck The original mini is amazingly still the lightest iPad: http://t.co/nLgUZg3mpq,[14313383]
@@ -1740,7 +1740,7 @@ http://t.co/JHW5rJQh2M",[19097512]
 563242968258068480,1423122562,[],,1,0,.@felipehoffa talking about @google's tools for developers. Awesome stuff! http://t.co/uQ5EJvrzhF,"[216735143, 20536157]"
 421081340193144832,1389228589,[],,0,0,"In the last month, I've tweeted more about cocktails &amp; videos and less about maps &amp; code. Sorry. Or, you're welcome? http://t.co/E3PnDjhKr1",[]
 322882895142326273,1365816255,[],,0,0,Gamification of RNA folding; gamers as scientists: http://t.co/UKwUimLC24,[]
-463445862773829632,1399329078,"[""DatakindSF""]",rt:463413653849788416,0,12,RT @AmanQA: San Francisco has applied to @Datakind for our own chapter! Learn more (http://t.co/C80gxonUnM) show your support and join #Dat…,"[41654311, 458647237]"
+463445862773829632,1399329078,"[""datakindsf""]",rt:463413653849788416,0,12,RT @AmanQA: San Francisco has applied to @Datakind for our own chapter! Learn more (http://t.co/C80gxonUnM) show your support and join #Dat…,"[41654311, 458647237]"
 585650040733048832,1428464825,"[""cocktail""]",,0,0,@AlexKesling nice meeting you at @Drinkboston -- send me some of your sweet #cocktail formulae …,"[394217167, 46870301]"
 192294560645382145,1334681570,[],rt:192293237355061248,0,2,RT @bennettk: the difference between UX & UI explained in cereal: http://t.co/zV51jlB3,[14284672]
 503613396407693312,1408905765,[],,0,0,Amazon Prime's value just got a lot worse with Prime Pantry -- where you fill up a (large) box and still pay $6 in shipping.,[]
@@ -1779,7 +1779,7 @@ http://t.co/JHW5rJQh2M",[19097512]
 433759613549158400,1392251325,"[""strataconf""]",,0,2,Psychedelic data art about sleep and sports in @mrogati's talk at #strataconf http://t.co/PZdpEdp48B,[17163609]
 211224716990611457,1339194871,[],r:14313383,0,0,@fonnesbeck what were you going to do if it didn't converge? Crawl?,[14313383]
 371009811996868609,1377290606,[],r:374669566,0,0,@Milr0c I haven't seen it--Thanks for sending!,[374669566]
-355211566762819584,1373524011,"[""NoExcuses""]",rt:355208409202692097,0,2,RT @bitcraftlab: Dear Equality-Challenged Conference Organizers. Here's @Golan's List of Women in Infoviz: http://t.co/9W2sd50Xe0 #NoExcuses,"[95154284, 6490642]"
+355211566762819584,1373524011,"[""noexcuses""]",rt:355208409202692097,0,2,RT @bitcraftlab: Dear Equality-Challenged Conference Organizers. Here's @Golan's List of Women in Infoviz: http://t.co/9W2sd50Xe0 #NoExcuses,"[95154284, 6490642]"
 232966401088962560,1344378492,[],,1,0,Not sure if @EdwardTufte is punking us all with Wavefields http://t.co/6BHtV0HW,[152862026]
 439650090026688512,1393655724,[],r:26970530,0,0,@mat_kelcey let's go shopping?,[26970530]
 262241214470975488,1351358152,"[""gottastepupmygame""]",r:19476883,0,0,@mshron totally read that hashtag as as: got taste pup my game. #gottastepupmygame,[19476883]
@@ -1812,8 +1812,8 @@ http://t.co/JHW5rJQh2M",[19097512]
 498784466135834627,1407754458,[],,0,0,"In Haydn's house, listening to his quartets! http://t.co/1aFPL5Qn3a",[]
 580984690691031040,1427352519,[],r:20106729,0,0,@SonosSupport Thanks -- what channel looks best to you at this point?,[20106729]
 530520262215999488,1415320861,[],r:260915273,0,0,@mvgorski I usually use music21 from python to deal with reading/writing musicxml. Why?,[260915273]
-36910406245027840,1297635101,"[""NYC"", ""musickhackday""]",,0,0,Just demoed visualizer.fm at #NYC #musickhackday. Projector woes kinda torpedoed it.,[]
-514494953104637953,1411500130,"[""Haydn""]",,3,2,"The Classify plugin for @Spotify (https://t.co/9U7ibh2GWj) includes some nice composer portraits, including #Haydn! http://t.co/EPT9Y0fY9e",[17230018]
+36910406245027840,1297635101,"[""nyc"", ""musickhackday""]",,0,0,Just demoed visualizer.fm at #NYC #musickhackday. Projector woes kinda torpedoed it.,[]
+514494953104637953,1411500130,"[""haydn""]",,3,2,"The Classify plugin for @Spotify (https://t.co/9U7ibh2GWj) includes some nice composer portraits, including #Haydn! http://t.co/EPT9Y0fY9e",[17230018]
 451865420010512384,1396568086,[],,3,0,"bipython by @ivanov is awesome, but I don't think I can use it until the arrows for history work. Try it out here: https://t.co/kdN1nOMw9A",[3781441]
 307148277214760961,1362064830,[],r:2129501,0,0,@vgoklani good one.,[2129501]
 129935381549416449,1319813983,"[""visweek""]",,0,0,"#visweek ""throwing things away is what it means to be a grown-up."" -- Amanda Cox explains that less data  can make for more insight.",[]
@@ -1834,9 +1834,9 @@ http://t.co/JHW5rJQh2M",[19097512]
 51643179367272449,1301147668,[],,0,0,Magnum ice cream bars are coming to North America! (via @JeffClark),[14207040]
 565446466752479233,1423647917,[],,4,2,Really enjoyed @MattHaimovitz and @cjoriley playing Beethoven at @sfconservmusic playing HIP Beethoven. http://t.co/rSz54PjC33,"[72966044, 24925258, 113488251]"
 296028236796801024,1359413606,[],r:6146692,0,0,@arnicas @eagereyes I would totally dig that living situation. Esp if their margins on rent were similar to their margins on the Kindle.,"[6146692, 16112517]"
-482534625630498816,1403880194,"[""Dhcbl""]",rt:482527127431315456,0,1,RT @jfwinters: .@jsundram ’s horror at being confronted with Internet Explorer definitely a highlight of the day #Dhcbl,"[49715274, 55677993]"
+482534625630498816,1403880194,"[""dhcbl""]",rt:482527127431315456,0,1,RT @jfwinters: .@jsundram ’s horror at being confronted with Internet Explorer definitely a highlight of the day #Dhcbl,"[49715274, 55677993]"
 214795233123250176,1340046148,[],,0,0,Made in America by Alisa Toninato is a must-see collection of state-shaped frying pans. And it can be yours for $8000! http://t.co/Ckl9Eycw,[]
-497554570692661248,1407461228,"[""Haydn""]",,2,1,The perfect thing to read on a trip to Vienna: Griesinger &amp; Dies! The #Haydn adventures continue... http://t.co/PO7LrOBk72,[]
+497554570692661248,1407461228,"[""haydn""]",,2,1,The perfect thing to read on a trip to Vienna: Griesinger &amp; Dies! The #Haydn adventures continue... http://t.co/PO7LrOBk72,[]
 483647687712329729,1404145569,[],,6,2,"I am so grateful to @SandraTuppen for indulging my ""manuscript tourism"" at the @britishlibrary today. Best day ever! http://t.co/G5blkFMUT6","[172499833, 21744554]"
 168057856350887937,1328903089,[],,0,0,"Hey @united, why don't you charge for bin space instead of checked bags? Boarding would be faster. As it is, you can't pay for space!",[260907612]
 621505013433651200,1437013316,[],r:1387915232,0,0,@Elijah_Meeks damn I've gotta step my game up,[1387915232]
@@ -1865,9 +1865,9 @@ http://t.co/JHW5rJQh2M",[19097512]
 411649819262722048,1386979939,[],r:18888820,0,0,@reiddraper I watched that video and @CookingIssues is awesome! It led to a very instructional 30 mins on youtube: http://t.co/ffXZWPVsYy,"[18888820, 41343046]"
 279007137148059648,1355355459,[],r:13669872,0,0,@watchinginkdry I'm impressed! How much did you eat? Or did you drink the juice?,[13669872]
 643281519889354752,1442205240,[],r:190857410,0,0,"@shirleyxywu @Milr0c 6pm @ bldg 14? But Miles is incrementing his counter, so maybe he won't make it.","[190857410, 374669566]"
-603172810312163328,1432642579,"[""HeadlinesWithoutContect""]",,0,0,Why does the oldest living person in the world keep dying? #HeadlinesWithoutContect,[]
+603172810312163328,1432642579,"[""headlineswithoutcontect""]",,0,0,Why does the oldest living person in the world keep dying? #HeadlinesWithoutContect,[]
 671123405702373381,1448843263,[],r:29739700,0,0,@rsimmon @MacDiva i've never tried Maurin Quina -- how did it turn out? (and what color?),"[29739700, 9464552]"
-629733173748985856,1438975063,"[""JPEGHeaders""]",,2,1,"Awesome, detailed post about decreasing time to first image display on slow networks by @Facebook: https://t.co/OAMG3kjlDp #JPEGHeaders",[2425151]
+629733173748985856,1438975063,"[""jpegheaders""]",,2,1,"Awesome, detailed post about decreasing time to first image display on slow networks by @Facebook: https://t.co/OAMG3kjlDp #JPEGHeaders",[2425151]
 105042119009374208,1313878967,"[""cocktail"", ""fact""]",,0,0,"At Drink Fort Point, they don't have bartenders; they have spirit guides. #cocktail #fact",[]
 450009858809421824,1396125685,"[""d3unconf""]",,8,3,".@lmeyerov talking about webCL, webGL, and high-performance browser-based visualization. Amazing! #d3unconf http://t.co/wdA4MxVg7j",[15315247]
 522447052442468352,1413396058,[],r:141951273,1,0,"@nvenkataraman1 @peteskomoroch @jadler @mrogati @hmason @scootrous If you don't program, you're a statistician, not a data scientist.","[141951273, 14344469, 14354152, 17163609, 765548, 963]"
@@ -1877,14 +1877,14 @@ http://t.co/JHW5rJQh2M",[19097512]
 296713261548707840,1359576928,[],r:13669872,0,0,@watchinginkdry I never read the comments. :),[13669872]
 305751927881334784,1361731914,[],,0,0,Fat Floating Dalek?? @ Mission Creek Park http://t.co/qdaaHDCROs,[]
 401911418628239360,1384658124,[],r:17242168,4,0,@alignedleft just wrote a gist that should show you how to do it: https://t.co/KTtUyVGFOX I didn't test it; let me know if it works for you,[17242168]
-279353202493759488,1355437968,"[""HolidayPalindrome""]",rt:279287623275667457,0,838,RT @DemetriMartin: Stressed? Gift?... Oh. Hot fig desserts. #HolidayPalindrome,[217158161]
+279353202493759488,1355437968,"[""holidaypalindrome""]",rt:279287623275667457,0,838,RT @DemetriMartin: Stressed? Gift?... Oh. Hot fig desserts. #HolidayPalindrome,[217158161]
 313853255639789569,1363663421,[],r:6146692,0,0,@arnicas thanks for the link; there's some good stuff in there!,[6146692]
-482439857823023104,1403857600,"[""DHCBL""]",,0,0,".@melissaterras reminds everyone that quantitative methods in the humanities began perhaps with concordances, well before computers! #DHCBL",[50122046]
+482439857823023104,1403857600,"[""dhcbl""]",,0,0,".@melissaterras reminds everyone that quantitative methods in the humanities began perhaps with concordances, well before computers! #DHCBL",[50122046]
 53219906069602305,1301523589,[],,0,0,"How Many Americans Have a Passport? The percentages, by state (via @cgpgrey) http://post.ly/1pIOt",[176774540]
 610634221808320512,1434421518,[],r:9060212,0,0,@also one man mapping project?,[9060212]
 290924511338041344,1358196783,[],r:14624309,0,0,"@jcukier Nicely done! If the hover targets for the stations were a little bigger, it would be even easier to use.",[14624309]
 534783932365955072,1416337399,[],,0,0,"Voronoi treemap map by @driven_by_data in the @nytimes is incredibly well done. Nice work, Gregor! http://t.co/LDbTDlgZnp","[177507079, 807095]"
-654934791649914880,1444983597,"[""BigDataSpain"", ""InsightsWall""]",rt:654927185250242560,0,4,"RT @inyigolopez: ""No more 'Visualization', but 'Visceralization'.You must impact"" @jsundram at #BigDataSpain #InsightsWall http://t.co/jaUK…","[363687747, 55677993]"
+654934791649914880,1444983597,"[""bigdataspain"", ""insightswall""]",rt:654927185250242560,0,4,"RT @inyigolopez: ""No more 'Visualization', but 'Visceralization'.You must impact"" @jsundram at #BigDataSpain #InsightsWall http://t.co/jaUK…","[363687747, 55677993]"
 664500873289035777,1447264328,[],rt:664351871268556800,0,2,RT @BigDataSpain: Developing Data Products by @jsundram at Big Data Spain 2015 Watch the keynote at  https://t.co/JjwPdq35ee,"[611485586, 55677993]"
 315144681451298816,1363971321,[],r:225147537,0,0,"@clairedwillett couldn't have said it better. Maybe I should be tweedier ... Was this tweet an excuse to write ""tweedier"" -- twice?",[225147537]
 412725107165913088,1387236308,[],,8,4,Just got an email from a recruiter that included this meme. I'm gonna take it as a compliment. cc @neilkod http://t.co/w1nvBGrjqS,[801593]
@@ -1919,7 +1919,7 @@ http://t.co/JHW5rJQh2M",[19097512]
 ""NaNNaNNaNNaNNaNNaNNaNNaNNaNNaNNaNNaNNaNNaNNaNbatman""",[252443560]
 115179308938559490,1316295861,"[""fail""]",,0,0,The @hubway bike-share kiosk has a 109-page agreement to read on a tiny touch-screen. #fail http://t.co/rsjyU1Uv,[285787156]
 643275854760415232,1442203889,[],r:190857410,1,0,@shirleyxywu I'm super interested. Maybe I can feed you some scotch at fb some night this week and learn about the sounds?,[190857410]
-612728630859317250,1434920864,"[""TCH15"", ""BetterThanSports""]",rt:612728503159525376,0,1,RT @HaydnEnthusiast: Watching the Tchaikovsky competition on  @medicitv has been inspiring and enthralling  #TCH15 #BetterThanSports,"[1672583822, 59220775]"
+612728630859317250,1434920864,"[""tch15"", ""betterthansports""]",rt:612728503159525376,0,1,RT @HaydnEnthusiast: Watching the Tchaikovsky competition on  @medicitv has been inspiring and enthralling  #TCH15 #BetterThanSports,"[1672583822, 59220775]"
 459787582403272704,1398456876,"[""openvisconf""]",rt:459787168190590976,0,1,"RT @arnicas: That was so good, @lenagroeger. You should give lots of UI design talks in your future. If you're born then. #openvisconf","[6146692, 55247508]"
 228699781667643392,1343361251,[],r:24891067,0,0,@robhaskins right ... But what's the occasion?,[24891067]
 174290628547579906,1330389098,[],,0,0,The United States of Craigslist by John Nelson http://t.co/yJAdOrad,[]
@@ -1949,7 +1949,7 @@ http…",[1387915232]
 668309852310016000,1448172460,"[""d3unconf""]",rt:668256997205106688,0,1,RT @lmeyerov: Left #d3unconf w/ many new thoughts &amp; links -- thank you @Milr0c @nickelmu @jsundram @shirleyxywu @enjalot @vicapow @tamaramu…,"[15315247, 374669566, 204221950, 55677993, 190857410, 16030323, 19411223, 1652270612]"
 370280634649825280,1377116757,[],,2,0,"""What's wrong with my NLP?"" - visualizing Natural Language Processing problems and errors: https://t.co/MQmChoBrGs",[]
 499863514203582464,1408011723,[],,0,0,Haydn Hof @ Haydn-Hof http://t.co/7qofHGoPcl,[]
-423675711149182976,1389847135,"[""ReactJS""]",rt:423635547316158464,0,10,"RT @dustingetz: ""I gotta say, that getting into facebook #ReactJS has pretty much ruined me for other browser development models"" -- my boss",[41138912]
+423675711149182976,1389847135,"[""reactjs""]",rt:423635547316158464,0,10,"RT @dustingetz: ""I gotta say, that getting into facebook #ReactJS has pretty much ruined me for other browser development models"" -- my boss",[41138912]
 492214172998836224,1406187978,[],r:785027792,0,0,@HaydnSocGB @britishlibrary there are _so_ many great things at the BL!,"[785027792, 21744554]"
 589104629553627136,1429288463,[],r:6146692,0,0,@arnicas @ramnath_vaidya @vlandham that's my normal non-experimental workflow.,"[6146692, 46486816, 7639702]"
 118380689195417600,1317059130,[],rt:116317530028646401,0,3,RT @Reichental: Stunning. Around the world in 60 seconds looking out of the International Space Station: http://t.co/i8R00pRF Thx Sean,[3021611]
@@ -1957,7 +1957,7 @@ http…",[1387915232]
 449960190981337088,1396113844,[],,2,1,"Listening to @ireneros talking about composing d3 charts, or as she calls it, ""making chart babies"" at @d3unconf","[16789581, 2318412205]"
 44047331057872897,1299336676,[],,0,1,Open Goldberg Variations - bringing open source to Bach: http://t.co/RFmvIlB via @thomasbonte & @robertDouglass,"[5334162, 8531222]"
 141723212584202240,1322624421,[],rt:141603848279171073,0,2,RT @drewconway: Great critique of @okcupid's matching algorithm http://t.co/E09UiSzn,"[18463930, 53543144]"
-162260501697544193,1327520892,"[""BigData""]",,0,0,"There will be some cool people at Summit: The Big Data Disruption, including some @WHERE data folks  @MassTLC #BigData http://t.co/icc9302Y","[15236542, 16523713]"
+162260501697544193,1327520892,"[""bigdata""]",,0,0,"There will be some cool people at Summit: The Big Data Disruption, including some @WHERE data folks  @MassTLC #BigData http://t.co/icc9302Y","[15236542, 16523713]"
 471767881022447616,1401313202,[],,11,4,"The @OpenVisConf talks, including mine (""A full stack approach to data visualization"") are up! Check them out! http://t.co/W3MyCVr338",[945943164]
 530290923255922688,1415266183,[],,0,0,How do people back up their txt messages? Oddly iCloud doesn't seem to do this.,[]
 18038907464,1278599976,[],,0,0,How Shazam Works http://post.ly/mN8B,[]
@@ -1974,13 +1974,13 @@ http…",[1387915232]
 59369764304334848,1302989829,"[""processingjs""]",,1,0,Just updated streamgraph.js to use #processingjs v1.1. Fork it on github! https://github.com/jsundram/streamgraph.js,[]
 33398177042411520,1296797720,"[""strataconf""]",,0,0,"So long, #strataconf!  To keep up with your strata peeps, follow all the attendees here: @jsundram/strataconf2011-3",[]
 475555015126687744,1402216125,[],,0,1,economists vs geographers: FIGHT! http://t.co/rejM2aE2jR,[]
-647285147092389888,1443159779,"[""BDS15""]",rt:647278148862758912,0,2,"RT @strataconf: Join @pacoid, Kartik Paramasivam, @jsundram and @vambenepe at #BDS15 http://t.co/nTGfIZwn57","[167169119, 14066472, 55677993, 18518601]"
+647285147092389888,1443159779,"[""bds15""]",rt:647278148862758912,0,2,"RT @strataconf: Join @pacoid, Kartik Paramasivam, @jsundram and @vambenepe at #BDS15 http://t.co/nTGfIZwn57","[167169119, 14066472, 55677993, 18518601]"
 625583852971384832,1437985787,[],,4,0,@Webpass looks like my internet is out (zip:94107) -- can you shed any light?,[35861740]
 468648854640816128,1400569568,[],r:785027792,1,0,"@HaydnSocGB @sfbay_dh @wongavision @HaydnEnthusiast we want to update http://t.co/79nHBrkgd3 with links to the work, hopefully soon.","[785027792, 1472697308, 323690835, 1672583822]"
 433756992893509632,1392250700,[],,0,2,"Counter-intuitive Insights from @Jawbone data by @mrogati: women get 20 minutes more sleep than men, on average.","[26276396, 17163609]"
 383679236021575681,1380311232,"[""my_id""]",,0,0,"Re: my last tweet: The answer is simple: var x  = d3.select(""#my_id"").property(""value""). Thanks, code I apparently forgot writing.",[]
 487716103263907841,1405115555,[],,4,3,"30,000 flights over Europe, visualized: http://t.co/CrgdYiZUMe more info: http://t.co/eIMGg5X57p",[]
-36275553107582976,1297483740,"[""WTF"", ""fail""]",,0,0,My cab is broken. #WTF #fail http://yfrog.com/h2ksluaj,[]
+36275553107582976,1297483740,"[""wtf"", ""fail""]",,0,0,My cab is broken. #WTF #fail http://yfrog.com/h2ksluaj,[]
 598159754247057408,1431447373,[],r:237254045,1,0,@treycausey cc @neilkod,"[237254045, 801593]"
 170494002108448768,1329483912,[],,0,0,Really nice to see Apple supporting Homebrew users by releasing Command Line Tools for Xcode: http://t.co/mq58JWJT,[]
 452166463332167680,1396639860,"[""d3unconf""]",,13,9,#d3unconf highlight reel captures the unconf feeling. Cameos: @shirleyxywu @vicapow @alignedleft @Milr0c me &amp; more! https://t.co/5T1jePy68P,"[190857410, 19411223, 17242168, 374669566]"
@@ -2004,12 +2004,12 @@ http…",[1387915232]
 616366670299312128,1435788240,[],,5,0,Happy to see a screenshot of a visualization I worked on in @instagram's latest engineering blog post! https://t.co/GEl3wTXdwk,[180505807]
 428696406107242496,1391044162,"[""strataconf""]",,2,0,I'll be at #strataconf in Santa Clara from Feb 11-13 if anyone wants to meet up for a drink. My team is hiring ...,[]
 494562507206717441,1406747864,[],,0,1,"New to SF? Or just want to take a walk? @detour, a location-based walking tour audio app looks like a promising way to get to know the city.",[2351115122]
-529800993635323904,1415149374,"[""Election2014""]",,10,6,Really proud of the real-time #Election2014 visualization I made with @milroc @tvirot &amp; @vpowell! https://t.co/JMAsKXiTOP,"[40693898, 69883110, 15338089]"
+529800993635323904,1415149374,"[""election2014""]",,10,6,Really proud of the real-time #Election2014 visualization I made with @milroc @tvirot &amp; @vpowell! https://t.co/JMAsKXiTOP,"[40693898, 69883110, 15338089]"
 401915443968876544,1384659083,[],r:17242168,0,0,@alignedleft for shapefile: pip instlal pyshp. Sorry about that.,[17242168]
 195181940880588800,1335369975,[],,1,0,So into this great matplotlib color scheme by @huyng (works great with pylab in iPython). My histograms are pretty! http://t.co/KGFWMDyF,[18312902]
 269865898431623168,1353176018,[],r:162441059,0,0,@kcimc yes please :),[162441059]
 310444904713183232,1362850807,[],,0,0,Getting a robotic arm to bounce two ping pong balls simultaneously with MATLAB. Very cool.  http://t.co/i6FdugahUB,[]
-462270042260766720,1399048741,"[""pydata"", ""pydatasv"", ""hashtagconfusion"", ""TIL""]",,0,1,"Looks like people are using #pydata, not #pydatasv. #hashtagconfusion #TIL",[]
+462270042260766720,1399048741,"[""pydata"", ""pydatasv"", ""hashtagconfusion"", ""til""]",,0,1,"Looks like people are using #pydata, not #pydatasv. #hashtagconfusion #TIL",[]
 462654783464026112,1399140470,[],rt:462651041238904832,0,1,RT @__LizzHale__: @jsundram Wonderful talk! I left feeling so inspired and excited about the possibilities with fresh data.,"[2332860799, 55677993]"
 131540587789828096,1320196694,[],,0,0,@ireneros are there slides from Frank's talk? Would be nice to post 'em ...,[16789581]
 166399034200825857,1328507595,[],r:15927359,0,0,@eherot good point.,[15927359]
@@ -2043,8 +2043,8 @@ http…",[1387915232]
 95154499538268160,1311521575,[],,0,0,Designer QR Codes (via @johnmaeda) http://post.ly/2cEQt,[15414807]
 645702441476820992,1442782433,[],,2,2,Data scientists on the job market should read this excellent piece by @treycausey: http://t.co/lVSEhDfpNi,[237254045]
 225702590153887744,1342646665,[],,0,0,"for future reference, 6 + 4 + 6 + 6 + 6 + 6 + 1 + 6 + 3 + 3+ 6 + 3 + 3 + 6 + 2 + .5 = 67.5",[]
-498112167309508608,1407594169,"[""HaydnSeek""]",,1,0,"Wienerstraße 7, where Haydn stayed with his cousin Johann Franck in Hainburg from age 6-9 to learn music. #HaydnSeek http://t.co/ioheF4LIpM",[]
-63995269880098816,1304092635,"[""RoyalWedding""]",r:15236542,0,0,"@WHERE @mashable Here's a nerdier analysis of the #RoyalWedding Buzz on twitter, by @marc_smith: http://bit.ly/jGNTOm","[15236542, 972651, 12160482]"
+498112167309508608,1407594169,"[""haydnseek""]",,1,0,"Wienerstraße 7, where Haydn stayed with his cousin Johann Franck in Hainburg from age 6-9 to learn music. #HaydnSeek http://t.co/ioheF4LIpM",[]
+63995269880098816,1304092635,"[""royalwedding""]",r:15236542,0,0,"@WHERE @mashable Here's a nerdier analysis of the #RoyalWedding Buzz on twitter, by @marc_smith: http://bit.ly/jGNTOm","[15236542, 972651, 12160482]"
 588962037385928704,1429254466,[],,1,0,"Hmm, the battery on my macbook discharges a lot faster than I was expecting. Nice to be able to quantify this though. http://t.co/i8ieMokqw2",[]
 237287900402827265,1345408818,[],r:6146692,0,0,"@arnicas yeah, menton and sportello, and probably more.  5pm? or later?",[6146692]
 175520514087993346,1330682326,[],,0,0,@jakeporway The map of stops per precinct you showed today from nyclu's data was made by @jatorre using cartodb: http://t.co/jEytr8fh,"[22512172, 11584672]"
@@ -2099,7 +2099,7 @@ http://t.co/B68ER9CjYp",[84579659]
 493089177148198912,1406396595,"[""nytchronicle""]",,0,0,"See @nytimes usage of Man,Woman,Person throughout its history.  http://t.co/AuqF7ORgeg #nytchronicle",[807095]
 112987063678275585,1315773189,[],,0,0,Explore hurricanes past with this gorgeous hurricane browser by @stamen http://t.co/UGmKOnt,[2067201]
 464534728499269632,1399588684,[],,1,0,iOS 7.1 ftw http://t.co/Gsz8BCXbWG,[]
-514601148154527745,1411525449,"[""PyData""]",,1,1,"SF PyData meetup on Music Information Retrieval in the IPython notebook by @stevetjoa, a fellow violinist and python nerd! #PyData",[38375047]
+514601148154527745,1411525449,"[""pydata""]",,1,1,"SF PyData meetup on Music Information Retrieval in the IPython notebook by @stevetjoa, a fellow violinist and python nerd! #PyData",[38375047]
 386480910310199296,1380979204,[],,0,0,Anyone else notice a problem with websockets in the latest Chrome (v30.x on OSX)? I'm seeing the handshake take 75 seconds ...,[]
 370439682946891778,1377154677,[],,0,0,"Fatigue cocktail: equal parts Whiskey, Angostura, and Maraschino. Yum! Via @TroySidle in beta cocktails.",[34673888]
 48743851107684352,1300456414,[],,0,0,Super Full Moon this Saturday (via NASA Science) http://post.ly/1lfu9,[]
@@ -2112,8 +2112,8 @@ http://t.co/B68ER9CjYp",[84579659]
 499820909981876224,1408001565,[],rt:499760644594601985,0,1060,"RT @benjaminmoser: The Ferguson police have this gear because we were afraid of ""domestic terror."" Well, it's here. Wearing the outfit we b…",[57145368]
 379287009765769216,1379264044,[],r:6146692,0,0,@arnicas http://t.co/6DI1kL3DdJ,[6146692]
 384928260598935552,1380609023,[],,0,1,"So, I wonder if this government shutdown means I get a pro-rated discount on my 2013 federal taxes?",[]
-650072380455391233,1443824307,"[""FF""]",rt:650068413394497536,0,81,"RT @mappingmashups: #FF my new favorite Instagram feed, sadtopographies: https://t.co/4FBIUwDiI8 http://t.co/J75Iwl1pcY",[194094820]
-539941501849964544,1417567060,"[""JanetWiener"", ""realtime"", ""bigdata"", ""hacksummit""]",r:2706783804,2,0,"MT @hack_summit #JanetWiener talking about work we did: 
+650072380455391233,1443824307,"[""ff""]",rt:650068413394497536,0,81,"RT @mappingmashups: #FF my new favorite Instagram feed, sadtopographies: https://t.co/4FBIUwDiI8 http://t.co/J75Iwl1pcY",[194094820]
+539941501849964544,1417567060,"[""janetwiener"", ""realtime"", ""bigdata"", ""hacksummit""]",r:2706783804,2,0,"MT @hack_summit #JanetWiener talking about work we did: 
 What @Facebook can do with data in &lt;10 seconds #realtime #bigdata #hacksummit","[2706783804, 2425151]"
 327254736812265473,1366858584,[],r:6146692,0,0,@arnicas @nodebox I really want to take a vacation upon which Leuven is a plausible detour.,"[6146692, 87806701]"
 27467802765,1287167844,[],,0,0,Danceability and Energy. What I've been working on recently for the @echonest:  http://bit.ly/d4OpH3,[14759690]
@@ -2153,7 +2153,7 @@ What @Facebook can do with data in &lt;10 seconds #realtime #bigdata #hacksummit
 278991948134621184,1355351838,[],,0,0,Can't believe the support for animated png is so spotty: http://t.co/et3yXJT3,[]
 569657866514116608,1424651993,[],rt:569651422423326720,0,773,RT @thespite: http://t.co/eJWEy1i4AK,[20048140]
 417010473486123008,1388258019,"[""shelfie""]",r:8520,1,0,"@kadavy FYI I noticed @arnicas using ""#shelfie"" for this. Terser, punnier.","[8520, 6146692]"
-8621028720779264,1290890388,"[""TSA""]",,0,0,Jarrod Copeland of the #TSA in ABQ just touched my junk. I bet he won't call.,[]
+8621028720779264,1290890388,"[""tsa""]",,0,0,Jarrod Copeland of the #TSA in ABQ just touched my junk. I bet he won't call.,[]
 417611869428269056,1388401403,[],,0,2,30 @umich students draw a world map from memory. Zak Ziebell merges the results: http://t.co/dzUxTSiHbt (via http://t.co/7jAT74pKFh),[88836132]
 603405287840579584,1432698006,[],,4,0,"Count-min sketch, cousin to the bloom filter, is a pretty cool data structure. That is all. http://t.co/SRmNxob1lG",[]
 626437135235719168,1438189226,[],r:8470842,1,0,"@kosamari ctrl-d works, if that helps. But muscle memory is hard to defeat.",[8470842]
@@ -2216,7 +2216,7 @@ What @Facebook can do with data in &lt;10 seconds #realtime #bigdata #hacksummit
 594945084212289538,1430680936,[],,5,1,"I heard you like javascript and data, so I put some javascript in your SQL so you can javascript while you query: https://t.co/AvvLwqkjk0",[]
 55649466413359104,1302102841,[],,0,0,Data.gov in crisis: the open data movement is bigger than just one site (via @flowingdata) http://post.ly/1rLlD,[14109167]
 297426578542034944,1359746996,[],r:12014302,0,0,"@ndiakopoulos in particular, I was interested in the time series annotations in d3 ...",[12014302]
-461995368046002176,1398983253,"[""PyDataSV""]",r:6146692,0,0,@arnicas I wish I could help you with that; it sounds fun! I'm bummed you won't be at #PyDataSV ... :(,[6146692]
+461995368046002176,1398983253,"[""pydatasv""]",r:6146692,0,0,@arnicas I wish I could help you with that; it sounds fun! I'm bummed you won't be at #PyDataSV ... :(,[6146692]
 473709969289003008,1401776232,[],,0,0,cc @fonnesbeck on my last tweet re: Negroni Week.,[14313383]
 166641679691026432,1328565448,[],,0,0,Having a little hands-on fun with the @lytro light field camera! http://t.co/uOlXxPq5,[268439410]
 370780799479451648,1377236006,[],,0,0,@Milr0c sorry I missed your talk tonight! Are there slides I can check out?,[374669566]
@@ -2225,14 +2225,14 @@ What @Facebook can do with data in &lt;10 seconds #realtime #bigdata #hacksummit
 315163802213683202,1363975880,[],r:21116781,1,0,@mizmay @danadanger @sharonw @enf makes sense. I guess the best way to find out w wireshark if it gets passed?,"[21116781, 3306849214, 512562844, 15248437]"
 392787315321356288,1382482768,[],r:374669566,0,0,@Milr0c sounds good. I'll look for you in or around E-132,[374669566]
 364501904006447105,1375739000,[],,1,0,"I've got one for @neilkod's ""shit recruiters say"": ""so I’m not expecting you to completely jump shit just from a LinkedIn message""",[801593]
-526669230142267392,1414402704,"[""Haydn""]",,2,6,"I just backed ""A Haydn Plaque in London"" on @Kickstarter http://t.co/kjwUlGKqpO #Haydn",[16186995]
+526669230142267392,1414402704,"[""haydn""]",,2,6,"I just backed ""A Haydn Plaque in London"" on @Kickstarter http://t.co/kjwUlGKqpO #Haydn",[16186995]
 249461396666978304,1348311206,[],,1,0,Thinking with Type by @EllenLupton is an incredible typography resource http://t.co/HykJh893,[31397603]
 319658366089691138,1365047468,[],rt:319639200511184897,0,1,"RT @twisitor: Hey, it's @DouglasMason10 and @jsundram at the @Twoffice! http://t.co/lJnFDjmMiE","[1072232960, 2245889558, 55677993, 529817556]"
 543665409388314624,1418454909,[],r:190857410,0,0,@shirleyxywu @vicapow @Milr0c always! You've got a open invite at fb -- when's good?,"[190857410, 19411223, 374669566]"
 27898111167,1287545736,[],r:125311975,0,0,@bubululabs first approximation of joggability might be high energy and high danceability ... Or not. I jog to bartok.,[125311975]
 499560428184539136,1407939462,"[""haydnseek""]",,1,0,Calling on Haydn at his house in Gumpendorf. #haydnseek http://t.co/JRj5siInAu,[]
 161861864731578368,1327425850,[],rt:161817816524267521,0,16,"RT @BostonTweet: iPhone Demand: In 2011, 98 Apple products were stolen from people waiting for the T - 58 of them were iPhones. T Stats: ...",[17531205]
-654945340098007040,1444986112,"[""BDS15""]",,2,3,".@vambenepe giving an incredible, clear primer on the trade-offs implicit in stream processing. Great Talk! #BDS15 http://t.co/W9eKDnvreG",[18518601]
+654945340098007040,1444986112,"[""bds15""]",,2,3,".@vambenepe giving an incredible, clear primer on the trade-offs implicit in stream processing. Great Talk! #BDS15 http://t.co/W9eKDnvreG",[18518601]
 577308476487131136,1426476041,[],r:14100929,0,0,"@dckc @bocoup My take: it is still early days, but currently this makes sense for smaller projects.","[14100929, 98303566]"
 675046337981861889,1449778563,"[""resubmit"", ""portrait""]",r:3472594037,0,0,@DeepForger #resubmit #portrait +Close,[3472594037]
 464480878899363841,1399575845,[],r:29739700,0,0,@rsimmon @NASAAmes HYPERWALL! You guys totally win on screen count ...,"[29739700, 15519544]"
@@ -2249,7 +2249,7 @@ What @Facebook can do with data in &lt;10 seconds #realtime #bigdata #hacksummit
 524844399407022081,1413967630,[],,2,2,Areal &gt;&gt; Arial; a font derived from satellite imagery. http://t.co/hjvaAawUKv,[]
 484328670564081665,1404307928,[],r:103285804,1,0,@binroot congrats! This looks very interesting.,[103285804]
 125599342903046145,1318780191,"[""datadivenyc""]",rt:125571296703680513,0,1,"RT @jatorre: NYPD ""stop, ask and frisk"" frequency by NYC election districts now normalized by size #datadivenyc http://t.co/LRsArq5c",[11584672]
-401995773295857664,1384678235,"[""PyData""]",,13,5,.@amontalenti makes a compelling case for IPython Notebook + Vincent for exploratory data visualization at #PyData: https://t.co/N5bkKhwuMg,[34270918]
+401995773295857664,1384678235,"[""pydata""]",,13,5,.@amontalenti makes a compelling case for IPython Notebook + Vincent for exploratory data visualization at #PyData: https://t.co/N5bkKhwuMg,[34270918]
 475367832222330880,1402171497,[],,0,0,"@kimay I met @nrchtct at openvisconf, and he said you were in the bay area; are you still around?","[16171911, 52341962]"
 302467486761242624,1360948843,[],,26,29,"Data porn + porn data; a study of 10,000 porn stars. http://t.co/PBZB0y1U",[]
 317751777128755200,1364592901,[],r:6146692,0,0,@arnicas nice thing about Napa is that it's roadtrippable. I haven't been there since moving here though.,[6146692]
@@ -2316,7 +2316,7 @@ A: Not yet, but we are working on it.",[14284672]
 128896406219005952,1319566272,"[""visweek""]",rt:128890799168561152,0,2,RT @jonathanstray: Laser cut acrylic brain slices at #visweek http://t.co/jHVid9Yo,[14929834]
 32884698111946752,1296675297,[],,0,0,@imitrovic 3:20 is good. Meet by the pool? I have a green bag and black jacket. (can't DM since you don't follow),[920141]
 590270206695645187,1429566358,[],r:19411223,1,0,"@vicapow to understand recursion, you must first understand recursion ...",[19411223]
-47111088759779328,1300067133,"[""cocktail"", ""Gin"", ""Maraschino"", ""CremeDeViolette"", ""LemonJuice""]",,0,0,New #cocktail post: The Aviation is up: http://bit.ly/e13THa #Gin #Maraschino #CremeDeViolette #LemonJuice,[]
+47111088759779328,1300067133,"[""cocktail"", ""gin"", ""maraschino"", ""cremedeviolette"", ""lemonjuice""]",,0,0,New #cocktail post: The Aviation is up: http://bit.ly/e13THa #Gin #Maraschino #CremeDeViolette #LemonJuice,[]
 324253564828516353,1366143048,[],,1,0,Emit nvd3 charts from python. Looks handy:  https://t.co/BQHmZEgvWw via @d3visualization,[1006945298]
 46228639691440128,1299856741,[],,0,0,Youth movement in the Middle East: The demographics (via Washington Post) http://post.ly/1jW5B,[]
 456561918581276672,1397687818,[],r:16030323,0,0,@enjalot lisp much?,[16030323]
@@ -2352,7 +2352,7 @@ A: Not yet, but we are working on it.",[14284672]
 404019083919650816,1385160630,[],r:14113734,0,0,@alark totally.,[14113734]
 671088439819829248,1448834926,"[""cocktail""]",,2,0,Going through some papers and found this memento of a fun #cocktail time at @Callooh_callay with @stefpos https://t.co/UGBWlEEHQH,"[112816225, 15339875]"
 430395157947506688,1391449176,[],r:225138752,0,0,"@eyeofestival ""pending"" what exactly?",[225138752]
-513856639439339520,1411347944,"[""FolsomStreetFair"", ""LinesEverywhere""]",,2,0,Only in SF: a line to get spanked. #FolsomStreetFair #LinesEverywhere,[]
+513856639439339520,1411347944,"[""folsomstreetfair"", ""lineseverywhere""]",,2,0,Only in SF: a line to get spanked. #FolsomStreetFair #LinesEverywhere,[]
 548761821726146560,1419669988,[],,2,0,blowing up video with html5 and canvas: http://t.co/fL1jMTcy2Q work from 2010 (!) by @seanalltogether. Sweet!,[14783098]
 21690365494,1282333806,[],,1,0,./configure; make; sudo make install.,[]
 219590896109359104,1341189524,[],r:6146692,0,0,"@arnicas @lorenterveen ""productive rage"", ""grinding"", and ""super-grinding"" are phrases I think I need to make part of my work vocabulary.","[6146692, 128232442]"
@@ -2385,7 +2385,7 @@ A: Not yet, but we are working on it.",[14284672]
 406972653006635008,1385864816,[],r:6089412,0,0,@abdinoor Jony Ive is Hank Reardon.,[6089412]
 269677718059220992,1353131153,[],,0,0,First Amaretto Sour. Not bad! http://t.co/cCmp2dTZ,[]
 396074772104101888,1383266559,[],,0,0,Using clothing colors for recommendations by @erinshellman &amp; @davidvlsea of the Nordstrom Innovation Lab: http://t.co/5eLq6DYn99,"[20262516, 15092791]"
-593439315469840384,1430321933,"[""DataViz15"", ""StartTheDayWithDataViz""]",,3,2,Getting ready to speak about Data Visualization at Facebook #DataViz15 at 9. Grab some coffee! #StartTheDayWithDataViz @IE_BigData,[488349425]
+593439315469840384,1430321933,"[""dataviz15"", ""startthedaywithdataviz""]",,3,2,Getting ready to speak about Data Visualization at Facebook #DataViz15 at 9. Grab some coffee! #StartTheDayWithDataViz @IE_BigData,[488349425]
 336862217318301697,1369149185,[],,0,0,"Awesome that the 2nd sentence in 
 @marissamayer's Tumblr acquisition announcement is: ""We promise not to screw it up"" http://t.co/fCQJafoTAP",[17503180]
 504348221716824064,1409080961,[],,2,1,"A nice visualization of weather in the year 1936 by Philip Brohan, which uses gray fog to indicate uncertainty: http://t.co/mGDdbBdApq",[]
@@ -2482,7 +2482,7 @@ A: Not yet, but we are working on it.",[14284672]
 294918358544052224,1359148990,[],r:47015938,0,0,@usesthis you can email me at &lt;my twitter handle&gt; at gmail dot com. Thanks!,[47015938]
 439671862193160192,1393660915,[],r:26970530,0,0,@mat_kelcey just checking :),[26970530]
 433459283447918592,1392179721,[],r:93820487,0,0,@anmolrjprt @DataJunkie cool -- we will keep an eye out for you.,[11595422]
-594914758756671488,1430673706,"[""ItWasNeverADress""]",rt:594894744725098496,0,304,RT @WomenintheWorld: ‘It Was Never A Dress Graphic” goes bananas online: http://t.co/z1Qo8KOFtB #ItWasNeverADress http://t.co/qY7EHBqUEP,[120153772]
+594914758756671488,1430673706,"[""itwasneveradress""]",rt:594894744725098496,0,304,RT @WomenintheWorld: ‘It Was Never A Dress Graphic” goes bananas online: http://t.co/z1Qo8KOFtB #ItWasNeverADress http://t.co/qY7EHBqUEP,[120153772]
 46269407382605824,1299866461,[],,0,1,Apple Products vs Apple Stock (via Kyle Conroy) http://post.ly/1jYZw,[]
 613910254280007680,1435202585,[],r:55677993,1,0,@kosamari sigh. Good luck!,[8470842]
 615239932898979840,1435519605,[],r:19411223,1,0,"@vicapow @maxgoldst like the idea, but doesn't work on mobile :( (no spacebar!)","[19411223, 308630460]"
@@ -2561,7 +2561,7 @@ A: Not yet, but we are working on it.",[14284672]
 481367851379728384,1403602013,[],r:172499833,0,0,@SandraTuppen The schedule (which I can't seem to find online) puts my talk at 3pm. I look forward to meeting you! http://t.co/POEFIM6krN,[172499833]
 630643817700462592,1439192177,[],r:20106729,0,0,@SonosSupport consider this a feature request? It's under an hour worth of work...,[20106729]
 610623651394752512,1434418997,[],r:8470842,0,0,@kosamari list and sleep works pretty well unless you are multithreaded.,[8470842]
-527531243421048832,1414608224,"[""UberKITTENS""]",,2,2,"Well, #UberKITTENS has just established that the market rate for kittens is $120/hr. Consultants, update your rates accordingly.",[]
+527531243421048832,1414608224,"[""uberkittens""]",,2,2,"Well, #UberKITTENS has just established that the market rate for kittens is $120/hr. Consultants, update your rates accordingly.",[]
 22497836050423808,1294198876,"[""roast"", ""coffee""]",,0,0,Detecting second crack using a popcorn popper to #roast #coffee beans is proving harder than expected.,[]
 561704180704751616,1422755687,[],rt:561525171920453633,0,16,RT @treycausey: This is disappointing. Linear algebra MOOC switches FROM IPython notebooks to Matlab. http://t.co/dO82UuHXnA,[237254045]
 402352370379526144,1384763255,[],,0,0,"When all else fails, read the source. In fact, better yet, don't wait that long. (dc.js)",[]
@@ -2577,7 +2577,7 @@ A: Not yet, but we are working on it.",[14284672]
 368076158144757760,1376591169,[],,1,0,Has anyone gotten word2vec to build and run on OSX 10.8 yet? https://t.co/oEkBCqmA16,[]
 564270911830761474,1423367643,[],,1,1,This World Antipodes map helped me figure out that Uruguay and Korea couldn't be further apart: http://t.co/JJ6wcaoeFw,[]
 401088474939281408,1384461918,"[""puns""]",,1,1,"OH at @facebook: ""No matter how much you push the envelope, it'll still be stationery."" #puns",[2425151]
-555070794385346561,1421174164,"[""OpenCL""]",rt:553761118737670144,0,1,"RT @cornusammonis: Early version of Smoke, #OpenCL / Ready version https://t.co/fpOwn47BEl Video here: http://t.co/lhZMiAFeMa http://t.co/m…",[2926054957]
+555070794385346561,1421174164,"[""opencl""]",rt:553761118737670144,0,1,"RT @cornusammonis: Early version of Smoke, #OpenCL / Ready version https://t.co/fpOwn47BEl Video here: http://t.co/lhZMiAFeMa http://t.co/m…",[2926054957]
 337101397977870336,1369206210,[],rt:337039131995680768,0,1203,"RT @nytimes: Creator of the GIF: ""It is a soft 'G,' pronounced 'jif.' End of story."" http://t.co/2OR5gtsajV",[807095]
 618859547608915968,1436382588,[],,1,0,.@felipehoffa does a nice @HansRosling impersonation and uses @google infra to visualize 8 years of Reddit comments https://t.co/Q51h9FlGIF,"[216735143, 20280065, 20536157]"
 377651796501479425,1378874179,[],rt:372256656144338944,0,1627,"RT @blue439: Of course “twerk” comes from the German “Gesamtkunstwerk,” the fusion of all the arts into a single medium of dramatic express…",[16588866]
@@ -2596,7 +2596,7 @@ A: Not yet, but we are working on it.",[14284672]
 483210309683798016,1404041290,[],,0,0,Really enjoyed hearing @DecSop1 in Haydn's Missa Brevis in F this morning at @GrosvenorChapel. Beautiful singing of great music!,"[96341849, 2306404068]"
 636631899658547200,1440619847,[],rt:636586158961508353,0,78,RT @davidmarcus: Beginning to test a new kind of AI-based digital personal assistant in Messenger https://t.co/qMCNgzg8f1,[1237411]
 459432940322435072,1398372323,"[""openvisconf""]",,2,0,"""JavaScript is really fast""--@dmimno, with incredulity. #openvisconf",[46276118]
-572661075826495488,1425368014,"[""TweetYourLockscreen""]",,0,0,gotta say #TweetYourLockscreen is a really interesting look at other people's phones.,[]
+572661075826495488,1425368014,"[""tweetyourlockscreen""]",,0,0,gotta say #TweetYourLockscreen is a really interesting look at other people's phones.,[]
 45145238993518592,1299598438,[],,0,0,Mapping the Nation's Well-Being (via NYTimes) http://post.ly/1idjy,[]
 233324803598200832,1344463942,[],,0,0,"I'm totally coveting Watercolor New York, by @stamen &amp; @20x200 http://t.co/pLF5D8ms -- although I'm gonna hold out for one of Boston.","[2067201, 8613282]"
 339935705386057728,1369881962,[],,11,5,Wordcloud generator in Python using integral images for speed. Very cool! By @t3kcit with a nice writeup here: http://t.co/6Puq4wXlC5,[471550563]
@@ -2629,7 +2629,7 @@ A: Not yet, but we are working on it.",[14284672]
 50253401501609984,1300816319,"[""infographic""]",,0,0,"U.S. Nuclear Plants vs. Fault Lines, an #infographic http://post.ly/1n0VF",[]
 133154870919311360,1320581569,"[""mbta""]",,0,0,"I thought there was only one, straightforward, way to tokenize ""Braintree"". I was wrong. #mbta",[]
 596534730994151424,1431059937,[],,2,2,"Do good with data visualization: Bread for the World Institute is having a ""Vizathon"":  http://t.co/tr4DpEmTRc via @policyviz",[1160577312]
-24632419315359744,1294707801,"[""Davissquare""]",,0,0,Power outage at the #Davissquare sports club locker room equals too much privacy.,[]
+24632419315359744,1294707801,"[""davissquare""]",,0,0,Power outage at the #Davissquare sports club locker room equals too much privacy.,[]
 538428193112600578,1417206259,[],,2,0,"Data Masks, by Sterling Crispin is a beautiful project that provokes thought about the nature of facial recognition: http://t.co/qzkc2iajyz",[]
 422135232356048896,1389479856,[],r:1006945298,0,0,@d3visualization Thanks for the shoutout!,[1006945298]
 165153054671384576,1328210531,[],,0,1,Using gamification to promote condom use - and capture a lot of interesting data! The story of Kondom08: http://t.co/dgq0Ut1Y,[]
@@ -2655,7 +2655,7 @@ A: Not yet, but we are working on it.",[14284672]
 309779090766983169,1362692065,[],,0,0,"I'm excited about the @SciPyConf ""Excellence in Plotting"" contest. I'd love to see a gallery of all entries submitted by the apr 3 deadline.",[987181214]
 603409060872867840,1432698905,[],rt:603408605635686400,0,2,RT @sorenmacbeth: @jrmontag @oceankidbilly @jsundram or this https://t.co/Bqe2lTXTHu,"[7985672, 47436444, 14833643, 55677993]"
 373912437654708224,1377982646,[],,3,1,"I don't always write apps for Google Glass, but if I did, I would use Python: https://t.co/6w7HAERMLM",[]
-608316528363249665,1433868936,"[""AnalyticsBrag""]",r:20167623,0,0,@kdnuggets #AnalyticsBrag?,[20167623]
+608316528363249665,1433868936,"[""analyticsbrag""]",r:20167623,0,0,@kdnuggets #AnalyticsBrag?,[20167623]
 383017516265897985,1380153466,[],r:374669566,0,0,@Milr0c thanks for taking a look -- I feel like I painted myself into a corner w dc.js ...,[374669566]
 585185273807511553,1428354016,[],r:15462034,0,0,@jonobr1 @lmeyerov elements,"[15462034, 15315247]"
 307666259993047042,1362188327,[],r:6201512,0,0,"@giessel I want it to be totally automatic. I ended up writing out one pdf per figure, and using pyPdf to merge them.",[6201512]
@@ -2690,7 +2690,7 @@ A: Not yet, but we are working on it.",[14284672]
 59432841183891456,1303004868,[],,0,0,TaxMapper is a beautiful and informative interactive visualization of where your tax dollars go: http://bit.ly/hZnXOP,[]
 494677310516109312,1406775236,[],,0,0,"Amadé-athon begins! @ The Hillside Club Berkeley,CA http://t.co/nJWaqnAt7w",[]
 601199406021414914,1432172082,[],r:14092380,1,0,@joelgrus @HillaryClinton definitely not an exclusive or.,"[14092380, 1339835893]"
-367384706976735234,1376426314,"[""ShitRecruitersSay""]",,1,0,"#ShitRecruitersSay: ""Do you know anyone within your networking that may be interested?"" cc @neilkod",[801593]
+367384706976735234,1376426314,"[""shitrecruiterssay""]",,1,0,"#ShitRecruitersSay: ""Do you know anyone within your networking that may be interested?"" cc @neilkod",[801593]
 326896963838689281,1366773284,[],,0,0,"Improvised cocktail: bourbon, pear juice, ginger juice, orgeat. Not sure what to call it, but it's darn tasty.",[]
 339036546617450497,1369667586,[],,6,2,"Aubrey Jaffer at MIT has some nice resources on color, especially color names: http://t.co/KwJYbtHFdE",[]
 424341776862691328,1390005938,[],r:1458271,0,0,@tmcw what's the plural of faux pas?,[1458271]
@@ -2758,7 +2758,7 @@ A: Not yet, but we are working on it.",[14284672]
 297872317885841409,1359853269,[],,4,0,Q: How well do you know javascript? A: Yikes. http://t.co/8ek4s1Dq,[]
 272898325949337600,1353899005,[],,0,0,@datatelling got time for a drink sometime this week?,[249351969]
 98504053348249600,1312320171,[],,0,0,Science vs. Delirium: psychedelic illustrations of major scientific figures (via @volume2a) http://post.ly/2jaZX,[44077733]
-428400775488745472,1390973678,"[""SOTU""]",,8,2,I made a thing that went onto the news #SOTU https://t.co/OCs6OIDfdq,[]
+428400775488745472,1390973678,"[""sotu""]",,8,2,I made a thing that went onto the news #SOTU https://t.co/OCs6OIDfdq,[]
 564969073008996352,1423534098,[],,3,0,quantified elf,[]
 390907861397561345,1382034671,[],,1,0,"In Terminal: ""sudo pmset -a hibernatemode 0"" for faster wake on OSX Mountain Lion. Yay!
  http://t.co/LTBRe3zYgb via @macworld",[611823]
@@ -2778,7 +2778,7 @@ A: Not yet, but we are working on it.",[14284672]
 159647260848820224,1326897847,[],r:29957768,0,0,@bachtrack Always happy to see your yearly concert/opera stats. Is the dataset available anywhere? I'd love to play with it . . .,[29957768]
 517755962950561792,1412277615,[],,3,0,Adding some order to the chaos of setting up a new mac: http://t.co/SIpDyC13sP by @mattmueller,[11965112]
 595642984147869696,1430847328,[],rt:595625920993570816,0,1904,RT @ijustine: Original iPhone v Apple Watch 😮 http://t.co/j39wsa5y6O,[7846]
-411555555530899456,1386957465,"[""WarOnGifs""]",,3,0,The new Keynote v6 doesn't understand animated gifs. Rename .gif to .mov and it magically works. #WarOnGifs via @leeb,[14904098]
+411555555530899456,1386957465,"[""warongifs""]",,3,0,The new Keynote v6 doesn't understand animated gifs. Rename .gif to .mov and it magically works. #WarOnGifs via @leeb,[14904098]
 405533058377318400,1385521590,[],r:1387915232,0,0,@Elijah_Meeks or maybe it's in love with your data?,[1387915232]
 471818287098372096,1401325220,[],r:48747910,0,0,"@changhiskhan oh sweet, I didn't know about plac. Thanks for the pointer!",[48747910]
 237286422808244224,1345408466,[],r:6146692,0,0,"@arnicas wed probably better for me, but I think either could work.",[6146692]
@@ -2791,8 +2791,8 @@ A: Not yet, but we are working on it.",[14284672]
 153811104315871232,1325506399,[],rt:152544806952906752,0,2,"RT @ffffound_twit: via http://t.co/IUjhEKrQ
  - WOWGREAT http://t.co/0YrYZOqn",[56823373]
 445282698232205313,1394998642,[],,1,0,"DIY Orgeat: 184g Pacific Almond Milk, 88g Sugar, 8 drops Almond Extract, 4 drops Orange Blossom Water. Stir. Amazing! http://t.co/L3xnLk3DXQ",[]
-159628678572163072,1326893417,"[""SOPA""]",rt:159538986266804224,0,4955,RT @Oatmeal: I made an animated GIF about #SOPA http://t.co/jlj5k9Up,[4519121]
-162737386000887813,1327634590,"[""Tableau"", ""DataVisualization"", ""DataViz""]",rt:162628311468617728,0,7,RT @DataVizGuy: I appreciate the ability of the #Tableau software to reproduce the classic Napoleon's March #DataVisualization #DataViz… ...,[34031722]
+159628678572163072,1326893417,"[""sopa""]",rt:159538986266804224,0,4955,RT @Oatmeal: I made an animated GIF about #SOPA http://t.co/jlj5k9Up,[4519121]
+162737386000887813,1327634590,"[""tableau"", ""datavisualization"", ""dataviz""]",rt:162628311468617728,0,7,RT @DataVizGuy: I appreciate the ability of the #Tableau software to reproduce the classic Napoleon's March #DataVisualization #DataViz… ...,[34031722]
 304357987894587392,1361399573,"[""ifihadglass""]",,0,0,#ifihadglass I would implement real-time Eulerian Video Magnification to amplify imperceptible changes in my environment.,[]
 41763965860196352,1298792280,[],rt:41696734614650880,0,2,RT @JeffClark: RT @CaseyG: Lots of interesting videos + transcripts from O'Reilly's data visualization conference Strata: http://bit.ly/ ...,"[14207040, 2255981]"
 6217719611400192,1290317394,"[""martini"", ""cocktail""]",,0,0,Ginger lemonade #martini to follow up awesome cookies from @girlieerin -- details here: http://bit.ly/aXioIX #cocktail,[2589707238]
@@ -2845,7 +2845,7 @@ Don't worry - they'll let you know.","[14288124, 1856851]"
 483866188338843648,1404197663,[],,0,1,"LHR -&gt; SFO. Farewell, London, you were incredible. And thanks to @dhAHRC and @dhmedieval for making this trip possible!","[2247448248, 2250665533]"
 163250503227154433,1327756927,[],,0,0,Sightseeing Heatmap of Popular Photo Spots Around the World http://t.co/3qrcotl7 via @petapixel,[37971731]
 609214364302753792,1434082997,[],,2,1,"Just tried to tweet Peychaud's and got corrected to ""pet hands"". I feel like my iPhone doesn't know me as well as it pretends to.",[]
-464183544445558784,1399504955,"[""Python""]",,9,2,"#Python tip: when looking up keys in a dict, only use try/except KeyError if your except rate is &lt; 5% https://t.co/nuAAjWjWZM cc @neilkod",[801593]
+464183544445558784,1399504955,"[""python""]",,9,2,"#Python tip: when looking up keys in a dict, only use try/except KeyError if your except rate is &lt; 5% https://t.co/nuAAjWjWZM cc @neilkod",[801593]
 482160818860347392,1403791072,[],rt:482142971484471296,0,1,"RT @pipwillcox: ""I wrote some software to draw a picture of Haydn because I'm really bad at drawing and I wanted my own picture of him."" ~ …","[27615696, 55677993]"
 236179590492590082,1345144577,[],,0,0,Mind-blowing 11-set Venn diagram: http://t.co/VypQcpcV - full paper here: http://t.co/hxt5i4pi,[]
 481475955135746048,1403627787,[],r:6146692,0,0,"@arnicas thanks! if you've got suggestions about things to see/do there, I'm all ears!",[6146692]
@@ -2863,7 +2863,7 @@ Don't worry - they'll let you know.","[14288124, 1856851]"
 126731562661322753,1319050133,[],,0,0,"The nice people at Amazon just delivered ""Visual Complexity"" by @mslima I'm looking forward to diving in! http://t.co/auHn6x3C",[13205612]
 450128266632781824,1396153916,"[""d3unconfafterparty""]",,0,0,@mbecica hello from the alchemist #d3unconfafterparty,[23280093]
 420432972223754240,1389074006,[],,0,0,"Thanks to @alcademics, I can now make ice clear enough to read through. http://t.co/UkNuo9jHST",[41251615]
-585531059510599681,1428436457,"[""OpenVisConf""]",,3,1,"""CSS transforms are limited only … by your patience"" -- @vlh #OpenVisConf",[5552492]
+585531059510599681,1428436457,"[""openvisconf""]",,3,1,"""CSS transforms are limited only … by your patience"" -- @vlh #OpenVisConf",[5552492]
 468594478668709889,1400556604,[],rt:468586131660234753,0,1,RT @horbinski: Now @jsundram and @wongavision are talking about their digital analysis of Haydn string quartets. DH violinists represent!,"[793137019, 55677993, 323690835]"
 422973972724981760,1389679828,[],,0,0,Chinese Map of Europe by @haohaoreport (Chinese words that sound like the country's name =&gt; Chinese name for country) http://t.co/FhvKBTKK9o,[14258903]
 311193855523434496,1363029371,[],,0,0,Why does @gmail rough up my contacts photos so badly? I've got crazy borders/cropping going on. Is this an iPhone/sync issue?,[38679388]
@@ -2875,7 +2875,7 @@ Don't worry - they'll let you know.","[14288124, 1856851]"
 392795857315061760,1382484804,"[""html5devconf""]",,3,1,.@agreenblatt is recoloring video in realtime with gradientmaps.js. Amazing! http://t.co/NVxyCzgeUx #html5devconf,[17622712]
 585501059222732800,1428429305,"[""openvisconf""]",,4,0,Surprising amount of bad kerning in #openvisconf slides.,[]
 462625804732485633,1399133561,"[""pydata""]",,1,0,"More riffing on ""big data means small RAM"" at #pydata http://t.co/THnbfF2ipb",[]
-585188267533979650,1428354729,"[""OpenVisConf""]",,4,4,.@awoodruff shoutout to Textures.js by @eidogram for adding textures to show unknown data on maps #OpenVisConf,"[17448055, 1591684346]"
+585188267533979650,1428354729,"[""openvisconf""]",,4,4,.@awoodruff shoutout to Textures.js by @eidogram for adding textures to show unknown data on maps #OpenVisConf,"[17448055, 1591684346]"
 468193090918817792,1400460906,[],r:24228154,0,0,@hspter would something like pyephem work for you? https://t.co/tlPAqa8oGk,[24228154]
 560198117245456384,1422396613,[],r:20958216,0,0,@dabeaz Haydn works for everything,[20958216]
 503828071737090048,1408956947,[],r:785027792,0,1,@HaydnSocGB Thanks! It missed the most populated areas; I managed to sleep through it ...,[785027792]
@@ -2898,7 +2898,7 @@ Don't worry - they'll let you know.","[14288124, 1856851]"
 433429566015541251,1392172635,"[""strataconf""]",rt:433355374721134592,0,8,"RT @hmason: The data I'm looking at right now says the highest avg price per cheeseburger by city is in Santa Clara, CA. Sorry friends at #…",[765548]
 497560178389028864,1407462565,[],,0,0,Concert des Amateurs (Griesinger) http://t.co/Mmjr10jHqd,[]
 483361184737787904,1404077261,[],,0,1,@Milr0c uh oh: https://t.co/pcqtb2jTDO,[374669566]
-30111805606985728,1296014188,"[""graph"", ""visualization"", ""LinkedIn""]",,0,0,Neat #graph #visualization of my #LinkedIn network. I like the auto layout/colors http://t.co/Kd55kfZ,[]
+30111805606985728,1296014188,"[""graph"", ""visualization"", ""linkedin""]",,0,0,Neat #graph #visualization of my #LinkedIn network. I like the auto layout/colors http://t.co/Kd55kfZ,[]
 279128481483329536,1355384390,[],,0,1,"Googled ""Voronoi San Francisco Neighborhoods"" (you know you want to) and was delighted to discover @mrshang's work: http://t.co/Z5dKcJfh",[12198212]
 425044602383384576,1390173504,[],r:99390322,0,0,@tonyfischetti congrats! I have literally never seen that before.,[99390322]
 159634952458223617,1326894913,[],,0,0,"Search by Image, by @s_schmieg: recursive google image searches on a transparent image yield surprising results: http://t.co/tsGYhoZz",[186099250]
@@ -2960,7 +2960,7 @@ Don't worry - they'll let you know.","[14288124, 1856851]"
 191932758724059136,1334595310,[],,4,1,Color space tip: Use HCL instead of HSV for better color schemes with chroma.js http://t.co/DrcxVUlo by @driven_by_data,[177507079]
 343072484179988480,1370629828,[],,0,0,@brainpicker Thanks for some great content! But your site seems slow on mobile. Google PageSpeed can help: https://t.co/7RhMPzx90h,[9207632]
 198078324172521473,1336060527,[],r:6146692,0,0,"@arnicas I put that on my wish list, but haven't pulled the trigger yet. Am I gonna need a new bookshelf to house that thing?",[6146692]
-465708102239522816,1399868438,"[""TIL""]",,5,1,"If I used conda by @ContinuumIO to install @bokehplots, I wouldn't have had to do the following madness: https://t.co/G5vSgoPXw5 #TIL","[398087684, 521448718]"
+465708102239522816,1399868438,"[""til""]",,5,1,"If I used conda by @ContinuumIO to install @bokehplots, I wouldn't have had to do the following madness: https://t.co/G5vSgoPXw5 #TIL","[398087684, 521448718]"
 174637499933663232,1330471799,[],,0,0,@enf what tools did you use to make and draw your awesome wispy routes maps? processing?,[15248437]
 575347357191004160,1426008474,[],,0,0,Facebook Finally Lets Its Firehose Be Tapped For Marketing Insights Thanks To DataSift  http://t.co/ba7fc9J7Yq,[]
 466980218456924160,1400171734,[],r:29739700,3,1,@rsimmon @NASA_EO apparently someone thinks science is garish and hard to understand?,"[29739700, 4374879556]"
@@ -3043,7 +3043,7 @@ Now we have no Jobs, no Hope and no Cash.",[]
 175685386134224896,1330721634,"[""strataconf""]",r:9515072,0,0,@mkaz would be awesome to update your attendee analysis to show before and after: how people connected at #strataconf http://t.co/PTY751sk,[9515072]
 24995304679931904,1294794319,"[""ikeahack""]",,0,0,My first #ikeahack: File folders in Expedit. It's about time. http://bit.ly/dQiBND (via @ikeahacks),[69835923]
 472052923396919297,1401381161,[],r:8470842,0,0,@kosamari thanks! I'm really interested in 3d printing/scanning -- can I hit you up w Qs about the photo on your website?,[8470842]
-174916316254322688,1330538274,"[""Inspire12""]",rt:174905854573809664,0,2,RT @markmadsen: RT @johnlmyers44 RT @marksmithvr Did You Know that 29% of business wants maps in their analtyics & 25% want location bas ...,"[7648872, 16688845, 33042238]"
+174916316254322688,1330538274,"[""inspire12""]",rt:174905854573809664,0,2,RT @markmadsen: RT @johnlmyers44 RT @marksmithvr Did You Know that 29% of business wants maps in their analtyics & 25% want location bas ...,"[7648872, 16688845, 33042238]"
 405495405393113088,1385512613,"[""stackoverflow"", ""git""]",,2,0,Gotta love a guide to git that consists solely of #stackoverflow questions and answers: http://t.co/rBbwU2k0nr #git,[]
 126386049650917376,1318967757,[],,0,0,Muse: An incredible tool for exploring your personal email (via @HackerNewsYC) http://t.co/98MfbI8a,[770729628]
 321278076061376512,1365433637,[],r:6146692,0,0,"@arnicas unfortunately, other silliness was required to get the nodebox sketch to be fast enough. Like using numpy array instead of Pixels.",[6146692]
@@ -3084,8 +3084,8 @@ Now we have no Jobs, no Hope and no Cash.",[]
 59370050368442368,1302989897,[],r:18888820,0,0,"@reiddraper Thanks! That was a cut/paste error that bit.ly hid from me. Updated now, and deleted the original. Maybe nobody will ever know?",[18888820]
 579159169040699392,1426917280,[],r:8722972,0,0,@abhishekdesai haha I didn't notice that when I was putting it together. :),[8722972]
 373533041420824576,1377892191,[],,1,0,New @kaggle competition: mine large text data for tags &amp; keywords. Bonus: get hired for @facebook data science? https://t.co/YOqL1Vdt3a,"[80422885, 2425151]"
-482436778427965440,1403856865,"[""DHCBL""]",,0,3,"Getting started with @dhAHRC ""applying new digital methods in the humanities"" at the British Library #DHCBL http://t.co/AtAWG1chSw",[2247448248]
-529922671602331649,1415178385,"[""Corruption""]",rt:529571290467012608,0,639,RT @MrAdamSharpe: Politicians should wear the logos of their sponsors just like racing drivers. RT if you agree #Corruption http://t.co/ZR3…,[91024763]
+482436778427965440,1403856865,"[""dhcbl""]",,0,3,"Getting started with @dhAHRC ""applying new digital methods in the humanities"" at the British Library #DHCBL http://t.co/AtAWG1chSw",[2247448248]
+529922671602331649,1415178385,"[""corruption""]",rt:529571290467012608,0,639,RT @MrAdamSharpe: Politicians should wear the logos of their sponsors just like racing drivers. RT if you agree #Corruption http://t.co/ZR3…,[91024763]
 16150695584,1276525208,[],,0,0,Just used http://bit.ly/know-your-followers to see when my followers are online,[]
 321182710548803585,1365410900,[],,0,0,My nodebox sketch runs 2x faster! Before: https://t.co/fTcsII9i9A After: https://t.co/MgPEXAoEHT Bad News: had to modify nodebox.graphics :(,[]
 558060158061121536,1421886884,[],,2,0,Editing comments to make them fit in 80 characters is a lot like trying to squeeze tweets into 140. Except harder.,[]
@@ -3174,7 +3174,7 @@ Now we have no Jobs, no Hope and no Cash.",[]
 463114983392309248,1399250190,"[""pydata""]",,2,1,@datamusing nice lightning talk! #pydata,[1482958520]
 164884303245877248,1328146455,[],r:225138752,0,0,@eyeofestival @blprnt @pitchinteractiv @juliandolce congratulations on selling out in record time!,"[225138752, 17013577, 989721566, 22548550]"
 320395098938560512,1365223119,[],r:17242168,3,1,@alignedleft in progress ... http://t.co/vZ9wm4xCYh,[17242168]
-588201355224883200,1429073105,"[""PyCon2015""]",,7,1,"People who were at #PyCon2015, now that the talks are up on YouTube (https://t.co/odG2FDzoEv) are there any that you especially recommend?",[]
+588201355224883200,1429073105,"[""pycon2015""]",,7,1,"People who were at #PyCon2015, now that the talks are up on YouTube (https://t.co/odG2FDzoEv) are there any that you especially recommend?",[]
 534952265178959872,1416377533,[],,1,0,"The relationship between sugar, acid, &amp; alcohol in cocktails, an interactive chart by @kathrynpeek &amp; @CookingIssues: http://t.co/FqZXgTxvuo","[34719469, 41343046]"
 517737666134413312,1412273253,[],r:9464552,0,0,@MacDiva so true!,[9464552]
 551924045956923392,1420423921,[],,5,0,"Cleaning out my TODO.txt from last year, found a bunch of resources on making dot maps if anyone's interested: https://t.co/XXdZxjEiXY",[]
@@ -3182,7 +3182,7 @@ Now we have no Jobs, no Hope and no Cash.",[]
 332878098452344832,1368199297,[],r:374669566,0,0,@Milr0c nice talk!,[374669566]
 420697424068222976,1389137056,[],,0,1,Why are numbers so crunchy?,[]
 56795875757924352,1302376166,"[""mbta""]",r:17531205,0,0,Anyone have info on the butler and string quartet riding the Red Line today? Inquiring minds want to know! #mbta cc @BostonTweet @caraterez,"[17531205, 15445778]"
-572317382720425985,1425286071,"[""Haydn"", ""themission"", ""bealive""]",rt:572284232027938816,0,13,"RT @groupmuse: #Haydn and #themission must be in love, second time this weekend #bealive http://t.co/VfO0Gl99ri",[1029200947]
+572317382720425985,1425286071,"[""haydn"", ""themission"", ""bealive""]",rt:572284232027938816,0,13,"RT @groupmuse: #Haydn and #themission must be in love, second time this weekend #bealive http://t.co/VfO0Gl99ri",[1029200947]
 37890506054701056,1297868775,[],rt:37632528156327936,0,57,RT @loydcase: Hilarious blog post about designing a bot to collect twitter followers: http://bit.ly/ign1dm,[14187770]
 481549596553146369,1403645345,[],r:6146692,1,0,@arnicas done ;),[6146692]
 482317914461470721,1403828526,[],r:55677993,1,3,"@HaydnSocGB I went to @SheldonianOxUni today; saw some Haydn manuscripts&amp;letters @bodleianlibrary, and his harpsichord at @BateCollection","[785027792, 2243768197, 101846542, 140846774]"
@@ -3216,7 +3216,7 @@ Now we have no Jobs, no Hope and no Cash.",[]
 125328465640697856,1318715609,[],r:11584672,0,0,@jatorre nice pic! What's the intersection query again? http://t.co/Ne6vcBwl,[11584672]
 337641701583769600,1369335029,[],,0,0,"Averaged Flags from MIT: American, http://t.co/BCkCDc9l4s, Confederate, http://t.co/vkJZxYI0W1, Union Jack, http://t.co/e3eOqaX8DN",[]
 28041742277,1287678520,[],,1,0,"""While technology is central to what we do, it is what we do with technology that truly matters"" -- @gewang. More: http://bit.ly/c7lQQt",[15330336]
-610651852829499393,1434425721,"[""HaydnPlaque""]",,10,9,I'm liking the #HaydnPlaque coaster so much that I'm finding it hard to rest my Manhattan on it! cc @HaydnSocGB http://t.co/QTWGSp5Ewy,[785027792]
+610651852829499393,1434425721,"[""haydnplaque""]",,10,9,I'm liking the #HaydnPlaque coaster so much that I'm finding it hard to rest my Manhattan on it! cc @HaydnSocGB http://t.co/QTWGSp5Ewy,[785027792]
 237242166798331904,1345397914,[],r:132644830,0,0,@jgalak hard to fit in a tweet. But basically: test set with human ranking + machine learning on features mentioned in blog post.,[132644830]
 297446398943715328,1359751722,[],r:12014302,0,0,"@ndiakopoulos I know the feeling ..,",[12014302]
 476503290197598208,1402442212,"[""eyeout""]",r:6146692,0,0,@arnicas in that case lets have our own party on twitter :) #eyeout,[6146692]
@@ -3240,7 +3240,7 @@ https://t.co/b9uAZW5Uxv",[]
 377173797607993344,1378760215,[],,0,0,"More stuff I'm working on in the @nytimes. I'm on a roll! ""@facebook offers new windows into social conversation"" http://t.co/QJoRsJok8Z","[807095, 2425151]"
 427233212407250944,1390695310,[],r:14313383,0,0,@fonnesbeck beautiful!,[14313383]
 551502010864783360,1420323300,[],r:7639702,1,0,@vlandham @arnicas @Elijah_Meeks vaguely cultlike data vis collective sounds great. What's the initiation rite like?,"[7639702, 6146692, 1387915232]"
-391980120379891713,1382290317,"[""ProtectTheElephants""]",,0,0,@adobeweb is donating $1 to @natgeo  for every tweet with #ProtectTheElephants http://t.co/0YkdrgUhVW,"[305245870, 17471979]"
+391980120379891713,1382290317,"[""protecttheelephants""]",,0,0,@adobeweb is donating $1 to @natgeo  for every tweet with #ProtectTheElephants http://t.co/0YkdrgUhVW,"[305245870, 17471979]"
 625047511590305792,1437857914,[],r:394217167,0,0,@AlexKesling interesting. What ratios did you end up at?,[394217167]
 258746759323459584,1350525009,[],r:249351969,0,0,"@datatelling ooh, NYC! Fun! I'll be in SF by Dec 2nd, so mid-dec will definitely work.",[249351969]
 185669516645244928,1333102036,[],,0,0,Van Gogh's Starry Night made interactive by Petros Vrellis. Now available as an iPad app! http://t.co/C5fFRNtQ,[]
@@ -3275,7 +3275,7 @@ https://t.co/b9uAZW5Uxv",[]
 595804888782745601,1430885929,[],r:190857410,0,0,"@shirleyxywu @Milr0c @micahstubbs @pbesh if you're really bad at basketball, would they become uncoordinated visualizations? :p","[190857410, 374669566, 84043985, 90797974]"
 232831113616310273,1344346237,[],r:6146692,0,0,@arnicas guilty as charged :),[6146692]
 207848763795054592,1338389981,[],,0,0,About to set -o vi in my .bashrc and set editing-mode vi in my .inputrc for ipython. It's about to get interesting. http://t.co/wUsePItI,[]
-216308556083904512,1340406953,"[""Craigslist"", ""fail""]",,0,1,"Wow, way to keep apartment hunting the utterly shitty experience that it is. #Craigslist #fail http://t.co/xfBTA07o",[]
+216308556083904512,1340406953,"[""craigslist"", ""fail""]",,0,1,"Wow, way to keep apartment hunting the utterly shitty experience that it is. #Craigslist #fail http://t.co/xfBTA07o",[]
 137202524913537025,1321546605,[],,0,0,"A History of the Sky, by Ken Murphy (via @DataPointed) http://t.co/VKuAxczW",[161539552]
 308028199156191232,1362274620,[],r:6146692,0,0,"@arnicas Got pdf export (via cairo backend compilation hell), and got multipage by gluing pages together via pyPdf. Next up: Event Handling.",[6146692]
 163436725354500096,1327801326,[],,0,0,"If you didn't get a 3% raise this year, you took a pay cut. via the US Inflation Calculator http://t.co/t4RLPWZt",[]

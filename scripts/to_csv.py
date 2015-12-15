@@ -109,9 +109,23 @@ def main():
 
         process(filename, metadata)
 
+    # A bit hacky; Include "width" param in here
+    with open(datadir + 'users.json') as f:
+        users = json.load(f)
+        # metadata is indexed by user id, we want to look up by username; make an index
+        metadata_ix = {username: ix for (ix, [_, _, _, username]) in metadata.iteritems()}
+
+        image_widths = {} # userid to imagewidth map
+        for u in users:
+            image_widths[metadata_ix[u['name']]] = u['imageWidth']
+
+        for k in metadata:
+            metadata[k].append(image_widths.get(k, 80))
+
+
     with open(datadir + 'global_metadata.csv', 'w') as f:
         w = csv.writer(f)
-        w.writerow('id, name, followers, tweets, screenname'.split(', '))
+        w.writerow('id, name, followers, tweets, screenname, imageWidth'.split(', '))
         for (k, v) in sorted(metadata.iteritems()):
             w.writerow([k] + v)
 

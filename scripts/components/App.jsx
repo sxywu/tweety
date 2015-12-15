@@ -26,7 +26,7 @@ var App = React.createClass({
         name: r.screenname,
         numFollowers: +r.followers,
         numTweets: +r.tweets,
-        imageWidth: 80, // TODO: this is not the actual image width; just used to scale
+        imageWidth: +r.imageWidth,
         image: "images/" + r.screenname + ".jpg"
       };})
       .get((err, all_users) => {
@@ -104,7 +104,7 @@ var App = React.createClass({
           {content}
         </div>
         <div className='about'>
-          <img src='images/shirleyxywu.jpeg' style={{width: 150, borderRadius: 150}} />
+          <img src='images/shirleyxywu.jpg' style={{width: 150, borderRadius: 150}} />
           <h2>about tweety</h2>
           <p>
           "I tawt I taw a puddy tat!"

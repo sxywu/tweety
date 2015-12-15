@@ -319,7 +319,7 @@ var Content = React.createClass({
     };
     var loadingIndicator = this.props.showSummary && (
       <div ref='loading' style={loadingStyle}>
-        <img src='images/tuzki4.gif' style={{marginTop: '200px'}}/>
+        <img src='images/resources/tuzki4.gif' style={{marginTop: '200px'}}/>
         <p>crunching that delicious data 💕</p>
       </div>
     );
