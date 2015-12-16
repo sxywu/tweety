@@ -4,7 +4,7 @@ var _ = require('lodash');
 
 var tweetColors = {
   'reply': [248,148,6], // orange
-  'retweet': [81,163,81], // green
+  'retweet': [92,145,59], // green
   'tweet': [0,136,204] // blue
 };
 var dateFormat = d3.time.format("%Y-%m-%d");

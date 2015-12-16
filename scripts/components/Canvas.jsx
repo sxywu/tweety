@@ -7,7 +7,7 @@ var duration = 1000;
 var padding = 20;
 var tweetColors = {
   'reply': [248,148,6], // orange
-  'retweet': [81,163,81], // green
+  'retweet': [92,145,59], // green
   'tweet': [0,136,204] // blue
 };
 var fisheye = d3.fisheye.circular()
@@ -97,14 +97,14 @@ var Canvas = React.createClass({
       if (tweet.clicked || !tweet.grayed) {
         this.ctx.fillStyle = 'rgba(' + tweetColors[tweet.type].join(',') + ',.65)';
       } else {
-        this.ctx.fillStyle = 'rgba(200, 200, 200, .5)';
+        this.ctx.fillStyle = 'rgba(200, 200, 200, .25)';
       }
       this.ctx.beginPath();
       this.ctx.arc(x, y, radius, 0, 2 * Math.PI, true);
       this.ctx.fill();
       if (tweet.hovered) {
         // if it's hovered, give it a stroke
-        this.ctx.strokeStyle = 'rgb(255,216,75)';
+        this.ctx.strokeStyle = 'rgb(255,216,85)';
         this.ctx.lineWidth = 3;
         this.ctx.stroke();
       }

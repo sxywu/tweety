@@ -148,7 +148,7 @@ var Content = React.createClass({
         maxOpacity = maxOpacity.stats.favorites + 1;
         var opacityScale = d3.scale.log()
           .domain([minOpacity, maxOpacity])
-          .range([.25, 1]);
+          .range([.4, 1]);
 
         var colToTweet = {};
         var numTweetsNotShown = user.numTweets - _.size(tweets);
