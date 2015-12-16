@@ -10,8 +10,9 @@ console.log("filenames", filenames)
 
 filenames.forEach(function(file) {
   // we skip our minified files
-  if(file.indexOf("-min") >= 0) return;
+  if(file.indexOf("-min") >= 0 || file.indexOf("csv") >= 0 || file === '.DS_Store') return;
 
+  console.log(file)
   var data = JSON.parse(fs.readFileSync("./data/" + file).toString())
   var tweets = data.tweets;
   if(tweets) {
