@@ -136,7 +136,9 @@ var Content = React.createClass({
 
         // process the tweets!
         var minOpacity = _.min(tweets, function(tweet) {
-          return tweet.stats.favorites;
+          // not sure why, but sometimes tweets come back
+          // with negative favorites count, so for now set those to 0
+          return tweet.stats.favorites < 0 ? 0 : tweet.stats.favorites;
         });
 
         minOpacity = minOpacity.stats.favorites + 1;
