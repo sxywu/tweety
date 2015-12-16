@@ -1,5 +1,4 @@
-[
-   {
+[{
       "name":"shirleyxywu",
       "image":"images/shirleyxywu.jpeg",
       "imageWidth":50,
@@ -430,5 +429,11 @@
       "imageWidth": 95,
       "image": "images/flowingdata.png",
       "numFollowers": 51625
+   },
+   {
+      "name":"RealGrumpyCat",
+      "imageWidth":120,
+      "numFollowers":310099,
+      "image":"images/RealGrumpyCat.jpg"
    }
 ]
