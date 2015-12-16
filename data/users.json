@@ -1,219 +1,34 @@
-[{
-  "name": "shirleyxywu",
-  "image": "images/shirleyxywu.jpeg",
-  "imageWidth": 50,
-  "numFollowers": 787
-}, {
-  "name": "arnicas",
-  "image": "images/arnicas.jpg",
-  "imageWidth": 70,
-  "numFollowers": 6329
-}, {
-  "name": "Elijah_Meeks",
-  "image": "images/Elijah_Meeks.jpeg",
-  "imageWidth": 80,
-  "numFollowers": 3219
-}, {
-  "name": "enjalot",
-  "image": "images/enjalot.jpg",
-  "imageWidth": 80,
-  "numFollowers": 2750
-}, {
-  "name": "ireneros",
-  "image": "images/ireneros.jpg",
-  "imageWidth": 75,
-  "numFollowers": 4835
-}, {
-  "name": "vicapow",
-  "image": "images/vicapow.jpeg",
-  "imageWidth": 80,
-  "numFollowers": 2444
-}, {
-  "name": "vlandham",
-  "image": "images/vlandham.jpeg",
-  "imageWidth": 100,
-  "numFollowers": 3774
-}, {
-  "name": "jsundram",
-  "image": "images/jsundram.jpg",
-  "imageWidth": 80,
-  "numFollowers": 2010
-}, {
-  "name": "alignedleft",
-  "image": "images/alignedleft.jpg",
-  "imageWidth": 80,
-  "numFollowers": 13685
-}, {
-  "name": "visnup",
-  "image": "images/visnup.png",
-  "imageWidth": 80,
-  "numFollowers": 1204
-}, {
-  "name": "tonyhschu",
-  "image": "images/tonyhschu.jpg",
-  "imageWidth": 75,
-  "numFollowers": 2091
-}, {
-  "name": "mrejfox",
-  "image": "images/mrejfox.jpg",
-  "imageWidth": 80,
-  "numFollowers": 1117
-}, {
-  "name": "micahstubbs",
-  "image": "images/micahstubbs.png",
-  "imageWidth": 80,
-  "numFollowers": 1385
-}, {
-  "name": "eugeneteo",
-  "image": "images/eugeneteo.png",
-  "imageWidth": 80,
-  "numFollowers": 1688
-}, {
-  "name": "kosamari",
-  "imageWidth": 100,
-  "image": "images/kosamari.jpg",
-  "numFollowers": 2704
-}, {
-  "name": "thousand_skies",
-  "imageWidth": 80,
-  "image": "images/thousand_skies.jpg",
-  "numFollowers": 1123
-}, {
-  "name": "sailorhg",
-  "image": "images/sailorhg.png",
-  "imageWidth": 100,
-  "numFollowers": 5660
-}, 
-   {  
-      "name":"inspired12",
-      "imageWidth":80,
-      "image":"images/inspired12.jpg",
-      "numFollowers": 1590
+[
+   {
+      "name":"hitRECordJoe",
+      "imageWidth": 100
    },
-   {  
-      "name":"PatrickMakes",
-      "imageWidth":70,
-      "image":"images/PatrickMakes.jpeg",
-      "numFollowers": 242
+   {
+      "name": "tacobell",
+      "imageWidth": 100
    },
-   {  
-      "name":"fwong",
-      "imageWidth":80,
-      "image":"images/fwong.jpg",
-      "numFollowers": 491415
+   {
+      "name": "Oreo",
+      "imageWidth": 100
    },
-   {  
-      "name":"rocketjumptweet",
-      "imageWidth":80,
-      "image":"images/rocketjumptweet.png",
-      "numFollowers": 76257
+   {
+      "name": "WhiteHouse",
+      "imageWidth": 100
    },
-   {  
-      "name":"markiplier",
-      "imageWidth":90,
-      "image":"images/markiplier.png",
-      "numFollowers": 1559571
+   {
+      "name": "BillNye",
+      "imageWidth": 50
    },
-   {  
-      "name":"philipwang",
-      "imageWidth":80,
-      "image":"images/philipwang.jpeg",
-      "numFollowers": 117983
+   {
+      "name": "andersoncooper",
+      "imageWidth": 80
    },
-   {  
-      "name":"thewesleychan",
-      "imageWidth":80,
-      "image":"images/thewesleychan.jpg",
-      "numFollowers": 101298
+   {
+      "name": "StephenAtHome",
+      "imageWidth": 80
    },
-   {  
-      "name":"tedfu",
-      "imageWidth":80,
-      "image":"images/tedfu.jpeg",
-      "numFollowers": 100798
-   },
-   {  
-      "name":"alexgoot",
-      "imageWidth":70,
-      "image":"images/alexgoot.jpeg",
-      "numFollowers": 245989
-   },
-   {  
-      "name":"KurtHSchneider",
-      "imageWidth":80,
-      "image":"images/KurtHSchneider.jpeg",
-      "numFollowers": 282735
-   },
-   {  
-      "name":"eatyourkimchi",
-      "imageWidth":100,
-      "image":"images/eatyourkimchi.jpg",
-      "numFollowers": 160007
-   },
-   {  
-      "name":"AnnaAkana",
-      "imageWidth":75,
-      "image":"images/AnnaAkana.jpg",
-      "numFollowers": 109014
-   },
-   {  
-      "name":"fluffyguy",
-      "imageWidth":80,
-      "image":"images/fluffyguy.jpg",
-      "numFollowers": 853284
-   },
-   {  
-      "name":"AnnaKendrick47",
-      "imageWidth":70,
-      "image":"images/AnnaKendrick47.jpeg",
-      "numFollowers": 5039014
-   },
-   {  
-      "name":"PTXofficial",
-      "imageWidth":100,
-      "image":"images/PTXofficial.png",
-      "numFollowers": 657567
-   },
-   {  
-      "name":"psy_oppa",
-      "imageWidth":80,
-      "image":"images/psy_oppa.jpg",
-      "numFollowers": 4106621
-   },
-   {  
-      "name":"danielhenney",
-      "imageWidth":60,
-      "image":"images/danielhenney.jpg",
-      "numFollowers": 119237
-   },
-   {  
-      "name":"jimmyfallon",
-      "imageWidth":100,
-      "image":"images/jimmyfallon.jpg",
-      "numFollowers": 32521094
-   },
-   {  
-      "name":"ConanOBrien",
-      "imageWidth":70,
-      "image":"images/ConanOBrien.jpg",
-      "numFollowers": 18978683
-   },
-   {  
-      "name":"big_ben_clock",
-      "imageWidth":100,
-      "image":"images/big_ben_clock.png",
-      "numFollowers": 489707
-   },
-   {  
-      "name":"DisneyPixar",
-      "imageWidth":80,
-      "image":"images/DisneyPixar.jpg",
-      "numFollowers": 5238521
-   },
-   {  
-      "name":"twitter",
-      "imageWidth":200,
-      "image":"images/twitter.png",
-      "numFollowers": 48912471
+   {
+      "name": "JanWillemTulp",
+      "imageWidth": 100
    }
 ]
