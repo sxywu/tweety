@@ -296,9 +296,21 @@ var Content = React.createClass({
   },
 
   render() {
+    // HEADER
+    var arrowStyle = {
+      cursor: 'pointer',
+      position: 'absolute',
+      top: 0,
+      right: 0,
+      margin: '20px 30px'
+    };
+    var arrow = this.props.showSummary && (
+      <h1 style={arrowStyle} onClick={this.props.scrollToChoose}>&uarr;</h1>
+    );
+    var profileImage = this.props.user && (<img src={this.props.user.image} width='48' />);
     var numFormat = d3.format(',');
     var userHeader = this.props.showSummary && this.state.user.name &&
-      (<div className='userHeader'>
+      (<div className='title'>
         {this.state.user.name.toUpperCase()} <a href={'http://www.twitter.com/' + this.state.user.screenName} target='_new'>
           ({this.state.user.screenName})
         </a>
@@ -306,6 +318,8 @@ var Content = React.createClass({
           displaying {numFormat(this.state.tweets.length)} of {numFormat(this.state.user.numTweets)} tweets
         </div>
       </div>);
+
+    // TWEET SUMMARY
     var tweetSummary = this.props.showSummary &&
       (<TweetSummaryComponent sort={this.state.sort} click={this.state.click}
         name={this.state.user.screenName} tweets={this.state.tweets} hoveredTweet={this.state.hoveredTweet}
@@ -325,20 +339,11 @@ var Content = React.createClass({
         <p>crunching that delicious data 💕</p>
       </div>
     );
-    var arrowStyle = {
-      cursor: 'pointer',
-      position: 'absolute',
-      top: 0,
-      right: 0,
-      margin: '20px 30px'
-    };
-    var arrow = this.props.showSummary && (
-      <h1 style={arrowStyle} onClick={this.props.scrollToChoose}>&uarr;</h1>
-    );
 
     return (
       <div className='content'>
-        <div style={{position: 'relative'}}>
+        <div className='userHeader'>
+          {profileImage}
           {userHeader}
           {arrow}
         </div>

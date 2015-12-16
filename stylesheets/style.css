@@ -38,12 +38,20 @@ body {
 }
 
 .userHeader {
+  position: relative;
   border-top: 2px solid #666;
   margin: 0px 20px;
   padding: 20px 10px;
+}
+
+.userHeader .title {
   font-family: Helvetica;
   font-weight: 600;
   font-size: 1.5em;
+  position: absolute;
+  top: 0;
+  margin: 20px;
+  left: 50px;
 }
 
 .userHeader .subtitle {
