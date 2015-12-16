@@ -66,12 +66,6 @@
       "numFollowers":2091
    },
    {
-      "name":"mrejfox",
-      "image":"images/mrejfox.jpg",
-      "imageWidth":80,
-      "numFollowers":1117
-   },
-   {
       "name":"micahstubbs",
       "image":"images/micahstubbs.png",
       "imageWidth":80,
@@ -430,5 +424,11 @@
       "imageWidth":80,
       "numFollowers":28835,
       "image":"images/LBardugo.jpg"
+   },
+   {
+      "name": "flowingdata",
+      "imageWidth": 95,
+      "image": "images/flowingdata.png",
+      "numFollowers": 51625
    }
 ]
