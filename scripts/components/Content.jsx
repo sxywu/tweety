@@ -307,7 +307,7 @@ var Content = React.createClass({
     var arrow = this.props.showSummary && (
       <h1 style={arrowStyle} onClick={this.props.scrollToChoose}>&uarr;</h1>
     );
-    var profileImage = this.props.user && (<img src={this.props.user.image} width='48' />);
+    var profileImage = this.props.showSummary && (<img src={this.props.user.image} width='48' />);
     var numFormat = d3.format(',');
     var userHeader = this.props.showSummary && this.state.user.name &&
       (<div className='title'>
@@ -317,6 +317,12 @@ var Content = React.createClass({
         <div className='subtitle'>
           displaying {numFormat(this.state.tweets.length)} of {numFormat(this.state.user.numTweets)} tweets
         </div>
+      </div>);
+    var header = this.props.showSummary && (
+      <div className='userHeader'>
+        {profileImage}
+        {userHeader}
+        {arrow}
       </div>);
 
     // TWEET SUMMARY
@@ -342,11 +348,7 @@ var Content = React.createClass({
 
     return (
       <div className='content'>
-        <div className='userHeader'>
-          {profileImage}
-          {userHeader}
-          {arrow}
-        </div>
+        {header}
         <div style={{position: 'relative'}}>
           <CanvasComponent imageWidth={this.state.imageWidth}
             image={this.state.image} tweets={this.state.tweets}
