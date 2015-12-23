@@ -1,6 +1,7 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
 var _ = require('lodash');
+var navigate = require('react-mini-router').navigate;
 
 var ContentComponent = require('./Content.jsx');
 
@@ -31,7 +32,11 @@ var App = React.createClass({
       };})
       .get((err, all_users) => {
         var users = all_users.filter((u) => { return u.numFollowers > 0;});
-        var selectedUser = users[_.random(1, users.length - 1)];
+        if (this.props.selectedUser) {
+          selectedUser = _.find(users, (u) => u.name.toLowerCase() === this.props.selectedUser);
+        } else {
+          selectedUser = users[_.random(1, users.length - 1)];
+        }
 
         var global_metadata = {};
         all_users.forEach((u) => { global_metadata[u.id] = u;});
@@ -40,9 +45,14 @@ var App = React.createClass({
   },
 
   clickImage(user) {
+    this.scrollToContent();
+    navigate('/user/' + user.name, true);
+    this.setState({selectedUser: user});
+  },
+
+  scrollToContent() {
     var newTop = ReactDOM.findDOMNode(this.refs.content).offsetTop - 40;
     window.scrollTo(0, newTop);
-    this.setState({selectedUser: user});
   },
 
   scrollToChoose() {
