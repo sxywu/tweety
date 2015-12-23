@@ -1,5 +1,5 @@
-var React = require('react/addons');
-var cx = React.addons.classSet;
+var React = require('react');
+var ReactDOM = require('react-dom');
 var _ = require('lodash');
 
 var CanvasComponent = require('./Canvas.jsx');
@@ -42,7 +42,7 @@ var Content = React.createClass({
   },
 
   componentDidMount() {
-    this.loadingIndicator = this.refs.loading && this.refs.loading.getDOMNode();
+    this.loadingIndicator = this.refs.loading &&  ReactDOM.findDOMNode(this.refs.loading);
     if (this.loadingIndicator) {
       // React gods please don't be mad at me.
       // I realize this isn't the best way to do things.

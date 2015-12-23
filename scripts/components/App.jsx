@@ -1,5 +1,5 @@
-var React = require('react/addons');
-var cx = React.addons.classSet;
+var React = require('react');
+var ReactDOM = require('react-dom');
 var _ = require('lodash');
 
 var ContentComponent = require('./Content.jsx');
@@ -40,13 +40,13 @@ var App = React.createClass({
   },
 
   clickImage(user) {
-    var newTop = this.refs.content.getDOMNode().offsetTop - 40;
+    var newTop = ReactDOM.findDOMNode(this.refs.content).offsetTop - 40;
     window.scrollTo(0, newTop);
     this.setState({selectedUser: user});
   },
 
   scrollToChoose() {
-    var newTop = this.refs.choose.getDOMNode().offsetTop - 20;
+    var newTop = ReactDOM.findDOMNode(this.refs.choose).offsetTop - 20;
     this.scrollWindow(newTop);
   },
 
@@ -119,13 +119,15 @@ One fateful November evening, <a href='http://twitter.com/shirleyxywu' target='_
           <h3>criteria</h3>
           <p>
 Currently, #tweetyviz is a curated collection of celebrities and developers whose twitter profiles have met the following criteria:
+          </p>
 <ol>
   <li>profile has at least 1500 tweets to render meaningfully, 3000+ tweets to render optimally</li>
   <li>profile image has sufficient contrast, and (optimally) a gradient of colors</li>
 </ol>
+          <p>
 As such, the data are currently being manually pulled.
-<h4>Let me know (tweet @shirleyxywu or #tweetyviz) if you want to see your or your favorite celebrity's #tweetyviz, or alternatively, if you want to see #tweetyviz automated so you can do it yourself 😎</h4>
           </p>
+<h4>Let me know (tweet @shirleyxywu or #tweetyviz) if you want to see your or your favorite celebrity's #tweetyviz, or alternatively, if you want to see #tweetyviz automated so you can do it yourself 😎</h4>
           <br />
           <h3>thank you</h3>
           <p>

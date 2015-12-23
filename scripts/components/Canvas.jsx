@@ -1,5 +1,5 @@
-var React = require('react/addons');
-var cx = React.addons.classSet;
+var React = require('react');
+var ReactDOM = require('react-dom');
 var _ = require('lodash');
 
 var duration = 1000;
@@ -25,9 +25,9 @@ var Canvas = React.createClass({
   },
 
   componentDidMount() {
-    this.canvas = this.refs.canvas.getDOMNode();
+    this.canvas =  ReactDOM.findDOMNode(this.refs.canvas);
     this.ctx = this.canvas.getContext('2d');
-    this.hiddenCtx = this.refs.hiddenCanvas.getDOMNode().getContext('2d');
+    this.hiddenCtx =  ReactDOM.findDOMNode(this.refs.hiddenCanvas).getContext('2d');
 
     d3.select(this.canvas)
       .on('mousemove', this.mouseMove)
