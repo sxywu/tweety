@@ -84,16 +84,16 @@ var TweetSummary = React.createClass({
     // hover and click
     var types = _.chain(this.props.tweets)
       .countBy((tweet) => tweet.type)
-      .pairs()
+      .toPairs()
       .sortBy((type) => -type[1])
       .map((type) => {
         var color = 'rgb(' + tweetColors[type[0]].join(',') + ')';
         return this.renderHoverClick('type', type[0], type[1], color);
       }).value();
     var hashtags = _.chain(this.props.tweets)
-      //.pluck('hashtags').flatten()
-      .pluck('h').flatten()
-      .countBy().pairs()
+      //.map('hashtags').flatten()
+      .map('h').flatten()
+      .countBy().toPairs()
       .sortBy((hashtag) => -hashtag[1])
       .slice(0, 5)
       .map((hashtag) => {
@@ -102,10 +102,10 @@ var TweetSummary = React.createClass({
     var lowerCaseName = this.props.name && this.props.name.toLowerCase();
 
     var mentions = _.chain(this.props.tweets)
-      //.pluck('user_mentions').flatten()
-      .pluck('um').flatten()
-      .pluck('name').flatten()
-      .countBy().pairs()
+      //.map('user_mentions').flatten()
+      .map('um').flatten()
+      .map('name').flatten()
+      .countBy().toPairs()
       .filter((mention) => mention[0] !== lowerCaseName)
       .sortBy((mention) => -mention[1])
       .slice(1, 6) // we skip the first mention which is undefined (i.e. no mentions in a tweet)
